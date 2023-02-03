@@ -1,5 +1,5 @@
 import PrivacyNavbar from './PrivacyNavbar'
-import React from 'react'
+import React, { useEffect } from 'react'
 import { IoLogoGooglePlaystore,IoLogoApple } from 'react-icons/io5'
 import { RiLinkedinFill } from 'react-icons/ri'
 import { AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/ai'
@@ -10,6 +10,9 @@ import { NavLink } from 'react-router-dom'
 
 const CookiesPolicy = () => {
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+ }, []);
 
 
   return (
@@ -17,7 +20,7 @@ const CookiesPolicy = () => {
      <PrivacyNavbar/>
       <div className="custom-container privacy-policy w-full max-w-[1040px] m-auto px-2">
         <h1 className="heading mt-[100px] text-center font-bold text-5xl py-10">
-          PRIVACY POLICY
+          COOKIES POLICY
         </h1>
         <div className="rich-text-block w-richtext">
           <p>

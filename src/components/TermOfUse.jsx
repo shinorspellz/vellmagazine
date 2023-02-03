@@ -1,5 +1,5 @@
 import PrivacyNavbar from './PrivacyNavbar'
-import React from 'react'
+import React, { useEffect } from 'react'
 import { IoLogoGooglePlaystore,IoLogoApple } from 'react-icons/io5'
 import { RiLinkedinFill } from 'react-icons/ri'
 import { AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/ai'
@@ -9,6 +9,9 @@ import { NavLink } from 'react-router-dom'
 
 const TermOfUse = () => {
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+ }, []);
 
   return (
     <>
