@@ -16,12 +16,21 @@ const VellTrending = () => {
     slidesToScroll: 1,
     arrows: true,
     prevArrow: <LeftArrow/>,
-    nextArrow: <RightArrow/>
+    nextArrow: <RightArrow/>,
+    responsive: [
+      {
+        breakpoint:1300,
+        settings:{
+        slidesToShow: 6,
+        }
+       
+        }, 
+      ]
   };
   return (
     <main className="vellmagazine-trending mt-[50px] p-5 xl:px-[2rem] ">
-    <h1 className="text-center font-500 font-serif text-4xl pt-1 italic ">TRENDING</h1>
-    <Slider {...settings} className="container m-auto px-2 hidden lg:block w-full">
+    <h1 className="text-center font-500 font-serif text-4xl pt-1 pb-2 italic ">TRENDING</h1>
+    <Slider {...settings} className="container m-auto px-2 hidden lg:block ">
                 {trendingData?.map((item,index) => {
               return (
                 <ul className="m-auto" key={item.id}>

@@ -16,7 +16,7 @@ const SingleTrending = ({item,index}) => {
    
   return (
     <div className='flex lg:flex-col items-center justify-between mx-3 my-3 lg:my-0'>
-        <img src={img} alt="trending" className={`${index%2==0 ? " lg:h-[200px] mb-[50px]" : "lg:h-[250px]"} "h-[300px] w-5/12 lg:w-[160px]  object-cover "`} />
+        <img src={img} alt="trending" className={`${index%2==0 ? "lg:h-[200px] lg:mb-[50px]" : "lg:h-[250px]"} h-[300px] w-5/12 lg:w-[160px]  object-cover`} />
         <div className='w-7/12 sm:w-full mt-3 ml-3 lg:ml-0 text-center'>
           <p className='text-[12px] font-bold hover:underline cursor-pointer '
           onClick={(e)=>goToTopics(e)}
