@@ -531,7 +531,7 @@ const CookiesPolicy = () => {
          
         <h1 className='text-white font-bold text-3xl md:text-4xl w-full md:w-6/12 pl-2 m-auto md:m-0  '>Take control of your creative future,sign up today</h1>
         </div>
-        <img src="./images/sign-person.png" alt="privacypolicy" className='absolute bottom-0 right-0 lg:h-[500px] hidden md:block object-cover' />
+        <img src="./images/sign-person.jpg" alt="privacypolicy" className='absolute bottom-0 right-0 lg:h-[500px] hidden md:block object-cover' />
       </div>
       <div className="flex justify-center items-center gap-8  py-6  w-full px-1 privacy-btns">
       <a href="https://www.linkedin.com/company/vmodel/mycompany/" target="_blank">

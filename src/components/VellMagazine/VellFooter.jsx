@@ -20,12 +20,12 @@ const VellFooter = () => {
         <div className="flex md:mr-[33.5rem]">
           {
             theme=="light-theme" ? (<img
-              src="/images/Logo.png"
+              src="/images/Logo.jpg"
               alt="logo"
               className='w-[160px] h-[36px]'
             />):(
               <img
-              src="/images/logoForDarkMode.png"
+              src="/images/logoForDarkMode.jpg"
               alt="logo"
               className='w-[160px] h-[36px]'
             />

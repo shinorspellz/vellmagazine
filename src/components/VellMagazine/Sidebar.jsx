@@ -125,7 +125,7 @@ const navigate=useNavigate()
     <section className='justify-between items-end p-3 xl:hidden flex flex-col'>
     <NavLink to="/" 
     className='font-bold text-[17px] whitespace-nowrap flex items-center pb-2'>
-      <img src={theme=="light-theme" ? "/images/Logo.png" : "/images/logoForDarkMode.png"} alt="logo" className='w-[100px] pr-1 '/><span className='p-0'>Home</span>
+      <img src={theme=="light-theme" ? "/images/Logo.jpg" : "/images/logoForDarkMode.jpg"} alt="logo" className='w-[100px] pr-1 '/><span className='p-0'>Home</span>
       </NavLink>
     <select
       name="dates"

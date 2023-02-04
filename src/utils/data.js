@@ -2,27 +2,27 @@
 export const headerData=[
   {
     id: 101,
-    img: 'images/polaroid.png',
+    img: 'images/polaroid.jpg',
   },
   {
     id: 102,
-    img: 'images/maps.png',
+    img: 'images/maps.jpg',
   },
   {
     id: 103,
-    img: 'images/photography.png',
+    img: 'images/photography.jpg',
   },
   {
     id: 104,
-    img: 'images/pets.png',
+    img: 'images/pets.jpg',
   },
   {
     id: 105,
-    img: 'images/content.png',
+    img: 'images/content.jpg',
   },
   {
     id: 106,
-    img: 'images/feeds.png',
+    img: 'images/feeds.jpg',
 
   },
 
@@ -118,30 +118,30 @@ export const missions = [
 export const description = [
   {
     id: 7,
-    img: 'images/polaroid.png',
+    img: 'images/polaroid.jpg',
     title: 'Polaroids',
     text: 'The VModel app allows Models and Influencers to create a professional looking portfolio with ease. Your portfolio can be uploaded from your gallery, camera or imported from other social media accounts from within the app!'
   },
   {
     id: 8,
-    img: 'images/maps.png',
+    img: 'images/maps.jpg',
     title: 'Maps Functionality',
     text: 'Businesses, Photographers and users can now search models, micro-influencers, photographers and locally approximately accurate to one mile, on the app. The Maps also comes with an easy-to-use swipe functionality that allows users browse their interests with ease.'
   },
   {
     id: 9,
-    img: 'images/photography.png',    title: 'Photography Tools',
+    img: 'images/photography.jpg',    title: 'Photography Tools',
     text: 'Photographers can make use of photography tools within the app. Similarly to the models and most user types, photographers can create portfolios and get booked within the app. Photographers can also create and sell their effects and filters. With VModel still at its early stages, we plan to bring many more tools for photographers to access!'
   },
   {
     id: 10,
-    img: 'images/pets.png',
+    img: 'images/pets.jpg',
     title: 'Pets’r’Welcome',
     text: 'VModel is proud to introduce professionalism to influencing amongst pets. Lots of brands are looking for animals to help make their shoot/brand campaigns come to live while others are selling products catered to such pet(s). We want to provide a space where such brands and pets can find one another and collaborate.'
   },
   {
     id: 11,
-    img: 'images/content.png',
+    img: 'images/content.jpg',
     title: 'Content Home',
     text: 'Introducing Content on VModel: Most user types on Vmodel are content creators. We believe the content section of the app will give said “content creators” more opportunity to be seen by brands and their various target paying audiences.'
   }
@@ -154,7 +154,7 @@ export const description = [
 export const freedom = [
   {
     id:12,
-    img:"images/freedom.png",
+    img:"images/freedom.jpg",
     camera:"Canon, EOS 6D",
     model:"TAYLOR HERNANDEZ",
     shooting:"Model Editorial Shoot"

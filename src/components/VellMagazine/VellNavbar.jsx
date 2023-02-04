@@ -40,7 +40,7 @@ const VellNavbar = () => {
             to="/"
             className="font-serif text-[24px] whitespace-nowrap hidden lg:block"
           >
-            <img src={theme=="light-theme" ? "/images/Logo.png" : "/images/logoForDarkMode.png"}  alt="logo" className="w-[80px] pt-1 " />
+            <img src={theme=="light-theme" ? "/images/Logo.jpg" : "/images/logoForDarkMode.jpg"}  alt="logo" className="w-[80px] pt-1 " />
           </NavLink>
         </div>
 
