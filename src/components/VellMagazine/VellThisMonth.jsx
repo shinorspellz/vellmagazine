@@ -10,6 +10,7 @@ const VellThisMonth = () => {
     // console.log(month)
     const thisMonthArticles=articles.filter((item)=>item.date.includes(month))
     const mentalHealth=thisMonthArticles.find((item)=>item.topics.includes("MENTAL HEALTH"))
+    console.log(mentalHealth)
     const weekendGetAways=thisMonthArticles.find((item)=>item.topics.includes("WEEKEND GETAWAYS"))
     const makeUp=thisMonthArticles.find((item)=>item.topics.includes("MAKEUP"))
     const petInfluencers=thisMonthArticles.find((item)=>item.topics.includes("PET INFLUENCERS"))
