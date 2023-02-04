@@ -30,7 +30,7 @@ const VellNavbar = () => {
       <section className="flex justify-between  items-center sm:mb-[1.8rem]">
         <div className="flex justify-start lg:justify-center items-center  w-full translate-x-[60px]">
           <NavLink
-            to="/vellmagazine"
+            to="/"
             className="font-serif text-[25px] whitespace-nowrap  h-full flex items-center justify-start translate-x-[-45px] lg:translate-x-0"
           >
             Vell Magazine
