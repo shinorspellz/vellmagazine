@@ -27,6 +27,7 @@
   --mission-card-bg: #503c3b;
   --privacy-btns-bg-color:#fff;
   --carousel-btns:#503c3b;
+  --link-color:blue;
 }
 .dark-theme {
   --bgColor: #0a192f;
@@ -66,6 +67,7 @@
   );
   --privacy-btns-bg-color:#fff;
   --carousel-btns:#0a192f;
+  --link-color:grey;
 
 
 }
@@ -94,6 +96,8 @@
   --mission-card-bg: #503c3b;
   --privacy-btns-bg-color:#fff;
   --carousel-btns:#503c3b;
+  --link-color:blue;
+
 
 }
 
@@ -917,4 +921,34 @@ background-color: var(--carousel-btns);
 .content .graditute-link{
   color: blue;
   font-weight: 500;
+}
+
+/*Article Four Style*/
+.content .right-img-div{
+  display: grid;
+  grid-template-columns: 65% 35%;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.content .right-img-div img{
+height: 320px;
+width: 100%;
+object-fit: cover;
+}
+.content .right-img-div .template-four-img-div {
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 5px;
+padding-left: 10px;
+align-items: center;
+}
+.content .template-four-img-div p{
+font-size: 12px;
+text-align: center;
+}
+.content .christmas-link{
+  color: var(--link-color);
+  font-weight: 600;
 }

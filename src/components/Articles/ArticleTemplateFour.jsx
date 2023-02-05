@@ -58,7 +58,7 @@ const ArticleTemplateFour = () => {
           alt="img"
           className="h-full w-full px-2 sm:px-0 object-cover  sm:block sm:m-auto my-3 block "
         />
-        <div className="absolute w-full z-10 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] articleTemplateFive">
+        <div className="absolute w-full z-10 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] articleTemplateFour">
           <div
             className=" px-2 pb-12 articleTemplate w-full max-w-[1350px] m-auto"
             id={currentArticle.contentHeader}
