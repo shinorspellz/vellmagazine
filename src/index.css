@@ -908,3 +908,13 @@ object-fit: cover !important;
 .headerCarousel .bg-white{
 background-color: var(--carousel-btns);
 }
+
+.graditute{
+  display: block;
+  margin: auto;
+  padding: 10px 0;
+}
+.content .graditute-link{
+  color: blue;
+  font-weight: 500;
+}

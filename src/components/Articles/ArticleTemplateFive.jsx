@@ -112,13 +112,13 @@ const ArticleTemplateFive = () => {
           className="col-span-3 object-cover h-[330px] w-full"
         />
         <img
-          src={currentArticle.img}
+          src={currentArticle.img2}
           alt="img"
           className="col-span-7 object-cover h-[330px] w-full"
         />
 
         <img
-          src={currentArticle.img}
+          src={currentArticle.img3}
           alt="img"
           className="col-span-10 h-[280px] object-cover w-full"
         />
