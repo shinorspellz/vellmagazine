@@ -38,7 +38,7 @@ useEffect(() => {
             theme=="light-theme" ? (
               <img src="images/Logo.jpg" alt="logo" className="w-[150px]  lg:w-[195px] lg:h-[44px]" />
             ):(
-              <img src="images/logoForDarkMode.jpg" alt="logo" className="w-[150px]  lg:w-[195px] lg:h-[44px]" />
+              <img src="images/logoForDarkMode.png" alt="logo" className="w-[150px]  lg:w-[195px] lg:h-[44px]" />
 
             )
           }
