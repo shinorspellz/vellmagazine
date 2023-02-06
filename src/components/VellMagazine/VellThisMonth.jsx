@@ -10,7 +10,6 @@ const VellThisMonth = () => {
     // console.log(month)
     const thisMonthArticles=articles.filter((item)=>item.date.includes(month))
     const mentalHealth=thisMonthArticles.find((item)=>item.topics.includes("MENTAL HEALTH"))
-    console.log(mentalHealth)
     const weekendGetAways=thisMonthArticles.find((item)=>item.topics.includes("WEEKEND GETAWAYS"))
     const makeUp=thisMonthArticles.find((item)=>item.topics.includes("MAKEUP"))
     const petInfluencers=thisMonthArticles.find((item)=>item.topics.includes("PET INFLUENCERS"))
@@ -19,7 +18,7 @@ const VellThisMonth = () => {
 
     const thisMonthArr=[]
     thisMonthArr.push(mentalHealth,weekendGetAways,makeUp,petInfluencers,socialMediaHacks,costOfLiving)
-    // console.log(thisMonthArr);
+    console.log(thisMonthArr);
   return (
     <main className="vellmagazine-today mt-[60px] p-5 xl:px-[2rem]">
         <h1 className="text-center font-500 font-serif text-4xl py-5 mb-[3rem]">THIS MONTH ON VELL MAGAZINE</h1>

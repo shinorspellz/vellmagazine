@@ -7,11 +7,6 @@ import { VellMagazineContext } from "../context/VellMagazineContext";
 const Cookies = () => {
   const {theme,banner,setBanner}=useContext(VellMagazineContext)
 
-  console.log("ooooooooooooooooo",banner);
-
-
-console.log(banner);
-
 
   return (
     <div>

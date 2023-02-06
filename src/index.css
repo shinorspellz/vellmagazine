@@ -931,6 +931,9 @@ background-color: var(--carousel-btns);
   align-items: start;
 }
 
+.content .right-img-div {
+margin-top: 2rem;
+}
 .content .right-img-div img{
 height: 320px;
 width: 100%;
@@ -947,6 +950,11 @@ align-items: center;
 .content .template-four-img-div p{
 font-size: 12px;
 text-align: center;
+}
+.content .template-four-img-div img:not(.content .right-img-div .template-four-img-div img){
+max-height: 400px;
+width: 100%;
+object-fit: cover;
 }
 .content .christmas-link{
   color: var(--link-color);

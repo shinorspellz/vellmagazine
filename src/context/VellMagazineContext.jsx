@@ -19,7 +19,6 @@ export const getStorageBanner = () => {
   }
   return banner
 }
-console.log(sessionStorage.getItem('banner'),"tttttttttttttttt")
 
 const VellMagazineContextProvider = ({children}) => {
     const [theme, setTheme] = useState(getStorageTheme())
