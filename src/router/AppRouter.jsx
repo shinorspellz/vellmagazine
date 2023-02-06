@@ -15,6 +15,7 @@ import ArticleTemplateFour from "../components/Articles/ArticleTemplateFour";
 import ArticleTemplateFive from "../components/Articles/ArticleTemplateFive";
 import ArticleTemplateSix from "../components/Articles/ArticleTemplateSix";
 import CookiesPolicy from "../components/CookiesPolicy";
+import Authors from "../components/Articles/Authors";
 
 const AppRouter = () => {
 
@@ -28,13 +29,13 @@ const AppRouter = () => {
           <Route path="termofuse" element={<TermOfUse/>} />
           <Route path="cookiespolicy" element={<CookiesPolicy/>} />
           <Route path="allarticles" element={<ArticlesHeader/>} />
-          {/* <Route path="/article/:id" element={<ArticleTemplate/>} /> */}
           <Route path="/article/:id/1" element={<ArticleTemplateOne/>} />
           <Route path="/article/:id/2" element={<ArticleTemplateTwo/>} />
           <Route path="/article/:id/3" element={<ArticleTemplateThree/>} />
           <Route path="/article/:id/4" element={<ArticleTemplateFour/>} />
           <Route path="/article/:id/5" element={<ArticleTemplateFive/>} />
           <Route path="/article/:id/6" element={<ArticleTemplateSix/>} />
+          <Route path="/authors" element={<Authors/>} />
           <Route path="/author/:author" element={<AuthorTemplate/>} />
           <Route path="/articletopics" element={<ArticleTopics/>} />
         </Routes>

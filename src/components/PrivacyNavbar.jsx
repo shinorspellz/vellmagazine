@@ -33,7 +33,7 @@ useEffect(() => {
   return (
     <nav className="fixed top-0 z-50  w-full flex flex-col lg:flex-row justify-between items-center py-4 px-3 md:px-12  " id="navbar">
       <div className="flex justify-between items-center w-full lg:w-3/12 ">
-        <Link to="/">
+        <Link to="https://vmodel.app/">
           {
             theme=="light-theme" ? (
               <img src="images/Logo.jpg" alt="logo" className="w-[150px]  lg:w-[195px] lg:h-[44px]" />
@@ -70,7 +70,7 @@ useEffect(() => {
           : "font-normal "
        }
         >Marketplace</NavLink>
-                    <NavLink to="/vellmagazine"
+                    <NavLink to="/"
          className={({ isActive }) =>
          isActive 
            ? "font-bold "

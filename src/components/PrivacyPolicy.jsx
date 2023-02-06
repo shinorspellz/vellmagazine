@@ -16,6 +16,7 @@ const PrivacyPolicy = () => {
 
   return (
     <>
+    
      <PrivacyNavbar/>
       <div className="custom-container privacy-policy w-full max-w-[1040px] m-auto px-2">
         <h1 className="heading mt-[100px] text-center font-bold text-5xl py-10">
@@ -577,7 +578,7 @@ const PrivacyPolicy = () => {
         >
           Terms Of Use
         </NavLink>
-        <NavLink>
+        <NavLink to="/">
           Vell Magazine
         </NavLink>
       </div>    </>

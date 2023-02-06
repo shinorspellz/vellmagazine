@@ -130,7 +130,7 @@ const TermOfUse = () => {
         >
           Terms Of Use
         </NavLink>
-        <NavLink>
+        <NavLink to="/">
           Vell Magazine
         </NavLink>
       </div>    

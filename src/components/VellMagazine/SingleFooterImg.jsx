@@ -7,8 +7,8 @@ const SingleFooterImg = ({item}) => {
 
     // console.log(topic.uppercase());
     const goToArticles=()=>{
-      if(topic=="Today"){
-        navigate("/today")
+      if(topic=="Authors"){
+        navigate("/authors")
       }else{
         navigate(`/articletopics`,{state:topic.toUpperCase()})
       }

@@ -117,8 +117,8 @@ export const trendingData=[
 
 export const footerData=[
   {
-    img: 'images/today-1.jpg',
-    topic:"Today"
+    img: 'images/writer.jpg',
+    topic:"Authors"
   },
   {
     img: 'images/today-5.jpg',
@@ -148,6 +148,53 @@ export const footerData=[
     img: 'images/social-media.jpg',
     topic:"Social Media"
   },
+    ]
+
+    //authors
+
+    export const authorsData=[
+      {
+        id:1,
+        name:"Colin Hughes",
+        img: '/images/male-avatar.jpg',
+        desc:"Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+        bio:"lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+           },
+      {
+        id:2,
+        name:"Yara Arkadan",
+        img: '/images/male-avatar.jpg',
+        desc:"Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+        bio:"lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+      },
+      {
+        id:3,
+        name:"Theresa",
+        img: '/images/female-avatar.jpg',
+        desc:"Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+        bio:"lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+      },
+      {
+        id:4,
+        name:"Colin Hughes",
+        img: '/images/male-avatar.jpg',
+        desc:"Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+        bio:"lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+      },
+      {
+        id:5,
+        name:"Sau Ching",
+        img: '/images/female-avatar.jpg',
+        desc:"Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+        bio:"lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum" 
+      },
+      {
+        id:6,
+        name:"Colin Hughes",
+        img: '/images/male-avatar.jpg',
+        desc:"Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+        bio:"lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum" 
+      },
     ]
 
     

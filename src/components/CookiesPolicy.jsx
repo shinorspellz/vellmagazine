@@ -578,10 +578,10 @@ const CookiesPolicy = () => {
         >
           Terms Of Use
         </NavLink>
-        <NavLink>
+        <NavLink to="/">
           Vell Magazine
         </NavLink>
-      </div>
+              </div>
     </>
   )
 }
