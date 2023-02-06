@@ -23,7 +23,7 @@ const VellFooter = () => {
             />
           ) : (
             <img
-              src="/images/logoForDarkMode.jpg"
+              src="/images/logoForDarkMode.png"
               alt="logo"
               className="w-[160px] h-[36px]"
             />
@@ -34,7 +34,7 @@ const VellFooter = () => {
             Take control of your creative future, sign up today!
           </h1>
           <button className="w-[150px] my-2 visitBtn">
-            <Link to="/">Visit Website</Link>
+            <Link to="https://vmodel.app/">Visit Website</Link>
           </button>
         </div>
       </div>
@@ -83,10 +83,11 @@ const VellFooter = () => {
           </div>
         </section>
         <section className="w-full md:w-6/12 text-[14px] pl-5 md:pl-16">
-          <p className="flex justify-start items-center gap-4 py-1 text-[#C1BBBB]">
+          <p className="flex justify-start items-center gap-3 sm:gap-4 py-1 text-[#C1BBBB]">
             <Link to="cookiespolicy">Cookies Policy</Link>
             <Link to="privacypolicy">Privacy Policy</Link>
             <Link to="termofuse">Terms of Use</Link>
+            <Link to="authors">Authors</Link>
           </p>
           <p className="text-[#8F8383] pt-5 md:pt-0 py-1">
             ©{new Date().getFullYear()} VModel reserved.

@@ -24,7 +24,7 @@ const VellNavbar = () => {
 
   return (
     <nav
-      className="fixed top-0 left-0 w-full z-40 pt-2 pl-2 sm:pl-0 sm:px-5 text-[17px]"
+      className="fixed top-0 left-0 w-full z-40 pt-2 pl-2 sm:pl-0 sm:px-5 text-[17px] border-b border-slate-400"
       id="vellnavbar"
     >
       <section className="flex justify-between  items-center sm:mb-[1.8rem]">
@@ -37,26 +37,26 @@ const VellNavbar = () => {
           </NavLink>
           <p className="px-1 text-sm hidden lg:block">by</p>
           <NavLink
-            to="/"
+            to="https://vmodel.app/"
             className="font-serif text-[24px] whitespace-nowrap hidden lg:block"
           >
-            <img src={theme=="light-theme" ? "/images/Logo.jpg" : "/images/logoForDarkMode.jpg"}  alt="logo" className="w-[80px] pt-1 " />
+            <img src={theme=="light-theme" ? "/images/Logo.jpg" : "/images/logoForDarkMode.png"}  alt="logo" className="w-[80px] pt-1 " />
           </NavLink>
         </div>
 
-        <div className="text-sm  flex justify-between items-center gap-4 max-w-[210px] h-full px-2 w-3/12 relative z-10">
+        <div className="text-sm  flex justify-between items-center gap-4 authors h-full px-2  relative z-10">
           <Link
             to="/subscribe"
             className=" items-center justify-center h-full hidden lg:flex align-middle"
           >
             SUBSCRIBE
           </Link>
-          <Link
+          {/* <Link
             to=""
             className="hidden lg:flex items-center justify-center h-full align-middle"
           >
             SIGN IN
-          </Link>
+          </Link> */}
           <button
             className="navbar-switch flex items-center justify-center text-[20px] lg:hidden"
             onClick={changeTheme}
