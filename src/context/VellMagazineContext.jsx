@@ -20,6 +20,14 @@ export const getStorageBanner = () => {
   return banner
 }
 
+export const scrollToTop = (e)=>{
+  e.preventDefault()
+  window.scrollTo({
+    top:0,
+    behavior:'smooth'
+  });
+}
+
 const VellMagazineContextProvider = ({children}) => {
     const [theme, setTheme] = useState(getStorageTheme())
     const [banner,setBanner]=useState(getStorageBanner())
@@ -51,7 +59,7 @@ const VellMagazineContextProvider = ({children}) => {
       }
       
   return (
-    <VellMagazineContext.Provider value={{getStorageTheme,theme,setTheme,changeTheme,changeFormat,banner,setBanner}}>
+    <VellMagazineContext.Provider value={{getStorageTheme,theme,setTheme,changeTheme,changeFormat,banner,setBanner,scrollToTop}}>
 {children}
     </VellMagazineContext.Provider>
   )

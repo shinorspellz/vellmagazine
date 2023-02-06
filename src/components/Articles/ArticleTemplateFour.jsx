@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import VellNavbar from '../VellMagazine/VellNavbar'
 import { articles } from '../../utils/vellMagazineData'
 import { Link, useNavigate, useParams } from 'react-router-dom'
@@ -19,11 +19,13 @@ import {
   TwitterShareButton,
   TwitterIcon
 } from 'react-share'
+import { VellMagazineContext } from '../../context/VellMagazineContext'
 
 // import { useEffect } from 'react'
 
 const ArticleTemplateFour = () => {
   const navigate = useNavigate()
+  const {scrollToTop}=useContext(VellMagazineContext)
   const { id } = useParams()
   const currentArticle = articles.find((item) => item.id == id)
   const currentArticleTopics = currentArticle.topics
@@ -214,7 +216,7 @@ const ArticleTemplateFour = () => {
             ©{new Date().getFullYear()} VModel reserved.
           </p>
         </section>
-        <a href={`#${currentArticle.contentHeader}`}>
+        <a href="" onClick={scrollToTop}>
           <IoIosArrowDropup className="text-white text-3xl absolute right-3 bottom-3" />
         </a>
       </div>

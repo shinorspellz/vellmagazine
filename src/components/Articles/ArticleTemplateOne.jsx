@@ -29,7 +29,7 @@ import {
 
 
 const ArticleTemplateOne = () => {
-  const {subTopic}=useContext(VellMagazineContext)
+  const {scrollToTop}=useContext(VellMagazineContext)
     const navigate = useNavigate()
   const { id } = useParams()
   const currentArticle = articles.find((item) => item.id == id)
@@ -216,7 +216,7 @@ const arr=[]
             ©{new Date().getFullYear()} VModel reserved.
           </p>
         </section>
-        <a href={`#${currentArticle.contentHeader}`}>
+        <a href="" onClick={scrollToTop}>
           <IoIosArrowDropup className="text-white text-3xl absolute right-3 bottom-3" />
         </a>
       </div>
