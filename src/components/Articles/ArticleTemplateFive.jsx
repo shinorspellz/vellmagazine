@@ -25,7 +25,7 @@ import { VellMagazineContext } from '../../context/VellMagazineContext'
 // import { useEffect } from 'react'
 
 const ArticleTemplateFive = () => {
-  const {theme}=useContext(VellMagazineContext)
+  const {theme,scrollToTop}=useContext(VellMagazineContext)
   const navigate = useNavigate()
   const { id } = useParams()
   const currentArticle = articles.find((item) => item.id == id)
@@ -233,7 +233,7 @@ const ArticleTemplateFive = () => {
             ©{new Date().getFullYear()} VModel reserved.
           </p>
         </section>
-        <a href={`#${currentArticle.contentHeader}`}>
+        <a href="" onCli>
           <IoIosArrowDropup className="text-white text-3xl absolute right-3 bottom-3" />
         </a>
       </div>

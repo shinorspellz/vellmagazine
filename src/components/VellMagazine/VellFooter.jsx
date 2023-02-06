@@ -9,7 +9,7 @@ import { useContext } from "react";
 import { VellMagazineContext } from "../../context/VellMagazineContext";
 
 const VellFooter = () => {
-  const { theme } = useContext(VellMagazineContext);
+  const { theme,scrollToTop } = useContext(VellMagazineContext);
 
   return (
     <main className=" vellmagazine-footer max-w-full">
@@ -93,7 +93,7 @@ const VellFooter = () => {
             ©{new Date().getFullYear()} VModel reserved.
           </p>
         </section>
-        <a href="#vellnavbar">
+        <a href="" onClick={scrollToTop}>
           <IoIosArrowDropup className="text-white text-3xl absolute right-3 bottom-3" />
         </a>
       </div>
