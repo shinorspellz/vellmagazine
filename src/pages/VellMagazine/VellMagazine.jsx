@@ -6,6 +6,7 @@ import VellNavbar from '../../components/VellMagazine/VellNavbar'
 import VellThisMonth from '../../components/VellMagazine/VellThisMonth'
 import VellTrending from '../../components/VellMagazine/VellTrending'
 import Cookies from '../../components/Cookies'
+import Footer from '../../components/Footer'
 
 
 
@@ -21,6 +22,7 @@ const VellMagazine = () => {
     <VellMainPhoto/>
     <VellTrending/>
     <VellFooter />
+    <Footer/>
     </div>
 
   )

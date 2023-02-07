@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import VellNavbar from '../VellMagazine/VellNavbar';
 import { authorsData } from '../../utils/vellMagazineData';
 import SingleAuthor from './SingleAuthor';
+import Footer from '../Footer';
 import { createGlobalStyle } from 'styled-components';
 
 const Authors = () => {
@@ -33,6 +34,7 @@ const Authors = () => {
         }
    
     </div>
+    <Footer />
     </>
    
   )
