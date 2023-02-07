@@ -60,6 +60,10 @@ export const menuItems = [
       {
         title: 'Fashion Weeks',
         url: '/articletopics',
+      },
+      {
+        title: 'Clothing',
+        url: '/articletopics'
       }
     ]
 
@@ -120,6 +124,10 @@ export const menuItems = [
       {
         title: 'Photography',
         url: '/articletopics',
+      },
+      {
+        title: 'Festivals/Celebrations',
+        url: '/articletopics'
       }
     ]
   },

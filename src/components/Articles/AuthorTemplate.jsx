@@ -31,13 +31,13 @@ const AuthorTemplate = () => {
           alt="author"
           className="block m-auto rounded-full object-cover max-w-[300px] authorPic"
         />
-        <h3 className="text-center uppercase" >{currentAuthor.name}</h3>
-        <p className="text-center max-w-[800px] m-auto">{currentAuthor.desc}</p>
-        <p className="text-center max-w-[800px] m-auto">{currentAuthor.bio}</p>
+        <h3 className="text-center font-[14px] font-serif" >{currentAuthor.name}</h3>
+        <p className="text-center max-w-[800px] font-[13px] m-auto">{currentAuthor.desc}</p>
+        <p className="text-center max-w-[800px] font-[13px] m-auto">{currentAuthor.bio}</p>
       </div>
 
       {/* <div className='mt-[120px] px-9 flex gap-8 justify-start flex-wrap container m-auto py-5'> */}
-      <h1 className="pt-7 text-center uppercase font-medium font-serif text-4xl authorTemplate">
+      <h1 className="pt-7 text-center uppercase font-medium font-serif text-[25px] authorTemplate">
         Articles By {state}
       </h1>
       <div className="mt-[10px] grid gap-x-8 gap-y-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 px-9 m-auto py-5 justify-center max-w-[1400px]">

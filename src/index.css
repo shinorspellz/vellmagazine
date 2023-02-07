@@ -28,7 +28,7 @@
   --privacy-btns-bg-color:#fff;
   --carousel-btns:#503c3b;
   --link-color:blue;
-  --author-pic-border:rgb(132, 132, 241);
+  --author-pic-border:#503c3b;
 }
 .dark-theme {
   --bgColor: #0a192f;
@@ -972,6 +972,6 @@ object-fit: cover;
   color: var(--fontColor);
 }
 .authorTemplate .authorPic{
-  border: 2px solid var(--author-pic-border);
-  box-shadow: 1px 1px 20px var(--author-pic-border);
+  border: 5px solid var(--author-pic-border);
+  /* box-shadow: 1px 1px 20px var(--author-pic-border); */
 }
