@@ -26,7 +26,7 @@ const navigate=useNavigate()
         <h1 className='uppercase font-[500] hidden xl:block hover:underline cursor-pointer hover:font-semibold mb-1 text-center'
         onClick={(e)=>goToTopics(e)}
         >{relevantTopics[index]}</h1>
-        <img src={item.img} alt="single-magazine"className='h-[131px] sm:h-[225px] mb-2 cursor-pointer  hover:scale-105' 
+        <img src={item.img} alt="single-magazine"className='h-[131px] sm:h-[225px] mb-2 cursor-pointer object-cover hover:scale-105' 
         onClick={(e)=>goToArticle(e)}
         />
         <p className='font-500 font-serif text-[14px] xl:py-3 line-clamp-1 xl:line-clamp-none'>{item.content.startsWith("<p") ? item.content.slice(17,200).replace(/<.?p[^>]*>/g,"").replace(/<.?h.?[^>]*>/g,"") : item.content.slice(4,200).replace(/<.?p[^>]*>/g,"").replace(/<.?h.?[^>]*>/g,"")}...</p>

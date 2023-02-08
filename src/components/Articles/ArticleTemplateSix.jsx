@@ -23,22 +23,9 @@ import { VellMagazineContext } from '../../context/VellMagazineContext'
 
 const ArticleTemplateSix = () => {
   const navigate = useNavigate()
-  const {scrollToTop}=useContext(VellMagazineContext)
   const { id } = useParams()
   const currentArticle = articles.find((item) => item.id == id)
-  const currentArticleTopics = currentArticle.topics
-  const arr = []
-  currentArticleTopics.map((item) => {
-    // console.log(item,"item");
-    return articles.filter(
-      (item2) => item2.topics.includes(item) && arr.push(item2)
-    )
-  })
-
-  const relevantArticles = arr
-    .filter((v, i, a) => a.findIndex((v2) => v2.id === v.id) === i)
-    .filter((item) => item.id !== currentArticle.id)
-
+console.log(currentArticle)
   const breadcrump = menuItems.find((item) => {
     // console.log(item);
     return item.submenu.find((item2) =>
@@ -51,14 +38,14 @@ const ArticleTemplateSix = () => {
   return (
     <>
       <VellNavbar />
-      <div className="relative  mt-[130px]">
-        <div className="articleTemplateSix">
+      <div className="relative mt-[50px] sm:mt-[130px] w-full ">
+        <div className="articleTemplateSix ">
         <img
           src={currentArticle.img}
           alt="img"
           className= "object-cover h-[400px] w-full "
         />
-        <div className='absolute top-[300px] lg:left-[150px] flex justify-start max-w-[650px] px-2 articleTemplateSix-header '>
+        <div className='absolute top-[300px] lg:left-[150px] flex justify-start max-w-[650px] px-2 articleTemplateSix-header'>
             <h1 className=" z-20 text-xl md:text-2xl lg:text-3xl font-bold">Lorem ipsum dolor sit amet consectetur voluptates commodi beatae neque animi? </h1>
         </div>
      
@@ -70,7 +57,7 @@ const ArticleTemplateSix = () => {
               {breadcrump?.title}/{currentArticle.topics[0]}{' '}
             </p>
             <h1 className="font-medium font-serif text-[40px] px-2 py-2 text-left">
-              {currentArticle.contentHeader}
+              {currentArticle.mainHeader}
             </h1>
             <h3 className="px-3 font-bold italic text-left">
               {currentArticle.subHeader}
@@ -111,9 +98,9 @@ const ArticleTemplateSix = () => {
         </div>
       </div>
       <main className="flex flex-col lg:flex-row articleTemplate">
-        <div className="w-full max-w-[850px] lg:w-8/12 pl-[150px] ">
-          <p
-            dangerouslySetInnerHTML={{ __html: currentArticle.content }}
+        <div className="w-full max-w-[850px] lg:w-8/12 lg:pl-[150px] ">
+        <p
+            dangerouslySetInnerHTML={{__html:currentArticle.content}}
             className="content p-3 articleTemplateSix-content"
           ></p>
           <div className="flex justify-start items-center p-3">

@@ -23,7 +23,7 @@ const AuthorTemplate = () => {
     <>
       <VellNavbar />
 
-      <div className="mt-[140px] py-3 authorTemplate">
+      <div className="mt-[70px] lg:mt-[145px] py-3 authorTemplate">
         <img
           src={currentAuthor.img}
           alt="author"
@@ -38,7 +38,7 @@ const AuthorTemplate = () => {
       <h1 className="pt-7 text-center uppercase font-medium font-serif text-[25px] authorTemplate">
         Articles By {state}
       </h1>
-      <div className="mt-[10px] grid gap-x-8 gap-y-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 px-9 m-auto py-5 justify-center max-w-[1400px]">
+      <div className="mt-[10px] grid gap-x-3 sm:gap-x-8 gap-y-5 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 px-1 sm:px-9 m-auto py-5 justify-center max-w-[1400px]">
         {newArticleList.map((item, index) => {
           return (
             <>

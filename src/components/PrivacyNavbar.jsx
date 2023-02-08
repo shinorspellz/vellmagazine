@@ -31,7 +31,7 @@ useEffect(() => {
 }, [theme]);
   
   return (
-    <nav className="fixed top-0 z-50  w-full flex flex-col lg:flex-row justify-between items-center py-4 px-3 md:px-12  " id="navbar">
+    <nav className="fixed top-0 z-50  w-full flex flex-col lg:flex-row justify-between items-center py-4 px-3 md:px-12 lg:border-b border-slate-400  " id="navbar">
       <div className="flex justify-between items-center w-full lg:w-3/12 ">
         <Link to="https://vmodel.app/">
           {
