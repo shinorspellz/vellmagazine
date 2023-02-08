@@ -12,10 +12,10 @@ const VellHeader = () => {
   // const indexOfSlide=(Object.values(indicators).indexOf(hs));
   // console.log(hs);
   return (
-      <Carousel slideInterval={5000} leftControl={<IoIosArrowBack/>} rightControl={<IoIosArrowForward/>} indicators={true}  className="container mt-[6rem] xl:mt-[8rem] h-[700px] md:h-[650px] xl:h-[520px] pb-3 m-auto hs relative headerCarousel">
+      <Carousel slide={true} slideInterval={5000} leftControl={<IoIosArrowBack/>} rightControl={<IoIosArrowForward/>} indicators={true}  className="container xl:mt-[8rem] h-[700px] md:h-[650px] xl:h-[520px] pb-3 m-auto hs relative headerCarousel mt-[30px] sm:mt-0">
         {headerArticles.map((item) => {
           return (
-            <header className="flex flex-col-reverse xl:flex-row justify-between items-center  xl:px-[2rem] vellmagazine-header cursor-pointer" key={item.id}
+            <header className="h-full flex flex-col-reverse xl:flex-row justify-end sm:justify-center items-start sm:items-center xl:px-[2rem] vellmagazine-header cursor-pointer" key={item.id}
             onClick={()=>navigate(`/article/${item.id}/${item.template}`)}     
             >
               <section className="xl:w-6/12 xl:p-5 text-center">
@@ -51,7 +51,7 @@ const VellHeader = () => {
               <img
                 src={item.img}
                 alt="vellMagazineHeader"
-                className="xl:w-6/12 xl:p-5 w-full max-w-[628px] "
+                className="xl:w-6/12 xl:p-5 w-full max-w-[628px]  object-cover"
               />
               {/* <p className='absolute bottom-[-15%] left-[50%] translate-x-[-50%]'>{indexOfSlide+1}/{indicators.length}</p> */}
             </header>

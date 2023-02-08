@@ -20,8 +20,8 @@ const Authors = () => {
 
     <>
     <VellNavbar/>
-    <h1 className='text-center text-[25px] font-bold font-serif mt-[150px] authorTemplate '>Authors</h1>
-<div className='mt-[20px] grid gap-x-8 gap-y-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 px-9 m-auto py-5 justify-center max-w-[1400px]'>
+    <h1 className='text-center text-[25px] font-bold font-serif mt-[70px] lg:mt-[150px] authorTemplate '>Authors</h1>
+    <div className=' lg:mt-[10px] grid gap-x-5 sm:gap-x-8 gap-y-5 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 px-9 m-auto py-5 justify-center max-w-[1400px]' >
     
         {
             authorsData.map((item,index)=>{

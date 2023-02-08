@@ -21,6 +21,8 @@ import {
   TwitterShareButton,
   TwitterIcon
 } from 'react-share'
+import { BiCloudLightRain } from 'react-icons/bi'
+import { createGlobalStyle } from 'styled-components'
 
 
 
@@ -31,10 +33,14 @@ const ArticleTemplateOne = () => {
   const {scrollToTop}=useContext(VellMagazineContext)
     const navigate = useNavigate()
   const { id } = useParams()
-  const currentArticle = articles.find((item) => item.id === id)
+  const currentArticle = articles.find((item) => item.id == id)
+
+  console.log(id)
+  console.log(articles)
+  console.log(currentArticle)
 const currentArticleTopics=currentArticle.topics
 const arr=[]
-  currentArticleTopics.map((item)=>{
+  currentArticleTopics?.map((item)=>{
     // console.log(item,"item");
     return(
         articles.filter((item2)=>item2.topics.includes(item) && arr.push(item2))

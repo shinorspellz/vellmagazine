@@ -24,7 +24,7 @@ const VellNavbar = () => {
 
   return (
     <nav
-      className="fixed top-0 left-0 w-full z-40 pt-2 pl-2 sm:pl-0 sm:px-5 text-[17px] border-b border-slate-400"
+      className="fixed top-0 left-0 w-full z-40 pt-2 pl-2 sm:pl-0 sm:px-5 text-[17px] lg:border-b border-slate-400"
       id="vellnavbar"
     >
       <section className="flex justify-between  items-center sm:mb-[1.8rem]">

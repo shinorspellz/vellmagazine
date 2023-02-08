@@ -1,9 +1,11 @@
 import { articles, thisMonthData } from "../../utils/vellMagazineData"
 import SingleTodayMagazine from "./SingleTodayMagazine"
 import moment from 'moment'
+import { useNavigate } from "react-router-dom"
 
 
 const VellThisMonth = () => {
+    const navigate=useNavigate()
     // Mental HEalth, Weekend Getaways, Makeup, PetInfluencers,  Social Media Hacks, Cost of Living
     const today=new Date()
     const month=moment(today).format("LL").split(" ")[0]
@@ -32,6 +34,12 @@ const VellThisMonth = () => {
             }
 
         </section>
+        <button
+                  className=" w-[130px] py-2 mt-5 block m-auto thisMonthBtn"
+                  onClick={() => navigate(`/this-month-articles`)}
+                >
+                  See more
+                </button>
     </main>
   )
 }

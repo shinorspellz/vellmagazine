@@ -560,7 +560,7 @@ h6 {
 .termofuse li {
   padding-left: 25px;
 }
-.privacy-btns button {
+.privacy-btns button,.thisMonthBtn {
   color: var(--button-fontColor);
   background-color: var(--button-bgColor);
 }
@@ -571,6 +571,7 @@ h6 {
 .privacy-policy-links a{
   color: var(--fontColor);
 }
+
 #freedom div[data-active='false'] {
   opacity: 0 !important;
   transition: opacity 2s ease-in !important;
@@ -682,6 +683,9 @@ h6 {
 
 .content a {
   color: inherit;
+}
+.content img{
+  object-fit: cover;
 }
 
 .content .first::first-letter {
@@ -882,6 +886,19 @@ object-fit: cover !important;
   transition: opacity 1200ms ease-in !important;
 }
 
+@media (max-width:500px) {
+  .hs div[data-active='false'] {
+  opacity: 0 !important;
+  /* transition: opacity 100ms ease-in !important; */
+}
+.hs div[data-active='true'] {
+  opacity: 1 !important;
+  /* transition: opacity 100ms ease-in !important; */
+}
+}
+
+
+
 .headerCarousel button[data-testid="carousel-left-control"]{
   /* position: absolute !important;
   left: 50% !important; */
@@ -975,3 +992,36 @@ object-fit: cover;
   border: 5px solid var(--author-pic-border);
   /* box-shadow: 1px 1px 20px var(--author-pic-border); */
 }
+
+/* .articleTemplateSix{
+  font-family: 'Avenir Next' !important;
+} */
+
+
+/*sixth-template*/
+.sixth-template{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+}
+@media (min-width:500px) {
+  .sixth-template{
+    display: flex;
+    flex-direction: row;
+  }
+  .sixth-template img:nth-child(2){
+    transform: translateX(5rem);
+  }
+  .sixth-template img:nth-child(3){
+    transform: translateX(10rem);
+  }
+  .sixth-template img{
+    width: 33%;
+    height: 300px;
+    object-fit: cover;
+  }
+}
+
+

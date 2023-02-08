@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import VellMagazine from "../pages/VellMagazine/VellMagazine";
-import Today from "../components/Articles/Today";
 import Subscribe from "../pages/VellMagazine/Subscribe";
 import PrivacyPolicy from "../components/PrivacyPolicy";
 import TermOfUse from "../components/TermOfUse";
@@ -16,6 +15,7 @@ import ArticleTemplateFive from "../components/Articles/ArticleTemplateFive";
 import ArticleTemplateSix from "../components/Articles/ArticleTemplateSix";
 import CookiesPolicy from "../components/CookiesPolicy";
 import Authors from "../components/Articles/Authors";
+import ThisMonthArticles from "../components/Articles/ThisMonthArticles";
 
 const AppRouter = () => {
 
@@ -23,7 +23,7 @@ const AppRouter = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<VellMagazine/>} />
-          <Route path="/today" element={<Today/>} />
+          <Route path="/this-month-articles" element={<ThisMonthArticles/>} />
           <Route path="subscribe" element={<Subscribe/>} />
           <Route path="privacypolicy" element={<PrivacyPolicy/>} />
           <Route path="termofuse" element={<TermOfUse/>} />
