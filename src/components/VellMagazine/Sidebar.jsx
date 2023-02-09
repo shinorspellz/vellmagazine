@@ -186,6 +186,9 @@ const navigate=useNavigate()
     <button className='sidebar-sub-btns'
     onClick={(e)=>handleSidebarMenu(e)}
     >FASHION WEEKS</button>
+    <button className='sidebar-sub-btns'
+    onClick={(e)=>handleSidebarMenu(e)}
+    >CLOTHING</button>
     <button className='sidebar-main-btns'
     onClick={(e)=>handleSidebarMenu(e)}
     >PETS/ANIMALS</button>
@@ -225,6 +228,9 @@ const navigate=useNavigate()
     <button className='sidebar-sub-btns'
     onClick={(e)=>handleSidebarMenu(e)}
     >PHOTOGRAPHY</button>
+    <button className='sidebar-sub-btns'
+    onClick={(e)=>handleSidebarMenu(e)}
+    >FESTIVALS/CELEBRATIONS</button>
     <button className='sidebar-main-btns'
     onClick={(e)=>handleSidebarMenu(e)}
     >TRAVEL</button>
