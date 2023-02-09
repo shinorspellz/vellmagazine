@@ -1,7 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat&display=swap');
+
+body {
+  font-family: "Montserrat";
+}
+
 :root {
   --bgColor: #fff;
   --fontColor: #503c3b;
@@ -683,6 +687,9 @@ h6 {
 
 .content a {
   color: inherit;
+  font-family: serif;
+  text-decoration: underline;
+  cursor: pointer
 }
 .content img{
   object-fit: cover;
@@ -699,9 +706,21 @@ h6 {
   margin-top: -0.2em;
 }
 
-.content h3 {
+.content li {
+  list-style-type: "- ";
+  list-style-position: inside;
+}
+.sub-head {
   font-size: 25px !important;
-  font-weight: 600;
+  font-family: serif;
+  font-weight: 400 !important;
+  
+}
+
+.h4-head {
+  font-size: 20px !important;
+  font-family: serif;
+  font-weight: 400 !important;
 }
 .content figure {
   padding: 50px;
@@ -809,6 +828,7 @@ button span {
 }
 .trivia {
   padding: 5px 0;
+  
 }
 
 .articleMainHeader,.authorName {
@@ -935,11 +955,11 @@ object-fit: cover !important;
 background-color: var(--carousel-btns);
 }
 
-.graditute{
+/* .graditute{
   display: block;
   margin: auto;
   padding: 10px 0;
-}
+} */
 .content .graditute-link{
   color: blue;
   font-weight: 500;
