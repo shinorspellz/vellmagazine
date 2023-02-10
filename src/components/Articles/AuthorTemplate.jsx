@@ -29,9 +29,9 @@ const AuthorTemplate = () => {
           alt="author"
           className="block m-auto rounded-full object-cover w-[300px] h-[300px] authorPic"
         />
-        <h3 className="text-center font-[14px] font-serif" >{currentAuthor.name}</h3>
-        <p className="text-center max-w-[800px] font-[13px] m-auto">{currentAuthor.desc}</p>
-        <p className="text-center max-w-[800px] font-[13px] m-auto">{currentAuthor.bio}</p>
+        <p className="text-center text-[25px] font-serif" >{currentAuthor.name}</p>
+        <p className="text-center max-w-[800px]  m-auto">{currentAuthor.desc}</p>
+        <p className="text-center max-w-[800px]  m-auto">{currentAuthor.bio}</p>
       </div>
 
       {/* <div className='mt-[120px] px-9 flex gap-8 justify-start flex-wrap container m-auto py-5'> */}
