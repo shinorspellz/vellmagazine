@@ -3,9 +3,19 @@ import { useContext } from "react";
 import CookieConsent from "react-cookie-consent";
 import { Link } from 'react-router-dom'
 import { VellMagazineContext } from "../context/VellMagazineContext";
+import { useCookieConsent } from "../context/CookieConsentContext";
 
 const Cookies = () => {
   const {theme,banner,setBanner}=useContext(VellMagazineContext)
+  const {consentChoice, acceptCookieConsent} = useCookieConsent()
+  const [visible, setVisible] = useState(false)
+
+  useEffect(() => {
+    setVisible(consentChoice === "undecided") 
+
+  }, [consentChoice])
+
+  if(!visible) return null 
 
 
   return (
@@ -15,7 +25,8 @@ const Cookies = () => {
       location='bottom'
       className="cookiesDiv"
       visible={banner ? "show" :"hidden"}
-      onAccept={()=>setBanner(false)}
+      //onAccept={()=>setBanner(false)}
+      onAccept={acceptCookieConsent}
       style={theme==="light-theme" ? {
         background:"#503C3B",
         color:"#fff",
