@@ -16,9 +16,9 @@ const ArticleTopics = () => {
 return (
   <> 
   <VellNavbar/>
-  
-  {/* <div className='mt-[120px] px-9 flex gap-8 justify-start flex-wrap container m-auto py-5'> */}
-  <div className='mt-[120px] grid gap-x-8 gap-y-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 px-9 m-auto py-5 justify-center max-w-[1400px]'>
+  {
+    newArticleList.length>0 ? (
+      <div className='mt-[120px] grid gap-x-8 gap-y-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 px-9 m-auto py-5 justify-center max-w-[1400px]'>
       {
           newArticleList.map((item,index)=>{
               return(
@@ -28,8 +28,12 @@ return (
               )
           })
       }
- 
   </div>
+    ):(
+      <p className='mt-[120px] h-[calc(100vh-350px)] flex justify-center items-center font-bold empty-page'>New articles are to be uploaded soon</p>
+    )
+  }
+ 
   <Footer/>
 
   </>

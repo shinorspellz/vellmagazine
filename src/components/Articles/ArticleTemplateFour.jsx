@@ -49,7 +49,7 @@ const ArticleTemplateFour = () => {
         : ' '
     )
   })
-  // console.log(breadcrump.title)
+  console.log(breadcrump.title)
 
   return (
     <>
