@@ -61,16 +61,16 @@ const VelllTopStories = () => {
           </p>
         </div>
         <div className="w-full xl:w-6/12 p-5 flex flex-col justify-between gap-3">
-          <div className="flex justify-between md:gap-3 ">
+          <div className="flex justify-between md:justify-start md:gap-3 xl:gap-8">
             <img
               src={TopArticles[1].img}
               alt="topstories-1"
-              className="w-[120px] h-[200px] object-cover sm:w-[290px]"
+              className="w-[120px] h-[200px] object-cover sm:w-[290px] "
             />
             <div className="pl-3 md:pl-0 w-full sm:w-6/12">
               <p className="uppercase text-[13px] hover:underline cursor-pointer"
-              onClick={(e)=>goToTopics(e)}
-              >
+                            onClick={(e)=>goToTopics(e)}
+                            >
                 {TopArticles[1].topics[0]}
               </p>
               <p className="font-500 font-serif text-[15px] md:text-[17px] py-1 md:py-2 line-clamp-2 md:line-clamp-none hover:underline cursor-pointer"
@@ -78,11 +78,10 @@ const VelllTopStories = () => {
               >
                 {TopArticles[1].mainHeader}
               </p>
-              <p className="pt-2 text-sm">{changeFormat(TopArticles[3].date)}</p>
+              <p className="pt-2 text-sm">{changeFormat(TopArticles[1].date)}</p>
             </div>
-            <p></p>
           </div>
-          <div className="flex justify-between md:gap-3  ">
+          <div className="flex justify-between md:justify-start md:gap-3 xl:gap-8">
             <img
               src={TopArticles[2].img}
               alt="topstories-1"
@@ -102,19 +101,19 @@ const VelllTopStories = () => {
               <p className="pt-2 text-sm">{changeFormat(TopArticles[3].date)}</p>
             </div>
           </div>
-          <div className="flex justify-between md:gap-3  ">
+          <div className="flex justify-between md:justify-start md:gap-3 xl:gap-8">
             <img
               src={TopArticles[3].img}
               alt="topstories-1"
               className="w-[120px] h-[200px] object-cover sm:w-[290px] "
             />
             <div className="pl-3 md:pl-0 w-full sm:w-6/12">
-              <p className="uppercase text-[13px] text-sm hover:underline cursor-pointer"
+              <p className="uppercase text-[13px]  hover:underline cursor-pointer"
                             onClick={(e)=>goToTopics(e)}
                             >
                 {TopArticles[3].topics[0]}
               </p>
-              <p className="font-600 font-serif text-[15px] md:text-[17px] py-1 md:py-2 line-clamp-2 md:line-clamp-none hover:underline cursor-pointer"
+              <p className="font-500 font-serif text-[15px] md:text-[17px] py-1 md:py-2 line-clamp-2 md:line-clamp-none hover:underline cursor-pointer"
               onClick={(e)=>goToArticle(e)}
               >
                 {TopArticles[3].mainHeader}
