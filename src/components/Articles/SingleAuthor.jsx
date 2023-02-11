@@ -10,7 +10,7 @@ const SingleAuthor = ({item}) => {
    }, []);
   return (
     <div
-        className="w-[190px] h-[200px] sm:w-[247px] sm:h-[365px] cursor-pointer relative rounded-lg"        
+        className="w-[190px] h-[200px]  sm:w-[247px] sm:h-[365px] cursor-pointer relative rounded-lg"        
       >
         <img src={item.img} alt="image" className="absolute left-0 top-0 w-full h-full object-cover -z-10 " 
         />

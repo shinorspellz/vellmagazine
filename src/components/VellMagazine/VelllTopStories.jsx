@@ -32,14 +32,14 @@ const VelllTopStories = () => {
             alt="topstories"
             className="object-cover"
           />
-          <p className="text-sm font-bold hover:underline cursor-pointer "
+          <p className="text-sm hover:underline cursor-pointer "
           onClick={(e)=>goToTopics(e)}
           >{TopArticles[0].topics[0]}</p>
           {/* <p className="uppercase font-bold pt-2 pb-1 hidden md:block">{TopArticles[0].mainHeader}</p> */}
-          <h2 className="font-500 font-serif text-[20px] md:text-[28px] text-center md:text-start hover:underline cursor-pointer"
+          <p className="font-400 font-serif text-[20px] md:text-[28px] text-center md:text-start hover:underline cursor-pointer"
           onClick={(e)=>goToArticle(e)}>
             {TopArticles[0].mainHeader}
-          </h2>
+          </p>
           <p className="text-[14px] hidden md:block">
               {TopArticles[0].content.startsWith('<p')
               ? TopArticles[0].content
@@ -68,16 +68,16 @@ const VelllTopStories = () => {
               className="w-[120px] h-[200px] object-cover sm:w-[290px]"
             />
             <div className="pl-3 md:pl-0 w-full sm:w-6/12">
-              <p className="uppercase font-bold text-sm hover:underline cursor-pointer"
+              <p className="uppercase text-[13px] hover:underline cursor-pointer"
               onClick={(e)=>goToTopics(e)}
               >
                 {TopArticles[1].topics[0]}
               </p>
-              <h2 className="font-600 font-serif text-[15px] md:text-[17px] py-1 md:py-2 line-clamp-2 md:line-clamp-none hover:underline cursor-pointer"
+              <p className="font-500 font-serif text-[15px] md:text-[17px] py-1 md:py-2 line-clamp-2 md:line-clamp-none hover:underline cursor-pointer"
               onClick={(e)=>goToArticle(e)}
               >
                 {TopArticles[1].mainHeader}
-              </h2>
+              </p>
               <p className="pt-2 text-sm">{changeFormat(TopArticles[3].date)}</p>
             </div>
             <p></p>
@@ -89,16 +89,16 @@ const VelllTopStories = () => {
               className="w-[120px] h-[200px] object-cover sm:w-[290px] "
             />
             <div className="pl-3 md:pl-0 w-full sm:w-6/12">
-              <p className="uppercase font-bold text-sm hover:underline cursor-pointer"
+              <p className="uppercase text-[13px] hover:underline cursor-pointer"
                             onClick={(e)=>goToTopics(e)}
                             >
                 {TopArticles[2].topics[0]}
               </p>
-              <h2 className="font-600 font-serif text-[15px] md:text-[17px] py-1 md:py-2 line-clamp-2 md:line-clamp-none hover:underline cursor-pointer"
+              <p className="font-500 font-serif text-[15px] md:text-[17px] py-1 md:py-2 line-clamp-2 md:line-clamp-none hover:underline cursor-pointer"
               onClick={(e)=>goToArticle(e)}
               >
                 {TopArticles[2].mainHeader}
-              </h2>
+              </p>
               <p className="pt-2 text-sm">{changeFormat(TopArticles[3].date)}</p>
             </div>
           </div>
@@ -109,16 +109,16 @@ const VelllTopStories = () => {
               className="w-[120px] h-[200px] object-cover sm:w-[290px] "
             />
             <div className="pl-3 md:pl-0 w-full sm:w-6/12">
-              <p className="uppercase font-bold text-sm hover:underline cursor-pointer"
+              <p className="uppercase text-[13px] text-sm hover:underline cursor-pointer"
                             onClick={(e)=>goToTopics(e)}
                             >
                 {TopArticles[3].topics[0]}
               </p>
-              <h2 className="font-600 font-serif text-[15px] md:text-[17px] py-1 md:py-2 line-clamp-2 md:line-clamp-none hover:underline cursor-pointer"
+              <p className="font-600 font-serif text-[15px] md:text-[17px] py-1 md:py-2 line-clamp-2 md:line-clamp-none hover:underline cursor-pointer"
               onClick={(e)=>goToArticle(e)}
               >
                 {TopArticles[3].mainHeader}
-              </h2>
+              </p>
               <p className="pt-2 text-sm">{changeFormat(TopArticles[3].date)}</p>
             </div>
           </div>
