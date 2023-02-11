@@ -27,7 +27,9 @@ const ArticleTemplateFour = () => {
   const navigate = useNavigate()
   const {scrollToTop}=useContext(VellMagazineContext)
   const { id } = useParams()
-  const currentArticle = articles.find((item) => item.id === id)
+  const currentArticle = articles.find((item) => item.id == id)
+
+
   const currentArticleTopics = currentArticle.topics
   const arr = []
   currentArticleTopics.map((item) => {
@@ -49,7 +51,7 @@ const ArticleTemplateFour = () => {
         : ' '
     )
   })
-  // console.log(breadcrump.title)
+  console.log(breadcrump.title)
 
   return (
     <>

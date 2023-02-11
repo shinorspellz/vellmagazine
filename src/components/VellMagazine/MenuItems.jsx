@@ -2,11 +2,11 @@ import { useState, useEffect, useRef } from 'react';
 import Dropdown from './DropdownMenu';
 
 import { Link, useNavigate } from 'react-router-dom';
-import { useContext } from 'react';
-import { VellMagazineContext } from '../../context/VellMagazineContext';
+// import { useContext } from 'react';
+// import { VellMagazineContext } from '../../context/VellMagazineContext';
 
 const MenuItems = ({ items, depthLevel }) => {
-  const {setSubTopic}=useContext(VellMagazineContext)
+  // const {setSubTopic}=useContext(VellMagazineContext)
   const navigate=useNavigate()
   const [dropdown, setDropdown] = useState(false);
   let ref = useRef();
@@ -14,7 +14,7 @@ const MenuItems = ({ items, depthLevel }) => {
 
   const handleMenu=(e)=>{
     navigate(`/articletopics`,{state:e.target.innerText})
-    setSubTopic(e.target.innerText)
+    // setSubTopic(e.target.innerText)
     // console.log(e.target.innerText)
   }
 

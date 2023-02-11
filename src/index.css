@@ -1005,7 +1005,7 @@ object-fit: cover;
 
 
 /*Author Template*/
-.authorTemplate{
+.authorTemplate,.empty-page{
   color: var(--fontColor);
 }
 .authorTemplate .authorPic{
@@ -1045,3 +1045,16 @@ object-fit: cover;
 }
 
 
+/*fifth template */
+.romanticGetAway{
+  padding: 0!important;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+}
+.romanticGetAway img{
+  object-fit: cover;
+}
+.romanticGetAway figcaption{
+  font-size: 12px;
+}

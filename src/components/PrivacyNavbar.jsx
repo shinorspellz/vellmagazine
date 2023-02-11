@@ -33,15 +33,8 @@ useEffect(() => {
   return (
     <nav className="fixed top-0 z-50  w-full flex flex-col lg:flex-row justify-between items-center py-4 px-3 md:px-12 lg:border-b border-slate-400  " id="navbar">
       <div className="flex justify-between items-center w-full lg:w-3/12 ">
-        <Link to="https://vmodel.app/">
-          {
-            theme=="light-theme" ? (
-              <img src="images/Logo.jpg" alt="logo" className="w-[150px]  lg:w-[195px] lg:h-[44px]" />
-            ):(
-              <img src="images/logoForDarkMode.png" alt="logo" className="w-[150px]  lg:w-[195px] lg:h-[44px]" />
-
-            )
-          }
+        <Link to="/" className="text-4xl font-bold" >
+        Vell Magazine
           </Link>
         <div className="flex justify-between items-center gap-2">
            <button className="navbar-switch flex items-center justify-center text-xl lg:hidden"
