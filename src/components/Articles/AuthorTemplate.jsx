@@ -31,7 +31,7 @@ const AuthorTemplate = () => {
         />
         <p className="text-center text-[25px] font-serif" >{currentAuthor.name}</p>
         <p className="text-center max-w-[800px]  m-auto">{currentAuthor.desc}</p>
-        <p className="text-center max-w-[800px]  m-auto">{currentAuthor.bio}</p>
+        <p className="text-center max-w-[800px] text-[15px] font-serif m-auto pt-[1rem] bio" dangerouslySetInnerHTML={{ __html: currentAuthor.bio }}></p>
       </div>
 
       {/* <div className='mt-[120px] px-9 flex gap-8 justify-start flex-wrap container m-auto py-5'> */}

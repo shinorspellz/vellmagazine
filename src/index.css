@@ -727,6 +727,7 @@ h6 {
   display: flex;
   flex-direction: column;
 }
+
 @media (max-width:500px) {
   .content figure {
     padding: 0;
@@ -742,7 +743,23 @@ h6 {
   font-weight: 700;
 }
 
+.content figcaption {
+  font-family: serif !important;
+  font-size: 13px ;
+  font-weight: 400 !important
+}
 
+.content .figcaption {
+  font-family: serif;
+  font-size: 13px;
+  font-weight: 400 !important;
+}
+
+.bio p {
+  margin-bottom: 1rem;
+  font-family: serif;
+  font-size: 15px;
+}
 .menu-items {
   position: relative;
   font-size: 13px;
@@ -998,10 +1015,7 @@ max-height: 400px;
 width: 100%;
 object-fit: cover;
 }
-.content .christmas-link{
-  color: var(--link-color);
-  font-weight: 600;
-}
+
 
 
 /*Author Template*/
