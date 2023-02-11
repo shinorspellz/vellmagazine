@@ -365,7 +365,7 @@ export const footerData=[
         topics:["BOOKS","HAIR","PRODUCT REVIEWS","PET INFLUENCERS"],
         theme:"trending",
         date:"January 23, 2023",
-        template: 5,
+        template: 2,
 
 
       },
