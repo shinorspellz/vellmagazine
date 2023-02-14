@@ -33,6 +33,9 @@ body {
   --carousel-btns:#503c3b;
   --link-color:blue;
   --author-pic-border:#503c3b;
+  --sideBar-bg:#503c3b;
+  --sideBar-fontColor:#fff;
+
 }
 .dark-theme {
   --bgColor: #0a192f;
@@ -74,6 +77,8 @@ body {
   --carousel-btns:#0a192f;
   --link-color:grey;
   --author-pic-border: #1c4179;
+  --sideBar-bg:#fff;
+  --sideBar-fontColor:#0a192f;
 
 
 }
@@ -103,7 +108,8 @@ body {
   --privacy-btns-bg-color:#fff;
   --carousel-btns:#503c3b;
   --link-color:blue;
-
+  --sideBar-bg:#503c3b;
+  --sideBar-fontColor:#fff;
 
 }
 
@@ -854,6 +860,19 @@ button span {
 /* .authorName{
   backdrop-filter: blur(3px);
 } */
+.sidebar{
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  /* box-shadow: 1px 1px 10px  var(--fontColor); */
+  z-index: 100;
+  background-color: var(--sideBar-bg);
+  color: var(--sideBar-fontColor);
+  overflow: scroll;
+  height: 500px;
+}
+.sidebar select{
+  color: var(--fontColor);
+}
 
 .sidebar-main-btns {
   padding: 9px 0 0;
@@ -1084,12 +1103,6 @@ img.style-img-3{
   float: right;
   margin-left: 1rem;
   object-fit: cover;
-}
-
-.sidebar{
-  border-bottom-left-radius: 50% !important;
-  border-top-left-radius: 50% !important;
-  box-shadow: 1px 1px 10px  var(--fontColor) !important;
 }
 
 .styleGuideImgs img{

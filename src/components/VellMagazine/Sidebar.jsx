@@ -18,7 +18,7 @@ const navigate=useNavigate()
   }
   console.log(isShow)
   return (
-    <div className={`${isShow ? "scale-100 w-[80%] sidebar absolute top-[46px] right-0 lg:hidden h-[500px] overflow-scroll pb-12 " : "scale-0 w-[80%] sidebar absolute top-[46px] right-0 lg:hidden h-[500px] overflow-scroll pb-12 "} transition-all duration-700 ease-linear`}>
+    <div className={`${isShow ? "scale-100 w-[80%] max-w-[21rem] sidebar absolute top-[46px] right-0 lg:hidden    pb-12  " : "scale-0 w-[80%] max-w-[21rem] sidebar absolute top-[46px] right-0 lg:hidden  pb-12  "} transition-scale duration-700 ease-linear `}>
     {/* <div className="scale-100 w-[80%] sidebar absolute top-[50px] right-0 lg:hidden h-[500px] overflow-scroll pb-2"> */}
     <section className='justify-between items-end p-3 xl:hidden flex flex-col'>
       <div className='flex justify-center items-center gap-2'>
@@ -26,13 +26,13 @@ const navigate=useNavigate()
     className='font-bold text-[17px] whitespace-nowrap flex items-center pb-2'>
       {theme === "light-theme" ? (
             <img
-              src="/images/Logo.jpg"
+              src="/images/logoForDarkMode.png"
               alt="logo"
               className='w-[100px] pr-1 '
             />
           ) : (
             <img
-              src="/images/logoForDarkMode.png"
+            src="/images/Logo.jpg"
               alt="logo"
               className='w-[100px] pr-1 '
             />
