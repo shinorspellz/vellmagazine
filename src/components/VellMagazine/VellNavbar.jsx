@@ -1,5 +1,5 @@
 import { Link, NavLink, useNavigate } from 'react-router-dom'
-import { FaBars } from 'react-icons/fa'
+import { FaBars, FaTimes } from 'react-icons/fa'
 import Sidebar from './Sidebar'
 import { useState } from 'react'
 import { BiMoon, BiSun } from 'react-icons/bi'
@@ -10,7 +10,7 @@ import {VellMagazineContext} from '../../context/VellMagazineContext'
 
 
 const VellNavbar = () => {
-  const {theme,setTheme,changeTheme}=useContext(VellMagazineContext)
+  const {theme,changeTheme}=useContext(VellMagazineContext)
   const [isShow, setIsShow] = useState(false)
   // const [theme, setTheme] = useState(getStorage Theme())
   const navigate = useNavigate()
@@ -67,10 +67,19 @@ const VellNavbar = () => {
               <BiSun className="text-yellow-400" />
             )}
           </button>
-          <FaBars
+          {
+            !isShow ? ( <FaBars
             className="text-3xl faBars lg:hidden flex items-center justify-center h-full"
-            onClick={() => setIsShow(!isShow)}
+            onClick={() => setIsShow(true)}
+          />): (
+              <FaTimes
+            className="text-3xl faBars lg:hidden flex items-center justify-center h-full text-red-500"
+            onClick={() => setIsShow(false)}
           />
+            )
+          }
+         
+          
           <button
             className="navbar-switch lg:flex items-center justify-center text-2xl hidden"
             onClick={changeTheme}
@@ -119,7 +128,7 @@ const VellNavbar = () => {
       </ul>
         
       </section>
-      {isShow && <Sidebar setIsShow={setIsShow} theme={theme}/>}
+      <Sidebar setIsShow={setIsShow} isShow={isShow}/>
     </nav>
   )
 }

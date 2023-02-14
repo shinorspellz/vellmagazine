@@ -1085,3 +1085,9 @@ img.style-img-3{
   margin-left: 1rem;
   object-fit: cover;
 }
+
+.sidebar{
+  border-bottom-left-radius: 50% !important;
+  border-top-left-radius: 50% !important;
+  box-shadow: 1px 1px 10px  var(--fontColor) !important;
+}
