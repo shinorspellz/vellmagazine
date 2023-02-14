@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { NavLink, useNavigate } from 'react-router-dom'
+import { VellMagazineContext } from '../../context/VellMagazineContext'
 
-const Sidebar = ({setIsShow,theme}) => {
+const Sidebar = ({setIsShow,isShow}) => {
+  const {theme}=useContext(VellMagazineContext)
+
 const navigate=useNavigate()
 
   const handleChange = (e) => {
@@ -13,120 +16,34 @@ const navigate=useNavigate()
     navigate('/articletopics', { state: e.target.innerText })
     setIsShow(false)
   }
+  console.log(isShow)
   return (
-    // <div className="w-full h-[100vh] sidebar absolute top-[65px] left-0 <br/> ">
-    //     <section className='justify-between items-end p-3 xl:hidden flex flex-col gap-5'>
-    //     <NavLink to="/" 
-    //     className='font-bold text-[18px] whitespace-nowrap'>VModel Home</NavLink>
-    //     <select
-    //       name="dates"
-    //       id="dates"
-    //       className="border border-slate-500 text-sm bg-transparent font-[900] focus-within:ring-0 cursor-pointer w-[120px]"
-    //       onChange={(e) => handleChange(e)}
-    //       defaultValue={'DEFAULT'}
-    //     >
-    //       <option value="DEFAULT" disabled hidden className="py-2 font-bold cursor-pointer">
-    //         EDITION
-    //       </option>
-    //       <option value="DEC 2022" className="py-2 font-bold cursor-pointer text-[13px] px-2">
-    //         DECEMBER EDITION
-    //       </option>
-    //       <option value="JAN 2023" className="py-2 font-bold cursor-pointer text-[13px] px-2 ">
-    //         JANUARY EDITION
-    //       </option>
-    //     </select>
-    //     <NavLink to="/articletopics"
-    //      className={({ isActive }) =>
-    //      isActive 
-    //        ? "font-bold text-[17px]"
-    //        : "font-normal text-[17px]"
-    //    }
-    //     >WELLBEING</NavLink>
-    //     <NavLink to="/articletopics"
-    //      className={({ isActive }) =>
-    //      isActive 
-    //        ? "font-bold text-[17px]"
-    //        : "font-normal text-[17px]"
-    //    }
-    //     >MENTAL HEALTH</NavLink>
-    //     <NavLink to="/articletopics"
-    //      className={({ isActive }) =>
-    //      isActive 
-    //        ? "font-bold text-[17px]"
-    //        : "font-normal text-[17px]"
-    //    }
-    //     >PHYSICAL HEALTH</NavLink>
-    //     <NavLink to="/articletopics"
-    //      className={({ isActive }) =>
-    //      isActive 
-    //        ? "font-bold text-[17px]"
-    //        : "font-normal text-[17px]"
-    //    }
-    //     >LIFE MATTERS</NavLink>
-    //     <NavLink to="/today"
-    //      className={({ isActive }) =>
-    //      isActive 
-    //        ? "font-bold text-[17px]"
-    //        : "font-normal text-[17px]"
-    //    }
-    //     >FASHION & BEAUTY</NavLink>
-    //     <NavLink to="/beauty"
-    //      className={({ isActive }) =>
-    //      isActive 
-    //        ? "font-bold text-[17px]"
-    //        : "font-normal text-[17px]"
-    //    }
-    //     >PETS/ANIMALS</NavLink>
-    //     <NavLink to="/photography"
-    //      className={({ isActive }) =>
-    //      isActive 
-    //        ? "font-bold text-[17px]"
-    //        : "font-normal text-[17px]"
-    //    }
-    //     >ART & CULTURE</NavLink>
-    //     <NavLink to="/art"
-    //      className={({ isActive }) =>
-    //      isActive 
-    //        ? "font-bold text-[17px]"
-    //        : "font-normal text-[17px]"
-    //    }
-    //     >TRAVEL</NavLink>
-    //     <NavLink to="/culture"
-    //      className={({ isActive }) =>
-    //      isActive 
-    //        ? "font-bold text-[17px]"
-    //        : "font-normal text-[17px]"
-    //    }
-    //     >SOCIAL MEDIA</NavLink>
-    //     {/* <NavLink to="/music"
-    //      className={({ isActive }) =>
-    //      isActive 
-    //        ? "font-bold text-[17px]"
-    //        : "font-normal text-[17px]"
-    //    }
-    //     >MUSIC</NavLink>
-    //     <NavLink to="/film"
-    //      className={({ isActive }) =>
-    //      isActive 
-    //        ? "font-bold text-[17px]"
-    //        : "font-normal text-[17px]"
-    //    }
-    //     >FILM</NavLink> */}
-    //     <NavLink to="/subscribe"
-    //      className={({ isActive }) =>
-    //      isActive 
-    //        ? "font-bold text-[17px]"
-    //        : "font-normal text-[17px]"
-    //    }
-    //     >SUBSCRIBE</NavLink>
-    //     </section>
-    // </div>
-    <div className="w-full h-[100vh] sidebar absolute top-[45px] left-0 lg:hidden ">
+    <div className={`${isShow ? "scale-100 w-[80%] sidebar absolute top-[46px] right-0 lg:hidden h-[500px] overflow-scroll pb-12 " : "scale-0 w-[80%] sidebar absolute top-[46px] right-0 lg:hidden h-[500px] overflow-scroll pb-12 "} transition-all duration-700 ease-linear`}>
+    {/* <div className="scale-100 w-[80%] sidebar absolute top-[50px] right-0 lg:hidden h-[500px] overflow-scroll pb-2"> */}
     <section className='justify-between items-end p-3 xl:hidden flex flex-col'>
+      <div className='flex justify-center items-center gap-2'>
+         <NavLink to="https://vmodel.app/" target="_blank" 
+    className='font-bold text-[17px] whitespace-nowrap flex items-center pb-2'>
+      {theme === "light-theme" ? (
+            <img
+              src="/images/Logo.jpg"
+              alt="logo"
+              className='w-[100px] pr-1 '
+            />
+          ) : (
+            <img
+              src="/images/logoForDarkMode.png"
+              alt="logo"
+              className='w-[100px] pr-1 '
+            />
+          )}
+      </NavLink>
     <NavLink to="/" 
     className='font-bold text-[17px] whitespace-nowrap flex items-center pb-2'>
-      <img src={theme=="light-theme" ? "/images/Logo.jpg" : "/images/logoForDarkMode.jpg"} alt="logo" className='w-[100px] pr-1 '/><span className='p-0'>Home</span>
+      <span className='p-0'>Home</span>
       </NavLink>
+      </div>
+   
     <select
       name="dates"
       id="dates"
@@ -143,8 +60,11 @@ const navigate=useNavigate()
       <option value="JAN 2023 EDITION" className="py-2 font-bold cursor-pointer text-[13px] px-1">
         JANUARY EDITION
       </option>
+      <option value="FEB 2023 EDITION" className="py-2 font-bold cursor-pointer text-[13px] px-1">
+        FEBRUARY EDITION
+      </option>
     </select>
-    <button className='sidebar-main-btns'
+    <button className='sidebar-main-btns font-semibold'
     onClick={(e)=>handleSidebarMenu(e)}
     >WELLBEING</button>
     <button className='sidebar-sub-btns'
@@ -153,7 +73,7 @@ const navigate=useNavigate()
     <button className='sidebar-sub-btns'
     onClick={(e)=>handleSidebarMenu(e)}
     >PHYSICAL HEALTH</button>
-    <button className='sidebar-main-btns'
+    <button className='sidebar-main-btns font-semibold'
     onClick={(e)=>handleSidebarMenu(e)}
     >LIFE MATTERS</button>
     <button className='sidebar-sub-btns'
@@ -165,7 +85,7 @@ const navigate=useNavigate()
     <button className='sidebar-sub-btns'
     onClick={(e)=>handleSidebarMenu(e)}
     >TECHNOLOGY</button>
-    <button className='sidebar-main-btns'
+    <button className='sidebar-main-btns font-semibold'
     onClick={(e)=>handleSidebarMenu(e)}
     >FASHION & BEAUTY</button>
     <button className='sidebar-sub-btns'
@@ -192,7 +112,7 @@ const navigate=useNavigate()
     <button className='sidebar-sub-btns'
     onClick={(e)=>handleSidebarMenu(e)}
     >STYLE</button>
-    <button className='sidebar-main-btns'
+    <button className='sidebar-main-btns font-semibold'
     onClick={(e)=>handleSidebarMenu(e)}
     >PETS/ANIMALS</button>
     <button className='sidebar-sub-btns'
@@ -210,7 +130,7 @@ const navigate=useNavigate()
     <button  className='sidebar-sub-btns'
     onClick={(e)=>handleSidebarMenu(e)}
     >REHOMING/CHARITY</button>
-    <button className='sidebar-main-btns'
+    <button className='sidebar-main-btns font-semibold'
     onClick={(e)=>handleSidebarMenu(e)}
     >ARTS & CULTURE</button>
     <button className='sidebar-sub-btns'
@@ -234,7 +154,7 @@ const navigate=useNavigate()
     <button className='sidebar-sub-btns'
     onClick={(e)=>handleSidebarMenu(e)}
     >FESTIVALS/CELEBRATIONS</button>
-    <button className='sidebar-main-btns'
+    <button className='sidebar-main-btns font-semibold'
     onClick={(e)=>handleSidebarMenu(e)}
     >TRAVEL</button>
     <button className='sidebar-sub-btns'
@@ -246,7 +166,7 @@ const navigate=useNavigate()
     <button className='sidebar-sub-btns'
     onClick={(e)=>handleSidebarMenu(e)}
     >HOLIDAY BUCKET LISTS</button>
-    <button className='sidebar-main-btns'
+    <button className='sidebar-main-btns font-semibold'
     onClick={(e)=>handleSidebarMenu(e)}
     >SOCIAL MEDIA</button>
     <button className='sidebar-sub-btns'
@@ -268,55 +188,12 @@ const navigate=useNavigate()
      isActive 
        ? "font-bold text-[17px]"
        : "font-normal text-[17px]"
-   }
-    >FASHION & BEAUTY</NavLink>
-    <NavLink to="/beauty"
-     className={({ isActive }) =>
-     isActive 
-       ? "font-bold text-[17px]"
-       : "font-normal text-[17px]"
-   }
-    >PETS/ANIMALS</NavLink>
-    <NavLink to="/photography"
-     className={({ isActive }) =>
-     isActive 
-       ? "font-bold text-[17px]"
-       : "font-normal text-[17px]"
-   }
-    >ART & CULTURE</NavLink>
-    <NavLink to="/art"
-     className={({ isActive }) =>
-     isActive 
-       ? "font-bold text-[17px]"
-       : "font-normal text-[17px]"
-   }
-    >TRAVEL</NavLink>
-    <NavLink to="/culture"
-     className={({ isActive }) =>
-     isActive 
-       ? "font-bold text-[17px]"
-       : "font-normal text-[17px]"
-   }
-    >SOCIAL MEDIA</NavLink>
-    {/* <NavLink to="/music"
-     className={({ isActive }) =>
-     isActive 
-       ? "font-bold text-[17px]"
-       : "font-normal text-[17px]"
-   }
-    >MUSIC</NavLink>
-    <NavLink to="/film"
-     className={({ isActive }) =>
-     isActive 
-       ? "font-bold text-[17px]"
-       : "font-normal text-[17px]"
-   }
-    >FILM</NavLink> */}
+   }></NavLink>
     <NavLink to="/subscribe"
      className={({ isActive }) =>
      isActive 
-       ? "font-bold text-[17px]"
-       : "font-normal text-[17px]"
+       ? " text-[17px] py-2 font-semibold"
+       : " text-[17px] py-2 font-semibold"
    }
     >SUBSCRIBE</NavLink>
     </section>
