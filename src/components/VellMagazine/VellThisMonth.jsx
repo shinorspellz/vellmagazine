@@ -17,9 +17,10 @@ const VellThisMonth = () => {
     const petInfluencers=thisMonthArticles.find((item)=>item.topics.includes("PET INFLUENCERS"))
     const socialMediaHacks=thisMonthArticles.find((item)=>item.topics.includes("SOCIAL MEDIA HACKS") && !item.topics.includes("COST OF LIVING"))
     const costOfLiving=thisMonthArticles.find((item)=>item.topics.includes("COST OF LIVING"))
+    const style=thisMonthArticles.find((item)=>item.topics.includes("STYLE") && !item.topics.includes("SOCIAL MEDIA"))
 
     const thisMonthArr=[]
-    thisMonthArr.push(mentalHealth,weekendGetAways,makeUp,petInfluencers,socialMediaHacks,costOfLiving)
+    thisMonthArr.push(mentalHealth,weekendGetAways,style,petInfluencers,socialMediaHacks,costOfLiving)
     console.log(thisMonthArr);
   return (
     <main className="vellmagazine-today mt-[60px] p-5 xl:px-[2rem]">

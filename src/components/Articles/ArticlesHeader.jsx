@@ -17,11 +17,11 @@ const ArticlesHeader = () => {
     <VellNavbar/>
     {
       newArticleList.length>0 ? (
-        <div className='mt-[120px] grid gap-x-8 gap-y-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 px-9 m-auto py-5 justify-center max-w-[1400px]'>
+        <div className='mt-[120px] grid gap-x-8 grid-cols-2  md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 px-9 m-auto py-5 justify-center max-w-[1400px] gap-y-5'>
         {
             newArticleList.map((item,index)=>{
                 return(
-                    <div key={index}>
+                    <div key={index} className="flex justify-center items-center">
                           <ArticleMainHeader item={item} state={state} />
                     </div>
                 )

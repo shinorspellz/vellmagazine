@@ -16,8 +16,8 @@ const MoreLikeThisTemplate = ({item}) => {
             onClick={(e)=>goToTopics(e)}
             >{item.topics[0]}</p>
             <h3 className='hover:underline cursor-pointer'
-            onClick={()=>navigate(`/article/${item.id}`)}
-            >{item.mainHeader}</h3>
+        onClick={()=>navigate(`/article/${item.id}/${item.template}`)}>
+        {item.mainHeader}</h3>
         </div>
         <img src={item.img} alt={item.mainHeader} className="w-full sm:w-5/12  object-cover sm:pl-2"/>
     </div>
