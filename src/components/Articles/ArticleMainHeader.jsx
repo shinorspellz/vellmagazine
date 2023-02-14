@@ -13,12 +13,12 @@ const ArticleMainHeader = ({ item}) => {
 
   return (
       <div
-        className="w-[160px] h-[200px] sm:w-[247px] sm:h-[365px] cursor-pointer relative rounded-lg"
+        className="w-[160px] h-[200px] sm:w-[247px] sm:h-[365px] cursor-pointer relative rounded-lg "
         onMouseOver={() => setShow(false)}
         onMouseOut={() => setShow(true)}
         
       >
-        <img src={item.img} alt="image" className="absolute left-0 top-0 h-full object-cover -z-10 rounded-lg" 
+        <img src={item.img} alt="image" className="absolute left-0 top-0 h-full object-cover -z-10 rounded-lg " 
         />
         <div className={`${!show ? "block absolute left-0 top-0 w-full h-full text-center sm:text-2xl font-bold  sm:pt-3 px-1 bg-white/60 " : "hidden"} ` }
         onClick={()=>navigate(`/article/${item.id}/${item.template}`)}>
