@@ -15,7 +15,7 @@ const VellThisMonth = () => {
     const weekendGetAways=thisMonthArticles.find((item)=>item.topics.includes("WEEKEND GETAWAYS"))
     const makeUp=thisMonthArticles.find((item)=>item.topics.includes("MAKEUP"))
     const petInfluencers=thisMonthArticles.find((item)=>item.topics.includes("PET INFLUENCERS"))
-    const socialMediaHacks=thisMonthArticles.find((item)=>item.topics.includes("SOCIAL MEDIA HACKS"))
+    const socialMediaHacks=thisMonthArticles.find((item)=>item.topics.includes("SOCIAL MEDIA HACKS") && !item.topics.includes("COST OF LIVING"))
     const costOfLiving=thisMonthArticles.find((item)=>item.topics.includes("COST OF LIVING"))
 
     const thisMonthArr=[]
