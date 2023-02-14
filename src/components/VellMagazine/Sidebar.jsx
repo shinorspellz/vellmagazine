@@ -189,6 +189,9 @@ const navigate=useNavigate()
     <button className='sidebar-sub-btns'
     onClick={(e)=>handleSidebarMenu(e)}
     >CLOTHING</button>
+    <button className='sidebar-sub-btns'
+    onClick={(e)=>handleSidebarMenu(e)}
+    >STYLE</button>
     <button className='sidebar-main-btns'
     onClick={(e)=>handleSidebarMenu(e)}
     >PETS/ANIMALS</button>

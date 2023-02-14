@@ -64,6 +64,10 @@ export const menuItems = [
       {
         title: 'Clothing',
         url: '/articletopics'
+      },
+      {
+        title: 'Style',
+        url:'/articletopics'
       }
     ]
 
