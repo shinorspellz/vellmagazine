@@ -25,7 +25,7 @@ const SingleHeader = () => {
                   ...
                 </p>
                 <button
-                  className=" w-[130px] py-2 mt-1 "
+                  className=" w-[130px] py-2 mt-1  "
                   onClick={() => navigate(`/article/${item.id}`)}
                 >
                   See more
@@ -34,7 +34,7 @@ const SingleHeader = () => {
               <img
                 src={item.img}
                 alt="vellMagazineHeader"
-                className="xl:w-6/12 xl:p-5 w-full max-w-[628px] "
+                className="w-[375px] h-[375px] sm:w-[500px] sm:h-[500px]  object-cover "
               />
             </header>  )
 }
