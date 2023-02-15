@@ -3,10 +3,14 @@ import { useNavigate } from 'react-router-dom'
 import { articles } from '../../utils/vellMagazineData'
 import { Carousel } from 'flowbite-react'
 import { IoIosArrowBack,IoIosArrowForward } from "react-icons/io";
+import moment from 'moment'
+
 
 const VellHeader = () => {
   const navigate = useNavigate()
-  const headerArticles=articles.slice(0,7)
+  const today=new Date()
+  const month=moment(today).format("LL").split(" ")[0]
+  const headerArticles=articles.filter(item=>item.date.includes(month)).slice(0,7).reverse()
   // const indicators=document.querySelectorAll("button[data-testid='carousel-indicator']")
   // const hs=document.querySelector("button.bg-white")
   // const indexOfSlide=(Object.values(indicators).indexOf(hs));
@@ -51,7 +55,7 @@ const VellHeader = () => {
               <img
                 src={item.img}
                 alt="vellMagazineHeader"
-                className="xl:w-6/12 xl:p-5 w-full max-w-[628px]  object-cover"
+                className="sm:w-[600px] xl:p-5 w-[375px] h-[375px] sm:h-[400px]  sm:max-w-[628px]  object-cover block m-auto"
               />
               {/* <p className='absolute bottom-[-15%] left-[50%] translate-x-[-50%]'>{indexOfSlide+1}/{indicators.length}</p> */}
             </header>

@@ -25,7 +25,7 @@ const SingleHeader = () => {
                   ...
                 </p>
                 <button
-                  className=" w-[130px] py-2 mt-3 "
+                  className=" w-[130px] py-2 mt-1 "
                   onClick={() => navigate(`/article/${item.id}`)}
                 >
                   See more

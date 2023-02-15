@@ -174,6 +174,12 @@ export const authorsData = [
     img: "/images/colin-avatar.jpg",
     desc: "Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
     bio: "A couple of years ago I decided to combine my passion for writing and for anything related to animal interest and welfare. Following the creation of my own blog, which now gains around 12, 000 visitors a month, I have written a number of guest pieces for various publications. Since joining Vell Magazine my interest in pets has meshed into a lattice of interconnected issues including social media, arts and culture and mental health. I am currently enjoying working with a dynamic team of writers as well as contributing to the unique, holistic voice of Vell Magazine.",
+    // social:{
+    //   linkedIn:"",
+    //   instagram:"",
+    //   email:"",
+    //   twitter:"",
+    // }
   },
   {
     id: 2,
@@ -209,6 +215,13 @@ export const authorsData = [
     img: "/images/giorgia-avatar.jpg",
     desc: "Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
     bio: "My name is Giorgia and I am 22 years old. I am a very curious person and a fan of unusual experiences that are fun to tell. At the moment, I am a graduate student in Marketing in Rome who is eager to learn and grow in the Communication, PR and Luxury field. Two of my biggest passions are creative writing and fashion, which is why I am thrilled to have the opportunity to collaborate with the incredibly talented Vell Magazine team. ",
+  },
+  {
+    id: 7,
+    name: "Omotoyosi Osikoya",
+    img: "/images/writer.jpg",
+    desc: "Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+    bio: "Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
   },
 ];
 
@@ -531,13 +544,27 @@ export const articles = [
     mainHeader: "The Art of Spending Valentine's Day Alone",
     subHeader: "",
     contentHeader: "The Art of Spending Valentine's Day Alone",
-    content: "<p>Valentine&apos;s Day seems to approach fast, for some it may be overly exciting but for others and especially those who are single not so much... Some questions we need to ask ourselves is&nbsp;overall why is there so much pressure in society to have the need to have someone around to spend this day with? Valentine&rsquo;s Day can be just as rewarding and pleasurable to spend by yourself if managed the correct way. The following will serve you as a guide to have a self-loving day and to promote mental awareness.</p><p>For starters, a common error that people may make when thinking about Valentine&rsquo;s Day and the possibility of spending it alone is normally to think of negative factors instead of the positive ones. Let us not think about it as a possibility, let us think about it as an OPPORTUNITY. With Valentine&rsquo;s Day occurring slightly after the holidays, many will need time to financially recover as well as needing some alone time to themselves.&nbsp;</p><p>Spending Valentine&rsquo;s Day alone can serve you as a regular self-care like no other. You want to do things that make you feel peaceful, happy, whole, satisfied, grateful and positive.&nbsp;</p><h4 class='h4-head'>Some fun activities that you can do by yourself can be the following,</h4><ul><li>Go see a movie</li><li>Find a singles event</li><li>Spa day (You can also do this at home just get some facemasks, beauty treatments etc.)</li><li>Go to your favourite restaurant or bar (Let’s stop the belief that going to dinner or grabbing a drink by yourself is strange!)</li><li>Cook yourself your favourite meal or even try to cook something you have never cooked before!</li><li>Buy yourself your own flowers and chocolates.</li><li>Spend some time out of town if practical</li><li>Binge watch a new Netflix Series (The 4th season of <em>YOU</em> will be released just in time)</li><li>Find something nice to do for someone. Sometimes the best satisfaction we may get is buying doing something for someone that makes them happy. For example, giving flowers to your elderly neighbor who you know spends days alone</li><li>Go offline from social media (Remember that not everything that you see on social media shows true accuracy, some are living a far different life than what they post)</li><li>The most important activity that you can do is <strong><em>LOVE YOURSELF.</em></strong> When you&apos;re feeling alone, remember that you yourself can be your biggest supporter and that you are worthy of good feelings and love</li></ul><p><strong>A life hack that might truly save a life - </strong><em>THE CHOCOLATES AND ITEMS THAT GO ON SALE THE DAY AFTER VALENTINES DAY.</em></p><p>Honestly, don&rsquo;t just walk, RUN to your nearest store the following day and be on the lookout for all the Valentine&rsquo;s Day items that are now on sale. Items typically include chocolates as mentioned, flowers, cards, d&eacute;cor, baking goods, candy, accessories and other items! You can either stock up for the following year or simply treat yourself as you deserve it.&nbsp;</p><h4 class='h4-head'>Valentine&rsquo;s Day by yourself doesn&rsquo;t have to be invalidating.</h4>",
+    content: "<p class='first'>Valentine's Day seems to approach fast, for some it may be overly exciting but for others and especially those who are single not so much... Some questions we need to ask ourselves is&nbsp;overall why is there so much pressure in society to have the need to have someone around to spend this day with? Valentine&rsquo;s Day can be just as rewarding and pleasurable to spend by yourself if managed the correct way. The following will serve you as a guide to have a self-loving day and to promote mental awareness.</p><p>For starters, a common error that people may make when thinking about Valentine&rsquo;s Day and the possibility of spending it alone is normally to think of negative factors instead of the positive ones. Let us not think about it as a possibility, let us think about it as an OPPORTUNITY. With Valentine&rsquo;s Day occurring slightly after the holidays, many will need time to financially recover as well as needing some alone time to themselves.&nbsp;</p><p>Spending Valentine&rsquo;s Day alone can serve you as a regular self-care like no other. You want to do things that make you feel peaceful, happy, whole, satisfied, grateful and positive.&nbsp;</p><h4 class='h4-head'>Some fun activities that you can do by yourself can be the following,</h4><ul><li>Go see a movie</li><li>Find a singles event</li><li>Spa day (You can also do this at home just get some facemasks, beauty treatments etc.)</li><li>Go to your favourite restaurant or bar (Let’s stop the belief that going to dinner or grabbing a drink by yourself is strange!)</li><li>Cook yourself your favourite meal or even try to cook something you have never cooked before!</li><li>Buy yourself your own flowers and chocolates.</li><li>Spend some time out of town if practical</li><li>Binge watch a new Netflix Series (The 4th season of <em>YOU</em> will be released just in time)</li><li>Find something nice to do for someone. Sometimes the best satisfaction we may get is buying doing something for someone that makes them happy. For example, giving flowers to your elderly neighbor who you know spends days alone</li><li>Go offline from social media (Remember that not everything that you see on social media shows true accuracy, some are living a far different life than what they post)</li><li>The most important activity that you can do is <strong><em>LOVE YOURSELF.</em></strong> When you&apos;re feeling alone, remember that you yourself can be your biggest supporter and that you are worthy of good feelings and love</li></ul><p><strong>A life hack that might truly save a life - </strong><em>THE CHOCOLATES AND ITEMS THAT GO ON SALE THE DAY AFTER VALENTINES DAY.</em></p><p>Honestly, don&rsquo;t just walk, RUN to your nearest store the following day and be on the lookout for all the Valentine&rsquo;s Day items that are now on sale. Items typically include chocolates as mentioned, flowers, cards, d&eacute;cor, baking goods, candy, accessories and other items! You can either stock up for the following year or simply treat yourself as you deserve it.&nbsp;</p><h4 class='h4-head'>Valentine&rsquo;s Day by yourself doesn&rsquo;t have to be invalidating.</h4>",
     img: "/images/vday.jpg",
     month: "FEB 2023 EDITION",
     author: "Cindy Patricio",
     topics: ["WELLBEING", "MENTAL HEALTH", "ARTS & CULTURE", "CINEMA"],
     theme: "trending",
     date: "February 8, 2023",
+    template: 2
+  },
+  {
+    id: 21,
+    mainHeader: "Louis Vuitton Appoints Pharrell Williams as Creative Director",
+    subHeader: "",
+    contentHeader: "A Bold Move for the Future",
+    content: "<p class='first'>In a time, it's refreshing to see Louis Vuitton recognize the value of human originality. Pharrell Williams, the renowned musician, artist, and fashion icon, has been appointed as the luxury brand's new Creative Director, and the decision has been met with much enthusiasm</p><p>In a world where technology threatens to overshadow the human touch, , it's a breath of fresh air to see Louis Vuitton value the power of creativity and originality. </p><div class='float-right'><img src='/images/pharell-willians.jpg' class='sm:w-[300px] h-[320px] object-cover pl-3 pb-3 sm:pb-0'/><p class='text-center text-[13px] pt-1'>Photo by Erik Ian</p></div><p>Pharrell Williams, a multi-talented artist and fashion icon, may not fit the conventional mold for a Creative Director, but that's precisely why he's the perfect fit.It's not about meeting predetermined requirements or following a traditional path.In 2023, it's about breaking barriers and ushering in new ideas. Williams' unique perspective and global influence give Louis Vuitton the edge they need to take their creative vision to the next level.From his keen attention to detail to his unwavering ability to push creative boundaries, Williams' talents will undoubtedly elevate Louis Vuittonmarketing and decision-making. </p><p>In a crowded luxury market, he has the potential to move the brand just a few percentage points above their competitors.</p><p>Louis Vuitton's decision to appoint Williams as their Creative Director is more than just a savvy business move; it's a nod to the importance of originality and human insight. I, for one, can't wait to see what this partnership brings. Kudos to you, Louis Vuitton</p>",
+    img: "/images/pharell-willians.jpg",
+    month: "FEB 2023 EDITION",
+    author: "Omotoyosi Osikoya",
+    topics: ["ARTS & CULTURE",],
+    theme: "",
+    date: "February 14, 2023",
     template: 2
   }
 ];
