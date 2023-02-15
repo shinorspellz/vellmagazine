@@ -154,6 +154,7 @@ html {
   background-color: #503c3b;
 }
 
+
 @font-face {
   font-family: 'Avenir Next';
   src: local('Avenir Next'),
@@ -989,12 +990,11 @@ object-fit: cover !important;
 @media (max-width:1280px) {
   .bottom-5{
     /* background-color: red; */
-    bottom: 0px;
+    bottom: -10px;
   }
 }
 .headerCarousel button[data-testid="carousel-indicator"]{
-  /* position: absolute !important;
-  left: 50% !important; */
+  /* margin-top: 5px !important; */
   border:1px solid var(--fontColor);
 }
 .headerCarousel .bg-white{

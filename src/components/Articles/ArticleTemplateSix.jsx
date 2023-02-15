@@ -17,8 +17,6 @@ import {
   TwitterShareButton,
   TwitterIcon
 } from 'react-share'
-import { useState } from 'react'
-import { VellMagazineContext } from '../../context/VellMagazineContext'
 
 
 const ArticleTemplateSix = () => {
