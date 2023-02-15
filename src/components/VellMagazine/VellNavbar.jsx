@@ -1,5 +1,6 @@
 import { Link, NavLink, useNavigate } from 'react-router-dom'
-import { FaBars, FaTimes } from 'react-icons/fa'
+import { FaBars } from 'react-icons/fa'
+import {RxCross1} from 'react-icons/rx'
 import Sidebar from './Sidebar'
 import { useState } from 'react'
 import { BiMoon, BiSun } from 'react-icons/bi'
@@ -69,11 +70,11 @@ const VellNavbar = () => {
           </button>
           {
             !isShow ? ( <FaBars
-            className="text-3xl faBars lg:hidden flex items-center justify-center h-full"
+            className="text-2xl faBars lg:hidden flex items-center justify-center h-full"
             onClick={() => setIsShow(true)}
           />): (
-              <FaTimes
-            className="text-3xl faBars lg:hidden flex items-center justify-center h-full text-red-500"
+              <RxCross1
+            className="text-2xl faBars lg:hidden flex items-center justify-center h-full "
             onClick={() => setIsShow(false)}
           />
             )

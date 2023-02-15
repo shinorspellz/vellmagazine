@@ -49,7 +49,7 @@ body {
   --signup-fontColor-secondary: #fff;
   --signup-bgColor-primary: #503c3b;
   --signup-bgColor-secondary: #503c3b;
-  --faBarsColor: #fff;
+  --faBarsColor: #ccd6f6;
   --carousel-bgColor: linear-gradient(
     45deg,
     #486ea8 0%,
@@ -514,8 +514,12 @@ div[data-testid='flowbite-tooltip'] div ul li:nth-child(odd) {
 .w-fit .py-1 {
   border-radius: 20px !important;
 }
-.fabars {
+.faBars {
   color: var(--faBarsColor);
+}
+.faTimes {
+  font-weight: 300 !important
+
 }
 .mobilenavbar {
   background-color: var(--bgColor);

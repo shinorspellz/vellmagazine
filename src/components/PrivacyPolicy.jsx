@@ -11,9 +11,9 @@ const PrivacyPolicy = () => {
     <>
       <PrivacyNavbar />
       <div className="custom-container privacy-policy w-full max-w-[1040px] m-auto px-2 pb-12 mt-[70px] sm:pt-5">
-        <h1 className="heading  text-center font-bold text-5xl pb-5 ">
+        <p className="heading  text-center font-serif text-5xl py-5 ">
           PRIVACY POLICY
-        </h1>
+        </p>
         <div className="rich-text-block w-richtext">
           <h4>Vell Magazine Privacy Policy</h4>
           <p>

@@ -17,9 +17,9 @@ const TermOfUse = () => {
       <PrivacyNavbar />
       <div>
         <main className="custom-container w-full max-w-[1040px] m-auto px-2 privacy-policy mt-[70px] sm:pt-5 pb-12">
-          <h1 className="heading  text-center font-bold text-5xl py-10 uppercase">
+          <p className="heading  text-center font-serif text-5xl py-5 uppercase">
             Terms and Conditions
-          </h1>
+          </p>
           <div>
             <p>
               {" "}

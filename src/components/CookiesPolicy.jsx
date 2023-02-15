@@ -12,9 +12,9 @@ const CookiesPolicy = () => {
     <>
       <PrivacyNavbar />
       <div className="custom-container privacy-policy w-full max-w-[1040px] m-auto px-2 mt-[70px] sm:pt-5">
-        <h1 className="heading  text-center font-bold text-5xl py-10">
+        <p className="heading  text-center font-serif text-5xl py-5">
           COOKIES POLICY
-        </h1>
+        </p>
         <div className="rich-text-block w-richtext pb-12">
           <h3>Vell Magazine Cookies Policy</h3>
           <p>
