@@ -14,13 +14,13 @@ const VellThisMonth = () => {
     const mentalHealth=thisMonthArticles.find((item)=>item.topics.includes("MENTAL HEALTH"))
     const weekendGetAways=thisMonthArticles.find((item)=>item.topics.includes("WEEKEND GETAWAYS"))
     const makeUp=thisMonthArticles.find((item)=>item.topics.includes("MAKEUP"))
-    const petInfluencers=thisMonthArticles.find((item)=>item.topics.includes("PET INFLUENCERS"))
+    const petSpotlight=thisMonthArticles.find((item)=>item.topics.includes("PETS/ANIMALS IN THE SPOTLIGHT"))
     const socialMediaHacks=thisMonthArticles.find((item)=>item.topics.includes("SOCIAL MEDIA HACKS") && !item.topics.includes("COST OF LIVING"))
     const costOfLiving=thisMonthArticles.find((item)=>item.topics.includes("COST OF LIVING"))
     const style=thisMonthArticles.find((item)=>item.topics.includes("STYLE") && !item.topics.includes("SOCIAL MEDIA"))
 
     const thisMonthArr=[]
-    thisMonthArr.push(mentalHealth,weekendGetAways,style,petInfluencers,socialMediaHacks,costOfLiving)
+    thisMonthArr.push(mentalHealth,weekendGetAways,style,petSpotlight,socialMediaHacks,costOfLiving)
     console.log(thisMonthArr);
   return (
     <main className="vellmagazine-today mt-[60px] p-5 xl:px-[2rem]">

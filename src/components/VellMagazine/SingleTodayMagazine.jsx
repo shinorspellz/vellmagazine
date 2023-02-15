@@ -7,7 +7,7 @@ const SingleTodayMagazine = ({item,index,thisMonthArr}) => {
   const {changeFormat}=useContext(VellMagazineContext)
 const navigate=useNavigate()
     // const {img,date,content}=item;
-    const relevantTopics=["MENTAL HEALTH","WEEKEND GETAWAYS","STYLE","PET INFLUENCERS","SOCIAL MEDIA HACKS","COST OF LIVING"]
+    const relevantTopics=["MENTAL HEALTH","WEEKEND GETAWAYS","STYLE","PETS/ANIMALS IN THE SPOTLIGHT","SOCIAL MEDIA HACKS","COST OF LIVING"]
 
     const goToTopics=(e)=>{
       navigate(`/articletopics`,{state:e.target.innerText})
