@@ -18,7 +18,7 @@ const navigate=useNavigate()
   }
   console.log(isShow)
   return (
-    <div className={`${isShow ? "scale-100 w-[80%] max-w-[21rem] sidebar absolute top-[46px] right-0 lg:hidden    pb-12  " : "scale-0 w-[80%] max-w-[21rem] sidebar absolute top-[46px] right-0 lg:hidden  pb-12  "} transition-scale duration-700 ease-linear `}>
+    <div className={`${isShow ? "translate-x-[5px]  w-[80%] max-w-[21rem] sidebar absolute top-[46px] right-0 lg:hidden    pb-12  " : "translate-x-[350px] w-[80%] max-w-[21rem] sidebar absolute top-[46px] right-0 lg:hidden  pb-12  "} transition-transform duration-[250ms] ease-[ease-in-out] `}>
     {/* <div className="scale-100 w-[80%] sidebar absolute top-[50px] right-0 lg:hidden h-[500px] overflow-scroll pb-2"> */}
     <section className='justify-between items-end p-3 xl:hidden flex flex-col'>
       <div className='flex justify-center items-center gap-2'>

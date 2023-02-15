@@ -724,17 +724,18 @@ h6 {
 .content li {
   list-style-type: "- ";
   list-style-position: inside;
+  margin-bottom: 0.5rem;
 }
 .sub-head {
   font-size: 25px !important;
-  font-family: serif;
+  font-family: serif !important;
   font-weight: 400 !important;
   
 }
 
 .h4-head {
   font-size: 20px !important;
-  font-family: serif;
+  font-family: serif !important;
   font-weight: 400 !important;
 }
 .content figure {
