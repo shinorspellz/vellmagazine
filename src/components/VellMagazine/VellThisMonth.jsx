@@ -24,7 +24,7 @@ const VellThisMonth = () => {
     console.log(thisMonthArr);
   return (
     <main className="vellmagazine-today mt-[60px] p-5 xl:px-[2rem]">
-        <h1 className="text-center font-500 font-serif text-4xl py-5 mb-[3rem]">THIS MONTH ON VELL MAGAZINE</h1>
+        <h1 className="text-center font-500 font-['adobe-devanagari'] text-4xl py-5 mb-[3rem]">THIS MONTH ON VELL MAGAZINE</h1>
         <section className="grid grid-cols-2 xl:grid-cols-3 gap-9 ">
             {
                 thisMonthArr?.map((item,index)=>{

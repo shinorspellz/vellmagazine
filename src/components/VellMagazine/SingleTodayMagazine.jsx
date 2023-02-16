@@ -32,7 +32,7 @@ const SingleTodayMagazine = ({ item, index, thisMonthArr }) => {
   return (
     <div className="max-w-[440px] flex flex-col">
       <h1
-        className="uppercase font-[500] hidden xl:block hover:underline cursor-pointer hover:font-semibold mb-1 text-center font-serif"
+        className="uppercase font-[500] hidden xl:block hover:underline cursor-pointer hover:font-semibold mb-1 text-center "
         onClick={(e) => goToTopics(e)}
       >
         {relevantTopics[index]}
@@ -43,10 +43,10 @@ const SingleTodayMagazine = ({ item, index, thisMonthArr }) => {
         className="h-[131px] sm:h-[225px] mb-2 cursor-pointer object-cover hover:scale-105"
         onClick={(e) => goToArticle(e)}
       />
-      <h3 className="line-clamp-1 p-0 text-center hover:underline cursor-pointer"
+      <h3 className="line-clamp-1 p-0 text-center hover:underline cursor-pointer font-serif"
       onClick={()=>navigate(`/article/${item.id}/${item.template}`)}
       >{item.mainHeader}</h3>
-      <p className="font-500 font-serif text-[14px] xl:py-3 line-clamp-2 xl:line-clamp-none ">
+      <p className="font-500 text-[14px] xl:py-3 line-clamp-2 xl:line-clamp-none ">
         {item.content.startsWith("<p")
           ? item.content
               .slice(17, 200)
@@ -65,7 +65,7 @@ const SingleTodayMagazine = ({ item, index, thisMonthArr }) => {
               }
         ...
       </p>
-      <p className="font-500 text-[14px] hidden xl:block text-left font-serif">
+      <p className="font-400 text-[14px] hidden xl:block text-left ">
         {changeFormat(item.date)}
       </p>
     </div>

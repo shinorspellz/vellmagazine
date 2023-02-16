@@ -35,7 +35,7 @@ const VelllTopStories = () => {
             alt="topstories"
             className="object-cover"
           />
-          <p className="text-sm hover:underline cursor-pointer font-serif"
+          <p className="text-sm hover:underline cursor-pointer "
           onClick={(e)=>goToTopics(e)}
           >{TopArticles[0].topics[0]}</p>
           {/* <p className="uppercase font-bold pt-2 pb-1 hidden md:block">{TopArticles[0].mainHeader}</p> */}
@@ -43,7 +43,7 @@ const VelllTopStories = () => {
           onClick={(e)=>goToArticle(e)}>
             {TopArticles[0].mainHeader}
           </h3>
-          <p className="text-[14px] hidden md:block font-serif">
+          <p className="text-[14px] hidden md:block ">
               {TopArticles[0].content.startsWith('<p')
               ? TopArticles[0].content
               .slice(17, 370)
@@ -71,7 +71,7 @@ const VelllTopStories = () => {
               className="w-[120px] h-[200px] object-cover sm:w-[290px] "
             />
             <div className="pl-3 md:pl-0 w-full sm:w-6/12 flex flex-col justify-center sm:justify-start ">
-              <p className="uppercase text-[13px] hover:underline cursor-pointer font-serif"
+              <p className="uppercase text-[13px] hover:underline cursor-pointer "
                             onClick={(e)=>goToTopics(e)}
                             >
                 {TopArticles[1].topics[0]}
@@ -81,7 +81,7 @@ const VelllTopStories = () => {
               >
                 {TopArticles[1].mainHeader}
               </h3>
-              <p className='font-serif text-[15px] line-clamp-4 topStoriesP'>{TopArticles[1].content.startsWith('<p')
+              <p className=' text-[14px] line-clamp-4 topStoriesP'>{TopArticles[1].content.startsWith('<p')
               ? TopArticles[1].content
               .slice(17, 180)
               .replace(/(<p>)/g, '')
@@ -98,7 +98,7 @@ const VelllTopStories = () => {
               .replace(/<.?li.?[^>]*>/g, '')
                   }
             ...</p>
-              <p className="pt-2 text-sm font-serif">{changeFormat(TopArticles[1].date)}</p>
+              <p className="pt-2 text-[13px] ">{changeFormat(TopArticles[1].date)}</p>
             </div>
           </div>
           <div className="flex justify-between md:justify-start md:gap-3 xl:gap-8 ">
@@ -108,7 +108,7 @@ const VelllTopStories = () => {
               className="w-[120px] h-[200px] object-cover sm:w-[290px] "
             />
             <div className="pl-3 md:pl-0 w-full sm:w-6/12 flex flex-col justify-center sm:justify-start ">
-              <p className="uppercase text-[13px] hover:underline cursor-pointer font-serif"
+              <p className="uppercase text-[13px] hover:underline cursor-pointer"
                             onClick={(e)=>goToTopics(e)}
                             >
                 {TopArticles[2].topics[0]}
@@ -118,7 +118,7 @@ const VelllTopStories = () => {
               >
                 {TopArticles[2].mainHeader}
               </h3>
-              <p className='font-serif text-[15px] line-clamp-4 topStoriesP'>{TopArticles[1].content.startsWith('<p')
+              <p className=' text-[14px] line-clamp-4 topStoriesP'>{TopArticles[1].content.startsWith('<p')
               ? TopArticles[2].content
               .slice(17, 180)
               .replace(/(<p>)/g, '')
@@ -135,7 +135,7 @@ const VelllTopStories = () => {
               .replace(/<.?li.?[^>]*>/g, '')
                   }
             ...</p>
-              <p className="pt-2 text-sm font-serif">{changeFormat(TopArticles[3].date)}</p>
+              <p className="pt-2 text-[13px]">{changeFormat(TopArticles[3].date)}</p>
             </div>
           </div>
           <div className="flex justify-between md:justify-start md:gap-3 xl:gap-8">
@@ -145,7 +145,7 @@ const VelllTopStories = () => {
               className="w-[120px] h-[200px] object-cover sm:w-[290px] "
             />
             <div className="pl-3 md:pl-0 w-full sm:w-6/12 flex flex-col justify-center sm:justify-start ">
-              <p className="uppercase text-[13px]  hover:underline cursor-pointer font-serif "
+              <p className="uppercase text-[13px]  hover:underline cursor-pointer  "
                             onClick={(e)=>goToTopics(e)}
                             >
                 {TopArticles[3].topics[0]}
@@ -155,7 +155,7 @@ const VelllTopStories = () => {
               >
                 {TopArticles[3].mainHeader}
               </h3>
-              <p className='font-serif text-[15px] line-clamp-4 topStoriesP'>{TopArticles[1].content.startsWith('<p')
+              <p className=' text-[14px] line-clamp-4 topStoriesP'>{TopArticles[1].content.startsWith('<p')
               ? TopArticles[3].content
               .slice(17, 180)
               .replace(/(<p>)/g, '')
@@ -172,7 +172,7 @@ const VelllTopStories = () => {
               .replace(/<.?li.?[^>]*>/g, '')
                   }
             ...</p>
-              <p className="pt-2 text-sm font-serif">{changeFormat(TopArticles[3].date)}</p>
+              <p className="pt-2 text-[13px] ">{changeFormat(TopArticles[3].date)}</p>
             </div>
           </div>
         </div>
