@@ -55,7 +55,7 @@ const VellHeader = () => {
               <img
                 src={item.img}
                 alt="vellMagazineHeader"
-                className="sm:w-[600px] xl:p-5 w-[375px] h-[375px] sm:h-[400px]  sm:max-w-[628px]  object-cover block m-auto"
+                className="sm:w-[600px] xl:p-2 w-[375px] h-[375px] sm:h-[400px] lg:w-[700px] lg:h-[450px]  object-cover block m-auto xl:translate-y-[-20px]"
               />
               {/* <p className='absolute bottom-[-15%] left-[50%] translate-x-[-50%]'>{indexOfSlide+1}/{indicators.length}</p> */}
             </header>

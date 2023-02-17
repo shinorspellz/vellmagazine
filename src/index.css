@@ -971,13 +971,17 @@ object-fit: cover !important;
   left: 50% !important; */
   color:var(--fontColor);
   font-size: 1.8rem;
+  transform: translateX(-15px)
+
 }
 .headerCarousel button[data-testid="carousel-right-control"]{
   /* position: absolute !important;
   left: 50% !important; */
   color:var(--fontColor);
   font-size: 1.8rem;
+  transform: translateX(15px)
 }
+
 @media (max-width:800px) {
   .headerCarousel button[data-testid="carousel-left-control"]{
     display: none;
