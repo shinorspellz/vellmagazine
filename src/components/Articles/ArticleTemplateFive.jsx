@@ -105,7 +105,7 @@ const ArticleTemplateFive = () => {
             </div>
           </div>
         </div>
-        <div className='grid grid-cols-10 gap-5 max-w-[850px] m-auto'>
+        <div className='sm:grid grid-cols-10 gap-5 max-w-[850px] m-auto'>
           <img
           src={currentArticle.img}
           alt="img"
