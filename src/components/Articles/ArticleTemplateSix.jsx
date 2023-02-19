@@ -18,6 +18,8 @@ import {
   TwitterIcon
 } from 'react-share'
 import { useEffect } from 'react'
+import RecommendedArticles from './RecommendedArticles'
+import Slider from "react-slick";
 
 
 const ArticleTemplateSix = () => {
@@ -33,9 +35,64 @@ console.log(currentArticle)
         : ' '
     )
   })
+  const currentArticleTopics=currentArticle.topics
+  const arr=[]
+  currentArticleTopics.map((item)=>{
+    // console.log(item,"item");
+    return(
+        articles.filter((item2)=>item2.topics.includes(item) && arr.push(item2))
+        )})
+  const relevantArticles=arr.filter((v,i,a)=>a.findIndex(v2=>(v2.id===v.id))===i).filter((item)=>item.id !== currentArticle.id)
+
   useEffect(() => {
     window.scrollTo(0, 0);
  }, []);
+ const settings = {
+  // dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: relevantArticles.length>4 ? 5 :relevantArticles.length,
+  slidesToScroll: 1,
+  arrows: true,
+  autoplay: true,
+  speed: 2000,
+    autoplaySpeed: 6000,
+    cssEase: "linear",
+  prevArrow: "",
+  nextArrow: "",
+  responsive: [
+    {
+      breakpoint:1300,
+      settings:{
+      slidesToShow: relevantArticles.length>3 ? 4 :relevantArticles.length,
+      }
+     
+      }, 
+    {
+      breakpoint:1000,
+      settings:{
+        slidesToShow: relevantArticles.length>2 ? 3 :relevantArticles.length,
+      }
+     
+      }, 
+    {
+      breakpoint:800,
+      settings:{
+        slidesToShow: relevantArticles.length>1 ? 2 :relevantArticles.length,
+      }
+     
+      }, 
+    {
+      breakpoint:500,
+      settings:{
+      slidesToShow: 1,
+      }
+     
+      }, 
+    ]
+};
+
+
 
   return (
     <>
@@ -156,6 +213,18 @@ console.log(currentArticle)
           </div>
         </div>
       </main>
+      {relevantArticles.length>1 && ( <section className='recommendedArticles py-5'>
+        <h3 className='text-center text-lg sm:text-xl py-4 font-serif'>RECOMMENDED ARTICLES</h3>
+      <Slider {...settings} className="container m-auto ">
+                {relevantArticles?.map((item,index) => {
+              return (
+                <ul className="m-auto" key={item.id}>
+                <li className="list-unstyled mx-2 "><RecommendedArticles item={item}  index={index}/></li>
+                </ul>
+                );
+              })}
+      </Slider>
+      </section>)}
       <Footer/>
 
     

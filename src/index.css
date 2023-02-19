@@ -622,7 +622,7 @@ h6 {
 .mobil-mission {
   background: var(--mission-card-bg);
 }
-.share,.thisMonthHeader {
+.share,.thisMonthHeader,.articleTopicsHeader,.recommendedArticles {
   color: var(--fontColor);
 }
 .footer-text {
@@ -812,16 +812,6 @@ button span {
   background-color: #f2f2f2 !important;
   margin-right: 0;
 }
-
-/* .arrow::after {
-    content: "";
-    display: inline-block;
-    margin-left: 0.28em;
-    vertical-align: 0.09em;
-    border-top: 0.42em solid;
-    border-right: 0.32em solid transparent;
-    border-left: 0.32em solid transparent;
-  } */
 
 .dropdown {
   position: absolute;
@@ -1129,24 +1119,6 @@ transform: translateX(-15%);
 
 }
 
-
-/* .topStoriesImg {
-  -webkit-mask-image: linear-gradient(45deg,#f1eaea 25%,rgba(243, 240, 240, 0.2) 50%,#ece7e7 75%);
-  mask-image: linear-gradient(45deg,#e2d7d7 25%,rgba(247, 243, 243, 0.2) 50%,#e7e3e3 75%);
-  -webkit-mask-size: 500%;
-  mask-size: 500%;
-  -webkit-mask-position: 0;
-  mask-position: 0;
-}
-
-.topStoriesImg:hover {
-  transition: mask-position 1s ease,-webkit-mask-position 1s ease;
-  -webkit-mask-position: 120%;
-  mask-position: 120%;
-  opacity: 1;
-} */
-
-
 .shine {
   position: relative;
   overflow: hidden;
@@ -1176,4 +1148,8 @@ transform: translateX(-15%);
   100% {
     left: 125%;
   }
+}
+
+.recommendedArticles .slick-arrow{
+  display: none !important;
 }

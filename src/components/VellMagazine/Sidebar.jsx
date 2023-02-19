@@ -16,7 +16,6 @@ const navigate=useNavigate()
     navigate('/articletopics', { state: e.target.innerText })
     setIsShow(false)
   }
-  console.log(isShow)
   return (
     <div className={`${isShow ? "block  w-full sidebar absolute top-[45px] right-0 lg:hidden  pb-12  " : "hidden w-full sidebar absolute top-[45px] right-0 pb-12 "} lg:hidden `}>
     <section className='justify-between items-end p-3 xl:hidden flex flex-col'>
