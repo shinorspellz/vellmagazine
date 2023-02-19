@@ -46,12 +46,12 @@ const VellNavbar = () => {
         </div>
 
         <div className="text-sm  flex justify-between items-center gap-4 authors h-full px-2  relative z-10">
-          <Link
+          {/* <Link
             to="/subscribe"
             className=" items-center justify-center h-full hidden lg:flex align-middle"
           >
             SUBSCRIBE
-          </Link>
+          </Link> */}
           {/* <Link
             to=""
             className="hidden lg:flex items-center justify-center h-full align-middle"

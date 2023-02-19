@@ -56,7 +56,7 @@ useEffect(() => {
       <div className="text-sm linksDiv  gap-8 items-center hidden lg:flex  text-[16px]">
       
 
-        <NavLink to="/marketplace"
+        {/* <NavLink to="/marketplace"
          className={({ isActive }) =>
          isActive 
           ? "font-bold "
@@ -76,7 +76,7 @@ useEffect(() => {
         <button className="border-[1px] signBtn rounded-xl  py-[8px] px-[15px] text-[14px] font-sans">
             Sign Up
         </button>
-        </NavLink>
+        </NavLink> */}
         <button className="navbar-switch items-center justify-center text-2xl hidden lg:flex"
             onClick={changeTheme}
             >

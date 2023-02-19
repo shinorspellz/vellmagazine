@@ -21,6 +21,7 @@ import {
 } from 'react-share'
 import { useContext } from 'react'
 import { VellMagazineContext } from '../../context/VellMagazineContext'
+import { useEffect } from 'react'
 
 // import { useEffect } from 'react'
 
@@ -37,7 +38,9 @@ const ArticleTemplateFive = () => {
       (item2) => item2.topics.includes(item) && arr.push(item2)
     )
   })
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+ }, []);
   const relevantArticles = arr
     .filter((v, i, a) => a.findIndex((v2) => v2.id === v.id) === i)
     .filter((item) => item.id !== currentArticle.id)

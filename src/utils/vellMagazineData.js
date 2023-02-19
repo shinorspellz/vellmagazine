@@ -507,22 +507,7 @@ export const articles = [
     date: "February 08, 2023",
     template: 5,
   },
-  {
-    id: 18,
-    mainHeader: "Style between art form and exclusivity",
-    subHeader: "",
-    contentHeader:
-      "Style between art form and exclusivity",
-    content:
-      "<p class='first'>What is style? And why is it so important to so many people? Can it boost confidence? Can it improve mental health? Can it stimulate one’s intelligence? Is it an art form?</p><p>Such broad questions call for subjective answers.</p><p>So here are MY answers.</p><p>From my point of view, passion for fashion and style is something you ought to be born with. You can learn how to dress, which colors match and  which colors, when combined, are just not as aesthetically pleasing as others. You can even follow trends and buy the latest item every other influencer has just pushed on her Instagram stories. But you’ll never be exclusive, original, or authentic.</p><img src='/images/style-2.jpg' class='style-img-2' /><p>Fashion per se has always had this sense of exclusivity. The 'inner circle' concept.</p><p>There’s an Italian saying that says “bad grapes don’t make good wine”, meaning that someone who was not born with an innate fashion instinct is not going to be able to produce a better output than someone who spent their whole life looking for and at, beauty. Along with the latter saying, another one - which I personally adore - recites “class is not water”, meaning that style is something you own, it’s a birthright. It comes easy to you even when it seems so unachievable to others. </p><p>And to stay in the realm of sayings. it would beimpossible not to mention Coco Chanel's “Fashion fades, only style remains the same”,which perfectly conveys the message.</p><p>The 'either you get it or you don't' mentality is vital in the fashion world, if you do not want to be looking at it from the outside, just like an extraterrestrial would look at humans: wondering why should a Prada bag cost more than twice your monthly income. <p>So why do so many people claim it (especially among youth)?</p><img src='/images/style-3.jpg' class='style-img-3' /><p>Style makes a statement. It defines you, something you are in a desperate search for during those teen years. If you follow trends then you are cool and ‘you can sit with us’. The same goes for wearing expensive items, it makes an economic status. If you wear tailleurs, mocassins and headbands then you probably are an ambitious career woman. If you wear Venice velvet shoes and garments with no logos - but obviously very expensive - then you are probably meeting the radical chic standard style. </p><p>Is all of the above true? Maybe yes, maybe not, but likely this is what others will perceive. </p><p>Through styling different items together, it becomes possible to express one’s true self, personality, aspirations and moods.</p><p>On the one hand, this can be of help to one’s mental health by boosting confidence and by making it possible to achieve whichever version of yourself. On the other, however, this could be tricky. In fact, aiming at being another version of yourself – even if done with good intentions – means attempting at being someone else, which can be - even more - emotionally distressing. </p><p>Style is an art form indeed. One would imagine there could only be so many tasteless influencers in this world, but expectations are every day exceeded (and not in a good way). </p><p>Today, influencers all have the same style. Each of them emulates the other. There is no diversity in imitation. Only a waste of purchases (and a waste of money). We just said style should be about buying in order to make you feel confident and beautiful that picking up items based on someone else’s preferences seems like such a waste. To be fair – and not to paint everyone with the same brush – some influencers out there are truly rocking it by being fashion architect geniuses and bringing authenticity and inspiration into the industry. One example would be Giovanna Engelbert (in different looks throughout the page). </p><p>So it is an art form. Not everyone can perform it, not everyone can pick items that truly suit them. Not everyone can style them together. Not everyone can wear them.</p><div class='grid md:grid-cols-3 gap-2'><img src='/images/style-1.jpg' class='style-img-1' /><img src='/images/style-4.jpg' class='style-img-4' /><img src='/images/style-5.jpg' class='style-img-5' /></div>",
-    img: "/images/style-1.jpg",
-    month: "FEB 2023 EDITION",
-    author: "Giorgia Candreva",
-    topics: ["FASHION & BEAUTY", "STYLE", "SOCIAL MEDIA", "SOCIAL MEDIA HACKS", "ARTS & CULTURE", "ART"],
-    theme: "trending",
-    date: "February 19, 2023",
-    template: 3,
-  },
+
   {
     id: 19,
     mainHeader: "A Guide to Your Personal Style",
@@ -582,6 +567,22 @@ export const articles = [
     template: 3,
   },
   {
+    id: 18,
+    mainHeader: "Style between art form and exclusivity",
+    subHeader: "",
+    contentHeader:
+      "Style between art form and exclusivity",
+    content:
+      "<p class='first'>What is style? And why is it so important to so many people? Can it boost confidence? Can it improve mental health? Can it stimulate one’s intelligence? Is it an art form?</p><p>Such broad questions call for subjective answers.</p><p>So here are MY answers.</p><p>From my point of view, passion for fashion and style is something you ought to be born with. You can learn how to dress, which colors match and  which colors, when combined, are just not as aesthetically pleasing as others. You can even follow trends and buy the latest item every other influencer has just pushed on her Instagram stories. But you’ll never be exclusive, original, or authentic.</p><img src='/images/style-2.jpg' class='style-img-2' /><p>Fashion per se has always had this sense of exclusivity. The 'inner circle' concept.</p><p>There’s an Italian saying that says “bad grapes don’t make good wine”, meaning that someone who was not born with an innate fashion instinct is not going to be able to produce a better output than someone who spent their whole life looking for and at, beauty. Along with the latter saying, another one - which I personally adore - recites “class is not water”, meaning that style is something you own, it’s a birthright. It comes easy to you even when it seems so unachievable to others. </p><p>And to stay in the realm of sayings. it would beimpossible not to mention Coco Chanel's “Fashion fades, only style remains the same”,which perfectly conveys the message.</p><p>The 'either you get it or you don't' mentality is vital in the fashion world, if you do not want to be looking at it from the outside, just like an extraterrestrial would look at humans: wondering why should a Prada bag cost more than twice your monthly income. <p>So why do so many people claim it (especially among youth)?</p><img src='/images/style-3.jpg' class='style-img-3' /><p>Style makes a statement. It defines you, something you are in a desperate search for during those teen years. If you follow trends then you are cool and ‘you can sit with us’. The same goes for wearing expensive items, it makes an economic status. If you wear tailleurs, mocassins and headbands then you probably are an ambitious career woman. If you wear Venice velvet shoes and garments with no logos - but obviously very expensive - then you are probably meeting the radical chic standard style. </p><p>Is all of the above true? Maybe yes, maybe not, but likely this is what others will perceive. </p><p>Through styling different items together, it becomes possible to express one’s true self, personality, aspirations and moods.</p><p>On the one hand, this can be of help to one’s mental health by boosting confidence and by making it possible to achieve whichever version of yourself. On the other, however, this could be tricky. In fact, aiming at being another version of yourself – even if done with good intentions – means attempting at being someone else, which can be - even more - emotionally distressing. </p><p>Style is an art form indeed. One would imagine there could only be so many tasteless influencers in this world, but expectations are every day exceeded (and not in a good way). </p><p>Today, influencers all have the same style. Each of them emulates the other. There is no diversity in imitation. Only a waste of purchases (and a waste of money). We just said style should be about buying in order to make you feel confident and beautiful that picking up items based on someone else’s preferences seems like such a waste. To be fair – and not to paint everyone with the same brush – some influencers out there are truly rocking it by being fashion architect geniuses and bringing authenticity and inspiration into the industry. One example would be Giovanna Engelbert (in different looks throughout the page). </p><p>So it is an art form. Not everyone can perform it, not everyone can pick items that truly suit them. Not everyone can style them together. Not everyone can wear them.</p><div class='grid md:grid-cols-3 gap-2'><img src='/images/style-1.jpg' class='style-img-1' /><img src='/images/style-4.jpg' class='style-img-4' /><img src='/images/style-5.jpg' class='style-img-5' /></div>",
+    img: "/images/style-1.jpg",
+    month: "FEB 2023 EDITION",
+    author: "Giorgia Candreva",
+    topics: ["FASHION & BEAUTY", "STYLE", "SOCIAL MEDIA", "SOCIAL MEDIA HACKS", "ARTS & CULTURE", "ART"],
+    theme: "trending",
+    date: "February 19, 2023",
+    template: 3,
+  },
+  {
     id: 23,
     mainHeader: "Book of the month",
     subHeader: "",
@@ -595,4 +596,5 @@ export const articles = [
     date: "February 18, 2023",
     template: 2
   },
+
 ];

@@ -13,10 +13,22 @@ const SingleTrending = ({item,index}) => {
       navigate(`/articletopics`,{state:e.target.innerText})
     }
 
+    const goToArticleFromImg=(e)=>{
+      let num = e.target.src.indexOf("/images");
+      const item = articles.find(
+        (item) => item.img == e.target.src.slice(num)
+      );
+      // console.log(item)
+      navigate(`/article/${item.id}/${item.template}`);
+      // console.log(item.id)
+    }
+
    
   return (
     <div className='flex lg:flex-col items-center justify-between mx-3 my-3 lg:my-0 gap-3'>
-        <img src={img} alt="trending" className={`${index%2==0 ? "lg:h-[200px] lg:mb-[50px]" : "lg:h-[250px]"} h-[180px] w-5/12 lg:w-[160px]  object-cover`} />
+        <img src={img} alt="trending" className={`${index%2==0 ? "lg:h-[200px] lg:mb-[50px]" : "lg:h-[250px]"} h-[180px] w-5/12 lg:w-[160px]  object-cover cursor-pointer`}
+        onClick={(e)=>goToArticleFromImg(e)}
+        />
         <div className='w-7/12 sm:w-full mt-3 ml-3 lg:ml-0 '>
           <p className='text-[12px] font-bold hover:underline cursor-pointer '
           onClick={(e)=>goToTopics(e)}
