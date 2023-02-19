@@ -9,17 +9,27 @@ const VelllTopStories = () => {
     const navigate=useNavigate()
     const today=new Date()
     const month=moment(today).format("LL").split(" ")[0]
-  const TopArticles = articles.filter((item) => item.date.includes(month) && item.theme!="valentine's day")
+  const topArticles = articles.filter((item) => item.date.includes(month) && item.theme!="valentine's day")
   
-  // console.log(changeFormat(TopArticles[1].date))
+  // console.log(changeFormat(topArticles[1].date))
 
   const goToTopics=(e)=>{
     navigate(`/articletopics`,{state:e.target.innerText})
   }
 
   const goToArticle=(e)=>{
-    const item=TopArticles.find(item=>item.mainHeader==e.target.innerText)
+    // if(e.target.h)
+    const item=topArticles.find(item=>item.mainHeader==e.target.innerText)
     navigate(`/article/${item.id}/${item.template}`)  
+    console.log(item.id)
+  }
+  const goToArticleFromImg=(e)=>{
+    let num = e.target.src.indexOf("/images");
+    const item = topArticles.find(
+      (item) => item.img == e.target.src.slice(num)
+    );
+    // console.log(item)
+    navigate(`/article/${item.id}/${item.template}`);
     // console.log(item.id)
   }
 
@@ -30,29 +40,32 @@ const VelllTopStories = () => {
       </h1>
       <section className="flex  flex-col lg:flex-row ">
         <div className="w-full xl:w-6/12 md:p-5 flex flex-col  gap-3">
+          <figure className='shine'>
           <img
-            src={TopArticles[0].img}
+            src={topArticles[0].img}
             alt="topstories"
-            className="object-cover "
-          />
+            className="object-cover cursor-pointer topStoriesImg "
+            onClick={(e)=>goToArticleFromImg(e)}
+            />
+          </figure>
           <p className="text-sm hover:underline cursor-pointer "
           onClick={(e)=>goToTopics(e)}
-          >{TopArticles[0].topics[0]}</p>
-          {/* <p className="uppercase font-bold pt-2 pb-1 hidden md:block">{TopArticles[0].mainHeader}</p> */}
+          >{topArticles[0].topics[0]}</p>
+          {/* <p className="uppercase font-bold pt-2 pb-1 hidden md:block">{topArticles[0].mainHeader}</p> */}
           <h3 className="font-400 font-serif text-[20px] md:text-[28px] text-center md:text-start hover:underline cursor-pointer"
           onClick={(e)=>goToArticle(e)}>
-            {TopArticles[0].mainHeader}
+            {topArticles[0].mainHeader}
           </h3>
           <p className="text-[14px] hidden md:block ">
-              {TopArticles[0].content.startsWith('<p')
-              ? TopArticles[0].content
+              {topArticles[0].content.startsWith('<p')
+              ? topArticles[0].content
               .slice(17, 370)
               .replace(/(<p>)/g, '')
               .replace(/<.?p[^>]*>/g, '')
               .replace(/<.?h.?[^>]*>/g, '')
               .replace(/<.?ol.?[^>]*>/g, '')
               .replace(/<.?li.?[^>]*>/g, '')
-              : TopArticles[0].content
+              : topArticles[0].content
               .slice(4, 370)
               .replace(/(<p>)/g, '')
               .replace(/<.?p[^>]*>/g, '')
@@ -65,31 +78,34 @@ const VelllTopStories = () => {
         </div>
         <div className="w-full xl:w-6/12 p-5 flex flex-col justify-between gap-3">
           <div className="flex justify-between md:justify-start md:gap-3 xl:gap-8">
+            <figure className='shine'>
             <img
-              src={TopArticles[1].img}
+              src={topArticles[1].img}
               alt="topstories-1"
-              className="w-[120px] h-[200px] object-cover sm:w-[290px]"
-            />
+              className="w-[120px] h-[200px] object-cover sm:w-[290px] cursor-pointer topStoriesImg "
+              onClick={(e)=>goToArticleFromImg(e)}
+              />
+            </figure>
             <div className="pl-3 md:pl-0 w-full sm:w-6/12 flex flex-col justify-center sm:justify-start max-w-[280.5px]">
               <p className="uppercase text-[13px] hover:underline cursor-pointer "
                             onClick={(e)=>goToTopics(e)}
                             >
-                {TopArticles[1].topics[0]}
+                {topArticles[1].topics[0]}
               </p>
               <h3 className="font-500 font-serif text-[15px] md:text-[17px] py-1 md:py-2 line-clamp-1 md:line-clamp-none hover:underline cursor-pointer"
               onClick={(e)=>goToArticle(e)}
               >
-                {TopArticles[1].mainHeader}
+                {topArticles[1].mainHeader}
               </h3>
-              <p className=' text-[14px] line-clamp-4 topStoriesP'>{TopArticles[1].content.startsWith('<p')
-              ? TopArticles[1].content
+              <p className=' text-[14px] line-clamp-4 topStoriesP'>{topArticles[1].content.startsWith('<p')
+              ? topArticles[1].content
               .slice(17, 180)
               .replace(/(<p>)/g, '')
               .replace(/<.?p[^>]*>/g, '')
               .replace(/<.?h.?[^>]*>/g, '')
               .replace(/<.?ol.?[^>]*>/g, '')
               .replace(/<.?li.?[^>]*>/g, '')
-              : TopArticles[1].content
+              : topArticles[1].content
               .slice(4, 180)
               .replace(/(<p>)/g, '')
               .replace(/<.?p[^>]*>/g, '')
@@ -98,35 +114,39 @@ const VelllTopStories = () => {
               .replace(/<.?li.?[^>]*>/g, '')
                   }
             ...</p>
-              <p className="pt-2 text-[13px] ">{changeFormat(TopArticles[1].date)}</p>
+              <p className="pt-2 text-[13px] ">{changeFormat(topArticles[1].date)}</p>
             </div>
           </div>
           <div className="flex justify-between md:justify-start md:gap-3 xl:gap-8 ">
+            <figure className='shine'>
             <img
-              src={TopArticles[2].img}
+              src={topArticles[2].img}
               alt="topstories-1"
-              className="w-[120px] h-[200px] object-cover sm:w-[290px]"
-            />
+              className="w-[120px] h-[200px] object-cover sm:w-[290px] cursor-pointer topStoriesImg "
+              onClick={(e)=>goToArticleFromImg(e)}
+              />
+            </figure>
+           
             <div className="pl-3 md:pl-0 w-full sm:w-6/12 flex flex-col justify-center sm:justify-start max-w-[280.5px]">
               <p className="uppercase text-[13px] hover:underline cursor-pointer"
                             onClick={(e)=>goToTopics(e)}
                             >
-                {TopArticles[2].topics[0]}
+                {topArticles[2].topics[0]}
               </p>
               <h3 className="font-500 font-serif text-[15px] md:text-[17px] py-1 md:py-2 line-clamp-1 md:line-clamp-none hover:underline cursor-pointer"
               onClick={(e)=>goToArticle(e)}
               >
-                {TopArticles[2].mainHeader}
+                {topArticles[2].mainHeader}
               </h3>
-              <p className=' text-[14px] line-clamp-4 topStoriesP'>{TopArticles[1].content.startsWith('<p')
-              ? TopArticles[2].content
+              <p className=' text-[14px] line-clamp-4 topStoriesP'>{topArticles[1].content.startsWith('<p')
+              ? topArticles[2].content
               .slice(17, 180)
               .replace(/(<p>)/g, '')
               .replace(/<.?p[^>]*>/g, '')
               .replace(/<.?h.?[^>]*>/g, '')
               .replace(/<.?ol.?[^>]*>/g, '')
               .replace(/<.?li.?[^>]*>/g, '')
-              : TopArticles[1].content
+              : topArticles[1].content
               .slice(4, 180)
               .replace(/(<p>)/g, '')
               .replace(/<.?p[^>]*>/g, '')
@@ -135,35 +155,39 @@ const VelllTopStories = () => {
               .replace(/<.?li.?[^>]*>/g, '')
                   }
             ...</p>
-              <p className="pt-2 text-[13px]">{changeFormat(TopArticles[3].date)}</p>
+              <p className="pt-2 text-[13px]">{changeFormat(topArticles[3].date)}</p>
             </div>
           </div>
           <div className="flex justify-between md:justify-start md:gap-3 xl:gap-8">
+            <figure className='shine'>
             <img
-              src={TopArticles[3].img}
+              src={topArticles[3].img}
               alt="topstories-1"
-              className="w-[120px] h-[200px] object-cover sm:w-[290px] "
-            />
+              className="w-[120px] h-[200px] object-cover sm:w-[290px] cursor-pointer topStoriesImg "
+              onClick={(e)=>goToArticleFromImg(e)}
+              />
+
+              </figure>
             <div className="pl-3 md:pl-0 w-full sm:w-6/12 flex flex-col justify-center sm:justify-start max-w-[280.5px]">
               <p className="uppercase text-[13px]  hover:underline cursor-pointer  "
                             onClick={(e)=>goToTopics(e)}
                             >
-                {TopArticles[3].topics[0]}
+                {topArticles[3].topics[0]}
               </p>
               <h3 className="font-500 font-serif text-[15px] md:text-[17px] py-1 md:py-2 line-clamp-1 md:line-clamp-none hover:underline cursor-pointer"
               onClick={(e)=>goToArticle(e)}
               >
-                {TopArticles[3].mainHeader}
+                {topArticles[3].mainHeader}
               </h3>
-              <p className=' text-[14px] line-clamp-4 topStoriesP'>{TopArticles[1].content.startsWith('<p')
-              ? TopArticles[3].content
+              <p className=' text-[14px] line-clamp-4 topStoriesP'>{topArticles[1].content.startsWith('<p')
+              ? topArticles[3].content
               .slice(17, 180)
               .replace(/(<p>)/g, '')
               .replace(/<.?p[^>]*>/g, '')
               .replace(/<.?h.?[^>]*>/g, '')
               .replace(/<.?ol.?[^>]*>/g, '')
               .replace(/<.?li.?[^>]*>/g, '')
-              : TopArticles[1].content
+              : topArticles[1].content
               .slice(4, 180)
               .replace(/(<p>)/g, '')
               .replace(/<.?p[^>]*>/g, '')
@@ -172,7 +196,7 @@ const VelllTopStories = () => {
               .replace(/<.?li.?[^>]*>/g, '')
                   }
             ...</p>
-              <p className="pt-2 text-[13px] ">{changeFormat(TopArticles[3].date)}</p>
+              <p className="pt-2 text-[13px] ">{changeFormat(topArticles[3].date)}</p>
             </div>
           </div>
         </div>

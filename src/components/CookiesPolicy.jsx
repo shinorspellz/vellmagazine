@@ -18,7 +18,7 @@ const CookiesPolicy = () => {
         <div className="rich-text-block w-richtext pb-12">
           <h3>Vell Magazine Cookies Policy</h3>
           <p>
-            TVell Magazine uses cookies and similar technologies to provide you
+            Vell Magazine uses cookies and similar technologies to provide you
             with a personalized experience and to understand how our website is
             used. This Cookies Policy explains what cookies are, how we use
             them, and your options for controlling their use.

@@ -17,6 +17,7 @@ import {
   TwitterShareButton,
   TwitterIcon
 } from 'react-share'
+import { useEffect } from 'react'
 
 
 const ArticleTemplateSix = () => {
@@ -32,6 +33,9 @@ console.log(currentArticle)
         : ' '
     )
   })
+  useEffect(() => {
+    window.scrollTo(0, 0);
+ }, []);
 
   return (
     <>
