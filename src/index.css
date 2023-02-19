@@ -876,7 +876,7 @@ button span {
   background-color: var(--sideBar-bg);
   color: var(--sideBar-fontColor);
   overflow: scroll;
-  height: 667px;
+  height: 900px;
 }
 .sidebar select{
   color: var(--fontColor);
