@@ -57,9 +57,51 @@ const VellMagazineContextProvider = ({children}) => {
         let result=arr[0]+" "+arr[2]
         return result
       }
+
+
+      const convertToMonth=(str)=>{
+        let month=str.split(" ")[0]
+        if(month=="JAN"){
+          return "January"
+        }
+        else if(month=="FEB"){
+          return "February"
+        }
+        else if(month=="MAR"){
+          return "March"
+        }
+        else if(month=="APR"){
+          return "April"
+        }
+        else if(month=="MAY"){
+          return "MAY"
+        }
+        else if(month=="JUN"){
+          return "June"
+        }
+        else if(month=="JUL"){
+          return "JULY"
+        }
+        else if(month=="AUG"){
+          return "AUGUST"
+        }
+        else if(month=="SEP"){
+          return "September"
+        }
+        else if(month=="OCT"){
+          return "October"
+        }
+        else if(month=="NOV"){
+          return "November"
+        }
+        else if(month=="DEC"){
+          return "December"
+        }
+        
+      }
       
   return (
-    <VellMagazineContext.Provider value={{getStorageTheme,theme,setTheme,changeTheme,changeFormat,banner,setBanner,scrollToTop}}>
+    <VellMagazineContext.Provider value={{getStorageTheme,theme,setTheme,changeTheme,changeFormat,banner,setBanner,scrollToTop,convertToMonth}}>
 {children}
     </VellMagazineContext.Provider>
   )

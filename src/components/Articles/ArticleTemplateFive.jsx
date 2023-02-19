@@ -22,6 +22,8 @@ import {
 import { useContext } from 'react'
 import { VellMagazineContext } from '../../context/VellMagazineContext'
 import { useEffect } from 'react'
+import RecommendedArticles from './RecommendedArticles'
+import Slider from "react-slick";
 
 // import { useEffect } from 'react'
 
@@ -41,6 +43,7 @@ const ArticleTemplateFive = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
  }, []);
+ 
   const relevantArticles = arr
     .filter((v, i, a) => a.findIndex((v2) => v2.id === v.id) === i)
     .filter((item) => item.id !== currentArticle.id)
@@ -54,6 +57,50 @@ const ArticleTemplateFive = () => {
     )
   })
   // console.log(breadcrump.title)
+  const settings = {
+    // dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: relevantArticles.length>4 ? 5 :relevantArticles.length,
+    slidesToScroll: 1,
+    arrows: true,
+    autoplay: true,
+    speed: 2000,
+      autoplaySpeed: 6000,
+      cssEase: "linear",
+    prevArrow: "",
+    nextArrow: "",
+    responsive: [
+      {
+        breakpoint:1300,
+        settings:{
+        slidesToShow: relevantArticles.length>3 ? 4 :relevantArticles.length,
+        }
+       
+        }, 
+      {
+        breakpoint:1000,
+        settings:{
+          slidesToShow: relevantArticles.length>2 ? 3 :relevantArticles.length,
+        }
+       
+        }, 
+      {
+        breakpoint:800,
+        settings:{
+          slidesToShow: relevantArticles.length>1 ? 2 :relevantArticles.length,
+        }
+       
+        }, 
+      {
+        breakpoint:500,
+        settings:{
+        slidesToShow: 1,
+        }
+       
+        }, 
+      ]
+  };
 
   return (
     <>
@@ -186,6 +233,18 @@ const ArticleTemplateFive = () => {
           </div>
         </div>
       </main>
+      {relevantArticles.length>1 && ( <section className='recommendedArticles py-5'>
+        <h3 className='text-center text-lg sm:text-xl py-4 font-serif'>RECOMMENDED ARTICLES</h3>
+      <Slider {...settings} className="container m-auto ">
+                {relevantArticles?.map((item,index) => {
+              return (
+                <ul className="m-auto" key={item.id}>
+                <li className="list-unstyled mx-2 "><RecommendedArticles item={item}  index={index}/></li>
+                </ul>
+                );
+              })}
+      </Slider>
+      </section>)}
 
       <Footer/>
     </>

@@ -50,6 +50,7 @@ const arr=[]
         useEffect(() => {
           window.scrollTo(0, 0);
        }, []);
+       
   const relevantArticles=arr.filter((v,i,a)=>a.findIndex(v2=>(v2.id===v.id))===i).filter((item)=>item.id !== currentArticle.id)
 
 
