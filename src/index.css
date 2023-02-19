@@ -625,7 +625,7 @@ h6 {
 .mobil-mission {
   background: var(--mission-card-bg);
 }
-.share {
+.share,.thisMonthHeader {
   color: var(--fontColor);
 }
 .footer-text {
