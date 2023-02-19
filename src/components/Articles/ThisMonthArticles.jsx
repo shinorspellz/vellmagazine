@@ -16,9 +16,9 @@ const ThisMonthArticles = () => {
   return (
     <> 
     <VellNavbar/>
-    
+    <h1 className="mt-[50px] lg:mt-[120px] py-4 text-center  text-xl md:text-3xl uppercase font-bold font-serif thisMonthHeader">articles in {currentMonth}</h1>
     {/* <div className='mt-[120px] px-9 flex gap-8 justify-start flex-wrap container m-auto py-5'> */}
-    <div className='mt-[80px] lg:mt-[120px] grid gap-x-5 sm:gap-x-8 gap-y-5 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 px-9 m-auto py-5 justify-center max-w-[1400px]' >
+    <div className=' grid gap-x-5 sm:gap-x-8 gap-y-5 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 px-9 m-auto py-5 justify-center max-w-[1400px]' >
         {
             todaysArticleList.map((item,index)=>{
                 return(

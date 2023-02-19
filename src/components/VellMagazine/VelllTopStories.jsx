@@ -9,7 +9,7 @@ const VelllTopStories = () => {
     const navigate=useNavigate()
     const today=new Date()
     const month=moment(today).format("LL").split(" ")[0]
-  const TopArticles = articles.filter((item) => item.date.includes(month))
+  const TopArticles = articles.filter((item) => item.date.includes(month) && item.theme!="valentine's day")
   
   // console.log(changeFormat(TopArticles[1].date))
 
@@ -33,7 +33,7 @@ const VelllTopStories = () => {
           <img
             src={TopArticles[0].img}
             alt="topstories"
-            className="object-cover"
+            className="object-cover "
           />
           <p className="text-sm hover:underline cursor-pointer "
           onClick={(e)=>goToTopics(e)}
@@ -68,9 +68,9 @@ const VelllTopStories = () => {
             <img
               src={TopArticles[1].img}
               alt="topstories-1"
-              className="w-[120px] h-[200px] object-cover sm:w-[290px] "
+              className="w-[120px] h-[200px] object-cover sm:w-[290px]"
             />
-            <div className="pl-3 md:pl-0 w-full sm:w-6/12 flex flex-col justify-center sm:justify-start ">
+            <div className="pl-3 md:pl-0 w-full sm:w-6/12 flex flex-col justify-center sm:justify-start max-w-[280.5px]">
               <p className="uppercase text-[13px] hover:underline cursor-pointer "
                             onClick={(e)=>goToTopics(e)}
                             >
@@ -105,9 +105,9 @@ const VelllTopStories = () => {
             <img
               src={TopArticles[2].img}
               alt="topstories-1"
-              className="w-[120px] h-[200px] object-cover sm:w-[290px] "
+              className="w-[120px] h-[200px] object-cover sm:w-[290px]"
             />
-            <div className="pl-3 md:pl-0 w-full sm:w-6/12 flex flex-col justify-center sm:justify-start ">
+            <div className="pl-3 md:pl-0 w-full sm:w-6/12 flex flex-col justify-center sm:justify-start max-w-[280.5px]">
               <p className="uppercase text-[13px] hover:underline cursor-pointer"
                             onClick={(e)=>goToTopics(e)}
                             >
@@ -144,7 +144,7 @@ const VelllTopStories = () => {
               alt="topstories-1"
               className="w-[120px] h-[200px] object-cover sm:w-[290px] "
             />
-            <div className="pl-3 md:pl-0 w-full sm:w-6/12 flex flex-col justify-center sm:justify-start ">
+            <div className="pl-3 md:pl-0 w-full sm:w-6/12 flex flex-col justify-center sm:justify-start max-w-[280.5px]">
               <p className="uppercase text-[13px]  hover:underline cursor-pointer  "
                             onClick={(e)=>goToTopics(e)}
                             >

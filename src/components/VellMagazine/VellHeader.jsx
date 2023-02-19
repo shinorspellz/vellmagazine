@@ -10,7 +10,7 @@ const VellHeader = () => {
   const navigate = useNavigate()
   const today=new Date()
   const month=moment(today).format("LL").split(" ")[0]
-  const headerArticles=articles.filter(item=>item.date.includes(month)).slice(0,7).reverse()
+  const headerArticles=articles.filter(item=>item.date.includes(month) && item.theme!="valetine's day").slice(0,7).reverse()
   // const indicators=document.querySelectorAll("button[data-testid='carousel-indicator']")
   // const hs=document.querySelector("button.bg-white")
   // const indexOfSlide=(Object.values(indicators).indexOf(hs));
@@ -35,6 +35,7 @@ const VellHeader = () => {
                     .replace(/<.?h.?[^>]*>/g, '')
                     .replace(/<.?ol.?[^>]*>/g, '')
                     .replace(/<.?li.?[^>]*>/g, '')
+                    .replace(/<.?a.?[^>]*>/g, '')
                     : item.content
                     .slice(4, 330)
                     .replace(/(<p>)/g, '')
