@@ -18,22 +18,21 @@ const navigate=useNavigate()
   }
   console.log(isShow)
   return (
-    <div className={`${isShow ? "translate-x-[5px]  w-[80%] max-w-[21rem] sidebar absolute top-[46px] right-0 lg:hidden    pb-12  " : "translate-x-[350px] w-[80%] max-w-[21rem] sidebar absolute top-[46px] right-0 lg:hidden  pb-12  "} transition-transform duration-[250ms] ease-[ease-in-out] `}>
-    {/* <div className="scale-100 w-[80%] sidebar absolute top-[50px] right-0 lg:hidden h-[500px] overflow-scroll pb-2"> */}
+    <div className={`${isShow ? "block  w-full sidebar absolute top-[45px] right-0 lg:hidden  pb-12  " : "hidden w-full sidebar absolute top-[45px] right-0 pb-12 "} lg:hidden `}>
     <section className='justify-between items-end p-3 xl:hidden flex flex-col'>
       <div className='flex justify-center items-center gap-2'>
          <NavLink to="https://vmodel.app/" target="_blank" 
     className='font-bold text-[17px] whitespace-nowrap flex items-center pb-2'>
       {theme === "light-theme" ? (
             <img
-              src="/images/logoForDarkMode.png"
+              src="/images/Logo.jpg"
               alt="logo"
               className='w-[100px] pr-1 '
             />
           ) : (
             <img
-            src="/images/Logo.jpg"
-              alt="logo"
+            src="/images/logoForDarkMode.png"
+            alt="logo"
               className='w-[100px] pr-1 '
             />
           )}
