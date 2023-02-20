@@ -78,15 +78,15 @@ const VelllTopStories = () => {
         </div>
         <div className="w-full xl:w-6/12 p-5 flex flex-col justify-between gap-3">
           <div className="flex justify-between md:justify-start md:gap-3 xl:gap-8">
-            <figure className='shine'>
+          <figure className='shine w-5/12 sm:w-[290px] h-[180px] sm:h-auto'>
             <img
               src={topArticles[1].img}
               alt="topstories-1"
-              className="w-[120px] h-[200px] object-cover sm:w-[290px] cursor-pointer topStoriesImg "
+              className=" object-cover w-full h-full cursor-pointer topStoriesImg "
               onClick={(e)=>goToArticleFromImg(e)}
               />
             </figure>
-            <div className="pl-3 md:pl-0 w-full sm:w-6/12 flex flex-col justify-center sm:justify-start max-w-[280.5px]">
+            <div className="pl-3 md:pl-0 w-7/12 sm:w-6/12 flex flex-col justify-center sm:justify-start max-w-[280.5px]">
               <p className="uppercase text-[13px] hover:underline cursor-pointer "
                             onClick={(e)=>goToTopics(e)}
                             >
@@ -118,16 +118,16 @@ const VelllTopStories = () => {
             </div>
           </div>
           <div className="flex justify-between md:justify-start md:gap-3 xl:gap-8 ">
-            <figure className='shine'>
+          <figure className='shine w-5/12 sm:w-[290px] h-[180px] sm:h-auto'>
             <img
               src={topArticles[2].img}
               alt="topstories-1"
-              className="w-[120px] h-[200px] object-cover sm:w-[290px] cursor-pointer topStoriesImg "
+              className=" object-cover w-full h-full cursor-pointer topStoriesImg "
               onClick={(e)=>goToArticleFromImg(e)}
               />
             </figure>
            
-            <div className="pl-3 md:pl-0 w-full sm:w-6/12 flex flex-col justify-center sm:justify-start max-w-[280.5px]">
+            <div className="pl-3 md:pl-0 w-7/12 sm:w-6/12 flex flex-col justify-center sm:justify-start max-w-[280.5px]">
               <p className="uppercase text-[13px] hover:underline cursor-pointer"
                             onClick={(e)=>goToTopics(e)}
                             >
@@ -159,16 +159,16 @@ const VelllTopStories = () => {
             </div>
           </div>
           <div className="flex justify-between md:justify-start md:gap-3 xl:gap-8">
-            <figure className='shine'>
+          <figure className='shine w-5/12 sm:w-[290px] h-[180px] sm:h-auto'>
             <img
               src={topArticles[3].img}
               alt="topstories-1"
-              className="w-[120px] h-[200px] object-cover sm:w-[290px] cursor-pointer topStoriesImg "
+              className="w-full h-full object-cover  cursor-pointer topStoriesImg "
               onClick={(e)=>goToArticleFromImg(e)}
               />
 
               </figure>
-            <div className="pl-3 md:pl-0 w-full sm:w-6/12 flex flex-col justify-center sm:justify-start max-w-[280.5px]">
+            <div className="pl-3 md:pl-0 w-7/12  sm:w-6/12 flex flex-col justify-center sm:justify-start max-w-[280.5px]">
               <p className="uppercase text-[13px]  hover:underline cursor-pointer  "
                             onClick={(e)=>goToTopics(e)}
                             >
