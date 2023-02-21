@@ -16,6 +16,7 @@ import ArticleTemplateSix from "../components/Articles/ArticleTemplateSix";
 import CookiesPolicy from "../components/CookiesPolicy";
 import Authors from "../components/Articles/Authors";
 import ThisMonthArticles from "../components/Articles/ThisMonthArticles";
+import AboutUs from "../components/AboutUs";
 
 const AppRouter = () => {
 
@@ -28,6 +29,7 @@ const AppRouter = () => {
           <Route path="privacypolicy" element={<PrivacyPolicy/>} />
           <Route path="termofuse" element={<TermOfUse/>} />
           <Route path="cookiespolicy" element={<CookiesPolicy/>} />
+          <Route path="aboutus" element={<AboutUs/>} />
           <Route path="allarticles" element={<ArticlesHeader/>} />
           <Route path="/article/:id/1" element={<ArticleTemplateOne/>} />
           <Route path="/article/:id/2" element={<ArticleTemplateTwo/>} />

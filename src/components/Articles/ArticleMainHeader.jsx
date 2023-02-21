@@ -26,13 +26,13 @@ const ArticleMainHeader = ({ item}) => {
             item?.mainHeader.length>60 ?(
               <>
               <h4 className={`${show && "hidden"} text-[#503C3B]  sm:pt-5 articleMainHeader sm:hidden`}>{item.mainHeader.slice(0,60)}...</h4>
-              <h4 className={`${show && "hidden"} text-[#503C3B]  sm:pt-5 articleMainHeader hidden sm:block`}>{item.mainHeader}</h4>
+              <h4 className={`${show && "hidden"} text-[#503C3B]  sm:pt-5 articleMainHeader hidden sm:block `}>{item.mainHeader.slice(0,90)}...</h4>
               </>
             ):(
               <h4 className={`${show && "hidden"} text-[#503C3B]  sm:pt-5 articleMainHeader `}>{item.mainHeader}</h4>
             )
           }
-        <h3 className={`${show && "hidden"} absolute bottom-0 sm:bottom-2 left-[50%] translate-x-[-50%] text-[#503C3B] w-full text-xl sm:text-3xl  readmore`}> Read More...</h3>
+        {/* <h3 className={`${show && "hidden"} absolute bottom-0 sm:bottom-2 left-[50%] translate-x-[-50%] text-[#503C3B] w-full text-xl sm:text-3xl  readmore`}> Read More...</h3> */}
       </div>
       </div>      
   )

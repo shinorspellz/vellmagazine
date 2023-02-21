@@ -78,7 +78,7 @@ const VelllTopStories = () => {
         </div>
         <div className="w-full xl:w-6/12 p-5 flex flex-col justify-between gap-3">
           <div className="flex justify-between md:justify-start md:gap-3 xl:gap-8">
-          <figure className='shine w-5/12 sm:w-[290px] h-[180px] sm:h-auto'>
+          <figure className='shine w-5/12 sm:w-[290px] h-[180px] sm:h-[195px]'>
             <img
               src={topArticles[1].img}
               alt="topstories-1"
@@ -118,7 +118,7 @@ const VelllTopStories = () => {
             </div>
           </div>
           <div className="flex justify-between md:justify-start md:gap-3 xl:gap-8 ">
-          <figure className='shine w-5/12 sm:w-[290px] h-[180px] sm:h-auto'>
+          <figure className='shine w-5/12 sm:w-[290px] h-[180px] sm:h-[195px]'>
             <img
               src={topArticles[2].img}
               alt="topstories-1"
@@ -159,7 +159,7 @@ const VelllTopStories = () => {
             </div>
           </div>
           <div className="flex justify-between md:justify-start md:gap-3 xl:gap-8">
-          <figure className='shine w-5/12 sm:w-[290px] h-[180px] sm:h-auto'>
+          <figure className='shine w-5/12 sm:w-[290px] h-[180px] sm:h-[195px]'>
             <img
               src={topArticles[3].img}
               alt="topstories-1"

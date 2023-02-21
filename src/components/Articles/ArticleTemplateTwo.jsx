@@ -43,9 +43,9 @@ const ArticleTemplateTwo = () => {
         )})
   const relevantArticles=arr.filter((v,i,a)=>a.findIndex(v2=>(v2.id===v.id))===i).filter((item)=>item.id !== currentArticle.id)
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
- }, []);
+//   useEffect(() => {
+//     window.scrollTo(0, 0);
+//  }, []);
  const settings = {
   // dots: true,
   infinite: true,
@@ -104,7 +104,8 @@ const ArticleTemplateTwo = () => {
     <>
       <VellNavbar />
       <div className="mt-[130px] px-2 pb-12 articleTemplate w-full max-w-[1350px] m-auto" id={currentArticle.contentHeader}>
-        <p className='p-3 text-sm text-center' >{breadcrump?.title}/{currentArticle.topics[0]} </p>
+        {/* <p className='p-3 text-sm text-center' >{breadcrump?.title}/{currentArticle.topics[0]} </p> */}
+        <p className='p-3 text-sm text-center' >{currentArticle.topics[0]} </p>
         <h1 className='font-medium font-serif text-[40px]  py-2  text-center' >{currentArticle.contentHeader}</h1>
         <h3 className='px-3 font-bold italic text-center'>{currentArticle.subHeader}</h3>
 <div className='flex flex-col sm:flex-row items-center justify-center'>
