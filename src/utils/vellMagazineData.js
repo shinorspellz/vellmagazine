@@ -204,7 +204,7 @@ export const authorsData = [
   },
   {
     id: 5,
-    name: "Alia Khan",
+    name: "Alia Kassem",
     img: "/images/alia-avatar.jpg",
     desc: "Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
     bio: "<p>Based in London, Alia has been spilling her words in the creative writing atmosphere for some time now, work being expressed worldwide online, collaborations with numerous types of creatives &amp; being apart within events and exhibitions.</p><p>She has modelled across a few years now, Hair Modelling and Commercial Modelling (featured in Music Videos for artists like Sam Smith, Dua Lipa and more&#8230;) and is signed with House Of Androgyny (HOA).</p><p>During the journey of lockdown Alia dedicated her time into chasing after true passion &amp; calling in life by turning her words, emotions &amp; stories into music.</p><p>Forming a soulful sound within her indie-rock acoustic melodic moments &amp; memory&rsquo;s - what she&rsquo;d lived through she wanted to give &amp; inspire all that may have come close to similar pain or love, a sound to not let those feel they&rsquo;re alone &amp; witness what they truly deserve to what they truly can be.</p><p>Entering the year &amp; month of March 2022, her story within music begun. Featuring vocals on house tracks, to backing singing and performing at live events/gigs/shows. Now in the production stage of creating &amp; mastering her first single, amongst many other tracks soon to come.</p>",

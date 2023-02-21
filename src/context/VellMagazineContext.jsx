@@ -28,6 +28,8 @@ export const scrollToTop = (e)=>{
   });
 }
 
+
+
 const VellMagazineContextProvider = ({children}) => {
     const [theme, setTheme] = useState(getStorageTheme())
     const [banner,setBanner]=useState(getStorageBanner())

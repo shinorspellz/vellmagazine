@@ -27,6 +27,7 @@ body {
   --footer-bgColor: #503c3b;
   --borderColor: #503c3b;
   --footer-btnColor: #503c3b;
+  --scrollUp-fontColor:#fff;
   --sign-bg: #503c3b;
   --mission-card-bg: #503c3b;
   --privacy-btns-bg-color:#fff;
@@ -57,6 +58,7 @@ body {
     #0a192f 100%
   );
   --footer-bgColor: #0a192f;
+  --scrollUp-fontColor:#0a192f;
   --borderColor: #fff;
   --footer-btnColor: #fff;
   --sign-bg: linear-gradient(
@@ -1153,4 +1155,9 @@ transform: translateX(-15%);
 
 .recommendedArticles .slick-arrow{
   display: none !important;
+}
+
+.scrollUpBtn {
+  background-color: var(--button-bgColor);
+  color: var(--scrollUp-fontColor)
 }

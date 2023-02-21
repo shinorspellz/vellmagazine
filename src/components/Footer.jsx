@@ -2,12 +2,30 @@ import { RiLinkedinFill } from "react-icons/ri";
 import { IoIosArrowDropup } from "react-icons/io";
 import { AiOutlineInstagram, AiOutlineTwitter } from "react-icons/ai";
 import { FaTiktok, FaFacebookF } from "react-icons/fa";
-import { useContext } from "react";
+import { useContext, useState, useEffect } from "react";
 import { VellMagazineContext } from "../context/VellMagazineContext";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
   const { theme,scrollToTop } = useContext(VellMagazineContext);
+  const [showButton, setShowButton] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        setShowButton(true);
+      } else {
+        setShowButton(false)
+      }
+    }
+
+    window.onscroll = () => {
+      handleScroll()
+    }
+
+  }, [])
+
+  
   
   return (
     <div className="flex flex-col md:flex-row footer-bottom relative pt-8 md:pt-14 pb-16 md:pb-20 ">
@@ -60,9 +78,12 @@ const Footer = () => {
             ©{new Date().getFullYear()} VModel reserved.
           </p>
         </section>
-        <a href="" onClick={scrollToTop}>
-          <IoIosArrowDropup className="text-white text-3xl absolute right-3 bottom-3" />
+        {showButton && (
+          <a href="" onClick={scrollToTop}>
+          <IoIosArrowDropup className=" text-3xl fixed right-3 bottom-3 scrollUpBtn rounded-full" />
         </a>
+        )}
+        
       </div>
   )
 }
