@@ -37,6 +37,7 @@ useEffect(() => {
         Vell Magazine
           </Link>
         <div className="flex justify-between items-center gap-2">
+          
            <button className="navbar-switch flex items-center justify-center text-xl lg:hidden"
             onClick={changeTheme}
             >
@@ -46,10 +47,10 @@ useEffect(() => {
                 ):(<BiSun className='text-yellow-400'/>)
               }
         </button> 
-        
+{/*         
       <FaBars className="text-3xl fabars lg:hidden"
        onClick={()=>setIsOpen(!isOpen)}
-       />
+       /> */}
         </div>
       </div>
       
