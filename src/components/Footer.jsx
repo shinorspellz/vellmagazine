@@ -82,7 +82,7 @@ const Footer = () => {
         </section>
         {showButton && (
           <a href="" onClick={scrollToTop}>
-          <IoIosArrowDropup className=" text-3xl fixed right-3 bottom-3 scrollUpBtn rounded-full" />
+          <IoIosArrowDropup className=" text-3xl fixed right-3 bottom-3 scrollUpBtn " />
         </a>
         )}
         
