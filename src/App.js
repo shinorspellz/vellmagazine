@@ -5,10 +5,11 @@ import AppRouter from "./router/AppRouter"
 
 
 // import "@fontsource/montserrat";
+const helmetContext = {}
 
 const App = () => {
   return (
-    <HelmetProvider>
+    <HelmetProvider context={helmetContext}>
       <VellMagazineContextProvider>
         <AppRouter/>
       </VellMagazineContextProvider>
