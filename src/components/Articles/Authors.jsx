@@ -5,6 +5,7 @@ import { authorsData } from '../../utils/vellMagazineData';
 import SingleAuthor from './SingleAuthor';
 import Footer from '../Footer';
 import { createGlobalStyle } from 'styled-components';
+import Seo from '../SEO'
 
 const Authors = () => {
     const navigate=useNavigate()
@@ -19,6 +20,14 @@ const Authors = () => {
   return (
 
     <>
+    <Seo
+      title = "Authors"
+      description = "Meet our team of talented writers."
+      type= "website"
+      image= "/images/Logo.jpg"
+    />
+       
+    
     <VellNavbar/>
     <h1 className='text-center text-[25px]  font-serif mt-[70px] lg:mt-[150px] authorTemplate '>Authors</h1>
     <div className=' lg:mt-[10px] grid gap-x-5 sm:gap-x-8 gap-y-5 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 px-9 m-auto py-5 justify-center max-w-[1400px]' >
