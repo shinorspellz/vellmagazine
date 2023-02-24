@@ -1083,15 +1083,25 @@ object-fit: cover;
 
 
 /*fifth template */
+
+
+@media (max-width:600px) {
+  .romanticGetAway img{
+    transform: translateX(0px);
+    display: block;
+    margin: auto;
+    float: none;
+  }
+}
 .romanticGetAway{
   padding: 0!important;
   width: 100%;
   max-width: 500px;
   margin: auto;
 }
-.romanticGetAway img{
+/* .romanticGetAway img{
   object-fit: cover;
-}
+} */
 .romanticGetAway figcaption{
   font-size: 12px;
 }
