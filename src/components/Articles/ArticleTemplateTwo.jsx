@@ -139,6 +139,9 @@ const ArticleTemplateTwo = () => {
               alt="img"
               className="sm:h-[350px] w-full  object-contain sm:object-cover pr-5 sm:block sm:m-auto my-3 translate-x-[10px] sm:translate-x-0 "
             />
+            <figcaption className='authorTemplate text-[11px]'>
+              {currentArticle.figcaption}
+            </figcaption>
             <p
               dangerouslySetInnerHTML={{ __html: currentArticle.content }}
               className="content p-3"

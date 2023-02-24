@@ -1098,14 +1098,14 @@ object-fit: cover;
 
 img.style-img-2{
   width: 300px !important;
-  float: left;
+  
   margin-right: 1rem;
   object-fit: cover;
 }
 img.style-img-3{
   width: 400px !important;
-  float: right;
-  margin-left: 1rem;
+  
+  
   object-fit: cover;
 }
 

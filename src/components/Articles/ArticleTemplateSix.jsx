@@ -97,16 +97,16 @@ console.log(currentArticle)
   return (
     <>
       <VellNavbar />
-      <div className="relative mt-[50px] sm:mt-[130px] w-full ">
+      <div className="relative mt-[50px] sm:mt-[115px] w-full ">
         <div className="articleTemplateSix ">
         <img
           src={currentArticle.img}
           alt="img"
           className= "object-cover h-[400px] w-full "
         />
-        <div className='absolute top-[300px] lg:left-[150px] flex justify-start max-w-[650px] px-2 articleTemplateSix-header'>
+        {/* <div className='absolute top-[300px] lg:left-[150px] flex justify-start max-w-[650px] px-2 articleTemplateSix-header'>
             <h1 className=" z-20 text-xl md:text-2xl lg:text-3xl font-bold">Lorem ipsum dolor sit amet consectetur voluptates commodi beatae neque animi? </h1>
-        </div>
+        </div> */}
      
           <div
             className=" px-2 pb-12 articleTemplate w-full max-w-[850px] lg:ml-[150px] "
