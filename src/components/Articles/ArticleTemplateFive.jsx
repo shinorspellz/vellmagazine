@@ -124,8 +124,14 @@ const ArticleTemplateFive = () => {
             <div className="flex flex-col items-center justify-center">
               <p className="px-3 text-[13px] text-center">
                 BY{' '}
-                <span className="underline px-1 font-semibold">
-                  VellMagazine
+                <span className="underline px-1 font-semibold cursor-pointer"
+                 onClick={() =>
+                  navigate(`/author/${currentArticle.author}`, {
+                    state: `${currentArticle.author}`
+                  })
+                }
+                >
+                {currentArticle.author}
                 </span>{' '}
                 / {currentArticle.date}
               </p>
