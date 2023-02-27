@@ -76,7 +76,13 @@ const arr=[]
         <h3 className="px-3 font-bold italic">{currentArticle.subHeader}</h3>
 
         <p className="px-3 text-[13px]">
-          BY <span className="underline px-1 font-semibold">VellMagazine</span>{' '}
+          BY <span className="underline px-1 font-semibold cursor-pointer"
+           onClick={() =>
+            navigate(`/author/${currentArticle.author}`, {
+              state: `${currentArticle.author}`
+            })
+          }
+          >{currentArticle.author}</span>{' '}
           / {currentArticle.date}
         </p>
         <div className="flex justify-start items-center gap-4 p-3 articleTemplate-btns">

@@ -116,7 +116,13 @@ const settings = {
         <h1 className='font-medium font-serif text-[40px]  py-2  text-center' >{currentArticle.contentHeader}</h1>
         <h3 className='px-3 font-bold italic text-center'>{currentArticle.subHeader}</h3>
 <div className='flex flex-col items-center justify-center'>
-<p className='px-3 text-[13px] text-center'>BY <span className='underline px-1 font-semibold'>VellMagazine</span> / {currentArticle.date}</p>
+<p className='px-3 text-[13px] text-center'>BY <span className='underline px-1 font-semibold cursor-pointer'
+ onClick={() =>
+  navigate(`/author/${currentArticle.author}`, {
+    state: `${currentArticle.author}`
+  })
+}
+>{currentArticle.author}</span> / {currentArticle.date}</p>
         <div className='flex justify-start items-center gap-4 p-3 articleTemplate-btns'>
         <button className=' w-[30px] h-[30px] flex justify-center items-center rounded-full'>
 <FaFacebookF className='w-[20px] h-[20px]'/>
