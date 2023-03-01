@@ -2,14 +2,15 @@ import React from 'react'
 import { HelmetProvider } from 'react-helmet-async'
 import VellMagazineContextProvider from './context/VellMagazineContext'
 import AppRouter from "./router/AppRouter"
+import ReactDOM from 'react-dom';
 
 
 // import "@fontsource/montserrat";
-const helmetContext = {}
+
 
 const App = () => {
   return (
-    <HelmetProvider context={helmetContext}>
+    <HelmetProvider >
       <VellMagazineContextProvider>
         <AppRouter/>
       </VellMagazineContextProvider>
@@ -20,3 +21,8 @@ const App = () => {
 }
 
 export default App
+
+// ReactDOM.hydrate(
+//   App
+  
+// );
