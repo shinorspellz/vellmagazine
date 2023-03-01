@@ -564,7 +564,7 @@ export const articles = [
     author: "Theresa Travis",
     topics: ["SOCIAL MEDIA","INFLUENCERS",],
     theme: "",
-    date: "February 15, 2023",
+    date: "March 15, 2023",
     template: 3,
   },
   {
@@ -580,7 +580,7 @@ export const articles = [
     author: "Giorgia Candreva",
     topics: ["FASHION & BEAUTY", "STYLE", "SOCIAL MEDIA", "SOCIAL MEDIA HACKS", "ARTS & CULTURE", "ART"],
     theme: "trending",
-    date: "February 19, 2023",
+    date: "March 19, 2023",
     template: 3,
   },
   {
@@ -594,7 +594,7 @@ export const articles = [
     author: "Theresa Travis",
     topics: ["ARTS & CULTURE","BOOKS",],
     theme: "trending",
-    date: "February 18, 2023",
+    date: "March 18, 2023",
     template: 2
   },
   {
@@ -608,7 +608,7 @@ export const articles = [
     author: "Omotoyosi Osikoya",
     topics: ["ARTS & CULTURE","CINEMA"],
     theme: "trending",
-    date: "February 16, 2023",
+    date: "March 16, 2023",
     template: 2
   },
   {
@@ -622,7 +622,7 @@ export const articles = [
     author: "Omotoyosi Osikoya",
     topics: ["ARTS & CULTURE","MUSIC"],
     theme: "trending",
-    date: "February 21, 2023",
+    date: "March 21, 2023",
     template: 1,
   },
   {
@@ -636,7 +636,7 @@ export const articles = [
     author: "Omotoyosi Osikoya",
     topics: ["FASHION & BEAUTY","SKIN","MAKEUP"],
     theme: "trending",
-    date: "February 21, 2023",
+    date: "March 21, 2023",
     template: 2,
   },
 
