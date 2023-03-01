@@ -8,6 +8,7 @@ import { VellMagazineContext } from '../../context/VellMagazineContext'
 
 const ArticlesHeader = () => {
     const {state}=useLocation()
+    console.log(state)
     const {convertToMonth}=useContext(VellMagazineContext)
     const newArticleList=articles.filter(item=>item.month==state).reverse()
 

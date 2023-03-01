@@ -61,6 +61,9 @@ const navigate=useNavigate()
       <option value="FEB 2023 EDITION" className="py-2 font-bold cursor-pointer text-[13px] px-1">
         FEBRUARY EDITION
       </option>
+      <option value="MAR 2023 EDITION" className="py-2 font-black cursor-pointer ">
+            MAR 2023 EDITION
+          </option>
     </select>
     <button className='sidebar-main-btns font-semibold'
     onClick={(e)=>handleSidebarMenu(e)}
