@@ -8,11 +8,11 @@ const SingleTodayMagazine = ({ item, index, thisMonthArr }) => {
   const navigate = useNavigate();
   // const {img,date,content}=item;
   const relevantTopics = [
-    "INFLUENCERS",
+    "PETS IN THE SPOTLIGHT",
     "BOOKS",
     "MAKEUP",
     "CINEMA",
-    "STYLE",
+    "COST OF LIVING",
     "MUSIC",
   ];
 

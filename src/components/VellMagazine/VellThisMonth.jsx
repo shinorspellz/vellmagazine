@@ -14,9 +14,9 @@ const VellThisMonth = () => {
     // const mentalHealth=thisMonthArticles.find((item)=>item.topics.includes("MENTAL HEALTH"))
     // const weekendGetAways=thisMonthArticles.find((item)=>item.topics.includes("WEEKEND GETAWAYS"))
     // const makeUp=thisMonthArticles.find((item)=>item.topics.includes("MAKEUP"))
-    // const petSpotlight=thisMonthArticles.find((item)=>item.topics.includes("PETS/ANIMALS IN THE SPOTLIGHT"))
+    const petSpotlight=thisMonthArticles.find((item)=>item.topics.includes("PETS/ANIMALS IN THE SPOTLIGHT"))
     // const socialMediaHacks=thisMonthArticles.find((item)=>item.topics.includes("SOCIAL MEDIA HACKS") && !item.topics.includes("COST OF LIVING"))
-    // const costOfLiving=thisMonthArticles.find((item)=>item.topics.includes("COST OF LIVING"))
+    const costOfLiving=thisMonthArticles.find((item)=>item.topics.includes("COST OF LIVING"))
     // const style=thisMonthArticles.find((item)=>item.topics.includes("STYLE") && !item.topics.includes("SOCIAL MEDIA"))
     const influencers=thisMonthArticles.find((item)=>item.topics.includes("INFLUENCERS"))
     const books=thisMonthArticles.find((item)=>item.topics.includes("BOOKS"))
@@ -24,12 +24,12 @@ const VellThisMonth = () => {
     const cinema=thisMonthArticles.find((item)=>item.topics.includes("CINEMA"))
     const socialMediaHacks=thisMonthArticles.find((item)=>item.topics.includes("SOCIAL MEDIA HACKS") && !item.topics.includes("COST OF LIVING"))
     const music=thisMonthArticles.find((item)=>item.topics.includes("MUSIC"))
-    const style=thisMonthArticles.find((item)=>item.topics.includes("STYLE"))
+    //const style=thisMonthArticles.find((item)=>item.topics.includes("STYLE"))
 
     const thisMonthArr=[]
     // thisMonthArr.push(mentalHealth,weekendGetAways,style,petSpotlight,socialMediaHacks,costOfLiving)
     // console.log(thisMonthArr);
-    thisMonthArr.push(influencers,books,makeUp,cinema,socialMediaHacks,music)
+    thisMonthArr.push(petSpotlight,books,makeUp,cinema,costOfLiving,music)
     console.log(thisMonthArr);
   return (
     <main className="vellmagazine-today mt-[60px] p-5 xl:px-[2rem]">
