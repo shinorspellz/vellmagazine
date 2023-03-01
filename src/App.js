@@ -22,7 +22,7 @@ const App = () => {
 
 export default App
 
-// ReactDOM.hydrate(
-//   App
+ReactDOM.hydrate(
+  App
   
-// );
+);
