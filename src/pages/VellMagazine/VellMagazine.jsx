@@ -17,8 +17,8 @@ const VellMagazine = () => {
     <Cookies/>
     <VellNavbar />
     <VellFader/>
-    <VelllTopStories/>
-    <VellThisMonth/>
+    <VelllTopStories/> 
+    <VellThisMonth/> 
     <VellMainPhoto/>
     <VellTrending/>
     <VellFooter />

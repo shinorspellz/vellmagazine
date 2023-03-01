@@ -8,12 +8,12 @@ const SingleTodayMagazine = ({ item, index, thisMonthArr }) => {
   const navigate = useNavigate();
   // const {img,date,content}=item;
   const relevantTopics = [
-    "MENTAL HEALTH",
-    "WEEKEND GETAWAYS",
+    "INFLUENCERS",
+    "BOOKS",
+    "MAKEUP",
+    "CINEMA",
     "STYLE",
-    "PETS/ANIMALS IN THE SPOTLIGHT",
-    "SOCIAL MEDIA HACKS",
-    "COST OF LIVING",
+    "MUSIC",
   ];
 
   const goToTopics = (e) => {
