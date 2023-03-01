@@ -65,6 +65,7 @@ const VelllTopStories = () => {
               .replace(/<.?h.?[^>]*>/g, '')
               .replace(/<.?ol.?[^>]*>/g, '')
               .replace(/<.?li.?[^>]*>/g, '')
+              .replace(/<.?a.?[^>]*>/g, '')
               : topArticles[0].content
               .slice(4, 370)
               .replace(/(<p>)/g, '')
@@ -72,6 +73,7 @@ const VelllTopStories = () => {
               .replace(/<.?h.?[^>]*>/g, '')
               .replace(/<.?ol.?[^>]*>/g, '')
               .replace(/<.?li.?[^>]*>/g, '')
+              .replace(/<.?a.?[^>]*>/g, '')
                   }
             ...
           </p>
@@ -105,6 +107,7 @@ const VelllTopStories = () => {
               .replace(/<.?h.?[^>]*>/g, '')
               .replace(/<.?ol.?[^>]*>/g, '')
               .replace(/<.?li.?[^>]*>/g, '')
+              .replace(/<.?a.?[^>]*>/g, '')
               : topArticles[1].content
               .slice(4, 180)
               .replace(/(<p>)/g, '')
@@ -112,6 +115,7 @@ const VelllTopStories = () => {
               .replace(/<.?h.?[^>]*>/g, '')
               .replace(/<.?ol.?[^>]*>/g, '')
               .replace(/<.?li.?[^>]*>/g, '')
+              .replace(/<.?a.?[^>]*>/g, '')
                   }
             ...</p>
               <p className="pt-2 text-[13px] ">{changeFormat(topArticles[1].date)}</p>
@@ -146,6 +150,7 @@ const VelllTopStories = () => {
               .replace(/<.?h.?[^>]*>/g, '')
               .replace(/<.?ol.?[^>]*>/g, '')
               .replace(/<.?li.?[^>]*>/g, '')
+              .replace(/<.?a.?[^>]*>/g, '')
               : topArticles[1].content
               .slice(4, 180)
               .replace(/(<p>)/g, '')
@@ -153,6 +158,7 @@ const VelllTopStories = () => {
               .replace(/<.?h.?[^>]*>/g, '')
               .replace(/<.?ol.?[^>]*>/g, '')
               .replace(/<.?li.?[^>]*>/g, '')
+              .replace(/<.?a.?[^>]*>/g, '')
                   }
             ...</p>
               <p className="pt-2 text-[13px]">{changeFormat(topArticles[3].date)}</p>
@@ -187,6 +193,8 @@ const VelllTopStories = () => {
               .replace(/<.?h.?[^>]*>/g, '')
               .replace(/<.?ol.?[^>]*>/g, '')
               .replace(/<.?li.?[^>]*>/g, '')
+              .replace(/<.?a.?[^>]*>/g, '')
+              .replace(/<.?[(</p>)]/g, '')
               : topArticles[1].content
               .slice(4, 180)
               .replace(/(<p>)/g, '')
@@ -194,6 +202,8 @@ const VelllTopStories = () => {
               .replace(/<.?h.?[^>]*>/g, '')
               .replace(/<.?ol.?[^>]*>/g, '')
               .replace(/<.?li.?[^>]*>/g, '')
+              .replace(/<.?a.?[^>]*>/g, '')
+              .replace(/<.?[(</p>)]/g, '')
                   }
             ...</p>
               <p className="pt-2 text-[13px] ">{changeFormat(topArticles[3].date)}</p>

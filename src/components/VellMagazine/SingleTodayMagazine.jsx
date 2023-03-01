@@ -55,6 +55,8 @@ const SingleTodayMagazine = ({ item, index, thisMonthArr }) => {
               .replace(/<.?h.?[^>]*>/g, '')
               .replace(/<.?ol.?[^>]*>/g, '')
               .replace(/<.?li.?[^>]*>/g, '')
+              .replace(/<.?a.?[^>]*>/g, '')
+              .replace(/<.?[(</p>)]/g, '')
           : item.content
               .slice(4, 200)
               .replace(/(<p>)/g, '')
@@ -62,6 +64,8 @@ const SingleTodayMagazine = ({ item, index, thisMonthArr }) => {
               .replace(/<.?h.?[^>]*>/g, '')
               .replace(/<.?ol.?[^>]*>/g, '')
               .replace(/<.?li.?[^>]*>/g, '')
+              .replace(/<.?a.?[^>]*>/g, '')
+              .replace(/<.?[(</p>)]/g, '')
               }
         ...
       </p>

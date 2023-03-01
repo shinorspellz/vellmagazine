@@ -113,8 +113,11 @@ const ArticleTemplateFive = () => {
             id={currentArticle.contentHeader}
           >
             <p className="p-3 text-sm text-center">
-              {breadcrump?.title}/{currentArticle.topics[0]}{' '}
+              {currentArticle.topics[0]}{' '}
             </p>
+            {/* <p className="p-3 text-sm text-center">
+              {breadcrump?.title}/{currentArticle.topics[0]}{' '}
+            </p> */}
             <h1 className="font-medium font-serif text-[40px]  py-2  text-center">
               {currentArticle.contentHeader}
             </h1>
