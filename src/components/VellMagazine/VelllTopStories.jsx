@@ -44,7 +44,7 @@ const VelllTopStories = () => {
           <img
             src={topArticles[0].img}
             alt="topstories"
-            className="object-cover cursor-pointer topStoriesImg "
+            className="object-cover cursor-pointer topStoriesImg w-full h-[300px] md:h-[420px]"
             onClick={(e)=>goToArticleFromImg(e)}
             />
           </figure>
@@ -94,7 +94,7 @@ const VelllTopStories = () => {
                             >
                 {topArticles[1].topics[0]}
               </p>
-              <h3 className="font-500 font-serif text-[15px] md:text-[17px] py-1 md:py-2 line-clamp-1 md:line-clamp-none hover:underline cursor-pointer"
+              <h3 className="font-500 font-serif text-[15px] md:text-[17px] py-1 md:py-2 line-clamp-1 md:line-clamp-2 hover:underline cursor-pointer"
               onClick={(e)=>goToArticle(e)}
               >
                 {topArticles[1].mainHeader}
@@ -137,7 +137,7 @@ const VelllTopStories = () => {
                             >
                 {topArticles[2].topics[0]}
               </p>
-              <h3 className="font-500 font-serif text-[15px] md:text-[17px] py-1 md:py-2 line-clamp-1 md:line-clamp-none hover:underline cursor-pointer"
+              <h3 className="font-500 font-serif text-[15px] md:text-[17px] py-1 md:py-2 line-clamp-1 md:line-clamp-2 hover:underline cursor-pointer"
               onClick={(e)=>goToArticle(e)}
               >
                 {topArticles[2].mainHeader}
@@ -180,7 +180,7 @@ const VelllTopStories = () => {
                             >
                 {topArticles[3].topics[0]}
               </p>
-              <h3 className="font-500 font-serif text-[15px] md:text-[17px] py-1 md:py-2 line-clamp-1 md:line-clamp-none hover:underline cursor-pointer"
+              <h3 className="font-500 font-serif text-[15px] md:text-[17px] py-1 md:py-2 line-clamp-1 md:line-clamp-2 hover:underline cursor-pointer"
               onClick={(e)=>goToArticle(e)}
               >
                 {topArticles[3].mainHeader}

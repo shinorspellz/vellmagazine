@@ -11,6 +11,9 @@ const VellThisMonth = () => {
     const month=moment(today).format("LL").split(" ")[0]
     // console.log(month)
     const thisMonthArticles=articles.filter((item)=>item.date.includes(month))
+    
+console.log(thisMonthArticles)
+
     // const mentalHealth=thisMonthArticles.find((item)=>item.topics.includes("MENTAL HEALTH"))
     // const weekendGetAways=thisMonthArticles.find((item)=>item.topics.includes("WEEKEND GETAWAYS"))
     // const makeUp=thisMonthArticles.find((item)=>item.topics.includes("MAKEUP"))
@@ -24,12 +27,13 @@ const VellThisMonth = () => {
     const cinema=thisMonthArticles.find((item)=>item.topics.includes("CINEMA"))
     const socialMediaHacks=thisMonthArticles.find((item)=>item.topics.includes("SOCIAL MEDIA HACKS") && !item.topics.includes("COST OF LIVING"))
     const music=thisMonthArticles.find((item)=>item.topics.includes("MUSIC"))
-    //const style=thisMonthArticles.find((item)=>item.topics.includes("STYLE"))
+    const trends=thisMonthArticles.find((item)=>item.topics.includes("TRENDS"))
+    const clothing=thisMonthArticles.find((item)=>item.topics.includes("CLOTHING"))
 
     const thisMonthArr=[]
     // thisMonthArr.push(mentalHealth,weekendGetAways,style,petSpotlight,socialMediaHacks,costOfLiving)
     // console.log(thisMonthArr);
-    thisMonthArr.push(petSpotlight,books,makeUp,cinema,costOfLiving,music)
+    thisMonthArr.push(petSpotlight,trends,makeUp,cinema,music,clothing)
     console.log(thisMonthArr);
   return (
     <main className="vellmagazine-today mt-[60px] p-5 xl:px-[2rem]">
