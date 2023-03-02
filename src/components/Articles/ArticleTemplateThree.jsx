@@ -42,9 +42,9 @@ const arr=[]
         articles.filter((item2)=>item2.topics.includes(item) && arr.push(item2))
         )})
 
-        useEffect(() => {
-          window.scrollTo(0, 0);
-       }, []);
+      //   useEffect(() => {
+      //     window.scrollTo(0, 0);
+      //  }, []);
 
   const relevantArticles=arr.filter((v,i,a)=>a.findIndex(v2=>(v2.id===v.id))===i).filter((item)=>item.id !== currentArticle.id)
 
