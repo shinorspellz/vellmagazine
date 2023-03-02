@@ -11,7 +11,7 @@ const SingleTodayMagazine = ({ item, index, thisMonthArr }) => {
     "PETS IN THE SPOTLIGHT",
     "TRENDS",
     "MAKEUP",
-    "CINEMA",
+    "BOOKS",
     "MUSIC",
     "CLOTHING"
     

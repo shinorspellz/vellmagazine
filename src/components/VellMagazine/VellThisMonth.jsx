@@ -33,7 +33,7 @@ console.log(thisMonthArticles)
     const thisMonthArr=[]
     // thisMonthArr.push(mentalHealth,weekendGetAways,style,petSpotlight,socialMediaHacks,costOfLiving)
     // console.log(thisMonthArr);
-    thisMonthArr.push(petSpotlight,trends,makeUp,cinema,music,clothing)
+    thisMonthArr.push(petSpotlight,trends,makeUp,books,music,clothing)
     console.log(thisMonthArr);
   return (
     <main className="vellmagazine-today mt-[60px] p-5 xl:px-[2rem]">

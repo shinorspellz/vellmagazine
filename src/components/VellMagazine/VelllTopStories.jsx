@@ -66,6 +66,7 @@ const VelllTopStories = () => {
               .replace(/<.?ol.?[^>]*>/g, '')
               .replace(/<.?li.?[^>]*>/g, '')
               .replace(/<.?a.?[^>]*>/g, '')
+              
               : topArticles[0].content
               .slice(4, 370)
               .replace(/(<p>)/g, '')
@@ -74,6 +75,7 @@ const VelllTopStories = () => {
               .replace(/<.?ol.?[^>]*>/g, '')
               .replace(/<.?li.?[^>]*>/g, '')
               .replace(/<.?a.?[^>]*>/g, '')
+           
                   }
             ...
           </p>

@@ -40,6 +40,7 @@ const VellHeader = () => {
                     .replace(/<.?em.?[^>)]*>/g, '')
                     .replace(/<.?[(</p>)]/g, '')
                     .replace(/<.?sup.?[^>]*>/g, '')
+                    .replace(/&quot;/g, '"')
                     : item.content
                     .slice(4, 330)
                     .replace(/(<p>)/g, '')
@@ -48,6 +49,7 @@ const VellHeader = () => {
                     .replace(/<.?ol.?[^>]*>/g, '')
                     .replace(/<.?li.?[^>]*>/g, '')
                     .replace(/<.?[(</p>)]/g, '')
+                    .replace(/[&quot;]/g, '"')
                         }
                   ...
                 </p>
