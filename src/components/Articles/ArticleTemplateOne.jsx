@@ -115,6 +115,9 @@ const arr=[]
               alt="img"
               className="h-[350px]  object-cover pr-5 block m-auto my-3 "
             />
+            <figcaption className='authorTemplate text-[11px] text-center mb-[1rem]'>
+              {currentArticle.figcaption}
+            </figcaption>
             <p
               dangerouslySetInnerHTML={{ __html: currentArticle.content }}
               className="content p-3"

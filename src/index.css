@@ -726,6 +726,20 @@ h6 {
   list-style-position: inside;
   margin-bottom: 0.5rem;
 }
+
+.content .modeling-ol li {
+  list-style-type: decimal;
+  list-style-position: inside;
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem
+  
+}
+
+.content strong {
+  font-weight: bolder  !important
+}
+
 .sub-head {
   font-size: 25px !important;
   font-family: serif !important;
