@@ -7,7 +7,7 @@ import RightArrow from "./VellTrendingRightArrow";
 
 const VellTrending = () => {
 
-  const trendingData=articles?.filter((item) => item.theme == 'trending')
+  const trendingData=articles?.filter((item) => item.theme == 'trending').reverse()
   const settings = {
     // dots: true,
     infinite: true,
