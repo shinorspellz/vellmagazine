@@ -1,133 +1,4 @@
-//top stories data
 
-export const topStoriesData = [
-  {
-    topic: "Fashion",
-    header: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
-    date: "10 December 2022",
-    img: "images/top-stories-main.jpg",
-  },
-  {
-    topic: "Fashion",
-    header: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
-    date: "10 December 2022",
-    img: "images/top-stories-1.jpg",
-  },
-  {
-    topic: "Photography",
-    header:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum, consectetur adipiscing elit.",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
-    date: "10 December 2022",
-    img: "images/top-stories-2.jpg",
-  },
-  {
-    topic: "Fashion",
-    header: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
-    date: "10 December 2022",
-    img: "images/top-stories-3.jpg",
-  },
-];
-
-//today on vell magazine data
-
-export const thisMonthData = [
-  {
-    topic: "Fashion",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    date: "2 February 2023",
-    img: "images/today-1.jpg",
-  },
-  {
-    topic: "Fashion",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    date: "2 February 2023",
-    img: "images/today-2.jpg",
-  },
-  {
-    topic: "Fashion",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    date: "2 February 2023",
-    img: "images/today-3.jpg",
-  },
-  {
-    topic: "Fashion",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    date: "2 February 2023",
-    img: "images/today-4.jpg",
-  },
-  {
-    topic: "Fashion",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    date: "2 February 2023",
-    img: "images/today-5.jpg",
-  },
-  {
-    topic: "Fashion",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    date: "2 February 2023",
-    img: "images/today-6.jpg",
-  },
-];
-
-//trnding data
-export const trendingData = [
-  {
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    date: "2 February 2023",
-    img: "images/trending-1.jpg",
-    topic: "FASHION",
-  },
-  {
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    date: "2 February 2023",
-    img: "images/trending-2.jpg",
-    topic: "FASHION",
-  },
-  {
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    date: "2 February 2023",
-    img: "images/trending-3.jpg",
-    topic: "FASHION",
-  },
-  {
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    date: "2 February 2023",
-    img: "images/trending-4.jpg",
-    topic: "FASHION",
-  },
-  {
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    date: "2 February 2023",
-    img: "images/trending-5.jpg",
-    topic: "FASHION",
-  },
-  {
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    date: "2 February 2023",
-    img: "images/trending-6.jpg",
-    topic: "FASHION",
-  },
-];
 //footer data
 
 export const footerData = [
@@ -172,7 +43,7 @@ export const authorsData = [
     id: 1,
     name: "Colin Hughes",
     img: "/images/colin-avatar.jpg",
-    desc: "Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+    desc: "Author at VellMagazine",
     bio: "A couple of years ago I decided to combine my passion for writing and for anything related to animal interest and welfare. Following the creation of my own blog, which now gains around 12, 000 visitors a month, I have written a number of guest pieces for various publications. Since joining Vell Magazine my interest in pets has meshed into a lattice of interconnected issues including social media, arts and culture and mental health. I am currently enjoying working with a dynamic team of writers as well as contributing to the unique, holistic voice of Vell Magazine.",
     // social:{
     //   linkedIn:"",
@@ -185,35 +56,35 @@ export const authorsData = [
     id: 2,
     name: "Yara Arkadan",
     img: "/images/yara-avatar.jpg",
-    desc: "Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+    desc: "Author at VellMagazine",
     bio: "As a dedicated writer and fashion enthusiast, I am thrilled to have joined the team at VellMagazine. With a solid background in Marketing and Luxury Brand Management, I bring plenty of knowledge and experience to the table. Living in Beirut, Lebanon, I am constantly inspired by the latest fashion trends - especially in the MENA region, innovative skincare routines, and fascinating cultures and trips from around the world. If you're looking to stay informed and on-trend, be sure to check out my latest articles covering these captivating topics.",
   },
   {
     id: 3,
     name: "Theresa Travis",
     img: "/images/theresa-avatar.jpg",
-    desc: "Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+    desc: "Author at VellMagazine",
     bio: "Theresa is a marketing professional with a creative flare and a passion for all things fashion, mainstream culture, and innovation in business. She is currently based in Manchester, UK but is originally from the small island of Cyprus. She enjoys writing about emerging trends in marketing, as well as social media and sharing her experience in order to help people that want to follow a similar path into marketing. ",
   },
   {
     id: 4,
     name: "Cindy Patricio",
     img: "/images/cindy-avatar.jpg",
-    desc: "Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+    desc: "Author at VellMagazine",
     bio: "Based out of the state of Florida in the U.S.A, Cindy is a current content creator and marketing professional with a high passion for literature. Cindy not only has experience as a model herself but is also an avid world traveler with over 40 countries on her list so far and takes great fascination in learning about all that comes with diverse backgrounds, cultures, and cuisine. Cindy believes that the best experience and knowledge comes from exploring and experiencing the world firsthand. Cindy is a creative writer who can write about anything and doesn’t stick to just one writing niche!",
   },
   {
     id: 5,
     name: "Alia Kassem",
     img: "/images/alia-avatar.jpg",
-    desc: "Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+    desc: "Author at VellMagazine",
     bio: "<p>Based in London, Alia has been spilling her words in the creative writing atmosphere for some time now, work being expressed worldwide online, collaborations with numerous types of creatives &amp; being apart within events and exhibitions.</p><p>She has modelled across a few years now, Hair Modelling and Commercial Modelling (featured in Music Videos for artists like Sam Smith, Dua Lipa and more&#8230;) and is signed with House Of Androgyny (HOA).</p><p>During the journey of lockdown Alia dedicated her time into chasing after true passion &amp; calling in life by turning her words, emotions &amp; stories into music.</p><p>Forming a soulful sound within her indie-rock acoustic melodic moments &amp; memory&rsquo;s - what she&rsquo;d lived through she wanted to give &amp; inspire all that may have come close to similar pain or love, a sound to not let those feel they&rsquo;re alone &amp; witness what they truly deserve to what they truly can be.</p><p>Entering the year &amp; month of March 2022, her story within music begun. Featuring vocals on house tracks, to backing singing and performing at live events/gigs/shows. Now in the production stage of creating &amp; mastering her first single, amongst many other tracks soon to come.</p>",
   },
   {
     id: 6,
     name: "Giorgia Candreva",
     img: "/images/giorgia-avatar.jpg",
-    desc: "Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+    desc: "Author at VellMagazine",
     bio: "My name is Giorgia and I am 22 years old. I am a very curious person and a fan of unusual experiences that are fun to tell. At the moment, I am a graduate student in Marketing in Rome who is eager to learn and grow in the Communication, PR and Luxury field. Two of my biggest passions are creative writing and fashion, which is why I am thrilled to have the opportunity to collaborate with the incredibly talented Vell Magazine team. ",
   },
 
@@ -317,7 +188,7 @@ export const articles = [
     topics: ["PETS/ANIMALS", "PETS/ANIMALS IN THE SPOTLIGHT"],
     theme: "",
     date: "February 05, 2023",
-    template: 6,
+    template: 2,
   },
   {
     id: 8,
@@ -583,7 +454,7 @@ export const articles = [
     mainHeader: "Bruce Willis has frontotemporal dementia: What are the symptoms of FTD?",
     subHeader: "",
     contentHeader: "",
-    content: "<p class='first'>Bruce Willis, the Hollywood actor who has been a household name for decades, has recently made headlines for reasons unrelated to his successful career. It has been revealed that Willis is battling frontotemporal dementia (FTD), a rare form of dementia that primarily affects the frontal and temporal lobes of the brain.</p><p>FTD is a degenerative disorder that leads to the shrinking of the frontal and temporal lobes of the brain. These parts of the brain are responsible for controlling behaviour, personality, and language skills, and as they deteriorate, individuals with FTD experience a wide range of symptoms, including changes in behaviour and personality, language problems, and difficulties with movement.</p><p>While FTD is relatively rare, accounting for only around 5% of all dementia cases, it is a devastating condition that can have a profound impact on individuals and their families. There is no known cure for FTD, and treatment options are limited. However, early detection and intervention can help to manage symptoms and improve quality of life.</p><p>Willis's diagnosis has shed light on the importance of understanding and raising awareness about FTD, as well as the need for more resources and support for those affected by this condition. It is important to recognize that FTD can affect individuals of all ages, not just the elderly, and that it can have a significant impact on their ability to work, socialize, and enjoy life.<div><img src='/images/bruceWillis.jpg'/><p class='text-slate-400 text-sm py-3'>Photo from October of 2019 (by: Charles Sykes/Charles Sykes/Invision/AP) Bruce made an appearance at a movie premiere in New York. However, just a year later, his family announced that he would be stepping away from acting due to his diagnosis with aphasia. Unfortunately, the situation has only worsened since then, and his family recently shared that his 'condition has progressed.'' They have revealed that Willis has been diagnosed with frontotemporal dementia, a more specific and severe condition that affects the frontal and temporal lobes of the brain.</p></div></p><p>One of the most heart-breaking consequences of FTD is the potential loss of memories and relationships. As individuals with FTD experience changes in their behaviour and personality, they may become increasingly isolated from their loved ones, and struggle to engage in the activities that they once enjoyed. In some cases, they may even forget important moments and people from their past.</p><p>For fans of Bruce Willis, the news of his diagnosis may be especially difficult to process. Many people have grown up watching his movies and admiring his work, and the thought that they may miss out on future performances is undoubtedly upsetting. However, it is also important to remember the positive impact that media can have on our lives.</p><p>Through the power of film and television, we are able to create lasting memories and share experiences with people from all over the world. Whether we are watching a classic movie like Die Hard or a new series on Netflix, the stories that we see on screen have the ability to transport us to different times and places, and to connect us with other people in meaningful ways.</p><p><div class='flex flex-col justify-center items-center'><img src='/images/bruceWillis-2.jpg' alt='bruceWillis' class='w-full max-w-[400px] block m-auto object-cover'/><a href='https://www.instagram.com/p/Cou_gFCPvjB/?utm_source=ig_embed&ig_rid=134a8602-fcd6-4b77-b7a6-6836fb00f729' target='_blank' class='py-2'>View more on Instagram</a></div></p><p>In this sense, we can be thankful for the way that we store media. While memories may fade and relationships may change, the movies and TV shows that we love remain a constant source of joy and inspiration. They remind us of the people and places that we have loved, and they help us to imagine new possibilities for the future.</p><p><div class='flex flex-col justify-center items-center'><img src='/images/bruceWillis-1.jpg' alt='bruceWillis' class='w-full max-w-[400px] block m-auto object-cover'/><a href='https://www.instagram.com/p/Cbu-T0VAukL/?utm_source=ig_embed&ig_rid=9b045030-61a1-4a50-9a4d-de7f34e4747a' target='_blank' class='py-2'>View more on Instagram</a></div></p><p>At Vell Magazine, we believe that it is important to support individuals and families affected by FTD, and to continue raising awareness about this condition. While there is much work to be done in terms of research and treatment, we can all take steps to create a more compassionate and understanding world. By recognizing the value of memories and the power of media, we can work together to make a positive difference in the lives of those affected by FTD and other conditions.</p>",
+    content: "<p class='first'>Bruce Willis, the Hollywood actor who has been a household name for decades, has recently made headlines for reasons unrelated to his successful career. It has been revealed that Willis is battling frontotemporal dementia (FTD), a rare form of dementia that primarily affects the frontal and temporal lobes of the brain.</p><p>FTD is a degenerative disorder that leads to the shrinking of the frontal and temporal lobes of the brain. These parts of the brain are responsible for controlling behaviour, personality, and language skills, and as they deteriorate, individuals with FTD experience a wide range of symptoms, including changes in behaviour and personality, language problems, and difficulties with movement.</p><p>While FTD is relatively rare, accounting for only around 5% of all dementia cases, it is a devastating condition that can have a profound impact on individuals and their families. There is no known cure for FTD, and treatment options are limited. However, early detection and intervention can help to manage symptoms and improve quality of life.</p><p>Willis's diagnosis has shed light on the importance of understanding and raising awareness about FTD, as well as the need for more resources and support for those affected by this condition. It is important to recognize that FTD can affect individuals of all ages, not just the elderly, and that it can have a significant impact on their ability to work, socialize, and enjoy life.<img src='/images/bruceWillis.jpg'/><p class='text-slate-400 text-sm py-3'>Photo from October of 2019 (by: <div>Charles Sykes/Charles Sykes/Invision/AP) Bruce made an appearance at a movie premiere in New York. However, just a year later, his family announced that he would be stepping away from acting due to his diagnosis with aphasia. Unfortunately, the situation has only worsened since then, and his family recently shared that his 'condition has progressed.'' They have revealed that Willis has been diagnosed with frontotemporal dementia, a more specific and severe condition that affects the frontal and temporal lobes of the brain.</p></div></p><p>One of the most heart-breaking consequences of FTD is the potential loss of memories and relationships. As individuals with FTD experience changes in their behaviour and personality, they may become increasingly isolated from their loved ones, and struggle to engage in the activities that they once enjoyed. In some cases, they may even forget important moments and people from their past.</p><p>For fans of Bruce Willis, the news of his diagnosis may be especially difficult to process. Many people have grown up watching his movies and admiring his work, and the thought that they may miss out on future performances is undoubtedly upsetting. However, it is also important to remember the positive impact that media can have on our lives.</p><p>Through the power of film and television, we are able to create lasting memories and share experiences with people from all over the world. Whether we are watching a classic movie like Die Hard or a new series on Netflix, the stories that we see on screen have the ability to transport us to different times and places, and to connect us with other people in meaningful ways.</p><p><div class='flex flex-col justify-center items-center'><img src='/images/bruceWillis-2.jpg' alt='bruceWillis' class='w-full max-w-[400px] block m-auto object-cover'/><a href='https://www.instagram.com/p/Cou_gFCPvjB/?utm_source=ig_embed&ig_rid=134a8602-fcd6-4b77-b7a6-6836fb00f729' target='_blank' class='py-2'>View more on Instagram</a></div></p><p>In this sense, we can be thankful for the way that we store media. While memories may fade and relationships may change, the movies and TV shows that we love remain a constant source of joy and inspiration. They remind us of the people and places that we have loved, and they help us to imagine new possibilities for the future.</p><p><div class='flex flex-col justify-center items-center'><img src='/images/bruceWillis-1.jpg' alt='bruceWillis' class='w-full max-w-[400px] block m-auto object-cover'/><a href='https://www.instagram.com/p/Cbu-T0VAukL/?utm_source=ig_embed&ig_rid=9b045030-61a1-4a50-9a4d-de7f34e4747a' target='_blank' class='py-2'>View more on Instagram</a></div></p><p>At Vell Magazine, we believe that it is important to support individuals and families affected by FTD, and to continue raising awareness about this condition. While there is much work to be done in terms of research and treatment, we can all take steps to create a more compassionate and understanding world. By recognizing the value of memories and the power of media, we can work together to make a positive difference in the lives of those affected by FTD and other conditions.</p>",
     img: "/images/bruceWillis.jpg",
     month: "FEB 2023 EDITION",
     author: "Theresa Travis",
@@ -852,8 +723,20 @@ export const articles = [
     theme: "",
     date: "March 01, 2023",
     template: 3,
-    
-
+  },{
+    id: 39,
+    mainHeader: 'Creating the Ultimate Capsule Wardrobe',
+    subHeader: "",
+    contentHeader: 'Creating the Ultimate Capsule Wardrobe',
+    content: "<p class='first'>Capsule wardrobes are one of the best solutions to the age-old problem of having an affordable yet stylish wardrobe. They also help reduce the massive amounts of clothing that get brought or produced but never worn. It’s a fantastic way to fight the rise of fast fashion, which is extremely harmful to the environment. In a nutshell, a capsule wardrobe is a small collection of clothes that can be mixed and matched to create lots of outfits. They are easy to make and can save a great deal of time and stress when you’re searching for something to wear! Here’s what to keep in mind when you’re creating your ultimate capsule wardrobe.</p><h3>The Bare Necessities</h3><p>Before you venture out on a shopping spree, it’s important to know what your wardrobe needs to contain. What sort of dress code does your job have? What clothing items are essential for your day to day life? Ensure you have a list of what you need to include in your wardrobe before you start building it, so that you have a solid foundation to base it on.</p><p>Listing basic clothing that you’ll want in the wardrobe is a great way to figure out outfit inspiration before you start shopping. Think about shoes, trousers, shirts, jackets and dresses: which of these items do you need or want to prioritise? Remember that the shoes you pick will need to go with the clothing pieces, and vice versa.</p><div><img src='/images/wardrobe-1.jpg' class='block m-auto h-[400px] object-cover'/><p class='text-sm text-center py-2'>Image Credit: https://emilylightly.com/2022/03/spring-capsule-wardrobe/</p></div><h3>Seeking Inspiration</h3><p>It’s time to open up your wardrobe, and your social media apps. Go through your clothes and decide what you want to incorporate into your new capsule style, and what doesn’t work. Remember, it will work best if your clothing pieces are able to match or be mixed together to form cohesive outfits. Choosing too many pieces that won’t match with the rest of your wardrobe will ruin your plans, so don’t go overboard on statement pieces.</p><p>At the same time, go and make a mood board! Capsule wardrobes are ever more popular and there are countless examples you can turn to in order to get a better idea of what you like, and the style you want to use. Take your time to consider different options before you settle on a style and set clothing pieces.</p><div><img src='/images/wardrobe-2.jpg' class='block m-auto h-[400px] object-cover'/><p class='text-sm text-center py-2'>Image Credit: https://en.wikipedia.org/wiki/Capsule_wardrobe</p></div><h3>Streamline before you Shop</h3><p>As I said before, go through your wardrobe first, before going out and buying new items. If you have black or neutral trousers and shirts already, it will save you time and money when shopping as you already have the basics. On a similar note, streamline what you usually wear: whatever outfits you wear most in the day to day, streamline your wardrobe to those items (of course don’t get rid of other essentials that you may not have use for as often, such as night out wear, etc.) Using this method can help you to build a capsule wardrobe on what you already own, without the hassle of shopping for a new wardrobe</p><div><img src='/images/wardrobe-3.jpg' class='block m-auto h-[400px] object-cover'/><p class='text-sm text-center py-2'>Image Credit: https://theeverygirl.com/how-to-create-a-capsule-wardrobe/</p></div><p>Capsule wardrobes are all about minimalism, easy but stylish outfits and stress free decision making. Enjoy the process and watch the clutter from your wardrobe disappear, leaving you less stressed and with more to wear!</p>",
+    month: "FEB 2023 EDITION",
+    img: "/images/wardrobe-first.jpg",
+    img2: "/images/wardrobe-third.jpg",
+    img3: "/images/wardrobe-sec.jpg",
+    author: "Theresa Travis",
+    topics: ["FASHION & BEAUTY", "COST OF LIVING",],
+    theme: "",
+    date: "February 01, 2023",
+    template: 5,
   }
-
 ];
