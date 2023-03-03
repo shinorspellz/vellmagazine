@@ -11,7 +11,7 @@ const ArticleTopics = () => {
   const {state}=useLocation()
   const {scrollToTop}=useContext(VellMagazineContext)
 
-  const newArticleList=articles.filter(item=>item.topics?.includes(state)).reverse()
+  const newArticleList=articles.filter(item=>item.topics?.includes(state)).sort((a,b)=>b.id-a.id)
 
 return (
   <> 

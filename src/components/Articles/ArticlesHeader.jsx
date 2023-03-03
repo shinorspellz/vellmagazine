@@ -10,7 +10,7 @@ const ArticlesHeader = () => {
     const {state}=useLocation()
     console.log(state)
     const {convertToMonth}=useContext(VellMagazineContext)
-    const newArticleList=articles.filter(item=>item.month==state).reverse()
+    const newArticleList=articles.filter(item=>item.month==state).sort((a,b)=>b.id-a.id)
 
 
   return (
