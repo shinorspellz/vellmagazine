@@ -103,7 +103,7 @@ const VellNavbar = () => {
           defaultValue={'DEFAULT'}
         >
           <option value="DEFAULT" disabled hidden className="py-2 font-bold cursor-pointer  ">
-            SELECT AN EDITION
+            ARCHIVE
           </option>
           <option value="DEC 2022 EDITION" className="py-2 font-black cursor-pointer">
           DEC 2022 EDITION
