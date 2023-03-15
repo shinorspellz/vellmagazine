@@ -754,5 +754,19 @@ export const articles = [
     date: "March 01, 2023",
     template: 3,
   },
+  {
+    id: 43,
+    mainHeader: `Tems' Controversial Oscar Dress Sparks Debate on Red Carpet Etiquette`,
+    subHeader: "",
+    contentHeader: `Tems' Controversial Oscar Dress Sparks Debate on Red Carpet Etiquette`,
+    content: "<p class='first'>In recent news, Oscar nominee Tems has been receiving criticism for her choice of dress at a red carpet event. The Nigerian singer-songwriter wore a long, flowing gown that was deemed by some to be obstructive and rude to other guests.</p><p>Tems' dress at the Oscars was a stunning long flowing gown with intricate embroidery and a large train that made quite a statement on the red carpet. The intricate embroidery on the dress was a combination of floral and geometric patterns, which added texture and depth to the gown. The long train of the dress was also embroidered with the same patterns, giving it a cohesive look that flowed seamlessly from the bodice to the hemline. It featured a deep V-neckline with a sheer overlay, which added a touch of elegance to the overall look.</p><div><img src='/images/temsControversial-1.jpg' class='block m-auto' /><p class='text-center text-sm py-1 max-w-[600px] m-auto'>Tems had longed for the opportunity to attend the Oscars and was eager to make a lasting impression. (Image: Getty Images)</p></div><p>The dress, which featured a large train and intricate embroidery, was seen as a hindrance to those around her, as it reportedly took up a lot of space and made it difficult for people to move around. </p><p>The criticism of Tems' dress has sparked a debate about red carpet etiquette and the responsibility of celebrities to consider the comfort and convenience of other guests. Some have argued that it is the responsibility of the event organizers to ensure that there is enough space for everyone, while others believe that celebrities should be mindful of their surroundings and avoid wearing obstructive clothing.</p><p>Despite the controversy, Tems has remained unapologetic about her choice of dress. In a statement released on social media, she defended her decision to wear the gown and expressed her disappointment at the negative reactions it had received. She even took the opportunity to highlight the designer of the dress, saying that she was proud to wear a creation by a Nigerian fashion designer on such a prestigious stage. Amazing!</p><div><img src='/images/temsControversial-2.jpg' class='block m-auto' /><p class='text-center text-sm py-1 max-w-[600px] m-auto'>Tems had longed for the opportunity to attend the Oscars and was eager to make a lasting impression. (Image: Getty Images)</p></div><p>The incident has once again highlighted the intense scrutiny that celebrities face when it comes to their fashion choices. While many celebrities use red carpet events as an opportunity to showcase their style and creativity, it is clear that some believe there is a fine line between fashion-forward and inconsiderate.</p><p>As the debate continues, it remains to be seen whether Tems' dress will have a lasting impact on red carpet fashion, or whether it will simply be seen as a momentary blip in an industry that is constantly evolving</p>",
+    month: "MAR 2023 EDITION",
+    img: "/images/temsControversial-2.jpg",
+    author: "Theresa Travis",
+    topics: ["FASHION & BEAUTY", "CELEBRITY FASHION"],
+    theme: "",
+    date: "March 13, 2023",
+    template: 3,
+  },
 
 ];
