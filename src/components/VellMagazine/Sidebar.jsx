@@ -50,7 +50,7 @@ const navigate=useNavigate()
       defaultValue={'DEFAULT'}
     >
       <option value="DEFAULT" disabled hidden className="py-2 font-bold cursor-pointer">
-        EDITION
+       ARCHIVE
       </option>
       <option value="DEC 2022 EDITION" className="py-2 font-bold cursor-pointer text-[13px] px-1">
         DECEMBER EDITION
