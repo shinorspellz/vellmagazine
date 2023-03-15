@@ -24,7 +24,7 @@ const Authors = () => {
       title = "Authors"
       description = "Meet our team of talented writers."
       type= "website"
-      image= "/images/Logo.jpg"
+      image=''
     />
        
     
