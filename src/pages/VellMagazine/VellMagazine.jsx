@@ -19,7 +19,7 @@ const VellMagazine = () => {
     <VellFader/>
     <VelllTopStories/> 
     <VellThisMonth/> 
-    <VellMainPhoto/>
+    {/* <VellMainPhoto/> */}
     <VellTrending/>
     <VellFooter />
     <Footer/>
