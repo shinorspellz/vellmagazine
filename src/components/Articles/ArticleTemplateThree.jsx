@@ -112,7 +112,7 @@ const settings = {
               className="h-[450px] w-full px-2 sm:px-0 object-cover  sm:block sm:m-auto my-3  block lg:mt-[115px]"
             />
       <div className=" px-2 pb-12 articleTemplate w-full max-w-[1350px] m-auto" id={currentArticle.contentHeader}>
-        <p className='p-3 text-sm text-center' >{breadcrump?.title}/{currentArticle.topics[0]} </p>
+        <p className='p-3 text-sm text-center' >{currentArticle.topics[0]} </p>
         <h1 className='font-medium font-serif text-[40px]  py-2  text-center' >{currentArticle.contentHeader}</h1>
         <h3 className='px-3 font-bold italic text-center'>{currentArticle.subHeader}</h3>
 <div className='flex flex-col items-center justify-center'>
