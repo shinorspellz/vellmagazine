@@ -1185,3 +1185,8 @@ transform: translateX(-15%);
   background-color: var(--button-bgColor);
   color: var(--scrollUp-fontColor)
 }
+
+.list-disc li{
+list-style: disc;
+list-style-position: inside;
+}
