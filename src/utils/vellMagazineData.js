@@ -812,7 +812,7 @@ export const articles = [
     month: "MAR 2023 EDITION",
     img: "/images/spain.webp",
     author: "Shinor Spellz",
-    topics: ["LIFE MATTERS", "TECHNOLOGY"],
+    topics: ["TRAVEL", "HOLIDAY DESTINATIONS","COST OF LIVING"],
     theme: "",
     date: "March 18, 2023",
     template: 3,
