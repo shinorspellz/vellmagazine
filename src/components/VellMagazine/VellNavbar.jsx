@@ -106,16 +106,16 @@ const VellNavbar = () => {
             ARCHIVE
           </option>
           <option value="DEC 2022 EDITION" className="py-2 font-black cursor-pointer">
-          DEC 2022 EDITION
+          DEC 2022
           </option>
           <option value="JAN 2023 EDITION" className="py-2 font-black cursor-pointer ">
-            JAN 2023 EDITION
+            JAN 2023
           </option>
           <option value="FEB 2023 EDITION" className="py-2 font-black cursor-pointer ">
-            FEB 2023 EDITION
+            FEB 2023
           </option>
           <option value="MAR 2023 EDITION" className="py-2 font-black cursor-pointer ">
-            MAR 2023 EDITION
+            MAR 2023
           </option>
         </select>
         <ul className="lg:grid grid-flow-col-dense gap-[2.7rem] ml-[2.2rem] hidden bg-transparent">

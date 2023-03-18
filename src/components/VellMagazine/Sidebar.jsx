@@ -53,16 +53,16 @@ const navigate=useNavigate()
        ARCHIVE
       </option>
       <option value="DEC 2022 EDITION" className="py-2 font-bold cursor-pointer text-[13px] px-1">
-        DECEMBER EDITION
+        DECEMBER
       </option>
       <option value="JAN 2023 EDITION" className="py-2 font-bold cursor-pointer text-[13px] px-1">
-        JANUARY EDITION
+        JANUARY
       </option>
       <option value="FEB 2023 EDITION" className="py-2 font-bold cursor-pointer text-[13px] px-1">
-        FEBRUARY EDITION
+        FEBRUARY
       </option>
       <option value="MAR 2023 EDITION" className="py-2 font-black cursor-pointer ">
-            MAR 2023 EDITION
+            MAR 2023
           </option>
     </select>
     <button className='sidebar-main-btns font-semibold'
