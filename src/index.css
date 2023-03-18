@@ -1190,3 +1190,6 @@ transform: translateX(-15%);
 list-style: disc;
 list-style-position: inside;
 }
+.font-extrabold{
+  font-weight: 900;
+}
