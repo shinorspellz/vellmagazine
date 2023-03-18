@@ -11,7 +11,11 @@ const VellHeader = () => {
   const today=new Date()
   const month=moment(today).format("LL").split(" ")[0]
   const headerArticles=articles.filter(item=>item.date.includes(month)).reverse().slice(0,7)
-  // const indicators=document.querySelectorAll("button[data-testid='carousel-indicator']")
+  const divPattern=/<([^>]+)>.*?<\/\1>|<.*?\/>/g
+  const divPattern2="class='text-cent"
+
+  // const divPattern=/^<div>.*?<\/div>$/g
+  // const indicators=document..querySelectorAll("button[data-testid='carousel-indicator']")
   // const hs=document.querySelector("button.bg-white")
   // const indexOfSlide=(Object.values(indicators).indexOf(hs));
   // console.log(hs);
@@ -40,7 +44,10 @@ const VellHeader = () => {
                     .replace(/<.?em.?[^>)]*>/g, '')
                     .replace(/<.?[(</p>)]/g, '')
                     .replace(/<.?sup.?[^>]*>/g, '')
-                    .replace(/&quot;/g, '"')
+                    .replace(/&quot;/g,'"')
+                    .replace(divPattern,'')
+                    .replace(divPattern2,'')
+                    .replace(/<.?img[^>]*\/>/g, '')
                     : item.content
                     .slice(4, 330)
                     .replace(/(<p>)/g, '')
@@ -50,6 +57,9 @@ const VellHeader = () => {
                     .replace(/<.?li.?[^>]*>/g, '')
                     .replace(/<.?[(</p>)]/g, '')
                     .replace(/[&quot;]/g, '"')
+                    .replace(divPattern,'')
+                    .replace(divPattern2,'')
+                    .replace(/<.?img[^>]*\/>/g, '')
                         }
                   ...
                 </p>
