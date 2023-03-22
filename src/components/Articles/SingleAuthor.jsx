@@ -16,7 +16,9 @@ const SingleAuthor = ({item}) => {
         />
         <div className="block absolute left-0 top-0 w-full h-full text-center text-2xl font-serif pt-3 px-1 "
         onClick={()=>navigate(`/author/${item.name}`,{state:item.name})}     >
-        <p className= "text-[#503C3B] text-[20px]  absolute bottom-0 left-0 w-full text-center bg-white/40 font-serif py-[0.3rem]">{item.name}</p>
+        <p className= "text-[#503C3B] text-[20px]  absolute bottom-0 left-0 w-full text-center bg-white/40 font-serif py-[0.3rem]">{item.name}
+        <br/> {item.name2}
+        </p>
         {/* <h3 className={`${show && "hidden"} absolute bottom-2 left-[50%] translate-x-[-50%] text-[#503C3B] w-full text-3xl  readmore`}> Read More...</h3> */}
       </div>
       </div>     

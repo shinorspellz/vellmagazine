@@ -29,7 +29,7 @@ const AuthorTemplate = () => {
           alt="author"
           className="block m-auto rounded-full object-cover w-[300px] h-[300px] authorPic"
         />
-        <p className="text-center text-[25px] font-serif" >{currentAuthor.name}</p>
+        <p className="text-center text-[25px] font-serif" >{currentAuthor.name}<br/>{currentAuthor.name2}</p>
         <p className="text-center max-w-[800px]  m-auto">{currentAuthor.desc}</p>
         <p className="text-center max-w-[800px] text-[15px]  m-auto pt-[1rem] bio" dangerouslySetInnerHTML={{ __html: currentAuthor.bio }}></p>
         <div className='flex justify-center gap-[1rem] mt-[1rem]'>
