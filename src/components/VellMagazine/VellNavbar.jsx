@@ -1,27 +1,23 @@
-import { Link, NavLink, useNavigate } from 'react-router-dom'
-import { FaBars } from 'react-icons/fa'
-import {RxCross1} from 'react-icons/rx'
-import Sidebar from './Sidebar'
-import { useState } from 'react'
-import { BiMoon, BiSun } from 'react-icons/bi'
-import { menuItems } from '../../utils/menuItems';
-import MenuItems from './MenuItems';
-import { useContext } from 'react'
-import {VellMagazineContext} from '../../context/VellMagazineContext'
-
-
+import { NavLink, useNavigate } from "react-router-dom";
+import { FaBars } from "react-icons/fa";
+import { RxCross1 } from "react-icons/rx";
+import Sidebar from "./Sidebar";
+import { useState } from "react";
+import { BiMoon, BiSun } from "react-icons/bi";
+import { menuItems } from "../../utils/menuItems";
+import MenuItems from "./MenuItems";
+import { useContext } from "react";
+import { VellMagazineContext } from "../../context/VellMagazineContext";
+import { BiSearch } from "react-icons/bi";
+import { Link } from "react-router-dom";
 const VellNavbar = () => {
-  const {theme,changeTheme}=useContext(VellMagazineContext)
-  const [isShow, setIsShow] = useState(false)
-  // const [theme, setTheme] = useState(getStorage Theme())
-  const navigate = useNavigate()
-
+  const { theme, changeTheme } = useContext(VellMagazineContext);
+  const [isShow, setIsShow] = useState(false);
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
-    navigate('/allarticles', { state: e.target.value })
-  }
-
-  
+    navigate("/allarticles", { state: e.target.value });
+  };
 
   return (
     <nav
@@ -41,7 +37,15 @@ const VellNavbar = () => {
             to="https://vmodel.app/"
             className="font-serif text-[24px] whitespace-nowrap hidden lg:block"
           >
-            <img src={theme=="light-theme" ? "/images/Logo.jpg" : "/images/logoForDarkMode.png"}  alt="logo" className="w-[80px] pt-1 " />
+            <img
+              src={
+                theme === "light-theme"
+                  ? "/images/Logo.jpg"
+                  : "/images/logoForDarkMode.png"
+              }
+              alt="logo"
+              className="w-[80px] pt-1 "
+            />
           </NavLink>
         </div>
 
@@ -58,34 +62,35 @@ const VellNavbar = () => {
           >
             SIGN IN
           </Link> */}
+          <Link to="/searched-articles">
+            <BiSearch className="w-[24px] h-[24px]" />
+          </Link>
           <button
             className="navbar-switch flex items-center justify-center text-[20px] lg:hidden"
             onClick={changeTheme}
           >
-            {theme === 'light-theme' ? (
+            {theme === "light-theme" ? (
               <BiMoon />
             ) : (
               <BiSun className="text-yellow-400" />
             )}
           </button>
-          {
-            !isShow ? ( <FaBars
-            className="text-2xl faBars lg:hidden flex items-center justify-center h-full"
-            onClick={() => setIsShow(true)}
-          />): (
-              <RxCross1
-            className="text-2xl faBars lg:hidden flex items-center justify-center h-full "
-            onClick={() => setIsShow(false)}
-          />
-            )
-          }
-         
-          
+          {!isShow ? (
+            <FaBars
+              className="text-2xl faBars lg:hidden flex items-center justify-center h-full"
+              onClick={() => setIsShow(true)}
+            />
+          ) : (
+            <RxCross1
+              className="text-2xl faBars lg:hidden flex items-center justify-center h-full "
+              onClick={() => setIsShow(false)}
+            />
+          )}
           <button
             className="navbar-switch lg:flex items-center justify-center text-2xl hidden"
             onClick={changeTheme}
           >
-            {theme === 'light-theme' ? (
+            {theme === "light-theme" ? (
               <BiMoon />
             ) : (
               <BiSun className="text-yellow-400" />
@@ -100,41 +105,53 @@ const VellNavbar = () => {
           id="dates"
           className="border-0 text-sm bg-transparent font-[900] focus-within:ring-0 cursor-pointer hidden lg:block "
           onChange={(e) => handleChange(e)}
-          defaultValue={'DEFAULT'}
+          defaultValue={"DEFAULT"}
         >
-          <option value="DEFAULT" disabled hidden className="py-2 font-bold cursor-pointer  ">
+          <option
+            value="DEFAULT"
+            disabled
+            hidden
+            className="py-2 font-bold cursor-pointer  "
+          >
             ARCHIVE
           </option>
-          <option value="DEC 2022 EDITION" className="py-2 font-black cursor-pointer">
-          DEC 2022
+          <option
+            value="DEC 2022 EDITION"
+            className="py-2 font-black cursor-pointer"
+          >
+            DEC 2022
           </option>
-          <option value="JAN 2023 EDITION" className="py-2 font-black cursor-pointer ">
+          <option
+            value="JAN 2023 EDITION"
+            className="py-2 font-black cursor-pointer "
+          >
             JAN 2023
           </option>
-          <option value="FEB 2023 EDITION" className="py-2 font-black cursor-pointer ">
+          <option
+            value="FEB 2023 EDITION"
+            className="py-2 font-black cursor-pointer "
+          >
             FEB 2023
           </option>
-          <option value="MAR 2023 EDITION" className="py-2 font-black cursor-pointer ">
+          <option
+            value="MAR 2023 EDITION"
+            className="py-2 font-black cursor-pointer "
+          >
             MAR 2023
           </option>
         </select>
         <ul className="lg:grid grid-flow-col-dense gap-[2.7rem] ml-[2.2rem] hidden bg-transparent">
-        {menuItems.map((menu, index) => {
-          const depthLevel = 0;
-          return (
-            <MenuItems
-              items={menu}
-              key={index}
-              depthLevel={depthLevel}
-            />
-          );
-        })}
-      </ul>
-        
+          {menuItems.map((menu, index) => {
+            const depthLevel = 0;
+            return (
+              <MenuItems items={menu} key={index} depthLevel={depthLevel} />
+            );
+          })}
+        </ul>
       </section>
-      <Sidebar setIsShow={setIsShow} isShow={isShow}/>
+      <Sidebar setIsShow={setIsShow} isShow={isShow} />
     </nav>
-  )
-}
+  );
+};
 
-export default VellNavbar
+export default VellNavbar;
