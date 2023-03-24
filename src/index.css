@@ -723,7 +723,7 @@ h6 {
 }
 
 .content li {
-  list-style-type: "- ";
+  list-style-type: disc;
   list-style-position: inside;
   margin-bottom: 0.5rem;
 }
