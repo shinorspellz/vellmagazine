@@ -10,10 +10,10 @@ const SingleTodayMagazine = ({ item, index, thisMonthArr }) => {
   const relevantTopics = [
     "PETS IN THE SPOTLIGHT",
     "TRENDS",
-    "MAKEUP",
+    "SKIN",
     "BOOKS",
     "MUSIC",
-    "CLOTHING"
+    "CELEBRITY FASHION"
     
   ];
 

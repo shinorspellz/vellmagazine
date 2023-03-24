@@ -29,11 +29,13 @@ console.log(thisMonthArticles)
     const music=thisMonthArticles.find((item)=>item.topics.includes("MUSIC"))
     const trends=thisMonthArticles.find((item)=>item.topics.includes("TRENDS"))
     const clothing=thisMonthArticles.find((item)=>item.topics.includes("CLOTHING"))
+    const celebFashion=thisMonthArticles.find((item)=>item.topics.includes("CELEBRITY FASHION"))
+    const skin=thisMonthArticles.find((item)=>item.topics.includes("SKIN"))
 
     const thisMonthArr=[]
     // thisMonthArr.push(mentalHealth,weekendGetAways,style,petSpotlight,socialMediaHacks,costOfLiving)
     // console.log(thisMonthArr);
-    thisMonthArr.push(petSpotlight,trends,makeUp,books,music,clothing)
+    thisMonthArr.push(petSpotlight,trends,skin,books,music,celebFashion)
     console.log(thisMonthArr);
   return (
     <main className="vellmagazine-today mt-[60px] p-5 xl:px-[2rem]">

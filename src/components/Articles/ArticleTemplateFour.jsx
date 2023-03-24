@@ -104,7 +104,7 @@ const ArticleTemplateFour = () => {
   return (
     <>
       <VellNavbar />
-      <div className="relative h-[450px] mt-[130px]">
+      <div className="relative h-[450px] mt-[120px]">
         <img
           src={currentArticle.img}
           alt="img"
