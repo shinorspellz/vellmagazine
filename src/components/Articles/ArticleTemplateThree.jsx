@@ -111,6 +111,7 @@ const settings = {
               alt="img"
               className="h-[450px] w-full px-2 sm:px-0 object-cover  sm:block sm:m-auto my-3  block lg:mt-[115px]"
             />
+            <p className='py-1 text-center text-sm'>Image Source {currentArticle.img_source}</p>
       <div className=" px-2 pb-12 articleTemplate w-full max-w-[1350px] m-auto" id={currentArticle.contentHeader}>
         <p className='p-3 text-sm text-center' >{currentArticle.topics[0]} </p>
         <h1 className='font-medium font-serif text-[40px]  py-2  text-center' >{currentArticle.contentHeader}</h1>
