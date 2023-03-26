@@ -64,18 +64,18 @@ const arr=[]
     <>
       <VellNavbar />
       <div
-        className="mt-[130px] px-2 pb-12 articleTemplate w-full max-w-[1350px] m-auto"
+        className="mt-[130px] px-2 pb-12 articleTemplate w-full max-w-[1350px] m-auto "
         id={currentArticle.contentHeader}
       >
         <p className="p-3 text-sm">
           {/* {breadcrump.title}/{currentArticle.topics[0]}{' '} */}
         </p>
-        <h1 className="font-medium font-serif text-[40px]  py-2 px-3">
+        <h1 className="font-medium font-serif text-[40px]  py-2 px-3 sm:pl-12">
           {currentArticle.contentHeader}
         </h1>
         <h3 className="px-3 font-bold italic">{currentArticle.subHeader}</h3>
 
-        <p className="px-3 text-[13px]">
+        <p className="px-3 text-[13px] sm:pl-12">
           BY <span className="underline px-1 font-semibold cursor-pointer"
            onClick={() =>
             navigate(`/author/${currentArticle.author}`, {
@@ -85,7 +85,7 @@ const arr=[]
           >{currentArticle.author}</span>{' '}
           / {currentArticle.date}
         </p>
-        <div className="flex justify-start items-center gap-4 p-3 articleTemplate-btns">
+        <div className="flex justify-start items-center gap-4 p-3 articleTemplate-btns sm:pl-12">
           <button className=" w-[30px] h-[30px] flex justify-center items-center rounded-full">
             <FaFacebookF className="w-[20px] h-[20px]" />
           </button>
@@ -108,19 +108,19 @@ const arr=[]
             </button>
           </a>
         </div>
-        <main className="flex flex-col lg:flex-row">
+        <main className="flex flex-col lg:flex-row sm:pl-12">
           <div className="w-full max-w-[900px] lg:w-8/12 m-auto ">
             <img
               src={currentArticle.img}
               alt="img"
               className="h-[350px]  object-cover pr-5 block m-auto my-3 "
             />
-            <figcaption className='authorTemplate text-[11px] text-center mb-[1rem]'>
-              {currentArticle.figcaption}
-            </figcaption>
+            <p className='authorTemplate text-sm text-center mb-[1rem]'>
+              {currentArticle.img_source}
+            </p>
             <p
               dangerouslySetInnerHTML={{ __html: currentArticle.content }}
-              className="content p-3"
+              className="content p-3 "
             ></p>
             <div className="flex justify-start items-center p-3">
               <div className="flex flex-col sm:flex-row items-start sm:items-center justify-start gap-2 w-5/12 ">
@@ -172,10 +172,10 @@ const arr=[]
             </div>
           </div>
           <div className="w-full lg:w-4/12 px-5 mt-3">
-            <h3 className="text-2xl text-center sm:text-left">
+            <h3 className="text-2xl text-center sm:text-left sm:pl-[62px]">
               More like this
             </h3>
-            <div className="flex flex-wrap gap-4 items-center justify-center sm:justify-start">
+            <div className="flex flex-wrap gap-4 items-center justify-center sm:justify-end">
               {relevantArticles.map((item) => {
                 return <MoreLikeThisTemplate item={item} key={item.id} />
               })}
