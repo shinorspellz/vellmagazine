@@ -10,11 +10,10 @@ const SingleTodayMagazine = ({ item, index, thisMonthArr }) => {
   const relevantTopics = [
     "PETS IN THE SPOTLIGHT",
     "TRENDS",
-    "SKIN",
-    "BOOKS",
+    "TRAVEL",
+    "TECHNOLOGY",
     "MUSIC",
     "CELEBRITY FASHION"
-    
   ];
 
   const goToTopics = (e) => {
