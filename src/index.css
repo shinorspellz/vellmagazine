@@ -906,7 +906,6 @@ button span {
   margin: auto;
   padding: 5px;
   object-fit: cover;
-  transform: translateX(-40px);
 } 
 .articleTemplateFive .adopting{
   display: block;

@@ -24,6 +24,10 @@ import {
 import { BiCloudLightRain } from 'react-icons/bi'
 import { createGlobalStyle } from 'styled-components'
 import { useEffect } from 'react'
+import Slider from "react-slick";
+import RecommendedArticles from "./RecommendedArticles";
+
+
 
 
 
@@ -44,13 +48,15 @@ const arr=[]
         articles.filter((item2)=>item2.topics.includes(item) && arr.push(item2))
         )})
 
-      //   useEffect(() => {
-      //     window.scrollTo(0, 0);
-      //  }, []);
+        useEffect(() => {
+          window.scrollTo(0, 0);
+       }, []);
        
-  const relevantArticles=arr.filter((v,i,a)=>a.findIndex(v2=>(v2.id===v.id))===i).filter((item)=>item.id !== currentArticle.id)
-
-
+      const relevantArticles = arr
+      .filter((v, i, a) => a.findIndex((v2) => v2.id === v.id) === i)
+      .filter((item) => item.id !== currentArticle.id);
+    
+    const recommendedArticles=articles.filter(item=>item.theme=="trending" && item.id!=currentArticle.id)
 
   const breadcrump=menuItems.find(item=>{
     // console.log(item);
@@ -59,7 +65,49 @@ const arr=[]
     )
   })
 // console.log(breadcrump.title)
-
+const settings = {
+  // dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: recommendedArticles.length > 4 ? 5 : recommendedArticles.length,
+  slidesToScroll: 1,
+  arrows: true,
+  autoplay: true,
+  speed: 2000,
+  autoplaySpeed: 6000,
+  cssEase: "linear",
+  prevArrow: "",
+  nextArrow: "",
+  responsive: [
+    {
+      breakpoint: 1300,
+      settings: {
+        slidesToShow:
+          recommendedArticles.length > 3 ? 4 : recommendedArticles.length,
+      },
+    },
+    {
+      breakpoint: 1000,
+      settings: {
+        slidesToShow:
+          recommendedArticles.length > 2 ? 3 : recommendedArticles.length,
+      },
+    },
+    {
+      breakpoint: 800,
+      settings: {
+        slidesToShow:
+          recommendedArticles.length > 1 ? 2 : recommendedArticles.length,
+      },
+    },
+    {
+      breakpoint: 500,
+      settings: {
+        slidesToShow: 1,
+      },
+    },
+  ],
+};
   return (
     <>
       <VellNavbar />
@@ -70,12 +118,12 @@ const arr=[]
         <p className="p-3 text-sm">
           {/* {breadcrump.title}/{currentArticle.topics[0]}{' '} */}
         </p>
-        <h1 className="font-medium font-serif text-[40px]  py-2 px-3 sm:pl-12">
+        <h1 className="font-medium font-serif text-[40px]  py-2 px-3 lg:pl-12">
           {currentArticle.contentHeader}
         </h1>
         <h3 className="px-3 font-bold italic">{currentArticle.subHeader}</h3>
 
-        <p className="px-3 text-[13px] sm:pl-12">
+        <p className="px-3 text-[13px] lg:pl-12">
           BY <span className="underline px-1 font-semibold cursor-pointer"
            onClick={() =>
             navigate(`/author/${currentArticle.author}`, {
@@ -85,7 +133,7 @@ const arr=[]
           >{currentArticle.author}</span>{' '}
           / {currentArticle.date}
         </p>
-        <div className="flex justify-start items-center gap-4 p-3 articleTemplate-btns sm:pl-12">
+        <div className="flex justify-start items-center gap-4 p-3 articleTemplate-btns lg:pl-12">
           <button className=" w-[30px] h-[30px] flex justify-center items-center rounded-full">
             <FaFacebookF className="w-[20px] h-[20px]" />
           </button>
@@ -120,7 +168,7 @@ const arr=[]
             </p>
             <p
               dangerouslySetInnerHTML={{ __html: currentArticle.content }}
-              className="content p-3 "
+              className="content p-3 text-justify"
             ></p>
             <div className="flex justify-start items-center p-3">
               <div className="flex flex-col sm:flex-row items-start sm:items-center justify-start gap-2 w-5/12 ">
@@ -183,6 +231,24 @@ const arr=[]
           </div>
         </main>
       </div>
+      {recommendedArticles.length > 1 && (
+        <section className="recommendedArticles py-5">
+          <h3 className="text-center text-lg sm:text-xl py-4 font-serif">
+            RECOMMENDED ARTICLES
+          </h3>
+          <Slider {...settings} className="container m-auto ">
+            {recommendedArticles?.map((item, index) => {
+              return (
+                <ul className="m-auto" key={item.id}>
+                  <li className="list-unstyled mx-2 ">
+                    <RecommendedArticles item={item} index={index} />
+                  </li>
+                </ul>
+              );
+            })}
+          </Slider>
+        </section>
+      )}
      <Footer/>
     </>
   )

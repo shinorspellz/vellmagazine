@@ -31,7 +31,7 @@ const MoreLikeThisTemplate = ({item}) => {
         {item.mainHeader}</h3>
         <p className='font-500  text-[13px] line-clamp-3 hidden lg:block '>{item.content.startsWith("<p") ? item.content.slice(17,87).replace(/<.?p[^>]*>/g,"").replace(/<.?h.?[^>]*>/g,"") : item.content.slice(4,75).replace(/<.?p[^>]*>/g,"").replace(/<.?h.?[^>]*>/g,"")}... </p>
         </div>
-        <img src={item.img} alt={item.mainHeader} className="w-full sm:w-5/12  object-cover sm:pl-2 cursor-pointer"
+        <img src={item.img} alt={item.mainHeader} className="w-full sm:w-5/12 h-[200px] sm:h-auto object-cover sm:pl-2 cursor-pointer"
         onClick={(e)=>goToArticleFromImg(e)}
         />
     </div>
