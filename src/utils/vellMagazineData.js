@@ -266,25 +266,25 @@ export const articles = [
     template: 6,
   },
 
-  {
-    id: 11,
-    mainHeader: "Beating the January Blues with Hygge",
-    subHeader: "Beating the January Blues with Hygge",
-    contentHeader: "Beating the January Blues with Hygge",
-    content:
-      "<p class='first'>A cold drizzle settles into the seams of your clothing as you board the train for your morning commute. Your bank balance stares back at you, sad and depleted, waiting inanticipation for this month’s paycheck. The resolutions you had set with enthusiasm earlier in the month are rapidly dwindling into oblivion. Not too long until Spring, you muse, with an impatient desperation. It’s the third Monday in January.</p><p>These are the conditions for the phenomenon of ‘Blue Monday’ - at least according to a PR Stunt executed by Sky Travel in 2005. Whether or not this ‘equation’ is in fact pseudoscience, it poses the potential of a brilliant travel marketing strategy by encouraging customers to book a slice of hope into the upcoming calendar year</p><p>The reasoning behind January Blues originates from a more general acknowledgement of the post festive season, as well as symptoms arising as a result of Seasonal Affective Disorder. However, countries such as Norway, Finland and Sweden experience Polar Night - the event whereby the sun is not visible for over 24 hours - yet Finland boasts the highest score for five consecutive years on the World Happiness Report. This begs the question - what are we getting wrong in the UK?</p><img src='/images/bluesHygge.jpg' alt='graditute' class='graditute'><p>Well, the missing ingredient may be Hygge. Although the exact definition of the word is difficult to pin down, it represents a larger sentiment of comfort, coziness and general wellbeing. The Danish term gained popularity back in 2017, whereby people shared pictures of hot chocolate, fuzzy socks and fireplaces - much like the picture above - captioned #hygge. At present, there are 8.7 million posts with this hashtag on Instagram.</p><p>The aesthetics and practice of the ‘Hygge lifestyle’ captured global attention and although it has become less of a buzzword today, it is perhaps more relevant than ever with 75% of workers across the world believing that remote working is the ‘new normal’.Additionally, this shift has been viewed as overwhelmingly positive, as a study conducted by Owl Labs discovered that 88% of employees reported being happie working from home. It would seem that post-pandemic, rather than running away from our familiar environments, we are longing to spend more time there. However, with this in mind, how can we maximise our space for greater productivity and wellbeing?</p><p>The magic of Hygge involves tapping into our sensory world and responding accordingly. It is prioritising a generous work-life balance which places quality time with loved ones front-and-centre; creating room for eating a hearty meal and exchanging stories across the dinner table; not being afraid to burn our candles or use our bubble bath in fear of ‘wasting’ it on a non-momentous occasion. To Hygge, the mundane and everyday is always a sacred moment, and one that if we fail to appreciate, will slip through our grasp altogether.<p></p>This month, I encourage you to delve into the enchanted world of Hygge to soothethose January blues and ensure a calmer ocean for the remainder of the winter months.</p>",
+  // {
+  //   id: 11,
+  //   mainHeader: "Beating the January Blues with Hygge",
+  //   subHeader: "Beating the January Blues with Hygge",
+  //   contentHeader: "Beating the January Blues with Hygge",
+  //   content:
+  //     "<p class='first'>A cold drizzle settles into the seams of your clothing as you board the train for your morning commute. Your bank balance stares back at you, sad and depleted, waiting inanticipation for this month’s paycheck. The resolutions you had set with enthusiasm earlier in the month are rapidly dwindling into oblivion. Not too long until Spring, you muse, with an impatient desperation. It’s the third Monday in January.</p><p>These are the conditions for the phenomenon of ‘Blue Monday’ - at least according to a PR Stunt executed by Sky Travel in 2005. Whether or not this ‘equation’ is in fact pseudoscience, it poses the potential of a brilliant travel marketing strategy by encouraging customers to book a slice of hope into the upcoming calendar year</p><p>The reasoning behind January Blues originates from a more general acknowledgement of the post festive season, as well as symptoms arising as a result of Seasonal Affective Disorder. However, countries such as Norway, Finland and Sweden experience Polar Night - the event whereby the sun is not visible for over 24 hours - yet Finland boasts the highest score for five consecutive years on the World Happiness Report. This begs the question - what are we getting wrong in the UK?</p><img src='/images/bluesHygge.jpg' alt='graditute' class='graditute'><p>Well, the missing ingredient may be Hygge. Although the exact definition of the word is difficult to pin down, it represents a larger sentiment of comfort, coziness and general wellbeing. The Danish term gained popularity back in 2017, whereby people shared pictures of hot chocolate, fuzzy socks and fireplaces - much like the picture above - captioned #hygge. At present, there are 8.7 million posts with this hashtag on Instagram.</p><p>The aesthetics and practice of the ‘Hygge lifestyle’ captured global attention and although it has become less of a buzzword today, it is perhaps more relevant than ever with 75% of workers across the world believing that remote working is the ‘new normal’.Additionally, this shift has been viewed as overwhelmingly positive, as a study conducted by Owl Labs discovered that 88% of employees reported being happie working from home. It would seem that post-pandemic, rather than running away from our familiar environments, we are longing to spend more time there. However, with this in mind, how can we maximise our space for greater productivity and wellbeing?</p><p>The magic of Hygge involves tapping into our sensory world and responding accordingly. It is prioritising a generous work-life balance which places quality time with loved ones front-and-centre; creating room for eating a hearty meal and exchanging stories across the dinner table; not being afraid to burn our candles or use our bubble bath in fear of ‘wasting’ it on a non-momentous occasion. To Hygge, the mundane and everyday is always a sacred moment, and one that if we fail to appreciate, will slip through our grasp altogether.<p></p>This month, I encourage you to delve into the enchanted world of Hygge to soothethose January blues and ensure a calmer ocean for the remainder of the winter months.</p>",
 
-    img: "/images/bluesHygge-1.jpg",
-    img2: "/images/bluesHygge-2.jpg",
-    img3: "/images/bluesHygge-3.jpg",
-    month: "JAN 2023 EDITION",
-    author: "Theresa Travis",
-    // author: "Elizabeth Oreily",
-    topics: ["WELLBEING", "PHYSICAL HEALTH", "MENTAL HEALTH"],
-    theme: "top stories",
-    date: "January 23, 2023",
-    template: 5,
-  },
+  //   img: "/images/bluesHygge-1.jpg",
+  //   img2: "/images/bluesHygge-2.jpg",
+  //   img3: "/images/bluesHygge-3.jpg",
+  //   month: "JAN 2023 EDITION",
+  //   author: "Theresa Travis",
+  //   // author: "Elizabeth Oreily",
+  //   topics: ["WELLBEING", "PHYSICAL HEALTH", "MENTAL HEALTH"],
+  //   theme: "top stories",
+  //   date: "January 23, 2023",
+  //   template: 5,
+  // },
   {
     id: 12,
     mainHeader: "A Christmas Away from Home",
