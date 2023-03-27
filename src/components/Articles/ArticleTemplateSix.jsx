@@ -101,7 +101,7 @@ const ArticleTemplateSix = () => {
   return (
     <>
       <VellNavbar />
-      <div className="relative mt-[50px] sm:mt-[115px] w-full ">
+      <div className="relative mt-[50px] sm:mt-[115px] m-auto max-w-[1350px] ">
         <div className="articleTemplateSix ">
           <img
             src={currentArticle.img}
@@ -167,7 +167,7 @@ const ArticleTemplateSix = () => {
           </div>
         </div>
       </div>
-      <main className="flex flex-col lg:flex-row articleTemplate">
+      <main className="flex flex-col lg:flex-row articleTemplate max-w-[1350px] m-auto">
         <div className="w-full max-w-[850px] lg:w-8/12 lg:pl-12 ">
           <p
             dangerouslySetInnerHTML={{ __html: currentArticle.content }}
@@ -227,7 +227,7 @@ const ArticleTemplateSix = () => {
             More like this
           </h3>
           <div className="flex flex-wrap gap-4 items-center justify-center sm:justify-end">
-            {relevantArticles.map((item) => {
+            {relevantArticles.slice(0,7).map((item) => {
               return <MoreLikeThisTemplate item={item} key={item.id} />;
             })}
           </div>

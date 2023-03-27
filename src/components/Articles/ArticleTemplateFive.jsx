@@ -247,7 +247,7 @@ const recommendedArticles=articles.filter(item=>item.theme=="trending" && item.i
               More like this
             </h3>
             <div className="flex flex-wrap gap-4 items-center justify-center sm:justify-end">
-              {relevantArticles.map((item) => {
+              {relevantArticles.slice(0,7).map((item) => {
                 return <MoreLikeThisTemplate item={item} key={item.id} />
               })}
             </div>
