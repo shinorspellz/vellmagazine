@@ -168,7 +168,7 @@ const settings = {
             </p>
             <p
               dangerouslySetInnerHTML={{ __html: currentArticle.content }}
-              className="content p-3 text-justify"
+              className="content px-3 text-justify"
             ></p>
             <div className="flex justify-start items-center p-3">
               <div className="flex flex-col sm:flex-row items-start sm:items-center justify-start gap-2 w-5/12 ">
@@ -224,7 +224,7 @@ const settings = {
               More like this
             </h3>
             <div className="flex flex-wrap gap-4 items-center justify-center sm:justify-end">
-              {relevantArticles.map((item) => {
+              {relevantArticles.slice(0,7).map((item) => {
                 return <MoreLikeThisTemplate item={item} key={item.id} />
               })}
             </div>

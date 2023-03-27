@@ -161,8 +161,8 @@ const ArticleTemplateTwo = () => {
           </div>
         </div>
 
-        <main className="flex flex-col lg:flex-row">
-          <div className="w-full max-w-[850px] lg:w-8/12 m-auto lg:pl-12">
+        <main className="flex flex-col lg:flex-row lg:items-start">
+          <div className="w-full max-w-[850px] lg:w-8/12 m-auto lg:pl-12 ">
             <img
               src={currentArticle.img}
               alt="img"
@@ -229,7 +229,7 @@ const ArticleTemplateTwo = () => {
               More like this
             </h3>
             <div className="flex flex-wrap gap-4 items-center justify-center sm:justify-end">
-              {relevantArticles.map((item) => {
+              {relevantArticles.slice(0,7).map((item) => {
                 return <MoreLikeThisTemplate item={item} key={item.id} />
               })}
             </div>

@@ -110,7 +110,7 @@ const ArticleTemplateThree = () => {
       <img
         src={currentArticle.img}
         alt="img"
-        className="h-[450px] w-full px-2 sm:px-0 object-cover  sm:block sm:m-auto my-3  block lg:mt-[115px]"
+        className="h-[500px] w-full max-w-[1920px] 2xl:h-[900px] px-2 sm:px-0 object-cover  sm:block sm:m-auto my-3  block lg:mt-[115px]"
       />
       <p className="py-1 text-center text-sm">{currentArticle.img_source}</p>
       <div
@@ -164,7 +164,7 @@ const ArticleTemplateThree = () => {
           </div>
         </div>
 
-        <main className="flex flex-col lg:flex-row articleTemplate">
+        <main className="flex flex-col lg:flex-row articleTemplate max-w-[1350px] m-auto">
           <div className="w-full max-w-[850px] lg:w-8/12 m-auto lg:pl-12">
             <p
               dangerouslySetInnerHTML={{ __html: currentArticle.content }}
@@ -224,7 +224,7 @@ const ArticleTemplateThree = () => {
               More like this
             </h3>
             <div className="flex flex-wrap gap-4 items-center justify-center sm:justify-end">
-              {relevantArticles.map((item) => {
+              {relevantArticles.slice(0,7).map((item) => {
                 return <MoreLikeThisTemplate item={item} key={item.id} />
               })}
             </div>
