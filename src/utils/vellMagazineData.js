@@ -102,13 +102,13 @@ export const authorsData = [
     desc: "Author at VellMagazine",
     bio: "In pursuit of my creative endeavours, I was excited to join the VellMagazine team. I am a high-energy,result-driven student of English Literature undergoing my second year of undergraduate studies atthe University of Birmingham. I thrive in dynamic environments driven by creativity and innovation. Ienjoy experimenting with words and their power. You will find me always writing which is my form ofexercise of the mind and opening my eyes for detail. What I write translates into my personality. Withmy strong sense of communication, I exert not just on paper, I am open-minded, motivated and proactive. As a fashion enthusiast, my attention to expressive garments stimulates my creativity in journaling my exposure to evocative outfits. From writing for the student newspaper ‘RedBrick’ at university, my interest lies in the world of fashion journalism in entailing a student audience of the latest must-haves to wear on campus. I want to share journaling my fashion journey that VellMagazine allows me to do so.",
   },
-  {
-    id: 9,
-    name: "Samhitha Jonnadula",
-    img: "/images/samhithaJonnadula.jpg",
-    desc: "Author at VellMagazine",
-    bio: "With an abundance of passion for anything written, I took it upon myself to write as a means to spread the joy I get when reading. Recently having discovered fashion as an expression of my inner self, I will be combining my old and new interests with the magazine. I look forward to putting forth a newly reinvented form of writing as I incorporate my interests in poetry into my pieces. I am ecstatic to be working on the team to bring out my writings in self-discovery and literature.",
-  },
+  // {
+  //   id: 9,
+  //   name: "Samhitha Jonnadula",
+  //   img: "/images/samhithaJonnadula.jpg",
+  //   desc: "Author at VellMagazine",
+  //   bio: "With an abundance of passion for anything written, I took it upon myself to write as a means to spread the joy I get when reading. Recently having discovered fashion as an expression of my inner self, I will be combining my old and new interests with the magazine. I look forward to putting forth a newly reinvented form of writing as I incorporate my interests in poetry into my pieces. I am ecstatic to be working on the team to bring out my writings in self-discovery and literature.",
+  // },
   // {
   //   id: 10,
   //   name: "Jasmin Bodman",
@@ -123,13 +123,13 @@ export const authorsData = [
   //   desc: "Author at VellMagazine",
   //   bio: "My name is Khadija Ghazanfar, and I am a clinical psychologist with a passion for writing. I have extensive experience in creating engaging content on a variety of topics, including social media, mental health, fashion, and information technology.Throughout my career, I have written numerous blogs and articles that have covered the latest trends and hot topics in these domains. I have a unique ability to write in a way that is both informative and accessible, making complex ideas easy to understand for a wide range of readers.",
   // },
-  {
-    id: 12,
-    name: "James Murray",
-    img: "/images/jamesMurray.jpg",
-    desc: "Author at VellMagazine",
-    bio: "James Murray is a Creative Writing graduate from the University of Gloucestershire. He enjoys writing comedy, sci-fi, fantasy, and weird fiction. His main hobbies include comics, books, video games, and table-top games. ",
-  },
+  // {
+  //   id: 12,
+  //   name: "James Murray",
+  //   img: "/images/jamesMurray.jpg",
+  //   desc: "Author at VellMagazine",
+  //   bio: "James Murray is a Creative Writing graduate from the University of Gloucestershire. He enjoys writing comedy, sci-fi, fantasy, and weird fiction. His main hobbies include comics, books, video games, and table-top games. ",
+  // },
 
 ];
 
