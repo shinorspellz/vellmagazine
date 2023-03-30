@@ -95,6 +95,41 @@ export const authorsData = [
     desc: "Author at VellMagazine",
     bio: "I am Shinor Spellz, a passionate writer at Vell Magazine. My interests lie in bringing attention to significant topics such as technology, mental health, the cost of living, and fashion. Being a part of the Vell team is an exhilarating experience, and I consider it an honor to be able to contribute my skills to such a dynamic and inspiring work environment.",
   },
+  {
+    id: 8,
+    name: "Jennifer Lewis",
+    img: "/images/jenniferLewis.JPG",
+    desc: "Author at VellMagazine",
+    bio: "In pursuit of my creative endeavours, I was excited to join the VellMagazine team. I am a high-energy,result-driven student of English Literature undergoing my second year of undergraduate studies atthe University of Birmingham. I thrive in dynamic environments driven by creativity and innovation. Ienjoy experimenting with words and their power. You will find me always writing which is my form ofexercise of the mind and opening my eyes for detail. What I write translates into my personality. Withmy strong sense of communication, I exert not just on paper, I am open-minded, motivated and proactive. As a fashion enthusiast, my attention to expressive garments stimulates my creativity in journaling my exposure to evocative outfits. From writing for the student newspaper ‘RedBrick’ at university, my interest lies in the world of fashion journalism in entailing a student audience of the latest must-haves to wear on campus. I want to share journaling my fashion journey that VellMagazine allows me to do so.",
+  },
+  {
+    id: 9,
+    name: "Samhitha Jonnadula",
+    img: "/images/samhithaJonnadula.jpg",
+    desc: "Author at VellMagazine",
+    bio: "With an abundance of passion for anything written, I took it upon myself to write as a means to spread the joy I get when reading. Recently having discovered fashion as an expression of my inner self, I will be combining my old and new interests with the magazine. I look forward to putting forth a newly reinvented form of writing as I incorporate my interests in poetry into my pieces. I am ecstatic to be working on the team to bring out my writings in self-discovery and literature.",
+  },
+  {
+    id: 10,
+    name: "Jasmin Bodman",
+    img: "/images/jasminBodman.jpg",
+    desc: "Author at VellMagazine",
+    bio: "Having always been an avid writer, I love the sense of satisfaction gained when someone reads a piece of mine and says how much they could relate to it, or how much they enjoyed hearing a different perspective. For Vell Magazine, my aim is to bring reviews and opinion pieces on a wide variety of topics, but mostly focused on the latest films, music, television shows - anything culture related. Whilst based in the UK, I am constantly on the lookout for new media I can write about, whether it's a new film or the latest album from a favourite artist. With a degree in journalism and some background in media studies, I can delve into anything I'm currently watching or listening to and write up my findings in a fun and personal way. If you're looking to read opinion pieces or reviews, then you can check out my articles on the Vell Magazine website.",
+  },
+  {
+    id: 11,
+    name: "Khadija Ghazanfar",
+    img: "/images/khadijaGhazanfar.jpg",
+    desc: "Author at VellMagazine",
+    bio: "My name is Khadija Ghazanfar, and I am a clinical psychologist with a passion for writing. I have extensive experience in creating engaging content on a variety of topics, including social media, mental health, fashion, and information technology.Throughout my career, I have written numerous blogs and articles that have covered the latest trends and hot topics in these domains. I have a unique ability to write in a way that is both informative and accessible, making complex ideas easy to understand for a wide range of readers.",
+  },
+  {
+    id: 12,
+    name: "James Murray",
+    img: "/images/jamesMurray.jpg",
+    desc: "Author at VellMagazine",
+    bio: "James Murray is a Creative Writing graduate from the University of Gloucestershire. He enjoys writing comedy, sci-fi, fantasy, and weird fiction. His main hobbies include comics, books, video games, and table-top games. ",
+  },
 
 ];
 
