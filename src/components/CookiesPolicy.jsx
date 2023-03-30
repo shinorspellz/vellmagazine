@@ -1,6 +1,7 @@
 import PrivacyNavbar from "./PrivacyNavbar";
 import Footer from "./Footer";
 import { useEffect } from "react";
+import VellNavbar from "./VellMagazine/VellNavbar";
 
 const CookiesPolicy = () => {
 
@@ -10,8 +11,9 @@ const CookiesPolicy = () => {
 
   return (
     <>
-      <PrivacyNavbar />
-      <div className="custom-container privacy-policy w-full max-w-[1040px] m-auto px-2 mt-[70px] sm:pt-5">
+      {/* <PrivacyNavbar /> */}
+      <VellNavbar/>
+      <div className="custom-container privacy-policy w-full max-w-[1040px] m-auto px-2 mt-[90px] sm:pt-5 text-justify">
         <p className="heading  text-center font-serif text-5xl py-5">
           COOKIES POLICY
         </p>

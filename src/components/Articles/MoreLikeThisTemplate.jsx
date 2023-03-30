@@ -9,7 +9,8 @@ const MoreLikeThisTemplate = ({item}) => {
     const goToTopics=(e)=>{
         navigate(`/articletopics`,{state:e.target.innerText})
       }
-
+      const divPattern=/<([^>]+)>.*?<\/\1>|<.*?\/>/g
+      const divPattern2="class='text-cent"
       const goToArticleFromImg=(e)=>{
         let num = e.target.src.indexOf("/images");
         const item = articles.find(
@@ -29,7 +30,30 @@ const MoreLikeThisTemplate = ({item}) => {
             <h3 className='hover:underline cursor-pointer line-clamp-2 py-0'
         onClick={()=>navigate(`/article/${item.id}/${item.template}`)}>
         {item.mainHeader}</h3>
-        <p className='font-500  text-[13px] line-clamp-3 hidden lg:block '>{item.content.startsWith("<p") ? item.content.slice(17,87).replace(/<.?p[^>]*>/g,"").replace(/<.?h.?[^>]*>/g,"") : item.content.slice(4,75).replace(/<.?p[^>]*>/g,"").replace(/<.?h.?[^>]*>/g,"")}... </p>
+        <p className='font-500  text-[13px] lg:line-clamp-3 hidden lg:block '>{item.content.startsWith("<p") ? item.content.slice(17,600)
+                    .replace(/(<p>)/g, '')
+                    .replace(/<.?p[^>]*>/g, '')
+                    .replace(/<.?h.?[^>]*>/g, '')
+                    .replace(/<.?ol.?[^>]*>/g, '')
+                    .replace(/<.?li.?[^>]*>/g, '')
+                    .replace(/<.?a.?[^>]*>/g, '')
+                    .replace(/<.?span.?[^>]*>/g, '')
+                    .replace(/<.?em.?[^>)]*>/g, '')
+                    .replace(/<.?[(</p>)]/g, '')
+                    .replace(/<.?sup.?[^>]*>/g, '')
+                    .replace(/&quot;/g,'"')
+                    .replace(divPattern,'')
+                    .replace(divPattern2,'')
+                    .replace(/<.?img[^>]*\/>/g, '') : item.content.slice(4,600).replace(/(<p>)/g, '')
+                    .replace(/<.?p[^>]*>/g, '')
+                    .replace(/<.?h.?[^>]*>/g, '')
+                    .replace(/<.?ol.?[^>]*>/g, '')
+                    .replace(/<.?li.?[^>]*>/g, '')
+                    .replace(/<.?[(</p>)]/g, '')
+                    .replace(/[&quot;]/g, '"')
+                    .replace(divPattern,'')
+                    .replace(divPattern2,'')
+                    .replace(/<.?img[^>]*\/>/g, '')}... </p>
         </div>
         <img src={item.img} alt={item.mainHeader} className="w-full sm:w-5/12 h-[200px] sm:h-auto object-cover sm:pl-2 cursor-pointer"
         onClick={(e)=>goToArticleFromImg(e)}

@@ -1,6 +1,7 @@
 import PrivacyNavbar from "./PrivacyNavbar";
 import React, { useEffect } from "react";
 import Footer from "./Footer";
+import VellNavbar from "./VellMagazine/VellNavbar";
 
 const PrivacyPolicy = () => {
   useEffect(() => {
@@ -9,8 +10,9 @@ const PrivacyPolicy = () => {
 
   return (
     <>
-      <PrivacyNavbar />
-      <div className="custom-container privacy-policy w-full max-w-[1040px] m-auto px-2 pb-12 mt-[70px] sm:pt-5">
+      {/* <PrivacyNavbar /> */}
+      <VellNavbar/>
+      <div className="custom-container privacy-policy w-full max-w-[1040px] m-auto px-2 pb-12 mt-[90px] sm:pt-5 text-justify">
         <p className="heading  text-center font-serif text-5xl py-5 ">
           PRIVACY POLICY
         </p>

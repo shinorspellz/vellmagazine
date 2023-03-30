@@ -6,6 +6,7 @@ import { AiOutlineInstagram, AiOutlineTwitter } from "react-icons/ai";
 import { FaTiktok, FaFacebookF } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import Footer from "./Footer";
+import VellNavbar from "./VellMagazine/VellNavbar";
 
 const TermOfUse = () => {
   useEffect(() => {
@@ -14,9 +15,10 @@ const TermOfUse = () => {
 
   return (
     <>
-      <PrivacyNavbar />
+      {/* <PrivacyNavbar /> */}
+      <VellNavbar/>
       <div>
-        <main className="custom-container w-full max-w-[1040px] m-auto px-2 privacy-policy mt-[70px] sm:pt-5 pb-12">
+        <main className="custom-container w-full max-w-[1040px] m-auto px-2 privacy-policy mt-[90px] sm:pt-5 pb-12 text-justify">
           <p className="heading  text-center font-serif text-5xl py-5 uppercase">
             Terms and Conditions
           </p>
