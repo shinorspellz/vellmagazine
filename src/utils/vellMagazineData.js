@@ -98,7 +98,7 @@ export const authorsData = [
   {
     id: 8,
     name: "Jennifer Lewis",
-    img: "/images/jenniferLewis.JPG",
+    img: "/images/jenniferLewis.jpg",
     desc: "Author at VellMagazine",
     bio: "In pursuit of my creative endeavours, I was excited to join the VellMagazine team. I am a high-energy,result-driven student of English Literature undergoing my second year of undergraduate studies atthe University of Birmingham. I thrive in dynamic environments driven by creativity and innovation. Ienjoy experimenting with words and their power. You will find me always writing which is my form ofexercise of the mind and opening my eyes for detail. What I write translates into my personality. Withmy strong sense of communication, I exert not just on paper, I am open-minded, motivated and proactive. As a fashion enthusiast, my attention to expressive garments stimulates my creativity in journaling my exposure to evocative outfits. From writing for the student newspaper ‘RedBrick’ at university, my interest lies in the world of fashion journalism in entailing a student audience of the latest must-haves to wear on campus. I want to share journaling my fashion journey that VellMagazine allows me to do so.",
   },
