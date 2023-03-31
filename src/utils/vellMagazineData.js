@@ -78,7 +78,7 @@ export const authorsData = [
   //   name: "Alia Kassem",
   //   img: "/images/alia-avatar.jpg",
   //   desc: "Author at VellMagazine",
-  //   bio: "<p>Based in London, Alia has been spilling her words in the creative writing atmosphere for some time now, work being expressed worldwide online, collaborations with numerous types of creatives &amp; being apart within events and exhibitions.</p><p>She has modelled across a few years now, Hair Modelling and Commercial Modelling (featured in Music Videos for artists like Sam Smith, Dua Lipa and more&#8230;) and is signed with House Of Androgyny (HOA).</p><p>During the journey of lockdown Alia dedicated her time into chasing after true passion &amp; calling in life by turning her words, emotions &amp; stories into music.</p><p>Forming a soulful sound within her indie-rock acoustic melodic moments &amp; memory&rsquo;s - what she&rsquo;d lived through she wanted to give &amp; inspire all that may have come close to similar pain or love, a sound to not let those feel they&rsquo;re alone &amp; witness what they truly deserve to what they truly can be.</p><p>Entering the year &amp; month of March 2022, her story within music begun. Featuring vocals on house tracks, to backing singing and performing at live events/gigs/shows. Now in the production stage of creating &amp; mastering her first single, amongst many other tracks soon to come.</p>",
+  //   bio: "<p>Based in London, Alia has been spilling her words in the creative writing atmosphere for some time now, work being expressed worldwide online, collaborations with numerous types of creatives &amp; being apart within events and exhibitions.</p><p>She has modelled across a few years now, Hair Modelling and Commercial Modelling (featured in Music Videos for artists like Sam Smith, Dua Lipa and more&#8230;) and is signed with House Of Androgyny (HOA).</p><p>During the journey of lockdown Alia dedicated her time into chasing after true passion &amp; calling in life by turning her words, emotions &amp; stories into music.</p><p>Forming a soulful sound within her indie-rock acoustic melodic moments &amp; memory&rsquo;s - what she&rsquo;d lived through she wanted to give &amp; inspire all that may have come close to similar pain or love, a sound to not let those feel they&rsquo;re alone &amp; witness what they truly deserve to what they truly can be.</p><p>Entering the year &amp; month of April 2022, her story within music begun. Featuring vocals on house tracks, to backing singing and performing at live events/gigs/shows. Now in the production stage of creating &amp; mastering her first single, amongst many other tracks soon to come.</p>",
   // },
   {
     id: 6,
@@ -102,34 +102,34 @@ export const authorsData = [
     desc: "Author at VellMagazine",
     bio: "In pursuit of my creative endeavours, I was excited to join the VellMagazine team. I am a high-energy,result-driven student of English Literature undergoing my second year of undergraduate studies atthe University of Birmingham. I thrive in dynamic environments driven by creativity and innovation. Ienjoy experimenting with words and their power. You will find me always writing which is my form ofexercise of the mind and opening my eyes for detail. What I write translates into my personality. Withmy strong sense of communication, I exert not just on paper, I am open-minded, motivated and proactive. As a fashion enthusiast, my attention to expressive garments stimulates my creativity in journaling my exposure to evocative outfits. From writing for the student newspaper ‘RedBrick’ at university, my interest lies in the world of fashion journalism in entailing a student audience of the latest must-haves to wear on campus. I want to share journaling my fashion journey that VellMagazine allows me to do so.",
   },
-  // {
-  //   id: 9,
-  //   name: "Samhitha Jonnadula",
-  //   img: "/images/samhithaJonnadula.jpg",
-  //   desc: "Author at VellMagazine",
-  //   bio: "With an abundance of passion for anything written, I took it upon myself to write as a means to spread the joy I get when reading. Recently having discovered fashion as an expression of my inner self, I will be combining my old and new interests with the magazine. I look forward to putting forth a newly reinvented form of writing as I incorporate my interests in poetry into my pieces. I am ecstatic to be working on the team to bring out my writings in self-discovery and literature.",
-  // },
-  // {
-  //   id: 10,
-  //   name: "Jasmin Bodman",
-  //   img: "/images/jasminBodman.jpg",
-  //   desc: "Author at VellMagazine",
-  //   bio: "Having always been an avid writer, I love the sense of satisfaction gained when someone reads a piece of mine and says how much they could relate to it, or how much they enjoyed hearing a different perspective. For Vell Magazine, my aim is to bring reviews and opinion pieces on a wide variety of topics, but mostly focused on the latest films, music, television shows - anything culture related. Whilst based in the UK, I am constantly on the lookout for new media I can write about, whether it's a new film or the latest album from a favourite artist. With a degree in journalism and some background in media studies, I can delve into anything I'm currently watching or listening to and write up my findings in a fun and personal way. If you're looking to read opinion pieces or reviews, then you can check out my articles on the Vell Magazine website.",
-  // },
-  // {
-  //   id: 11,
-  //   name: "Khadija Ghazanfar",
-  //   img: "/images/khadijaGhazanfar.jpg",
-  //   desc: "Author at VellMagazine",
-  //   bio: "My name is Khadija Ghazanfar, and I am a clinical psychologist with a passion for writing. I have extensive experience in creating engaging content on a variety of topics, including social media, mental health, fashion, and information technology.Throughout my career, I have written numerous blogs and articles that have covered the latest trends and hot topics in these domains. I have a unique ability to write in a way that is both informative and accessible, making complex ideas easy to understand for a wide range of readers.",
-  // },
-  // {
-  //   id: 12,
-  //   name: "James Murray",
-  //   img: "/images/jamesMurray.jpg",
-  //   desc: "Author at VellMagazine",
-  //   bio: "James Murray is a Creative Writing graduate from the University of Gloucestershire. He enjoys writing comedy, sci-fi, fantasy, and weird fiction. His main hobbies include comics, books, video games, and table-top games. ",
-  // },
+  {
+    id: 9,
+    name: "Samhitha Jonnadula",
+    img: "/images/samhithaJonnadula.jpg",
+    desc: "Author at VellMagazine",
+    bio: "With an abundance of passion for anything written, I took it upon myself to write as a means to spread the joy I get when reading. Recently having discovered fashion as an expression of my inner self, I will be combining my old and new interests with the magazine. I look forward to putting forth a newly reinvented form of writing as I incorporate my interests in poetry into my pieces. I am ecstatic to be working on the team to bring out my writings in self-discovery and literature.",
+  },
+  {
+    id: 10,
+    name: "Jasmin Bodman",
+    img: "/images/jasminBodman.jpg",
+    desc: "Author at VellMagazine",
+    bio: "Having always been an avid writer, I love the sense of satisfaction gained when someone reads a piece of mine and says how much they could relate to it, or how much they enjoyed hearing a different perspective. For Vell Magazine, my aim is to bring reviews and opinion pieces on a wide variety of topics, but mostly focused on the latest films, music, television shows - anything culture related. Whilst based in the UK, I am constantly on the lookout for new media I can write about, whether it's a new film or the latest album from a favourite artist. With a degree in journalism and some background in media studies, I can delve into anything I'm currently watching or listening to and write up my findings in a fun and personal way. If you're looking to read opinion pieces or reviews, then you can check out my articles on the Vell Magazine website.",
+  },
+  {
+    id: 11,
+    name: "Khadija Ghazanfar",
+    img: "/images/khadijaGhazanfar.jpg",
+    desc: "Author at VellMagazine",
+    bio: "My name is Khadija Ghazanfar, and I am a clinical psychologist with a passion for writing. I have extensive experience in creating engaging content on a variety of topics, including social media, mental health, fashion, and information technology.Throughout my career, I have written numerous blogs and articles that have covered the latest trends and hot topics in these domains. I have a unique ability to write in a way that is both informative and accessible, making complex ideas easy to understand for a wide range of readers.",
+  },
+  {
+    id: 12,
+    name: "James Murray",
+    img: "/images/jamesMurray.jpg",
+    desc: "Author at VellMagazine",
+    bio: "James Murray is a Creative Writing graduate from the University of Gloucestershire. He enjoys writing comedy, sci-fi, fantasy, and weird fiction. His main hobbies include comics, books, video games, and table-top games. ",
+  },
 
 ];
 
@@ -609,7 +609,7 @@ export const articles = [
     author: "Omotoyosi Osikoya",
     topics: ["FASHION & BEAUTY", "TRENDS"],
     theme: "",
-    date: "March 01, 2023",
+    date: "April 01, 2023",
     template: 2,
     
   },
@@ -625,7 +625,7 @@ export const articles = [
     author: "Theresa Travis",
     topics: ["FASHION & BEAUTY","SKIN"],
     theme: "trending",
-    date: "March 21, 2023",
+    date: "April 21, 2023",
     template: 2,
   },
   {
@@ -640,7 +640,7 @@ export const articles = [
     author: "Colin Hughes",
     topics: ["PETS/ANIMALS", "PETS/ANIMALS IN THE SPOTLIGHT","PET INFLUENCERS"],
     theme: "",
-    date: "March 01, 2023",
+    date: "April 01, 2023",
     template: 1,
   },
   {
@@ -657,7 +657,7 @@ export const articles = [
     author: "Giorgia Candreva",
     topics: ["FASHION & BEAUTY", "MAKEUP"],
     theme: "",
-    date: "March 01, 2023",
+    date: "April 01, 2023",
     template: 5,
   },
  
@@ -673,7 +673,7 @@ export const articles = [
     author: "Yara Arkadan",
     topics: ["FASHION & BEAUTY", "TRENDS"],
     theme: "",
-    date: "March 01, 2023",
+    date: "April 01, 2023",
     template: 2,
   },
   {
@@ -688,7 +688,7 @@ export const articles = [
     author: "Eve Turner",
     topics: ["FASHION & BEAUTY", "SKIN"],
     theme: "",
-    date: "March 01, 2023",
+    date: "April 01, 2023",
     template: 2,
   },
   {
@@ -702,7 +702,7 @@ export const articles = [
     author: "Giorgia Candreva",
     topics: ["FASHION & BEAUTY", ],
     theme: "",
-    date: "March 01, 2023",
+    date: "April 01, 2023",
     template: 4,
   },
   {
@@ -710,13 +710,13 @@ export const articles = [
     mainHeader: 'Book of the Month',
     subHeader: "",
     contentHeader: 'Book of the Month: Spare by Prince Harry',
-    content: '<p class="first">In his latest book, "Spare," Prince Harry opens up about his life as a member of the royal family and his journey to finding his own path. The memoir offers a candid and insightful look into the struggles and challenges he faced, and how he overcame them to build a meaningful life.</p><p>The book is divided into three parts, each focusing on a different period in his life. The first part, "Roots," covers his childhood and early years, growing up in the public eye and the impact that had on him. The second part, "Service," delves into his time in the military and how that shaped him as a person. Finally, the third part, "Duty," explores his time as a senior member of the royal family and the reasons behind his decision to step back from that role.</p><div class="sm:float-right"><img src="/images/spare.jpg" class="sm:w-[300px] h-[450px] object-cover pl-3 pb-3 sm:pb-0"/><p class="text-center text-[13px] pt-1"></p></div><p>Throughout the book, Prince Harry reflects on his experiences and offers insights into how he has navigated the challenges of his unique position. He shares his thoughts on mental health, the importance of service, and the power of vulnerability. He also speaks candidly about his relationship with his family, particularly his brother William, and the difficulties they faced.</p><p>One of the key takeaways from the book is the importance of finding purpose and meaning in life. Prince Harry talks about the struggles he faced as a member of the royal family and the difficulties he had in finding his own identity. He emphasizes the importance of service and giving back to others as a way to find purpose and meaning, and how this has been a driving force in his life.</p><p>Another important theme in the book is the power of vulnerability. Prince Harry speaks openly about his struggles with mental health and how he has sought help to overcome these challenges. He stresses the importance of breaking down the stigma around mental health and encourages others to seek help if they are struggling.</p><div class="sm:float-left"><img src="/images/prince.jpg" class="sm:w-[300px] h-[370px] object-cover pr-3 pb-3 sm:pb-0"/><p class="text-center text-[13px] pt-1"></p></div><p>Overall, "Spare" is a powerful and moving memoir that offers a rare glimpse into the life of a member of the royal family. It is a testament to the resilience and strength of the human spirit and offers important insights into how we can all find purpose and meaning in our lives.</p><p>As our second "Book of the Month" for March, we highly recommend "Spare" to anyone looking for a thought-provoking and inspiring read. Whether you&apos;re a fan of the royal family or simply looking for some inspiration, this book is sure to leave a lasting impact.</p>',
+    content: '<p class="first">In his latest book, "Spare," Prince Harry opens up about his life as a member of the royal family and his journey to finding his own path. The memoir offers a candid and insightful look into the struggles and challenges he faced, and how he overcame them to build a meaningful life.</p><p>The book is divided into three parts, each focusing on a different period in his life. The first part, "Roots," covers his childhood and early years, growing up in the public eye and the impact that had on him. The second part, "Service," delves into his time in the military and how that shaped him as a person. Finally, the third part, "Duty," explores his time as a senior member of the royal family and the reasons behind his decision to step back from that role.</p><div class="sm:float-right"><img src="/images/spare.jpg" class="sm:w-[300px] h-[450px] object-cover pl-3 pb-3 sm:pb-0"/><p class="text-center text-[13px] pt-1"></p></div><p>Throughout the book, Prince Harry reflects on his experiences and offers insights into how he has navigated the challenges of his unique position. He shares his thoughts on mental health, the importance of service, and the power of vulnerability. He also speaks candidly about his relationship with his family, particularly his brother William, and the difficulties they faced.</p><p>One of the key takeaways from the book is the importance of finding purpose and meaning in life. Prince Harry talks about the struggles he faced as a member of the royal family and the difficulties he had in finding his own identity. He emphasizes the importance of service and giving back to others as a way to find purpose and meaning, and how this has been a driving force in his life.</p><p>Another important theme in the book is the power of vulnerability. Prince Harry speaks openly about his struggles with mental health and how he has sought help to overcome these challenges. He stresses the importance of breaking down the stigma around mental health and encourages others to seek help if they are struggling.</p><div class="sm:float-left"><img src="/images/prince.jpg" class="sm:w-[300px] h-[370px] object-cover pr-3 pb-3 sm:pb-0"/><p class="text-center text-[13px] pt-1"></p></div><p>Overall, "Spare" is a powerful and moving memoir that offers a rare glimpse into the life of a member of the royal family. It is a testament to the resilience and strength of the human spirit and offers important insights into how we can all find purpose and meaning in our lives.</p><p>As our second "Book of the Month" for April, we highly recommend "Spare" to anyone looking for a thought-provoking and inspiring read. Whether you&apos;re a fan of the royal family or simply looking for some inspiration, this book is sure to leave a lasting impact.</p>',
     month: "MAR 2023 EDITION",
     img: "/images/book-march.jpg",
     author: "Theresa Travis",
     topics: ["ARTS & CULTURE","BOOKS", "WELLBEING", "MENTAL HEALTH"],
     theme: "",
-    date: "March 01, 2023",
+    date: "April 01, 2023",
     template: 2,
 
   },
@@ -731,7 +731,7 @@ export const articles = [
     author: "Omotoyosi Osikoya",
     topics: ["FASHION & BEAUTY", "CELEBRITY FASHION"],
     theme: "",
-    date: "March 01, 2023",
+    date: "April 01, 2023",
     template: 3,
   },
   {
@@ -746,7 +746,7 @@ export const articles = [
     author: "Omotoyosi Osikoya",
     topics: ["FASHION & BEAUTY", "TRENDS"],
     theme: "",
-    date: "March 01, 2023",
+    date: "April 01, 2023",
     template: 3,
     
   },
@@ -763,7 +763,7 @@ export const articles = [
     author: "Yara Arkadan",
     topics: ["ARTS & CULTURE", "MUSIC" ],
     theme: "",
-    date: "March 01, 2023",
+    date: "April 01, 2023",
     template: 3,
 
   },
@@ -779,7 +779,7 @@ export const articles = [
     author: "Omotoyosi Osikoya",
     topics: ["FASHION & BEAUTY", "CELEBRITY FASHION"],
     theme: "",
-    date: "March 01, 2023",
+    date: "April 01, 2023",
     template: 3
     
 
@@ -795,7 +795,7 @@ export const articles = [
     author: "Omotoyosi Osikoya",
     topics: ["WELLBEING", "MENTAL HEALTH"],
     theme: "",
-    date: "March 01, 2023",
+    date: "April 01, 2023",
     template: 3,
   },
   {
@@ -809,7 +809,7 @@ export const articles = [
     author: "Omotoyosi Osikoya",
     topics: ["FASHION & BEAUTY", "CELEBRITY FASHION"],
     theme: "",
-    date: "March 13, 2023",
+    date: "April 13, 2023",
     template: 3,
   },
   {
@@ -823,7 +823,7 @@ export const articles = [
     author: "Omotoyosi Osikoya",
     topics: ["LIFE MATTERS", "TECHNOLOGY"],
     theme: "",
-    date: "March 16, 2023",
+    date: "April 16, 2023",
     template: 3,
   },
   {
@@ -837,7 +837,7 @@ export const articles = [
     author: "Omotoyosi Osikoya",
     topics: ["LIFE MATTERS", "TECHNOLOGY"],
     theme: "",
-    date: "March 14, 2023",
+    date: "April 14, 2023",
     template: 3,
   },
   {
@@ -851,7 +851,7 @@ export const articles = [
     author: "Omotoyosi Osikoya",
     topics: ["TRAVEL", "HOLIDAY DESTINATIONS","LIFE MATTERS", "COST OF LIVING"],
     theme: "",
-    date: "March 18, 2023",
+    date: "April 18, 2023",
     template: 3,
   },
   {
@@ -865,7 +865,7 @@ export const articles = [
     author: "Omotoyosi Osikoya",
     topics: ["ARTS & CULTURE", "CINEMA"],
     theme: "",
-    date: "March 30, 2023",
+    date: "April 30, 2023",
     template: 1,
   },
   {
@@ -881,7 +881,7 @@ export const articles = [
     author: "Theresa Travis ",
     topics: ["FASHION & BEAUTY", "SKIN",],
     theme: "",
-    date: "March 01, 2023",
+    date: "April 01, 2023",
     template: 1,
   },
   {
@@ -918,7 +918,7 @@ export const articles = [
     subHeader: "",
     contentHeader: `London Fashion Week 2023: A Roundup of Dazzling Garments by Notable Designers`,
     content: "<p class='first'>London Fashion Week is one of the most prestigious fashion events in the world, alongside New York, Milan, and Paris. It is a bi-annual event in February and September, showcasing the latest collections of top British and international designers.</p><p>London Fashion Week is known for its innovation, creativity, and diversity, focusing on showcasing emerging talent and pushing boundaries in fashion. It is also increasingly emphasizing sustainability and ethical practices in the industry. Let's cover the most fascinating and memorable moments of LFW 2023. Ready for it?</p><p>Vivienne Westwood, one of the most influential figures in British fashion, passed away in January, so this fashion week was specifically dedicated to her memory. Several emerging brands were in attendance during fashion week. Below is a roundup of the latest news.</p><p>First, Di Petsa, a Greek brand, showed off its first theatrical catwalk dazzling the audience with fascinating garments. Taking the runway next was Chinese designer Buerlangma wearing villainous horned masks and sinister long-finger gloves. Lastly and perhaps most importantly, Daniel Lee showcased his first Burberry collection during the five days fashion show. With pink aesthetics and punk-inspired touches, Lee's clothes were magnificently designed.<div class='flex justify-center items-center gap-5 sm:gap-8'><div class='w-full max-w-[300px]'><img src='/images/londonFashionWeek-1.jpg' class='object-cover'/><p class='text-sm text-center'>Punk-inspired look at Burberry Fashion Show Credits: Karwai Tang, Getty </p></div><div class='w-full max-w-[300px]'><img src='/images/londonFashionWeek-2.jpg' class='object-cover'/><p class='text-sm text-center'>Iris Law during Burberry’s Catwalk Credits: Hollie Adams, Getty Images </p></div></div><div class='w-full max-w-[400px] m-auto'><img src='/images/londonFashionWeek-3.jpg' class='object-cover'/><p class='text-sm text-center'>Daniel Lee’s first ruffled design for Burberry. Credits: Hollie Adams, Bloomberg, Getty Images</p></div></p><p>A trio of Ukrainian designers - Ksenia Schnaider, Frolov, and Paskal - presented their garments in honour of Ukraine Fashion Week that should've taken place in Kyiv. During such times, it is imperative to celebrate life, encourage creativity, and encourage designers to put their creativity into action.</p><p>One of the awe-inspiring moments during LFW was the presence of kids wear and baby bump designs! Sinead O’Dwyer included a pregnant woman during the catwalk – a really thoughtful gesture for all women. This is in order to encourage more diversity when it comes to fashion and catwalks.</p><div><div class='flex justify-center items-center gap-5 sm:gap-8'><img src='/images/londonFashionWeek-4.jpg' class='object-cover w-full max-w-[300px]'/><img src='/images/londonFashionWeek-5.jpg' class='object-cover w-full max-w-[300px]'/></div><p class='text-sm text-center'>Iris Law during Burberry’s Catwalk Credits: Hollie Adams, Getty Images </p></div><p>Additionally, Di Petsa has contributed to this gesture by including a pregnant model wearing a Persephone-inspired garment.</p><div class='w-full max-w-[400px] m-auto'><img src='/images/londonFashionWeek-6.jpg' class='object-cover'/><p class='text-sm text-center'>Pregnant model at the Di Pesta Fashion Show Credits: DI PESTA</p></div><div class='w-full max-w-[400px] m-auto'><img src='/images/londonFashionWeek-7.jpg' class='object-cover'/><p class='text-sm text-center'>Pregnant model at the Di Pesta Fashion Show Credits: DI PESTA</p></div><p>London Fashion Week was certainly a success showcasing exciting trends, colours, and designs for the upcoming season! Throughout London Fashion Week 2023 we saw a wide variety of designers and models walk the runway. Stay tuned for the next one!</p><div class='w-full max-w-[600px] m-auto'><img src='/images/londonFashionWeek-8.jpg' class='object-cover'/><p class='text-sm text-center'>Connor Ives’ closing look and inspired by 'The Parent Trap' – Credits: Jordan, Pettitt/PA Images/Getty Images</p></div><div class='w-full max-w-[350px] m-auto'><img src='/images/londonFashionWeek-9.jpg' class='object-cover'/><p class='text-sm text-center'>During the Robyn Lynch Fall-Winter 2023 Catwalk – Credits: Maja Smiejkowska/Chris Yates Media/Robyn Lynch</p></div>",
-    month: "MAR 2023 EDITION",
+    month: "APR 2023 EDITION",
     img: "/images/londonFashionWeek.jpg",
     img_source:"https://www.gettyimages.com/",
     img_source_title:"Getty Images",

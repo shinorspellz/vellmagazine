@@ -139,6 +139,12 @@ const VellNavbar = () => {
           >
             MAR 2023
           </option>
+          <option
+            value="APR 2023 EDITION"
+            className="py-2 font-black cursor-pointer "
+          >
+            APR 2023
+          </option>
         </select>
         <ul className="lg:grid grid-flow-col-dense gap-[2.7rem] ml-[2.2rem] hidden bg-transparent">
           {menuItems.map((menu, index) => {
