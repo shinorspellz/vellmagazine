@@ -164,7 +164,7 @@ const settings = {
               className="h-[350px]  object-cover pr-5 block m-auto my-3 "
             />
             <p className='authorTemplate text-sm text-center mb-[1rem]'>
-              {currentArticle.img_source}
+              Image source:<a href={currentArticle.img_source} target='_blank'>{currentArticle.img_source_title}</a>
             </p>
             <p
               dangerouslySetInnerHTML={{ __html: currentArticle.content }}
