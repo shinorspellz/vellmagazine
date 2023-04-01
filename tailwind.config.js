@@ -6,7 +6,7 @@ module.exports = {
         '3xl': '5px 10px 10px rgba(0, 0, 0, 0.5)',
       },
       fontFamily: {
-        'sans': ['PT Serif'],
+        'sans': ['"Avenir Next Bold"'],
         'serif': ['adobe-devanagari']
       }
     },

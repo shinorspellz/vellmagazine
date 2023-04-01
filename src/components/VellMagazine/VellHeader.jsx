@@ -27,13 +27,13 @@ const VellHeader = () => {
             onClick={()=>navigate(`/article/${item.id}/${item.template}`)}     
             >
               <section className="xl:w-6/12 xl:p-5 text-center">
-                <h1 className="font-400 text-[24px] py-2 xl:py-1 xl:text-[50px] font-serif xl:leading-[3rem] mb-[1rem] line-clamp-4">
+                <h1 className="font-400 text-[24px] xl:text-[50px] font-serif xl:leading-[3rem] mb-[1rem] line-clamp-4">
                   {item.mainHeader}
                 </h1>
-                <p className="text-[14px] my-3 px-5 xl-px-0 homepageFont">
+                <p className="text-[18px] my-3 px-5 xl-px-0 homepageFont text-left">
                   {item.content.startsWith('<p')
                     ? item.content
-                    .slice(17, 330)
+                    .slice(17, 250)
                     .replace(/(<p>)/g, '')
                     .replace(/<.?p[^>]*>/g, '')
                     .replace(/<.?h.?[^>]*>/g, '')
@@ -49,7 +49,7 @@ const VellHeader = () => {
                     .replace(divPattern2,'')
                     .replace(/<.?img[^>]*\/>/g, '')
                     : item.content
-                    .slice(4, 330)
+                    .slice(4, 250)
                     .replace(/(<p>)/g, '')
                     .replace(/<.?p[^>]*>/g, '')
                     .replace(/<.?h.?[^>]*>/g, '')

@@ -11,13 +11,13 @@ body {
 
 :root {
   --bgColor: #fff;
-  --fontColor: #503c3b;
+  --fontColor: rgba(13, 4, 9, 0.73);
   --slider: rgb(80, 79, 79);
-  --button-bgColor: #503c3b;
+  --button-bgColor: #0D0907;
   --button-fontColor: #fff;
-  --signup-fontColor-primary: #503c3b;
+  --signup-fontColor-primary: rgba(13, 4, 9, 0.73);
   --signup-fontColor-secondary: #fff;
-  --signup-bgColor-primary: #503c3b;
+  --signup-bgColor-primary: rgba(13, 4, 9, 0.73);
   --signup-bgColor-secondary: #fff;
   --faBarsColor: #503c3b;
   --carousel-bgColor: linear-gradient(
@@ -34,7 +34,7 @@ body {
   --sign-bg: #503c3b;
   --mission-card-bg: #503c3b;
   --privacy-btns-bg-color:#fff;
-  --carousel-btns:#503c3b;
+  --carousel-btns:#000;
   --link-color:blue;
   --author-pic-border:#503c3b;
   --sideBar-bg:#fff;
@@ -90,13 +90,13 @@ body {
 }
 .light-theme {
   --bgColor: #fff;
-  --fontColor: #503c3b;
+  --fontColor: rgba(13, 4, 9, 0.73);
   --slider: rgb(80, 79, 79);
-  --button-bgColor: #503c3b;
+  --button-bgColor: rgba(13, 4, 9, 0.73);
   --button-fontColor: #fff;
-  --signup-fontColor-primary: #503c3b;
+  --signup-fontColor-primary: rgba(13, 4, 9, 0.73);
   --signup-fontColor-secondary: #fff;
-  --signup-bgColor-primary: #503c3b;
+  --signup-bgColor-primary:rgba(13, 4, 9, 0.73);
   --signup-bgColor-secondary: #fff;
   --faBarsColor: #503c3b;
   --carousel-bgColor: linear-gradient(
@@ -112,7 +112,7 @@ body {
   --sign-bg: #503c3b;
   --mission-card-bg: #503c3b;
   --privacy-btns-bg-color:#fff;
-  --carousel-btns:#503c3b;
+  --carousel-btns:rgba(13, 4, 9, 0.73);
   --link-color:blue;
   --sideBar-bg:#fff;
   --sideBar-fontColor:#503c3b;;
@@ -695,6 +695,7 @@ h6 {
 
 .content {
   color: #503c3b;
+  font-size: 18px;
 }
 
 .content p {
@@ -754,7 +755,7 @@ h6 {
   font-family: 'garamond-premier-pro'
 
 }
-.coontent h4 {
+.content h4 {
   font-family: 'garamond-premier-pro'
 }
 
