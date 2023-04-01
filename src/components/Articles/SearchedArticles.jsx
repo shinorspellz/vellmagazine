@@ -42,4 +42,5 @@ const SearchedArticles = () => {
     </>
   );
 };
+
 export default SearchedArticles;
