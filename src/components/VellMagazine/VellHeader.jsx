@@ -34,7 +34,7 @@ console.log(headerSliderData)
                 <p className="text-[18px] my-3 px-5 xl-px-0 homepageFont text-left">
                   {item.content.startsWith('<p')
                     ? item.content
-                    .slice(17, 250)
+                    .slice(17, 330)
                     .replace(/(<p>)/g, '')
                     .replace(/<.?p[^>]*>/g, '')
                     .replace(/<.?h.?[^>]*>/g, '')
@@ -50,7 +50,7 @@ console.log(headerSliderData)
                     .replace(divPattern2,'')
                     .replace(/<.?img[^>]*\/>/g, '')
                     : item.content
-                    .slice(4, 250)
+                    .slice(4, 330)
                     .replace(/(<p>)/g, '')
                     .replace(/<.?p[^>]*>/g, '')
                     .replace(/<.?h.?[^>]*>/g, '')
