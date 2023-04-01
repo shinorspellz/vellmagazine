@@ -31,11 +31,6 @@ console.log(headerSliderData)
                 <h1 className="font-400 text-[24px] xl:text-[50px] font-serif xl:leading-[3rem] mb-[1rem] line-clamp-4">
                   {item.mainHeader}
                 </h1>
-<<<<<<< HEAD
-                <p className="text-[14px] my-3 px-5 xl-px-0 ">
-                     {item.content
-                    .slice(0, 330)}...
-=======
                 <p className="text-[18px] my-3 px-5 xl-px-0 homepageFont text-left">
                   {item.content.startsWith('<p')
                     ? item.content
@@ -68,7 +63,6 @@ console.log(headerSliderData)
                     .replace(/<.?img[^>]*\/>/g, '')
                         }
                   ...
->>>>>>> fbfa62e (edit)
                 </p>
                 <button
                   className=" w-[130px] py-2 mt-3 homepageFont"
