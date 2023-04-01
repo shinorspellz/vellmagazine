@@ -19,7 +19,7 @@ body {
   --signup-fontColor-secondary: #fff;
   --signup-bgColor-primary: rgba(13, 4, 9, 0.73);
   --signup-bgColor-secondary: #fff;
-  --faBarsColor: #503c3b;
+  --faBarsColor: rgba(13, 4, 9, 0.73);
   --carousel-bgColor: linear-gradient(
     45deg,
     #e8e6ef 0%,
@@ -27,18 +27,18 @@ body {
     #ced5ff 80%,
     #d3dbfc 100%
   );
-  --footer-bgColor: #503c3b;
-  --borderColor: #503c3b;
-  --footer-btnColor: #503c3b;
+  --footer-bgColor: rgba(13, 4, 9, 0.73);
+  --borderColor: rgba(13, 4, 9, 0.73);
+  --footer-btnColor: rgba(13, 4, 9, 0.73);
   --scrollUp-fontColor:#fff;
-  --sign-bg: #503c3b;
-  --mission-card-bg: #503c3b;
+  --sign-bg: rgba(13, 4, 9, 0.73);
+  --mission-card-bg: rgba(13, 4, 9, 0.73);
   --privacy-btns-bg-color:#fff;
   --carousel-btns:#000;
   --link-color:blue;
-  --author-pic-border:#503c3b;
+  --author-pic-border: rgba(13, 4, 9, 0.73);
   --sideBar-bg:#fff;
-  --sideBar-fontColor:#503c3b;;
+  --sideBar-fontColor: rgba(13, 4, 9, 0.73);
 
 }
 .dark-theme {
@@ -92,13 +92,13 @@ body {
   --bgColor: #fff;
   --fontColor: rgba(13, 4, 9, 0.73);
   --slider: rgb(80, 79, 79);
-  --button-bgColor: rgba(13, 4, 9, 0.73);
+  --button-bgColor: rgba(13, 4, 9, 1);
   --button-fontColor: #fff;
   --signup-fontColor-primary: rgba(13, 4, 9, 0.73);
   --signup-fontColor-secondary: #fff;
   --signup-bgColor-primary:rgba(13, 4, 9, 0.73);
   --signup-bgColor-secondary: #fff;
-  --faBarsColor: #503c3b;
+  --faBarsColor: rgba(13, 4, 9, 0.73);
   --carousel-bgColor: linear-gradient(
     45deg,
     #e8e6ef 0%,
@@ -106,16 +106,16 @@ body {
     #ced5ff 80%,
     #d3dbfc 100%
   );
-  --footer-bgColor: #503c3b;
-  --borderColor: #503c3b;
+  --footer-bgColor: rgba(13, 4, 9, 1);
+  --borderColor: rgba(13, 4, 9, 0.73);
   --footer-btnColor: #fff;
-  --sign-bg: #503c3b;
-  --mission-card-bg: #503c3b;
+  --sign-bg: rgba(13, 4, 9, 0.73);
+  --mission-card-bg: rgba(13, 4, 9, 0.73);
   --privacy-btns-bg-color:#fff;
   --carousel-btns:rgba(13, 4, 9, 0.73);
   --link-color:blue;
   --sideBar-bg:#fff;
-  --sideBar-fontColor:#503c3b;;
+  --sideBar-fontColor: rgba(13, 4, 9, 0.73);
 
 
 }
@@ -881,6 +881,7 @@ button span {
 
 .articleMainHeader,.authorName {
   font-family: 'Avenir Next Bold' !important;
+  color: rgba(13, 4, 9, 0.73);
 }
 /* .authorName{
   backdrop-filter: blur(3px);
