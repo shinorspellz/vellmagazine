@@ -30,7 +30,7 @@ const MoreLikeThisTemplate = ({item}) => {
             <h3 className='hover:underline cursor-pointer line-clamp-2 py-0'
         onClick={()=>navigate(`/article/${item.id}/${item.template}`)}>
         {item.mainHeader}</h3>
-        <p className='font-500  text-[13px] lg:line-clamp-3 hidden lg:block '>{item.content.startsWith("<p") ? item.content.slice(17,600)
+        <p className='font-500  text-[13px] lg:line-clamp-3 hidden lg:block homepageFont'>{item.content.startsWith("<p") ? item.content.slice(17,600)
                     .replace(/(<p>)/g, '')
                     .replace(/<.?p[^>]*>/g, '')
                     .replace(/<.?h.?[^>]*>/g, '')

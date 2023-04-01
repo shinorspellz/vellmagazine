@@ -36,7 +36,7 @@ const SingleTrending = ({item,index}) => {
            <h4 className='font-bold font-serif text-[14px] hover:underline cursor-pointer line-clamp-1 py-1 trending-title'
             onClick={()=>navigate(`/article/${id}/${template}`)} >
             {mainHeader.slice(0,20)} ...</h4>
-        <p className='font-500  text-[13px] xl:py-3 line-clamp-3 hidden lg:block '>{content.startsWith("<p") ? content.slice(17,87).replace(/<.?p[^>]*>/g,"").replace(/<.?h.?[^>]*>/g,"") : content.slice(4,75).replace(/<.?p[^>]*>/g,"").replace(/<.?h.?[^>]*>/g,"")}... </p>
+        <p className='font-500  text-[13px] xl:py-3 line-clamp-3 hidden lg:block homepageFont '>{content.startsWith("<p") ? content.slice(17,87).replace(/<.?p[^>]*>/g,"").replace(/<.?h.?[^>]*>/g,"") : content.slice(4,75).replace(/<.?p[^>]*>/g,"").replace(/<.?h.?[^>]*>/g,"")}... </p>
         <p className='font-[500] text-[13px] '>{changeFormat(date)}</p>
         </div>
     </div>

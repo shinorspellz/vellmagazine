@@ -34,10 +34,9 @@ console.log(headerSliderData)
                 <p className="text-[14px] my-3 px-5 xl-px-0 ">
                      {item.content
                     .slice(0, 330)}...
-                  
                 </p>
                 <button
-                  className=" w-[130px] py-2 mt-3"
+                  className=" w-[130px] py-2 mt-3 homepageFont"
                   onClick={()=>navigate(`/article/${item.id}/${item.template}`)}  
                   >
                   See more

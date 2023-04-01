@@ -51,7 +51,7 @@ console.log(thisMonthArticles)
 
         </section>
         <button
-                  className=" w-[130px] py-2 mt-5 block m-auto thisMonthBtn"
+                  className=" w-[130px] py-2 mt-5 block m-auto thisMonthBtn homepageFont"
                   onClick={() => navigate(`/this-month-articles`)}
                 >
                   See more
