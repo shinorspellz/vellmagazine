@@ -112,7 +112,8 @@ const ArticleTemplateThree = () => {
         alt="img"
         className="h-[500px] w-full max-w-[1920px] 2xl:h-[900px] px-2 sm:px-0 object-cover  sm:block sm:m-auto my-3  block lg:mt-[115px]"
       />
-      <p className="py-1 text-center text-sm">{currentArticle.img_source}</p>
+      <p className="py-1 text-center text-sm">
+      Image source:<a href={currentArticle.img_source} target='_blank'>{currentArticle.img_source_title}</a>        </p>
       <div
         className=" px-2 pb-12 articleTemplate w-full max-w-[1350px] m-auto"
         id={currentArticle.contentHeader}
