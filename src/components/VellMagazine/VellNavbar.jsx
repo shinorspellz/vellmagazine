@@ -28,11 +28,11 @@ const VellNavbar = () => {
         <div className="flex justify-start lg:justify-center items-center  w-full translate-x-[60px]">
           <NavLink
             to="/"
-            className="font-serif text-[25px] whitespace-nowrap  h-full flex items-center justify-start translate-x-[-45px] lg:translate-x-0"
+            className="font-serif text-[30px] whitespace-nowrap  h-full flex items-center justify-start translate-x-[-45px] lg:translate-x-0"
           >
             Vell Magazine
           </NavLink>
-          <p className="px-1 text-sm hidden lg:block">by</p>
+          <p className="px-1 pt-1 text-sm hidden lg:block">by</p>
           <NavLink
             to="https://vmodel.app/"
             className="font-serif text-[24px] whitespace-nowrap hidden lg:block"

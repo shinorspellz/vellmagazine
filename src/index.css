@@ -27,7 +27,7 @@ body {
     #ced5ff 80%,
     #d3dbfc 100%
   );
-  --footer-bgColor: rgba(13, 4, 9, 0.73);
+  --footer-bgColor: rgba(13, 4, 9, 0.8);
   --borderColor: rgba(13, 4, 9, 0.73);
   --footer-btnColor: rgba(13, 4, 9, 0.73);
   --scrollUp-fontColor:#fff;
@@ -106,7 +106,7 @@ body {
     #ced5ff 80%,
     #d3dbfc 100%
   );
-  --footer-bgColor: rgba(13, 4, 9, 1);
+  --footer-bgColor: rgba(13, 4, 9, 0.8);
   --borderColor: rgba(13, 4, 9, 0.73);
   --footer-btnColor: #fff;
   --sign-bg: rgba(13, 4, 9, 0.73);

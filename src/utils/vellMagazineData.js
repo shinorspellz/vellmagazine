@@ -11,7 +11,7 @@ export const footerData = [
     topic: "Wellbeing",
   },
   {
-    img: "images/lifeMatters.jpg",
+    img: "images/life-matters.jpg",
     topic: "Life matters",
   },
   {
