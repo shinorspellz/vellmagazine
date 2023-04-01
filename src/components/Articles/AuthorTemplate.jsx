@@ -31,7 +31,7 @@ const AuthorTemplate = () => {
         />
         <p className="text-center text-[25px] font-serif" >{currentAuthor.name}<br/>{currentAuthor.name2}</p>
         <p className="text-center max-w-[800px]  m-auto">{currentAuthor.desc}</p>
-        <p className="text-center max-w-[800px] text-[15px]  m-auto pt-[1rem] bio" dangerouslySetInnerHTML={{ __html: currentAuthor.bio }}></p>
+        <p className="text-justify max-w-[800px] text-[15px]  m-auto pt-[1rem] bio" dangerouslySetInnerHTML={{ __html: currentAuthor.bio }}></p>
         <div className='flex justify-center gap-[1rem] mt-[1rem]'>
           <a href='hi' target='_blank' className="cursor-pointer"><img src='../images/instagram.png' alt='icon' className="w-[30px] h-[30px] sm:w-[50px] sm:h-[50px]"/></a>
           <a href='hi' target='_blank' className="cursor-pointer"><img src='../images/twitter.png' alt='icon' className="w-[30px] h-[30px] sm:w-[50px] sm:h-[50px]"/></a>

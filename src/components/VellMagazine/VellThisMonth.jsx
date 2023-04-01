@@ -22,20 +22,20 @@ console.log(thisMonthArticles)
     const costOfLiving=thisMonthArticles.find((item)=>item.topics.includes("COST OF LIVING"))
     // const style=thisMonthArticles.find((item)=>item.topics.includes("STYLE") && !item.topics.includes("SOCIAL MEDIA"))
     const influencers=thisMonthArticles.find((item)=>item.topics.includes("INFLUENCERS"))
-    const books=thisMonthArticles.find((item)=>item.topics.includes("TECHNOLOGY"))
-    const makeUp=thisMonthArticles.find((item)=>item.topics.includes("MAKEUP"))
+    const technology=thisMonthArticles.find((item)=>item.topics.includes("TECHNOLOGY"))
+    const fashionWeeks=thisMonthArticles.find((item)=>item.topics.includes("FASHION WEEKS"))
     const cinema=thisMonthArticles.find((item)=>item.topics.includes("CINEMA"))
     const socialMediaHacks=thisMonthArticles.find((item)=>item.topics.includes("SOCIAL MEDIA HACKS") && !item.topics.includes("COST OF LIVING"))
     const music=thisMonthArticles.find((item)=>item.topics.includes("MUSIC"))
     const trends=thisMonthArticles.find((item)=>item.topics.includes("TRENDS"))
     const clothing=thisMonthArticles.find((item)=>item.topics.includes("CLOTHING"))
     const celebFashion=thisMonthArticles.find((item)=>item.topics.includes("CELEBRITY FASHION"))
-    const skin=thisMonthArticles.find((item)=>item.topics.includes("TRAVEL"))
+    const artsCulture=thisMonthArticles.find((item)=>item.topics.includes("ARTS & CULTURE"))
 
     const thisMonthArr=[]
     // thisMonthArr.push(mentalHealth,weekendGetAways,style,petSpotlight,socialMediaHacks,costOfLiving)
     // console.log(thisMonthArr);
-    thisMonthArr.push(petSpotlight,trends,skin,books,music,celebFashion)
+    thisMonthArr.push(petSpotlight,influencers,fashionWeeks,technology,costOfLiving,artsCulture)
     console.log(thisMonthArr);
   return (
     <main className="vellmagazine-today mt-[60px] p-5 xl:px-[2rem]">
