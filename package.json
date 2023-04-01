@@ -4,7 +4,9 @@
   "private": true,
   "dependencies": {
     "@brainhubeu/react-carousel": "^2.0.4",
+    "@fontsource/libre-bodoni": "^4.5.5",
     "@fontsource/montserrat": "^4.5.14",
+    "@fontsource/pt-serif": "^4.5.11",
     "@tailwindcss/line-clamp": "^0.4.2",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
