@@ -7,7 +7,7 @@ import RightArrow from "./VellTrendingRightArrow";
 
 const VellTrending = () => {
 
-  const trendingData=articles?.filter((item) => item.theme == 'trending').reverse()
+  const trendingData=articles?.reverse().slice(0,20)
   const settings = {
     // dots: true,
     infinite: true,
@@ -29,7 +29,7 @@ const VellTrending = () => {
   };
   return (
     <main className="vellmagazine-trending mt-[50px] p-5 xl:px-[2rem] ">
-    <h1 className="text-center font-500 font-serif text-4xl pt-1 pb-2 italic ">TRENDING</h1>
+    <h1 className="text-center font-500 font-serif text-4xl pt-1 pb-2 italic ">LATEST</h1>
     <Slider {...settings} className="container m-auto px-2 hidden lg:block ">
                 {trendingData?.map((item,index) => {
               return (
