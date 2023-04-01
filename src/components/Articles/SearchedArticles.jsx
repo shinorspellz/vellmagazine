@@ -20,7 +20,7 @@ const SearchedArticles = () => {
       <div className="flex justify-center items-center">
         <input
           type="text"
-          className="rounded border-0 text-center w-3/4 "
+          className="  border-b text-center w-3/4 lg:w-1/2   border-gray-400 focus:ring-1 focus:border-gray-600 focus:ring-gray-500 rounded-2xl "
           placeholder="Search for articles ..."
           onChange={handleSearch}
           value={searchTerm}
