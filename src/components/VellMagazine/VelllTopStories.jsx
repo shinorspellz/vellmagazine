@@ -56,7 +56,7 @@ const VelllTopStories = () => {
           onClick={(e)=>goToArticle(e)}>
             {topArticles[0].mainHeader}
           </h3>
-          <p className="text-[14px] hidden md:block ">
+          <p className="text-[14px] hidden md:block homepageFont">
               {topArticles[0].content.startsWith('<p')
               ? topArticles[0].content
               .slice(17, 370)
@@ -101,7 +101,7 @@ const VelllTopStories = () => {
               >
                 {topArticles[1].mainHeader}
               </h3>
-              <p className=' text-[14px] line-clamp-4 topStoriesP'>{topArticles[1].content.startsWith('<p')
+              <p className=' text-[14px] line-clamp-4 topStoriesP homepageFont'>{topArticles[1].content.startsWith('<p')
               ? topArticles[1].content
               .slice(17, 180)
               .replace(/(<p>)/g, '')
@@ -144,7 +144,7 @@ const VelllTopStories = () => {
               >
                 {topArticles[2].mainHeader}
               </h3>
-              <p className=' text-[14px] line-clamp-4 topStoriesP'>{topArticles[1].content.startsWith('<p')
+              <p className=' text-[14px] line-clamp-4 topStoriesP homepageFont'>{topArticles[1].content.startsWith('<p')
               ? topArticles[2].content
               .slice(17, 180)
               .replace(/(<p>)/g, '')
@@ -187,7 +187,7 @@ const VelllTopStories = () => {
               >
                 {topArticles[3].mainHeader}
               </h3>
-              <p className=' text-[14px] line-clamp-4 topStoriesP'>{topArticles[1].content.startsWith('<p')
+              <p className=' text-[14px] line-clamp-4 topStoriesP homepageFont'>{topArticles[1].content.startsWith('<p')
               ? topArticles[3].content
               .slice(17, 180)
               .replace(/(<p>)/g, '')

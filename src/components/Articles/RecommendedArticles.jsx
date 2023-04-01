@@ -32,7 +32,7 @@ const RecommendedArticles = ({item}) => {
         onClick={()=>navigate(`/article/${item.id}/${item.template}`)}>
 
             {mainHeader}</h3>
-        <p className=' text-sm line-clamp-2'> {content.startsWith('<p')
+        <p className=' text-sm line-clamp-2 homepageFont'> {content.startsWith('<p')
               ? content
               .slice(17, 180)
               .replace(/(<p>)/g, '')

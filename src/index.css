@@ -701,7 +701,7 @@ h6 {
   /* text-indent: 15px!important; */
   margin-bottom: 1rem;
   line-height: 1.6;
-  font-family: "PT Serif"
+  font-family: "garamond-premier-pro"
 }
 
 .content a {
@@ -750,10 +750,16 @@ h6 {
   font-weight: 400 !important;
   
 }
+.content h3 {
+  font-family: 'garamond-premier-pro'
+
+}
+.coontent h4 {
+  font-family: 'garamond-premier-pro'
+}
 
 .h4-head {
   font-size: 28px !important;
-  font-family: serif !important;
   font-weight: 400 !important;
 }
 .content figure {
@@ -1195,4 +1201,8 @@ list-style-position: inside;
 }
 .font-extrabold{
   font-weight: 900;
+}
+
+.homepageFont {
+  font-family: 'garamond-premier-pro';
 }

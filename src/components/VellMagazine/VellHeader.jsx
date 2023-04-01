@@ -30,7 +30,7 @@ const VellHeader = () => {
                 <h1 className="font-400 text-[24px] py-2 xl:py-1 xl:text-[50px] font-serif xl:leading-[3rem] mb-[1rem] line-clamp-4">
                   {item.mainHeader}
                 </h1>
-                <p className="text-[14px] my-3 px-5 xl-px-0 ">
+                <p className="text-[14px] my-3 px-5 xl-px-0 homepageFont">
                   {item.content.startsWith('<p')
                     ? item.content
                     .slice(17, 330)
@@ -64,7 +64,7 @@ const VellHeader = () => {
                   ...
                 </p>
                 <button
-                  className=" w-[130px] py-2 mt-3"
+                  className=" w-[130px] py-2 mt-3 homepageFont"
                   onClick={()=>navigate(`/article/${item.id}/${item.template}`)}  
                   >
                   See more
