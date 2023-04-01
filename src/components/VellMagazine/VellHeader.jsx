@@ -4,16 +4,17 @@ import { articles } from '../../utils/vellMagazineData'
 import { Carousel } from 'flowbite-react'
 import { IoIosArrowBack,IoIosArrowForward } from "react-icons/io";
 import moment from 'moment'
+import { headerSliderData } from '../../utils/vellMagazineData';
 
 
 const VellHeader = () => {
   const navigate = useNavigate()
   const today=new Date()
   const month=moment(today).format("LL").split(" ")[0]
-  const headerArticles=articles.filter(item=>item.date.includes(month)).reverse().slice(0,7)
+  const headerArticles=headerSliderData?.reverse().slice(0,7)
   const divPattern=/<([^>]+)>.*?<\/\1>|<.*?\/>/g
   const divPattern2="class='text-cent"
-
+console.log(headerSliderData)
   // const divPattern=/^<div>.*?<\/div>$/g
   // const indicators=document..querySelectorAll("button[data-testid='carousel-indicator']")
   // const hs=document.querySelector("button.bg-white")
@@ -31,37 +32,9 @@ const VellHeader = () => {
                   {item.mainHeader}
                 </h1>
                 <p className="text-[14px] my-3 px-5 xl-px-0 ">
-                  {item.content.startsWith('<p')
-                    ? item.content
-                    .slice(17, 330)
-                    .replace(/(<p>)/g, '')
-                    .replace(/<.?p[^>]*>/g, '')
-                    .replace(/<.?h.?[^>]*>/g, '')
-                    .replace(/<.?ol.?[^>]*>/g, '')
-                    .replace(/<.?li.?[^>]*>/g, '')
-                    .replace(/<.?a.?[^>]*>/g, '')
-                    .replace(/<.?span.?[^>]*>/g, '')
-                    .replace(/<.?em.?[^>)]*>/g, '')
-                    .replace(/<.?[(</p>)]/g, '')
-                    .replace(/<.?sup.?[^>]*>/g, '')
-                    .replace(/&quot;/g,'"')
-                    .replace(divPattern,'')
-                    .replace(divPattern2,'')
-                    .replace(/<.?img[^>]*\/>/g, '')
-                    : item.content
-                    .slice(4, 330)
-                    .replace(/(<p>)/g, '')
-                    .replace(/<.?p[^>]*>/g, '')
-                    .replace(/<.?h.?[^>]*>/g, '')
-                    .replace(/<.?ol.?[^>]*>/g, '')
-                    .replace(/<.?li.?[^>]*>/g, '')
-                    .replace(/<.?[(</p>)]/g, '')
-                    .replace(/[&quot;]/g, '"')
-                    .replace(divPattern,'')
-                    .replace(divPattern2,'')
-                    .replace(/<.?img[^>]*\/>/g, '')
-                        }
-                  ...
+                     {item.content
+                    .slice(0, 330)}...
+                  
                 </p>
                 <button
                   className=" w-[130px] py-2 mt-3"

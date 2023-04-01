@@ -66,6 +66,7 @@ const VelllTopStories = () => {
               .replace(/<.?ol.?[^>]*>/g, '')
               .replace(/<.?li.?[^>]*>/g, '')
               .replace(/<.?a.?[^>]*>/g, '')
+           
               
               : topArticles[0].content
               .slice(4, 370)
@@ -75,7 +76,7 @@ const VelllTopStories = () => {
               .replace(/<.?ol.?[^>]*>/g, '')
               .replace(/<.?li.?[^>]*>/g, '')
               .replace(/<.?a.?[^>]*>/g, '')
-           
+              .replace(/<.?i.?[^>]*>/g, '')
                   }
             ...
           </p>
@@ -96,7 +97,7 @@ const VelllTopStories = () => {
                             >
                 {topArticles[1].topics[0]}
               </p>
-              <h3 className="font-500 font-serif text-[15px] md:text-[17px] py-1 md:py-2 line-clamp-1 md:line-clamp-2 hover:underline cursor-pointer"
+              <h3 className="font-500 font-serif text-[15px] md:text-[17px] py-1  line-clamp-1 md:line-clamp-2 hover:underline cursor-pointer"
               onClick={(e)=>goToArticle(e)}
               >
                 {topArticles[1].mainHeader}
@@ -139,7 +140,7 @@ const VelllTopStories = () => {
                             >
                 {topArticles[2].topics[0]}
               </p>
-              <h3 className="font-500 font-serif text-[15px] md:text-[17px] py-1 md:py-2 line-clamp-1 md:line-clamp-2 hover:underline cursor-pointer"
+              <h3 className="font-500 font-serif text-[15px] md:text-[17px] py-1  line-clamp-1 md:line-clamp-2 hover:underline cursor-pointer"
               onClick={(e)=>goToArticle(e)}
               >
                 {topArticles[2].mainHeader}
@@ -182,7 +183,7 @@ const VelllTopStories = () => {
                             >
                 {topArticles[3].topics[0]}
               </p>
-              <h3 className="font-500 font-serif text-[15px] md:text-[17px] py-1 md:py-2 line-clamp-1 md:line-clamp-2 hover:underline cursor-pointer"
+              <h3 className="font-500 font-serif text-[15px] md:text-[17px] py-1 line-clamp-1 md:line-clamp-2 hover:underline cursor-pointer"
               onClick={(e)=>goToArticle(e)}
               >
                 {topArticles[3].mainHeader}
