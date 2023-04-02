@@ -11,7 +11,8 @@ const VellHeader = () => {
   const navigate = useNavigate()
   const today=new Date()
   const month=moment(today).format("LL").split(" ")[0]
-  const headerArticles=headerSliderData?.reverse().slice(0,7)
+  const headerArticles=headerSliderData?.reverse().slice(0,6)
+  console.log(headerArticles,"hehehe")
   const divPattern=/<([^>]+)>.*?<\/\1>|<.*?\/>/g
   const divPattern2="class='text-cent"
 
@@ -28,7 +29,7 @@ const VellHeader = () => {
             onClick={()=>navigate(`/article/${item.id}/${item.template}`)}     
             >
               <section className="xl:w-6/12 xl:p-5 text-center">
-                <h1 className="font-400 text-[24px] xl:text-[50px] font-serif xl:leading-[3rem] mb-[1rem] line-clamp-4">
+                <h1 className="font-400 text-[24px] xl:text-[50px] font-serif xl:leading-[3rem] mb-[1rem] line-clamp-4 pb-1">
                   {item.mainHeader}
                 </h1>
                 <p className="text-[18px] my-3 px-5 xl-px-0 homepageFont text-left">
