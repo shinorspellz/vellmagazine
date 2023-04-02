@@ -8,7 +8,7 @@ import MoreLikeThisTemplate from './MoreLikeThisTemplate'
 import Footer from '../Footer'
 import { menuItems } from '../../utils/menuItems'
 import { useContext } from 'react'
-import { VellMagazineContext } from '../../context/VellMagazineContext'
+import { VellMagazineContext } from '../../context/VellMagazineContext';
 import {
   EmailShareButton,
   EmailIcon,
@@ -64,6 +64,9 @@ const arr=[]
       item.submenu.find(item2=>item2.title.toUpperCase()===currentArticle.topics[0])
     )
   })
+  useEffect(() => {
+    if (window.instgrm) window.instgrm.Embeds.process();
+  }, []);
 // console.log(breadcrump.title)
 const settings = {
   // dots: true,
