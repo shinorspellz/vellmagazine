@@ -10,11 +10,9 @@ import { headerSliderData } from '../../utils/vellMagazineData';
 const VellHeader = () => {
   const navigate = useNavigate()
   const today=new Date()
-  const month=moment(today).format("LL").split(" ")[0]
-  const headerArticles=headerSliderData?.reverse().slice(0,6)
-  console.log(headerArticles,"hehehe")
-  const divPattern=/<([^>]+)>.*?<\/\1>|<.*?\/>/g
-  const divPattern2="class='text-cent"
+  // const month=moment(today).format("LL").split(" ")[0]
+  const headerArticles=headerSliderData?.filter(item=>item.theme="header").reverse()
+
 
   // const divPattern=/^<div>.*?<\/div>$/g
   // const indicators=document..querySelectorAll("button[data-testid='carousel-indicator']")
@@ -22,7 +20,7 @@ const VellHeader = () => {
   // const indexOfSlide=(Object.values(indicators).indexOf(hs));
   // console.log(hs);
   return (
-      <Carousel slide={true} slideInterval={5000} leftControl={<IoIosArrowBack/>} rightControl={<IoIosArrowForward/>} indicators={true}  className="container xl:mt-[8rem] h-[700px] md:h-[650px] xl:h-[520px] pb-3 m-auto hs relative headerCarousel mt-[30px] sm:mt-0">
+      <Carousel slide={true} slideInterval={3000} leftControl={<IoIosArrowBack/>} rightControl={<IoIosArrowForward/>} indicators={true}  className="container xl:mt-[8rem] h-[700px] md:h-[650px] xl:h-[520px] pb-3 m-auto hs relative headerCarousel mt-[30px] sm:mt-0">
         {headerArticles.map((item) => {
           return (
             <header className="h-full flex flex-col-reverse xl:flex-row justify-end sm:justify-center items-start sm:items-center xl:px-[2rem] vellmagazine-header cursor-pointer" key={item.id}
