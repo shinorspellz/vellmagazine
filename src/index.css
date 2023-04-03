@@ -13,6 +13,7 @@ body {
   --bgColor: #fff;
   --fontColor: rgba(13, 4, 9, 0.73);
   --slider: rgb(80, 79, 79);
+  --hoverMenu-bgColor: #f2f2f2;
   --button-bgColor: #0D0907;
   --button-fontColor: #fff;
   --signup-fontColor-primary: rgba(13, 4, 9, 0.73);
@@ -42,17 +43,18 @@ body {
 
 }
 .dark-theme {
-  --bgColor: #0a192f;
-  --fontColor: #ccd6f6;
-  --font-secondary-color: #8892b0;
+  --bgColor: #272C30;
+  --fontColor: #fff;
+  --font-secondary-color: #fff;
   --slider: rgb(179, 177, 177);
-  --button-bgColor: #ccd6f6;
-  --button-fontColor: #533c3b;
+  --hoverMenu-bgColor: #505457;
+  --button-bgColor: #FAF153;
+  --button-fontColor: #272C30;
   --signup-fontColor-primary: #fff;
   --signup-fontColor-secondary: #fff;
-  --signup-bgColor-primary: #503c3b;
-  --signup-bgColor-secondary: #503c3b;
-  --faBarsColor: #ccd6f6;
+  --signup-bgColor-primary: #FAF153;
+  --signup-bgColor-secondary: #FAF153;
+  --faBarsColor: #fff;
   --carousel-bgColor: linear-gradient(
     45deg,
     #486ea8 0%,
@@ -60,8 +62,8 @@ body {
     #122849 80%,
     #0a192f 100%
   );
-  --footer-bgColor: #0a192f;
-  --scrollUp-fontColor:#0a192f;
+  --footer-bgColor: #272C30;
+  --scrollUp-fontColor: #fff;
   --borderColor: #fff;
   --footer-btnColor: #fff;
   --sign-bg: linear-gradient(
@@ -79,10 +81,10 @@ body {
     #0a192e 100%
   );
   --privacy-btns-bg-color:#fff;
-  --carousel-btns:#0a192f;
+  --carousel-btns:#272C30;
   --link-color:grey;
   --author-pic-border: #1c4179;
-  --sideBar-bg:#0a192f;
+  --sideBar-bg:#272C30;
   --sideBar-fontColor:#fff;
 
 
@@ -836,7 +838,7 @@ button span {
 
 .menu-items a:hover,
 .menu-items button:hover {
-  background-color: #f2f2f2 !important;
+  background-color: var(--hoverMenu-bgColor) !important;
   margin-right: 0;
 }
 
@@ -1193,7 +1195,7 @@ transform: translateX(-15%);
 }
 
 .scrollUpBtn {
-  background-color: var(--button-bgColor);
+  background-color: var(--bgColor);
   color: var(--scrollUp-fontColor)
 }
 
