@@ -47,21 +47,21 @@ const CookiesConsent = () => {
 
         
         style={theme==="light-theme" ? {
-          background:"#503C3B",
+          background:"rgba(13, 4, 9, 1)",
           color:"#fff",
         }:
         {
-          background:"#ffd",
-          color:"#0a192f",
+          background:"#FFF",
+          color:"#272C30",
         }
       }
       buttonStyle={theme==="light-theme" ? {
         background:"#fff",
-        color:"#503C3B",
+        color:"rgba(13, 4, 9, 0.73)",
         fontSize: "15px",
       }:
       {
-        background:"#0a192f",
+        background:"#272C30",
         color:"#fff",
       }
     }
