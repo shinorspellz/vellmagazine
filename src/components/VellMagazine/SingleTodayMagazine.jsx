@@ -35,7 +35,7 @@ const SingleTodayMagazine = ({ item, index, thisMonthArr }) => {
         className="uppercase font-[500] hidden xl:block hover:underline cursor-pointer hover:font-semibold mb-1 text-center "
         onClick={(e) => goToTopics(e)}
       >
-        {relevantTopics[index]}
+        {item.topics[1]}
       </h1>
       <img
         src={item.img}

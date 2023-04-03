@@ -26,7 +26,7 @@ const SingleTrending = ({item,index}) => {
    
   return (
     <div className='flex lg:flex-col items-center justify-between my-3 lg:my-0 gap-3'>
-        <img src={img} alt="trending" className={`${index%2==0 ? "lg:h-[200px] lg:mb-[50px] " : "lg:h-[250px]"} h-[180px] w-[170px]  lg:w-[160px]  object-cover cursor-pointer`}
+        <img src={img} alt="trending" className={`${index%2==0 ? "lg:h-[200px] lg:mb-[50px]" : "lg:h-[250px]"} h-[180px] w-[220px]  lg:w-[160px]  object-cover cursor-pointer`}
         onClick={(e)=>goToArticleFromImg(e)}
         />
         <div className='w-7/12 sm:w-full mt-3 ml-2 lg:ml-0 '>
@@ -36,7 +36,7 @@ const SingleTrending = ({item,index}) => {
            <h4 className='font-bold font-serif text-[14px] hover:underline cursor-pointer line-clamp-1 py-1 trending-title'
             onClick={()=>navigate(`/article/${id}/${template}`)} >
             {mainHeader.slice(0,20)} ...</h4>
-        <p className='font-500  text-[13px] xl:py-3 line-clamp-3 hidden lg:block homepageFont '>{content.startsWith("<p") ? content.slice(17,87).replace(/<.?p[^>]*>/g,"").replace(/<.?h.?[^>]*>/g,"").replace(/<.?img.?[^>]*>/g,"") : content.slice(4,75).replace(/<.?p[^>]*>/g,"").replace(/<.?h.?[^>]*>/g,"")}... </p>
+        <p className='font-500  text-[13px] xl:py-3 line-clamp-3 hidden lg:block homepageFont '>{content.startsWith("<p") ? content.slice(17,87).replace(/<.?p[^>]*>/g,"").replace(/<.?h.?[^>]*>/g,"") : content.slice(4,75).replace(/<.?p[^>]*>/g,"").replace(/<.?h.?[^>]*>/g,"")}... </p>
         <p className='font-[500] text-[13px] '>{changeFormat(date)}</p>
         </div>
     </div>

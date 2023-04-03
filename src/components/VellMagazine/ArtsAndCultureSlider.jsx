@@ -1,5 +1,5 @@
 // import { trendingData } from "../../utils/vellMagazineData"
-import SingleTrending from "./SingleTrending"
+import SingleSlider from "./SingleSlider"
 import Slider from "react-slick";
 import { articles } from "../../utils/vellMagazineData";
 import LeftArrow from "./VellTrendingLeftArrow";
@@ -8,7 +8,7 @@ import RightArrow from "./VellTrendingRightArrow";
 const VellTrending = () => {
 
   //const trendingData=articles?.filter((item) => item.theme == 'trending').reverse()
-  const trendingData=articles?.filter(item=>item.content.startsWith("<p")).slice(0,12).reverse()
+  const artsAndCultureSliderData=articles?.filter((item)=>item.topics[0]=="ARTS & CULTURE")
   const settings = {
     // dots: true,
     infinite: true,
@@ -29,24 +29,24 @@ const VellTrending = () => {
       ]
   };
   return (
-    <main className="vellmagazine-trending mt-[50px] p-5 xl:px-[2rem] ">
-    <h1 className="text-center font-500 font-serif text-4xl pt-1 pb-2 italic lg:hidden ">LATEST</h1>
-    <Slider {...settings} className="container m-auto px-2 hidden ">
-                {trendingData?.map((item,index) => {
+    <main className="vellmagazine-trending mt-[50px] p-5 xl:px-[2rem] hidden lg:block">
+    <h1 className="text-center font-500 font-serif text-4xl pt-1 pb-2 italic ">ARTS & CULTURE</h1>
+    <Slider {...settings} className="container m-auto px-2 hidden lg:block ">
+                {artsAndCultureSliderData?.map((item,index) => {
               return (
                 <ul className="m-auto" key={item.id}>
-                <li className="list-unstyled mx-1 "><SingleTrending item={item}  index={index}/></li>
+                <li className="list-unstyled mx-1 "><SingleSlider item={item}  index={index}/></li>
                 </ul>
                 );
               })}
       </Slider>
-      <section className="lg:hidden">
-      {trendingData?.map((item,index) => {
+      {/* <section className="lg:hidden">
+      {artsAndCultureSliderData?.map((item,index) => {
               return (
-                <SingleTrending item={item} key={item.id} index={index}/>
+                <SingleSlider item={item} key={item.id} index={index}/>
               )
               })}
-        </section>   
+        </section>    */}
 
     </main>
   )

@@ -18,6 +18,7 @@ import Authors from "../components/Articles/Authors";
 import ThisMonthArticles from "../components/Articles/ThisMonthArticles";
 import AboutUs from "../components/AboutUs";
 import SearchedView from "../components/Articles/SearchedView";
+import AllFillers from "../components/Articles/AllFillers";
 
 const AppRouter = () => {
   return (
@@ -41,6 +42,7 @@ const AppRouter = () => {
         <Route path="/author/:author" element={<AuthorTemplate />} />
         <Route path="/articletopics" element={<ArticleTopics />} />
         <Route path="/searched-articles" element={<SearchedView />} />
+        <Route path="/allfillers" element={<AllFillers/>} />
       </Routes>
     </BrowserRouter>
   );
