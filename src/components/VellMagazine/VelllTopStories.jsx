@@ -1,7 +1,7 @@
 import { useContext } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { VellMagazineContext } from '../../context/VellMagazineContext'
-import { articles } from '../../utils/vellMagazineData'
+import { articles, headerSliderData } from '../../utils/vellMagazineData'
 import moment from 'moment'
 
 const VelllTopStories = () => {
@@ -9,7 +9,7 @@ const VelllTopStories = () => {
     const navigate=useNavigate()
     const today=new Date()
     const month=moment(today).format("LL").split(" ")[0]
-  const topArticles = articles.filter((item) => item.date.includes(month) && item.theme!="valentine's day")
+  const topArticles = headerSliderData?.filter(item=>item.theme.includes("topstories"))
   
   // console.log(changeFormat(topArticles[1].date))
 
@@ -96,7 +96,7 @@ const VelllTopStories = () => {
                             >
                 {topArticles[1].topics[0]}
               </p>
-              <h3 className="font-500 font-serif text-[20px] md:text-[17px] py-1 md:py-2 line-clamp-1 md:line-clamp-2 hover:underline cursor-pointer"
+              <h3 className="font-500 font-serif text-[20px] md:text-[17px] py-1  line-clamp-1 md:line-clamp-2 hover:underline cursor-pointer"
               onClick={(e)=>goToArticle(e)}
               >
                 {topArticles[1].mainHeader}
@@ -139,7 +139,7 @@ const VelllTopStories = () => {
                             >
                 {topArticles[2].topics[0]}
               </p>
-              <h3 className="font-500 font-serif text-[20px] md:text-[17px] py-1 md:py-2 line-clamp-1 md:line-clamp-2 hover:underline cursor-pointer"
+              <h3 className="font-500 font-serif text-[20px] md:text-[17px] py-1  line-clamp-1 md:line-clamp-2 hover:underline cursor-pointer"
               onClick={(e)=>goToArticle(e)}
               >
                 {topArticles[2].mainHeader}
@@ -182,7 +182,7 @@ const VelllTopStories = () => {
                             >
                 {topArticles[3].topics[0]}
               </p>
-              <h3 className="font-500 font-serif text-[20px] md:text-[17px] py-1 md:py-2 line-clamp-1 md:line-clamp-2 hover:underline cursor-pointer"
+              <h3 className="font-500 font-serif text-[20px] md:text-[17px] py-1 line-clamp-1 md:line-clamp-2 hover:underline cursor-pointer"
               onClick={(e)=>goToArticle(e)}
               >
                 {topArticles[3].mainHeader}
