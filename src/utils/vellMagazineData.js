@@ -115,13 +115,13 @@ export const authorsData = [
     desc: "Author at VellMagazine",
     bio: "Having always been an avid writer, I love the sense of satisfaction gained when someone reads a piece of mine and says how much they could relate to it, or how much they enjoyed hearing a different perspective. For Vell Magazine, my aim is to bring reviews and opinion pieces on a wide variety of topics, but mostly focused on the latest films, music, television shows - anything culture related. Whilst based in the UK, I am constantly on the lookout for new media I can write about, whether it's a new film or the latest album from a favourite artist. With a degree in journalism and some background in media studies, I can delve into anything I'm currently watching or listening to and write up my findings in a fun and personal way. If you're looking to read opinion pieces or reviews, then you can check out my articles on the Vell Magazine website.",
   },
-  {
-    id: 11,
-    name: "Khadija Ghazanfar",
-    img: "/images/khadijaGhazanfar.jpg",
-    desc: "Author at VellMagazine",
-    bio: "My name is Khadija Ghazanfar, and I am a clinical psychologist with a passion for writing. I have extensive experience in creating engaging content on a variety of topics, including social media, mental health, fashion, and information technology.Throughout my career, I have written numerous blogs and articles that have covered the latest trends and hot topics in these domains. I have a unique ability to write in a way that is both informative and accessible, making complex ideas easy to understand for a wide range of readers.",
-  },
+  // {
+  //   id: 11,
+  //   name: "Khadija Ghazanfar",
+  //   img: "/images/khadijaGhazanfar.jpg",
+  //   desc: "Author at VellMagazine",
+  //   bio: "My name is Khadija Ghazanfar, and I am a clinical psychologist with a passion for writing. I have extensive experience in creating engaging content on a variety of topics, including social media, mental health, fashion, and information technology.Throughout my career, I have written numerous blogs and articles that have covered the latest trends and hot topics in these domains. I have a unique ability to write in a way that is both informative and accessible, making complex ideas easy to understand for a wide range of readers.",
+  // },
   {
     id: 12,
     name: "James Murray",

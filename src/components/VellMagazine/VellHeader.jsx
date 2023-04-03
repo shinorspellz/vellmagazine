@@ -32,7 +32,7 @@ const VellHeader = () => {
                 </h1>
                 <p className="text-[18px] my-3 px-5 xl-px-0 homepageFont text-left">
                      {item.content
-                    .slice(0, 200)}...
+                    .slice(0, 230)}...
                 </p>
                 <button
                   className=" w-[130px] py-2 mt-3 homepageFont"
