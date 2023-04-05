@@ -47,7 +47,7 @@ const CookiesConsent = () => {
 
         
         style={theme==="light-theme" ? {
-          background:"rgba(13, 4, 9, 1)",
+          background:"#131313",
           color:"#fff",
         }:
         {
@@ -57,7 +57,7 @@ const CookiesConsent = () => {
       }
       buttonStyle={theme==="light-theme" ? {
         background:"#fff",
-        color:"rgba(13, 4, 9, 0.73)",
+        color:"#131313",
         fontSize: "15px",
       }:
       {

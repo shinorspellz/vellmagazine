@@ -11,16 +11,16 @@ body {
 
 :root {
   --bgColor: #fff;
-  --fontColor: rgba(13, 4, 9, 0.73);
+  --fontColor: #131313;
   --slider: rgb(80, 79, 79);
   --hoverMenu-bgColor: #f2f2f2;
-  --button-bgColor: #0D0907;
+  --button-bgColor: #131313;
   --button-fontColor: #fff;
-  --signup-fontColor-primary: rgba(13, 4, 9, 0.73);
+  --signup-fontColor-primary: #131313;
   --signup-fontColor-secondary: #fff;
-  --signup-bgColor-primary: rgba(13, 4, 9, 0.73);
+  --signup-bgColor-primary: #131313;
   --signup-bgColor-secondary: #fff;
-  --faBarsColor: rgba(13, 4, 9, 0.73);
+  --faBarsColor: #131313;
   --carousel-bgColor: linear-gradient(
     45deg,
     #e8e6ef 0%,
@@ -28,18 +28,18 @@ body {
     #ced5ff 80%,
     #d3dbfc 100%
   );
-  --footer-bgColor: rgba(13, 4, 9, 0.8);
-  --borderColor: rgba(13, 4, 9, 0.73);
-  --footer-btnColor: rgba(13, 4, 9, 0.73);
+  --footer-bgColor: #131313;
+  --borderColor: #131313;
+  --footer-btnColor: #131313;
   --scrollUp-fontColor:#fff;
-  --sign-bg: rgba(13, 4, 9, 0.73);
-  --mission-card-bg: rgba(13, 4, 9, 0.73);
+  --sign-bg: #131313;
+  --mission-card-bg: #131313;
   --privacy-btns-bg-color:#fff;
   --carousel-btns:#000;
   --link-color:blue;
-  --author-pic-border: rgba(13, 4, 9, 0.73);
+  --author-pic-border: #131313;
   --sideBar-bg:#fff;
-  --sideBar-fontColor: rgba(13, 4, 9, 0.73);
+  --sideBar-fontColor: #131313;
 
 }
 .dark-theme {
@@ -92,15 +92,15 @@ body {
 }
 .light-theme {
   --bgColor: #fff;
-  --fontColor: rgba(13, 4, 9, 0.73);
+  --fontColor: #131313;
   --slider: rgb(80, 79, 79);
-  --button-bgColor: rgba(13, 4, 9, 1);
+  --button-bgColor: #131313;
   --button-fontColor: #fff;
-  --signup-fontColor-primary: rgba(13, 4, 9, 0.73);
+  --signup-fontColor-primary: #131313;
   --signup-fontColor-secondary: #fff;
-  --signup-bgColor-primary:rgba(13, 4, 9, 0.73);
+  --signup-bgColor-primary:#131313;
   --signup-bgColor-secondary: #fff;
-  --faBarsColor: rgba(13, 4, 9, 0.73);
+  --faBarsColor: #131313;
   --carousel-bgColor: linear-gradient(
     45deg,
     #e8e6ef 0%,
@@ -108,16 +108,16 @@ body {
     #ced5ff 80%,
     #d3dbfc 100%
   );
-  --footer-bgColor: rgba(13, 4, 9, 0.8);
-  --borderColor: rgba(13, 4, 9, 0.73);
+  --footer-bgColor: #131313;
+  --borderColor: #131313;
   --footer-btnColor: #fff;
-  --sign-bg: rgba(13, 4, 9, 0.73);
-  --mission-card-bg: rgba(13, 4, 9, 0.73);
+  --sign-bg: #131313;
+  --mission-card-bg: #131313;
   --privacy-btns-bg-color:#fff;
-  --carousel-btns:rgba(13, 4, 9, 0.73);
+  --carousel-btns: #131313;
   --link-color:blue;
   --sideBar-bg:#fff;
-  --sideBar-fontColor: rgba(13, 4, 9, 0.73);
+  --sideBar-fontColor: #131313;
 
 
 }
