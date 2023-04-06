@@ -30,21 +30,14 @@ const VellNavbar = () => {
             to="/"
             className="font-serif text-[30px] whitespace-nowrap  h-full flex items-center justify-start translate-x-[-45px] lg:translate-x-0"
           >
-            Vell Magazine
-          </NavLink>
-          <p className="px-1 pt-1 text-sm hidden lg:block">by</p>
-          <NavLink
-            to="https://vmodel.app/"
-            className="font-serif text-[24px] whitespace-nowrap hidden lg:block"
-          >
             <img
               src={
                 theme === "light-theme"
-                  ? "/images/Logo.jpg"
-                  : "/images/logoForDarkMode.png"
+                  ? "/images/logo.png"
+                  : "/images/logo-2.png"
               }
               alt="logo"
-              className="w-[80px] pt-1 "
+              className="w-[140px] lg:w-[200px] pt-1 "
             />
           </NavLink>
         </div>
