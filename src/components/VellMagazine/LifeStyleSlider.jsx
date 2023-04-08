@@ -10,7 +10,7 @@ const VellTrending = () => {
   //const trendingData=articles?.filter((item) => item.theme == 'trending').reverse()
 
   const lifeStyleSliderData=articles?.filter((item)=>item.topics.includes("LIFE MATTERS") && !item.topics.includes("FASHION & BEAUTY") && !item.topics.includes("ARTS & CULTURE"))
-  console.log(lifeStyleSliderData)
+  // console.log(lifeStyleSliderData)
   const settings = {
     // dots: true,
     infinite: true,
