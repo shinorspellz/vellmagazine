@@ -144,6 +144,14 @@ export const authorsData = [
     bio: "Having graduated with a degree in English, I love to write about society's relationship with social media, music, politics, literature and more. I grew up in Belgium, but am now based in Brighton, England.",
  
   },
+  {
+    id:15,
+    name: "Eleanor Ingham",
+    img: "/images/eleanorIngham.jpeg",
+    desc: "Author at VellMagazine",
+    bio: "Hi, I'm Eleanor.  After many years working in teaching, I decided to change directon and pursue a more fulfilling career in writing.  Looking for a professional outlet to enjoy and develop my creative talents.  As a writer, I love the power and communicative force of languages and words; speaking three languages, I can understand force and beauty of writing and communication and how we can capture every moment in text.  Though I especially love writing about health, hair and beauty, work and trends, I'm also expanding my specialisations, learning about different topics and sharing it with the readers."
+
+  },
 
 ];
 export const headerSliderData=[
