@@ -61,7 +61,7 @@ export const authorsData = [
   {
     id: 3,
     name: "Theresa Travis",
-    img: "/images/theresa-avatar.jpg",
+    img: "/images/theresa-avatar.JPG",
     desc: "Author at VellMagazine",
     bio: "Theresa is a marketing professional with a creative flare and a passion for all things fashion, mainstream culture, and innovation in business. She is currently based in Manchester, UK but is originally from the small island of Cyprus. She enjoys writing about emerging trends in marketing, as well as social media and sharing her experience in order to help people that want to follow a similar path into marketing. ",
   },
@@ -136,6 +136,14 @@ export const authorsData = [
   //   desc: "Author at VellMagazine",
   //   bio: "Biograpy of Shruti Verma is about to be uploaded soon",
   // },
+   {
+    id: 14,
+    name: "Maisie Levitt.",
+    img: "/images/maisieLevitt.JPG",
+    desc: "Author at VellMagazine",
+    bio: "Having graduated with a degree in English, I love to write about society's relationship with social media, music, politics, literature and more. I grew up in Belgium, but am now based in Brighton, England.",
+ 
+  },
 
 ];
 export const headerSliderData=[
