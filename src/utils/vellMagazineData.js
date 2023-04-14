@@ -1294,5 +1294,39 @@ export const articles = [
     date: "April 01, 2023",
     template: 1,
   },
+    {
+    id: 65,
+    mainHeader: `Kim Kardashian to Join American Horror Story`,
+    subHeader: "",
+    contentHeader: `Kim Kardashian to Join American Horror Story`,
+    content: "<p class='first'>Reality TV star and entrepreneur Kim Kardashian has been announced as a new addition to Ryan Murphy’s <em>American Horror Story</em>, season 12. For the upcoming season, Kardashian is signed up to a lead role that was written specifically for her. FX (Fox Extended), the television channel that airs <em>American Horror Story</em>, confirmed Kardashian’s casting to <em>Variety</em> but neither FX nor the star have revealed any information about her character or the season.</p><p>Coming this summer and named “Delicate”, the season will also feature Emma Roberts - an <em>American Horror Story (A.H.S.)</em> regular - while having been entirely written and showrun by Hailley Feiffer. This will be the first season written exclusively by one person.</p><p>Co-creator Ryan Murphy, also known for <em>Glee</em> (2009-2015) and <em>Dahmer</em> (2022), stated to <em>THR</em>, “Kim is among the biggest and brightest television stars in the world and we are thrilled to welcome her to the <em>AHS</em> family, Emma and I are excited about collaborating with this true force in the culture. Halley Feiffer has written a fun, stylish and ultimately terrifying role especially for Kim, and this season is ambitious and unlike anything we have ever done”.</p><p>Allegedly friends, Murphy and Kardashian have been planning her <em>A.H.S.</em> debut since summer 2022 and it is set to be filmed in New York City from this April. Although not her first acting role (though having mainly done cameos), this will be Kardashian’s biggest and most prominent to date. It will also be Roberts’ return to <em>A.H.S.</em> since taking a four year hiatus, having previously starred in the series since 2013.</p><p>Kardashian made the announcement to her 350 million Instagram followers via a <a href='https://www.instagram.com/p/Cq3I8_jLRMX/?hl=en'>cryptic teaser video</a> that only revealed her and Roberts’ castings. The background music hinted at a storyline with a cover of the nursery rhyme and lullaby ‘Rock-a-bye Baby’. Roberts posted the same video to her Instagram.</p><p>“Delicate” is the first season in the series to use source material, basing itself (or at least partly) on the upcoming novel <em>Delicate Condition</em>, by Danielle Valentine. Coming out in August, it is about a woman who believes that there is a dark force trying to prevent her pregnancy. The book's cover blurb (by author Andrea Bartz) describes it as “the feminist update to ‘<em>Rosemary’s Baby</em>’ we all needed”.</p><p><em>American Horror Story</em> first premiered in 2011 and has since received over 100 Emmy nominations. Some of the cast has included Evan Peters, Sarah Paulson, Jessica Lange, Kathy Bates, Angela Bassett and Lady Gaga. The 12th season is expected to have a summer premiere, though Murphy and FX aren’t expected to announce a specific date until June.</p>",
+    month: "APR 2023 EDITION",
+    img: "/images/ahs.jpg",
+    img_source: "",
+    img_source_title: "CNN Entertainment",
+    author: "Maisie Levitt",
+    topics: ["ARTS & CULTURE", "CINEMA"],
+    theme: "filler",
+    date: "April 14 2023",
+    template: 1
+
+  },
+  {
+    id: 66,
+    mainHeader: `Does Nike Have A Women Problem?`,
+    subHeader: "",
+    contentHeader: `Does Nike Have A Women Problem?`,
+    content: "<p class='first'>Nike are no strangers to courting controversy and this week is no exception.  Under a mantra of “be kind, be inclusive” Nike have this week revealed the transgender woman Dylan Mulvaney as a new ambassador of the brand.  But not all have welcomed the sportswear giant’s new face, with woman’s groups and feminists decrying the use of a biological male to sell sports bras as an insult to women.</p><p>This is not however the first time Nike have faced backlash over their treatment of women and seems to be a just one part of a pattern of behaviour which has enraged women.</p><h3>A history of Nike’s controversies with women:</h3><h3><u>Dylan Mulvaney</u></h3><p>Though it is becoming more and more common to see transgender ambassadors for brands all around the world, many women have taken exception to Mulvaney’s role as a model for sports bras.  As a transgender woman who has not yet physically transitioned, feminists argue that Nike has snubbed women.  The fact that they have chosen Mulvaney to market a product specifically for women is undoubtedly a controversial if not savvy marketing move.  Feminist groups have called for a boycott of Nike products as a result of the campaign.</p><h3><u>Allyson Felix</u></h3><div><img src='/images/allyson-felix.png' class='block m-auto  md:pt-5 object-contain max-w-[450px]' /><p class='text-center text-sm py-1 max-w-[600px] m-auto'>Image source:<a href='https://en.wikipedia.org/wiki/Allyson_Felix'>Wikipedia</a></p></div><p>Allyson Felix is a former 100, 200 and 400m runner, winning seven Olympic gold medals and 14 World Championship golds over her illustrious career which she finished as the most decorated female athlete in Olympic history.  Despite being one of Nike’s most famous and successful ambassadors, their partnership turned sour when she fell pregnant, Nike slashing her contract by 70%.  As a result of her disagreement with the brand, Felix broke all dealings with Nike and penned an essay in the New York Times along with two other athletes, Alysia Montaño and Kara Goucher, calling for fairer treatment of pregnant athletes.</p><h3><u>Tiger Woods Scandal</u></h3><div><img src='/images/tiger-woods.png' class='block m-auto  md:pt-5 object-contain max-w-[450px]' /><p class='text-center text-sm py-1 max-w-[600px] m-auto'>Image source:<a href='https://aaww.org/hello-world-how-nike-sold-tiger-woods/'>Asian American Writers’ Workshop</a></p></div><p>Despite not having the back of their own female athletes, Nike loyally stood by golfer Tiger Woods in spite of revelations of multiple affairs and a sex addiction. Other high-profile sponsors such as Gatorade, General Motors and AT+T took a different approach, cutting links with Woods as a consequence of his damaged reputation.  The difference in the treatment of Woods and female athletes is in stark contrast and reveals a vastly different policy when deciding how to face the changed circumstances of their athletes.</p><h3><u>Lawsuit alleging a toxic culture of sexism at Nike</u></h3><p>Nike are currently embroiled in a 5000-page lawsuit which details sexual harassment and gender discrimination allegations from female employees against the company.  The lawsuit accuses Nike executives of, amongst other allegations, exerting power over lower-level female employees, sexual impropriety and creating a “boys’ club” culture which has established a toxic and intimidating work environment for female employees.  The litigation is ongoing. So does Nike have a women problem?  At the very least, it seems that Nike doesn’t embrace the “be kind, be inclusive” mantra which they themselves claim to support.  It will be for the courts to decide to what extent the work culture at the company needs to change but, as the consumer, we have the power to send a clear message to Nike that such discrimination won’t be tolerated.</p>",
+    month: "APR 2023 EDITION",
+    img: "/images/nike-women.webp",
+    img_source: "https://www.telegraph.co.uk/news/2023/04/06/dylan-mulvaney-nike-trans-influencer-social-media-post/",
+    img_source_title: "Telegraph",
+    author: "Eleanor Ingham",
+    topics: ["FASHION & BEAUTY", "CLOTHING"],
+    theme: "filler",
+    date: "April 14 2023",
+    template: 1
+  }
+
 
 ];

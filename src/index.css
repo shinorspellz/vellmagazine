@@ -707,6 +707,10 @@ h6 {
   font-family: "garamond-premier-pro"
 }
 
+.content em, .content u {
+  font-family: "garamond-premier-pro"
+}
+
 .content a {
   color: inherit;
   font-family: serif;
