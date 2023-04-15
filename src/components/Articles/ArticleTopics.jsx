@@ -16,7 +16,7 @@ const ArticleTopics = () => {
 return (
   <> 
   <VellNavbar/>
-  <h1 className='lg:mt-[80px] mt-[120px] uppercase font-serif font-bold text-center py-5 text-xl md:text-3xl articleTopicsHeader'>{state} Articles</h1>
+  <h1 className='mt-[120px] uppercase font-serif font-bold text-center py-5 text-xl md:text-3xl articleTopicsHeader'>{state} Articles</h1>
   {
     newArticleList.length>0 ? (
       <div className=' grid gap-x-8 gap-y-5 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 px-9 m-auto py-5 justify-center max-w-[1400px]'>
