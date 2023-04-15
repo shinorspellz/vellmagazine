@@ -115,7 +115,7 @@ const settings = {
     <>
       <VellNavbar />
       <div
-        className="mt-[130px] px-2 pb-12 articleTemplate w-full max-w-[1350px] m-auto "
+        className="mt-[30px] lg:mt-[130px] px-2 pb-12 articleTemplate w-full max-w-[1350px] m-auto "
         id={currentArticle.contentHeader}
       >
         <p className="p-3 text-sm">
@@ -164,7 +164,7 @@ const settings = {
             <img
               src={currentArticle.img}
               alt="img"
-              className="h-[350px]  object-cover pr-5 block m-auto my-3 "
+              className="h-[210px] lg:h-[350px] object-cover lg:pr-5 block m-auto my-3 "
             />
             <p className='authorTemplate text-sm text-center mb-[1rem]'>
               Image source:<a href={currentArticle.img_source} target='_blank'>{currentArticle.img_source_title}</a>
