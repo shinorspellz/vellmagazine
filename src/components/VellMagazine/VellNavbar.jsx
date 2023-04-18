@@ -65,7 +65,7 @@ const VellNavbar = () => {
             {theme === "light-theme" ? (
               <BiMoon />
             ) : (
-              <BiSun className="text-yellow-400" />
+              <BiSun className="text-white-400" />
             )}
           </button>
           {!isShow ? (
@@ -86,7 +86,7 @@ const VellNavbar = () => {
             {theme === "light-theme" ? (
               <BiMoon />
             ) : (
-              <BiSun className="text-yellow-400" />
+              <BiSun className="text-white-400" />
             )}
           </button>
         </div>
