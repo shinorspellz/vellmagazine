@@ -33,7 +33,7 @@ const Footer = () => {
           <h1 className="italic text-[25px] w-full md:w-9/12 py-1 font-serif pl-5 md:pl-0">
             Vell Magazine
           </h1>
-          <div className="flex justify-start items-center gap-3 w-full md:w-9/12 pl-5 md:pl-0 py-1">
+        <div className="items-center gap-3 w-full" style={{ position: "fixed", left: 0, top: "50%", transform: "translateY(-50%)", color: "black", marginLeft: "8px" }}>
             <a
               href="https://www.linkedin.com/company/vmodel/mycompany/"
               target="_blank"
