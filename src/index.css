@@ -121,6 +121,13 @@ body {
 
 
 }
+.dark-theme svg {
+  fill: #fff;
+  }
+  
+  .light-theme svg {
+  fill: #131313;
+  }
 
 * {
   margin: 0;

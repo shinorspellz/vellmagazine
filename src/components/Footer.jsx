@@ -33,7 +33,7 @@ const Footer = () => {
           <h1 className="italic text-[25px] w-full md:w-9/12 py-1 font-serif pl-5 md:pl-0">
             Vell Magazine
           </h1>
-        <div className="items-center gap-3 w-full" style={{ position: "fixed", left: 0, top: "50%", transform: "translateY(-50%)", color: "black", marginLeft: "8px" }}>
+          <div className="items-center gap-3 " style={{ position: "fixed", left: 0, top: "50%", transform: "translateY(-50%)", marginLeft: "8px" }}>
             <a
               href="https://www.linkedin.com/company/vmodel/mycompany/"
               target="_blank"
@@ -47,7 +47,7 @@ const Footer = () => {
                 <AiOutlineInstagram className="w-[20px] h-[20px]" />
               </button>
             </a>
-            <a
+            {/* <a
               href="https://www.tiktok.com/@vmodelapp?_t=8Ue1EF8JWMg&_r=1"
               target="_blank"
             >
@@ -59,7 +59,7 @@ const Footer = () => {
               <button className=" w-[40px] h-[40px] flex justify-start items-center">
                 <FaFacebookF className="w-[20px] h-[20px]" />
               </button>
-            </a>
+            </a> */}
             <a href="https://twitter.com/VModelapp" target="_blank">
               <button className=" w-[40px] h-[40px] flex justify-start items-center">
                 <AiOutlineTwitter className="w-[20px] h-[20px]" />
