@@ -1238,7 +1238,7 @@ transform: translateX(-15%);
 }
 
 .scrollUpBtn {
-  background-color: var(--footer-bgColor);
+  background-color: var(--bgColor);
   color: var(--scrollUp-fontColor)
 }
 
