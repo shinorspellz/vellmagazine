@@ -35,14 +35,14 @@ const Footer = () => {
           </h1>
           <div className="items-center gap-3 socials ">
             <a
-              href="https://www.linkedin.com/company/vmodel/mycompany/"
+              href="https://www.linkedin.com/company/vellmagazine"
               target="_blank"
             >
               <button className=" w-[45px] h-[45px] flex justify-start items-center">
                 <RiLinkedinFill className="w-[20px] h-[20px]" />
               </button>
             </a>
-            <a href="https://www.instagram.com/Vmodelapp/" target="_blank">
+            <a href="https://www.instagram.com/vellmagazine/" target="_blank">
               <button className=" w-[45px] h-[45px] flex justify-start items-center">
                 <AiOutlineInstagram className="w-[20px] h-[20px]" />
               </button>
@@ -60,7 +60,7 @@ const Footer = () => {
                 <FaFacebookF className="w-[20px] h-[20px]" />
               </button>
             </a> */}
-            <a href="https://twitter.com/VModelapp" target="_blank">
+            <a href="https://twitter.com/vellmagazine" target="_blank">
               <button className=" w-[45px] h-[45px] flex justify-start items-center">
                 <AiOutlineTwitter className="w-[20px] h-[20px]" />
               </button>
