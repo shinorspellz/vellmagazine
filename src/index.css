@@ -592,7 +592,7 @@ div[data-testid='flowbite-tooltip'] div ul li:nth-child(odd) {
 .sign-img-bg {
   background: var(--sign-bg);
 }
-.footer-bottom,.privacy-footer,.articleTemplate-btns button {
+.footer-bottom,.privacy-footer {
   background-color: var(--footer-bgColor);
   color: var(--footer-btnColor);
 }

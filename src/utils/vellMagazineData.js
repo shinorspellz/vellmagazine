@@ -101,13 +101,13 @@ export const authorsData = [
   //   desc: "Author at VellMagazine",
   //   bio: "In pursuit of my creative endeavours, I was excited to join the Vell Magazine team. I am a high-energy, result-driven student of English Literature undergoing my second year of undergraduate studies at the University of Birmingham.<br/>I thrive in dynamic environments driven by creativity and innovation. I enjoy experimenting with words and their power. You will find me always writing which is my form of exercise of the mind and opening my eyes for detail. What I write translates into my personality. With my strong sense of communication, I exert not just on paper, I am open-minded, motivated, and proactive. <br/>As a fashion enthusiast, my attention to expressive garments stimulates my creativity in journaling my exposure to evocative outfits. From writing for the student newspaper ‘RedBrick’ at university, my interest lies in the world of fashion journalism in informing a student audience of the latest must-haves to wear on campus.<br/> I am looking forward very much to sharing my fashion journey with the readers of Vell Magazine.",
   // },
-  // {
-  //   id: 9,
-  //   name: "Samhitha Jonnadula",
-  //   img: "/images/samhithaJonnadula.jpg",
-  //   desc: "Author at VellMagazine",
-  //   bio: "With an abundance of passion for anything written, I took it upon myself to write as a means to spread the joy I get when reading. Recently having discovered fashion as an expression of my inner self, I will be combining my old and new interests with the magazine. I look forward to putting forth a newly reinvented form of writing as I incorporate my interests in poetry into my pieces. I am ecstatic to be working on the team to bring out my writings in self-discovery and literature.",
-  // },
+  {
+    id: 9,
+    name: "Samhitha Jonnadula",
+    img: "/images/samhithaJonnadula.jpg",
+    desc: "Author at VellMagazine",
+    bio: "With an abundance of passion for anything written, I took it upon myself to write as a means to spread the joy I get when reading. Recently having discovered fashion as an expression of my inner self, I will be combining my old and new interests with the magazine. I look forward to putting forth a newly reinvented form of writing as I incorporate my interests in poetry into my pieces. I am ecstatic to be working on the team to bring out my writings in self-discovery and literature.",
+  },
   // {
   //   id: 10,
   //   name: "Jasmin Bodman",
@@ -122,13 +122,13 @@ export const authorsData = [
   // //   desc: "Author at VellMagazine",
   // //   bio: "My name is Khadija Ghazanfar, and I am a clinical psychologist with a passion for writing. I have extensive experience in creating engaging content on a variety of topics, including social media, mental health, fashion, and information technology.Throughout my career, I have written numerous blogs and articles that have covered the latest trends and hot topics in these domains. I have a unique ability to write in a way that is both informative and accessible, making complex ideas easy to understand for a wide range of readers.",
   // // },
-  // {
-  //   id: 12,
-  //   name: "James Murray",
-  //   img: "/images/jamesMurray.jpg",
-  //   desc: "Author at VellMagazine",
-  //   bio: "James Murray is a Creative Writing graduate from the University of Gloucestershire. He enjoys writing comedy, sci-fi, fantasy, and weird fiction. His main hobbies include comics, books, video games, and table-top games. ",
-  // },
+  {
+    id: 12,
+    name: "James Murray",
+    img: "/images/jamesMurray.jpg",
+    desc: "Author at VellMagazine",
+    bio: "James Murray is a Creative Writing graduate from the University of Gloucestershire. He enjoys writing comedy, sci-fi, fantasy, and weird fiction. His main hobbies include comics, books, video games, and table-top games. ",
+  },
   // {
   //   id: 13,
   //   name: "Shruti Verma",
@@ -1328,6 +1328,7 @@ export const articles = [
     template: 1
   },
   {
+
     id: 71,
     mainHeader: `Does A Woman Need Half of Her Husband's Wealth To Be Happy?`,
     subHeader: "",
@@ -1374,7 +1375,211 @@ export const articles = [
     theme: "filler",
     date: "April 15 2023",
     template: 1
-  }
+  },
+{
+id: 67,
+mainHeader: `AI is Wasted on Reproducing Traditional Art`,
+subHeader: "",
+contentHeader: `AI is Wasted on Reproducing Traditional Art`,
+content: `<p class='first'>All new technology goes through a period of controversy and suspicion where it is unclear if it’s truly a breakthrough or a fad that will disappear from the public consciousness after a few years. This has been especially true however for AI art, which has become very popular on the internet while also raising serious ethical questions.</p>
+<p>One of the main concerns is the fact that individuals who generate AI artworks are rarely upfront about where and who their programs are sampling art from. While this is not a problem with works that are in the public domain, it has raised alarm from current artists who are now seeing their styles being reproduced without any permission or consultation. Comic book artist Bill Sienkiewicz expressed his thoughts about the situation very clearly in this<a href='https://twitter.com/sinKEVitch/status/1620266812670894081?s=20' target='_blank'> tweet from January</a>, while a group of students and professors from the University of Chicago have invented <a href='https://techcrunch.com/2023/03/17/glaze-generative-ai-art-style-mimicry-protection/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAA87t-ZdqdrGhDDu0zgm5UtMphELI9Ve1t0qjKGjmk_n9LyHlhzPrusVU-Ur04aM0gh9WURSLAhXynUTbuTtm_kgQObD-zXi6QLDzFzXqI0J5wt8xt941Va589HiLj-MBsMxl0gXNr5w_L2i3qn4P1uv4klXi0ttWHDfuI20hi_x' target='_blank'>Glaze</a> . This free software is designed to protect artwork from AI mimicry by making subtle permutations to a finished piece.</p>
+<p>These developments have angered many AI users; I believe they are wasting their energy and time by having AI reproduce traditional art though. The fact is there are many artists who are reliant on commissions for their income and this new trend could devastate their livelihoods. However, no human artist could have ever created <a href='https://www.twitch.tv/unlimitedsteam' target='_blank'> Unlimited Steam</a>. This is an ongoing Twitch stream that tasks <a href='https://gizmodo.com/twitch-ai-the-simpsons-unlimited-steam-openai-1850145942' target='_blank'>AI with replicating the famous Steamed Hams sketch</a> from <i>The Simpson’s episode 22 Short Films About Springfield</i>.</p>
+<p>An episode of Unlimited Steam is about three minutes long and features low-poly versions of Principal Skinner and Superintendent Chalmers stumbling around a burning replica of Skinner’s house. While it follows the same formula as the original scene, the dialogue is always surprising in its absurdity – often Skinner will ask a higher power for assistance with his cooking.</p>
+<p>The best part is that the anonymous creator of Unlimited Steam seems aware of the issues with AI art. A line in the description reads “High quality AI content? No, writers needed!” While this is a reference to Lionel Hutz’s business card, it also indicates the creator is aware that AI currently cannot (and should not) replace creatives and this is not the purpose of Unlimited Steam. Instead, Unlimited Steam is providing entertainment that is too niche and time-consuming for human creators to possibly do – after all, even one episode would require writers, animators, and voice actors who can mimic the original cast. This is one aspect of an AI future that we can all look forward to – responses to art instead of replacements for art.</p>`,
+month: "APR 2023 EDITION",
+img: "/images/ai-is-wasted.jpg",
+img_source: "",
+img_source_title: "",
+author: "James Murray",
+topics: ["LIFE MATTERS", "TECHNOLOGY"],
+theme: "filler",
+date: "April 19 2023",
+template: 1,
+},
+{
+id: 68,
+mainHeader: `D-Day is approaching - BTS’ Suga’s First Official Album Release`,
+subHeader: ``,
+contentHeader: `D-Day is approaching - BTS’ Suga’s First Official Album Release`,
+content: `<p class='first'>Music opens new doors to the public, as it provides a platform to speak on a wide array of issues ranging from social constructs to mental health. In this era of advancement, music of all different languages talks about any issue. A new album that talks about the struggles of dealing with the stress that Covid-19 and the personal anguish caused by life has left behind will be released on the 21st of April 2023 at 12 AM EST or 5 AM BST.
+</p>
+<p>
+This is the album released by the artist, Suga, from the worldwide popular band BTS. The band is known for always speaking up on problems that society faces and has been doing so since its debut in 2013. Although the language they sing in is not English, their music is known to transcend the language barrier as they touch hearts all over the globe with their lyrics and the emotion put into performing the song.
+</p>
+<p>
+Due to their patriotic duties, the band went on a three-year-long hiatus last year. This led to each member of the 7-seven group having solo debuts and releases all year long. With four solo releases by Jin, RM, J-hope, and Jimin down, the next to join the lineup is Suga. 
+</p>
+<p>
+Suga will be releasing his first official album, D-Day, under the artist pseudonym of Agust D. Agust D is the persona under which Suga is most true to his intimate self and explores the depth of his mind, which he could not explore as Suga- The member of BTS.
+</p>
+<a href='https://twitter.com/BIGHIT_MUSIC/status/1642542471178772481' target='_blank'>
+<img src='/images/bts-suga-first.jpg' alt='release date' class='block m-auto w-full h-3/6 py-2 sm:py-0' />
+</a>
+<p>
+Although this is his first album with a physical release, Suga has released two prior albums titled, Agust D in 2016 and D-2 in 2020, as official mixtapes with only digitals on SoundCloud and later on Spotify. 
+</p>
+<p>
+Similar to his previous albums, it is assumed that D-Day will talk about mental health and Suga’s personal struggles with it. 
+</p>
+<p>
+In the album <i>Agust D</i> , the highlighted topic was the angry emotions and the issues he had during his teenage years and how he confronts them. The song that is the most notable about mental health in this album is <i>The Last</i>, where Suga portrays his struggle with Depression and OCD in his teens and how he was no longer the same person as he evolved into a new person when the song was released. 
+</p>
+<p>
+D-2, on the other hand, is mentioned to be the ‘documentation of myself as a 28-year old’ as quoted by Suga himself. This album mentions the evolution that he went through from what he used to be. He explores the concepts of human nature and differences in how people exist with love in the song <i>People</i>. 
+</p>
+<div class='lg:flex md:flex lg:justify-evenly lg:gap-x-6 md:gap-x-6'>
+<p>
+Due to all the mentions of mental health, it can be assumed that D-Day will be similar in nature. The pre-release track for this album, <i> People pt.2 ft. IU </i> was released on 7th April 2023. This song is a direct extension of the song <i>People</i> from the previous album. <i>People pt.2</i> explored human nature and how fragile it is in the face of a global pandemic. Suga uses metaphors of sandcastles to mention how easily the connections built can be overturned. 
+</p>
+<a href='https://twitter.com/BIGHIT_MUSIC/status/1643267184766906371' target='_blank'>
+<img src='/images/pre-release-agust-d.jpeg' alt='pre release' class='object-contain w-3/4 h-3/4 py-2 sm:py-0' />
+</a>
+</div>
+<p>
+The pre-release track has shown great promise and has only heightened the expectations for the album to come. As was mentioned by Suga at the end of the MV of <i>People pt.2</i>, this song and the album will be about the emotions he felt during the global lockdown of the pandemic in 2020. 
+</p>
+<a href='https://twitter.com/BIGHIT_MUSIC/status/1643478594893783040' target='_blank'>
+<img src='/images/suga-tour.jpeg' alt='Suga tour 'class='block m-auto w-full h-3/6 py-2 sm:py-0' />
+</a>
+<p>
+D-Day will also be serving as Suga’s opening to the World Tour under the same name that kicks off on April 26th at UBS Arena in Belmont Park, NY, USA. The album release will also be followed by a Documentary on Disney+: <i>Road to D-Day</i>. The wait till the album is shorter than anticipated.
+</p>
+`,
+month: "APR 2023 EDITION",
+img: "/images/suga-21-album.jpeg",
+img_source: " https://twitter.com/bts_bighit/status/1643780563155681281",
+img_source_title: "twitter",
+author: "Samhitha Jonnadula",
+topics: ["ARTS & CULTURE", "MUSIC"],
+theme: "filler",
+date: "April 20 2023",
+template: 1,
+},
+{
+id:69,
+mainHeader: `New AI music is off the charts`,
+subHeader: ``,
+contentHeader: `New AI music is off the charts`,
+content: `
+<p>
+Are you a TikTok user baffled by the sudden number of unknown cover versions by famous
+artists on your FYP? Recently a version of <i>Just the Two of Us </i> by Kanye West caught my eye,
+and ear. That’s different I thought; a softer, more melodic version of West- why not? I scrolled
+on, thinking no more of it. That is until I came across the Kanye West version of Lana del Rey’s
+<i>Video Games </i>.
+</p>
+<p>
+<i>Video Games </i> is, in my opinion, one of the greatest love songs ever. Yes, ever. Such is del Rey’s
+talent, it’s hard to imagine a cover version that could even touch the original version, her
+haunting, deep voice simply perfection.
+</p>
+<p>
+I checked myself. Why shouldn’t Kanye West turn his own undisputed talents to something like
+this? Many other cases of artists covering songs way out of their comfort zone exist; Florence
+and the Machine’s version of Drake and Rihanna’s <i>Take Care </i> is a masterpiece equalling, if not
+bettering, the original version.
+</p>
+<p>
+I was intrigued enough to check the comments. Face-palm moment; this wasn’t in fact Kanye
+West but an AI-generated cover version. I sighed, pondering how much of my future time
+would be taken up checking the veracity of, well, everything. Isn’t even music sacred?
+</p>
+<p>
+I delved a little more into the subject and came across another song, a collaboration between
+Canadian artists Drake and The Weeknd, a classic combination; the maple syrup to the
+pancake, the chip to the gravy. Only this wasn’t a crossover of Canadian greats but another
+example of AI generated music.
+</p>
+<p>
+So what on earth is going on? The song, named <i>Heart on my Sleeve</i>, created by the mysterious
+Ghostwriter, uses AI technology to mimic the vocal tones of the two artists, creating a
+soundalike version of a song never conceived either by artist or the music industry.
+</p>
+<p>
+What, if any, is the impact of this new trend on the music industry? Is it just a lark or is there
+something more sinister going on?
+</p>
+<p>
+From the point of view of music labels it certainly isn’t a joke. AI-generated music, be it
+imitating already established artists or creating new, artificial voices, represents an existential
+threat to the future of music as we know it. AI-generated music will present a new genre of
+music which side-steps music labels and will enable creators without traditional musical talent
+to flood the market with their songs. It’s surely a concept which music labels and artists alike
+will be keen to nip in the bud.
+</p>
+<p>
+And what about<i>Heart on my Sleeve ?</i> The music itself is a simple combination of four piano
+notes and a rap beat, the artificially constructed voices uncannily similar to Drake’s and The
+Weeknd’s.
+</p>
+<a href='https://www.vogue.com/article/selena-gomez-the-weeknd-reportedly-breakup' target='_blank'>
+<img src='/images/weekend-x-selena.png' alt='release date' class='block m-auto w-full h-3/6 py-2 sm:py-0' />
+</a>
+<p>
+References to The Weeknd’s ex-girlfriend Selena Gomez in the lyrics was a savvy way to court
+controversy, Ghostwriter clearly knowing what pop culture references to tap into to create the
+most hype around his creation.
+</p>
+<p>
+<i>Heart on my Sleeve</i> is a solid song, revolutionary not in its beat or lyrics but in its implications
+for the future of the music business. Thinking on the use of AI’s potential as a creative outlet
+or as a threat to established artists and labels will of course come down to individual
+perspective. What is certain is that this is only the tip of the iceberg of AI’s influence, an
+equally scary and exciting prospect for the future.
+</p>
+`,
+month: "APR 2023 EDITION",
+img:"/images/ai-drake-weekend.webp",
+img_source: "https://www.theguardian.com/music/2023/apr/18/ai-song-featuring-fake-drake-and-weeknd-vocals-pulled-from-streaming-services",
+img_source_title: "The guardian",
+author: "Eleanor Ingham",
+topics: ["LIFE MATTERS", "TECHNOLOGY","ARTS & CULTURE", "MUSIC"],
+theme: "filler",
+date: "April 20 2023",
+template: 1,
+
+},
+{
+id:70,
+mainHeader:`The D&D Movie Could Have Learnt a Lot From Hellboy and Baldur’s Gate 3`,
+subHeader:``,
+contentHeader:`The D&D Movie Could Have Learnt a Lot From Hellboy and Baldur’s Gate 3`,
+content:`
+<p>
+<i>Dungeons and Dragons: Honour Among Thieves</i> is Hasbro’s first attempt to adapt the popular table-top roleplaying game into a major motion picture. The film is certainly off to a good start, receiving positive reviews from fans and critics alike. After seeing it with a party of mine own, it’s easy to understand why. The combination of practical effects and CGI creates some excellent creatures and spell effects, and all the action scenes are dynamic and engaging to watch. However, there is one aspect that might frustrate hardcore D&D fans.
+</p>
+<p>
+The main party is simply not very fantastical when you look at the options presented in D&D’s current core rulebooks. Consisting of two humans, a half-elf, and a tiefling, it feels very much like a party designed for an easy introduction to Dungeons and Dragons, rather than one that truly shows the creativeness of the Forgotten Realm’s setting. And this is obvious when you closely examine the tiefling party member. Warning for some mild spoilers coming up.
+</p>
+<p>
+Doric (Sophia Lillis) is a tiefling druid who is part of the Emerald Enclave, a druid enclave that protects the wilderness of the Sword Coast. She became a druid after being cast out by her human family for being a tiefling (in D&D, tieflings are individuals who manifest devilish features and powers, but it can skip generations. If you’re unfamiliar with the lore, it’s like being a mutant from X-Men.) Doric’s distrust of humans is her main characteristic throughout the movie… which is not very imaginative. It feels like the writers were just taking inspiration from the Player’s Handbook entry on tieflings and did not consider other options to distinguish the character from the many other tieflings in D&D adaptations. 
+</p>
+<a href='https://cdn.vox-cdn.com/thumbor/qO5CNr1FT5XlyEp7XWlIozw-0BE=/0x0:2880x1622/1200x800/filters:focal(1210x581:1670x1041)/cdn.vox-cdn.com/uploads/chorus_image/image/67697352/Baldur_s_Gate_3_Druid_Grove.0.png' target='_blank'>
+<img src='/images/dnd-1.jpg' alt='image' class='block m-auto w-full h-3/6 py-2 sm:py-0' />
+</a>
+<p>
+For example, Baldur’s Gate 3 from Larian Studios has a whole camp of tieflings you can interact with who have also been exiled from a mainly human community. And when you compare these characters to Doric, you notice that Doric barely looks like a tiefling at all. She does not have an unusual skin tone, her horns barely protrude from her hair, and her eyes are completely normal. When you start thinking about it, it seems like a bizarre decision to focus her character’s story on being different, and then only half-heartedly commit to making her look different. Especially when a film from 2004 has already done this this kind of character arc better. 
+</p>
+<a href='https://variety.com/wp-content/uploads/2022/01/MCDHELL_EC095.jpg?w=681&h=383&crop=1' target='_blank'>
+<img src='/images/dnd-2.jpg' alt='image' class='block m-auto w-full h-3/6 py-2 sm:py-0' />
+</a>
+<p>
+Hellboy (2004) is still a masterclass in character and monster design. Hellboy (Ron Perlman) himself looks truly amazing and you never doubt once in the movie that his character’s anxieties about his appearance are genuine and significant. Del Toro and Perlman’s work show that an actor can portray emotional nuance while under significant make-up, and when you consider that Honour Among Thieves came out almost twenty years after Hellboy it is baffling that they did not commit to giving Doric a more fiendish look. 
+</p>
+`,
+month: "APR 2023 EDITION",
+img: "/images/dnd.png",
+img_source: " https://static.wikia.nocookie.net/forgottenrealms/images/e/e2/Doric.png/revision/latest/scale-to-width-down/250?cb=20220801053918",
+img_source_title: "static.wikia.nocookie.net",
+author: "James Murray",
+topics: ["ARTS & CULTURE", "CINEMA"],
+theme: "filler",
+date: "April 20 2023",
+template: 1,
+
+}
+
+
 
 
 ];
