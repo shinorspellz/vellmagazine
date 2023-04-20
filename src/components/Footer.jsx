@@ -24,8 +24,8 @@ const Footer = () => {
     window.open(`https://www.instagram.com/?url=${encodedUrl}`);
   }
   function handleTwitterShare() {
-    const url = "https://twitter.com/vellmagazine"; // Replace with the URL you want to share
-    const text = "Check out this awesome content!"; // Replace with the text you want to share
+    const url = "https://twitter.com/vellmagazine"; 
+    const text = "Check this out from Vell Magazine"; 
     const encodedUrl = encodeURIComponent(url);
     const encodedText = encodeURIComponent(text);
     window.open(`https://twitter.com/intent/tweet?url=${encodedUrl}&text=${encodedText}`);
