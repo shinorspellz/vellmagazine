@@ -9,7 +9,29 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   const { theme,scrollToTop } = useContext(VellMagazineContext);
   const [showButton, setShowButton] = useState(false)
-
+  
+  function handleLinkedinShare() {
+    const url = "https://www.linkedin.com/company/vellmagazine";
+    window.open(
+      `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(
+        url
+      )}`
+    );
+  }
+  function handleInstagramShare() {
+    const url = "https://www.instagram.com/vellmagazine/";
+    const encodedUrl = encodeURIComponent(url);
+    window.open(`https://www.instagram.com/?url=${encodedUrl}`);
+  }
+  function handleTwitterShare() {
+    const url = "https://twitter.com/vellmagazine"; // Replace with the URL you want to share
+    const text = "Check out this awesome content!"; // Replace with the text you want to share
+    const encodedUrl = encodeURIComponent(url);
+    const encodedText = encodeURIComponent(text);
+    window.open(`https://twitter.com/intent/tweet?url=${encodedUrl}&text=${encodedText}`);
+  }
+  
+  
   useEffect(() => {
     const handleScroll = () => {
       if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -38,12 +60,12 @@ const Footer = () => {
               href="https://www.linkedin.com/company/vellmagazine"
               target="_blank"
             >
-              <button className=" w-[45px] h-[45px] flex justify-start items-center">
+              <button className=" w-[45px] h-[45px] flex justify-start items-center"  onClick={handleLinkedinShare}>
                 <RiLinkedinFill className="w-[20px] h-[20px]" />
               </button>
             </a>
             <a href="https://www.instagram.com/vellmagazine/" target="_blank">
-              <button className=" w-[45px] h-[45px] flex justify-start items-center">
+              <button className=" w-[45px] h-[45px] flex justify-start items-center" onClick={handleInstagramShare}>
                 <AiOutlineInstagram className="w-[20px] h-[20px]" />
               </button>
             </a>
@@ -60,8 +82,8 @@ const Footer = () => {
                 <FaFacebookF className="w-[20px] h-[20px]" />
               </button>
             </a> */}
-            <a href="https://twitter.com/vellmagazine" target="_blank">
-              <button className=" w-[45px] h-[45px] flex justify-start items-center">
+            <a href= "https://twitter.com/vellmagazine" target="_blank">
+              <button className=" w-[45px] h-[45px] flex justify-start items-center" onClick={handleTwitterShare}>
                 <AiOutlineTwitter className="w-[20px] h-[20px]" />
               </button>
             </a>
