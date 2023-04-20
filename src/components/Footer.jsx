@@ -18,11 +18,6 @@ const Footer = () => {
       )}`
     );
   }
-  function handleInstagramShare() {
-    const url = "https://www.instagram.com/vellmagazine/";
-    const encodedUrl = encodeURIComponent(url);
-    window.open(`https://www.instagram.com/?url=${encodedUrl}`);
-  }
   function handleTwitterShare() {
     const url = "https://twitter.com/vellmagazine"; 
     const text = "Check this out from Vell Magazine"; 
@@ -65,7 +60,7 @@ const Footer = () => {
               </button>
             </a>
             <a href="https://www.instagram.com/vellmagazine/" target="_blank">
-              <button className=" w-[45px] h-[45px] flex justify-start items-center" onClick={handleInstagramShare}>
+              <button className=" w-[45px] h-[45px] flex justify-start items-center">
                 <AiOutlineInstagram className="w-[20px] h-[20px]" />
               </button>
             </a>
