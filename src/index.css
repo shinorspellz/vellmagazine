@@ -121,13 +121,45 @@ body {
 
 
 }
+.socials {
+  height: 170px;
+  width:40px;
+  border-radius: 10px;
+  position: fixed;
+  left: 0;
+  top: 50%;
+  margin-left: 5px;
+  background: white; /* invert background color */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 0;
+}
+
 .dark-theme svg {
-  fill: #fff;
-  }
-  
-  .light-theme svg {
-  fill: #131313;
-  }
+  fill: white;
+  margin-left: 5px;
+}
+.dark-theme .socials{
+  background-color: #272C30;
+}
+
+.light-theme svg {
+  margin-left: 5px;
+  fill: black;
+}
+
+.socials svg {
+  margin: 8px;
+  width: 50px;
+  height: 50px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.socials svg:hover {
+  transform: scale(1.4);
+}
+
 
 * {
   margin: 0;
