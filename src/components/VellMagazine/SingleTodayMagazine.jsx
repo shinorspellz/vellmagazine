@@ -49,16 +49,20 @@ const SingleTodayMagazine = ({ item, index, thisMonthArr }) => {
       <p className="font-500 text-[18px] xl:py-3 line-clamp-2 xl:line-clamp-none homepageFont">
         {item.content.startsWith("<p")
           ? item.content
-              .slice(17, 200)
+              .slice(17, 210)
               .replace(/(<p>)/g, '')
               .replace(/<.?p[^>]*>/g, '')
               .replace(/<.?h.?[^>]*>/g, '')
               .replace(/<.?ol.?[^>]*>/g, '')
               .replace(/<.?li.?[^>]*>/g, '')
               .replace(/<.?a.?[^>]*>/g, '')
+              .replace(/<.?i.?[^>]*>/g, '')
+              .replace(/<.?em.?[^>]*>/g, '')
               .replace(/<.?[(</p>)]/g, '')
+              .replace(/<.?[(</em>)]/g, '')
+              .replace(/[>]/g, '')
           : item.content
-              .slice(4, 200)
+              .slice(4, 210)
               .replace(/(<p>)/g, '')
               .replace(/<.?p[^>]*>/g, '')
               .replace(/<.?h.?[^>]*>/g, '')
@@ -66,6 +70,11 @@ const SingleTodayMagazine = ({ item, index, thisMonthArr }) => {
               .replace(/<.?li.?[^>]*>/g, '')
               .replace(/<.?a.?[^>]*>/g, '')
               .replace(/<.?[(</p>)]/g, '')
+              .replace(/<.?i.?[^>]*>/g, '')
+              .replace(/<.?em.?[^>]*>/g, '')
+              .replace(/<.?[(</p>)]/g, '')
+              .replace(/<.?[(</em>)]/g, '')
+              .replace(/[>]/g, '')
               }
         ...
       </p>
