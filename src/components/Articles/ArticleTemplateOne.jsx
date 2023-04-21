@@ -127,7 +127,7 @@ const settings = {
         <h3 className="px-3 font-bold italic">{currentArticle.subHeader}</h3>
 
         <p className="px-3 text-[13px] lg:pl-12">
-          BY <span className="underline px-1 font-semibold cursor-pointer"
+          <span className="underline px-1 font-semibold cursor-pointer"
            onClick={() =>
             navigate(`/author/${currentArticle.author}`, {
               state: `${currentArticle.author}`

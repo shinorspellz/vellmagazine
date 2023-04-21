@@ -123,7 +123,7 @@ const ArticleTemplateTwo = () => {
         </h3>
         <div className="flex flex-col sm:flex-row items-center justify-center">
           <p className="px-3 text-[13px] text-center">
-            BY{" "}
+            {" "}
             <span
               className="underline px-1 font-semibold cursor-pointer"
               onClick={() =>

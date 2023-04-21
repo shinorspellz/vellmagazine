@@ -43,7 +43,7 @@ const ArticleTemplate = () => {
               <FaTiktok className='cursor-pointer'/>
               </div>
               <p>
-                Written by{' '}
+                {' '}
                 <span
                   className="font-bold cursor-pointer"
                   onClick={() =>

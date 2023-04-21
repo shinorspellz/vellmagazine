@@ -9,6 +9,8 @@ const VellTrending = () => {
 
   //const trendingData=articles?.filter((item) => item.theme == 'trending').reverse()
   const artsAndCultureSliderData=articles?.filter((item)=>item.topics[0]=="ARTS & CULTURE")
+  const reorderedArtsAndCultureSliderData = artsAndCultureSliderData.reverse();
+
   const settings = {
     // dots: true,
     infinite: true,
@@ -32,7 +34,7 @@ const VellTrending = () => {
     <main className="vellmagazine-trending mt-[50px] p-5 xl:px-[2rem] hidden lg:block">
     <h1 className="text-center font-500 font-serif text-4xl pt-1 pb-2 italic ">ARTS & CULTURE</h1>
     <Slider {...settings} className="container m-auto px-2 hidden lg:block ">
-                {artsAndCultureSliderData?.map((item,index) => {
+                {reorderedArtsAndCultureSliderData?.map((item,index) => {
               return (
                 <ul className="m-auto" key={item.id}>
                 <li className="list-unstyled mx-1 "><SingleSlider item={item}  index={index}/></li>
