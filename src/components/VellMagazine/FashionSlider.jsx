@@ -1,5 +1,5 @@
 // import { trendingData } from "../../utils/vellMagazineData"
-import SingleSlider from "./SingleSlider"
+import FashionSingleSlider from "./FashionSingleSlider"
 import Slider from "react-slick";
 import { articles } from "../../utils/vellMagazineData";
 import LeftArrow from "./VellTrendingLeftArrow";
@@ -15,7 +15,7 @@ const VellTrending = () => {
     // dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 7,
+    slidesToShow: 5,
     slidesToScroll: 1,
     arrows: true,
     prevArrow: <LeftArrow/>,
@@ -37,7 +37,7 @@ const VellTrending = () => {
                 {reorderedFashionSliderData?.map((item,index) => {
               return (
                 <ul className="m-auto" key={item.id}>
-                <li className="list-unstyled mx-1 "><SingleSlider item={item}  index={index}/></li>
+                <li className="list-unstyled mx-1 "><FashionSingleSlider item={item}  index={index}/></li>
                 </ul>
                 );
               })}
