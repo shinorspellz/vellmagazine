@@ -10,7 +10,11 @@ export const menuItems = [
       {
         title: 'Physical Health',
         url: '/articletopics'
-      },  
+      },
+      {
+        title: 'Sports headlines',
+        url: '/articletopics'
+      },   
     ]
   },
   {
@@ -27,6 +31,10 @@ export const menuItems = [
       },
       {
         title: 'Technology',
+        url: '/articletopics',
+      },
+      {
+        title: 'Celebrities and trends',
         url: '/articletopics',
       }
     ]

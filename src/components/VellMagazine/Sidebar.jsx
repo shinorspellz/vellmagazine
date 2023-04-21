@@ -78,6 +78,9 @@ const navigate=useNavigate()
     <button className='sidebar-sub-btns'
     onClick={(e)=>handleSidebarMenu(e)}
     >PHYSICAL HEALTH</button>
+     <button className='sidebar-sub-btns'
+    onClick={(e)=>handleSidebarMenu(e)}
+    >SPORTS HEADLINES</button>
     <button className='sidebar-main-btns font-semibold'
     onClick={(e)=>handleSidebarMenu(e)}
     >LIFE MATTERS</button>
@@ -90,6 +93,9 @@ const navigate=useNavigate()
     <button className='sidebar-sub-btns'
     onClick={(e)=>handleSidebarMenu(e)}
     >TECHNOLOGY</button>
+    <button className='sidebar-sub-btns'
+    onClick={(e)=>handleSidebarMenu(e)}
+    >CELEBRITIES AND TRENDS</button>
     <button className='sidebar-main-btns font-semibold'
     onClick={(e)=>handleSidebarMenu(e)}
     >FASHION & BEAUTY</button>

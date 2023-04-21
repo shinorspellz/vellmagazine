@@ -1573,7 +1573,7 @@ template: 1,
   img_source: "https://www.smh.com.au/national/why-ryan-reynolds-and-his-mate-bought-one-of-britain-s-unluckiest-soccer-clubs-20220719-p5b2qf.html",
   img_source_title: "The Sydney Morning Herald",
   author: "Eleanor Engham",
-  topics: ["ARTS & CULTURE"],
+  topics: ["WELLBEING", "SPORTS HEADLINES", "LIFE MATTERS", "CELEBRITIES AND TRENDS"],
   theme: "filler",
   date: "April 15 2023",
   template: 1
