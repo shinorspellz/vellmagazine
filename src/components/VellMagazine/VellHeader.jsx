@@ -11,7 +11,7 @@ const VellHeader = () => {
   const navigate = useNavigate()
   const today=new Date()
   // const month=moment(today).format("LL").split(" ")[0]
-  const headerArticles=headerSliderData?.filter(item=>item.theme.includes("header")).reverse()
+  const headerArticles=headerSliderData?.filter(item=>item.theme.includes("filler")).reverse()
 
   // const divPattern=/^<div>.*?<\/div>$/g
   // const indicators=document..querySelectorAll("button[data-testid='carousel-indicator']")
