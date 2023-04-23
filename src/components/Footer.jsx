@@ -7,7 +7,7 @@ import { VellMagazineContext } from "../context/VellMagazineContext";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-  const { theme,scrollToTop } = useContext(VellMagazineContext);
+  const { theme,scrollToTop, currentArticle } = useContext(VellMagazineContext);
   const [showButton, setShowButton] = useState(false)
 
   useEffect(() => {
@@ -25,6 +25,20 @@ const Footer = () => {
 
   }, [])
 
+// Share on LinkedIn
+function shareOnLinkedIn() {
+  const articleUrl = window.location.href;
+  const shareUrl = `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(articleUrl)}&title=${document.title}`;
+  window.open(shareUrl, '_blank');
+}
+
+// Share on Twitter
+function shareOnTwitter() {
+  const articleUrl = window.location.href;
+  const shareUrl = `https://twitter.com/intent/tweet?url=${encodeURIComponent(articleUrl)}&text=${document.title}`;
+  window.open(shareUrl, '_blank');
+}
+
   
   
   return (
@@ -34,14 +48,9 @@ const Footer = () => {
             Vell Magazine
           </h1>
           <div className="items-center gap-3 socials ">
-            <a
-              href="https://www.linkedin.com/company/vellmagazine"
-              target="_blank"
-            >
-              <button className=" w-[45px] h-[45px] flex justify-start items-center">
-                <RiLinkedinFill className="w-[20px] h-[20px]" />
-              </button>
-            </a>
+            <button className=" w-[45px] h-[45px] flex justify-start items-center" onClick={shareOnLinkedIn}>
+              <RiLinkedinFill className="w-[20px] h-[20px]" />
+            </button>
             <a href="https://www.instagram.com/vellmagazine/" target="_blank">
               <button className=" w-[45px] h-[45px] flex justify-start items-center">
                 <AiOutlineInstagram className="w-[20px] h-[20px]" />
@@ -61,7 +70,7 @@ const Footer = () => {
               </button>
             </a> */}
             <a href="https://twitter.com/vellmagazine" target="_blank">
-              <button className=" w-[45px] h-[45px] flex justify-start items-center">
+              <button className=" w-[45px] h-[45px] flex justify-start items-center" onClick={shareOnTwitter}>
                 <AiOutlineTwitter className="w-[20px] h-[20px]" />
               </button>
             </a>
