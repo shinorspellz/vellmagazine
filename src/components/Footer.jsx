@@ -27,8 +27,14 @@ const Footer = () => {
 
 // Share on LinkedIn
 function shareOnLinkedIn() {
-  const articleUrl = window.location.href;
-  const shareUrl = `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(articleUrl)}&title=${document.title}`;
+  // Set the URL and title of the website to share
+  const websiteUrl = "https://www.vellmagazine.com/";
+  const websiteTitle = "Vell Magazine";
+  
+  // Construct the LinkedIn sharing URL
+  const shareUrl = `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(websiteUrl)}&title=${encodeURIComponent(websiteTitle)}`;
+  
+  // Open a new window to share the URL on LinkedIn
   window.open(shareUrl, '_blank');
 }
 
