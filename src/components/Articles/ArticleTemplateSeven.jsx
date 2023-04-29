@@ -107,7 +107,7 @@ const ArticleTemplateSeven = () => {
   return (
     <>
       <VellNavbar />
-      <div className="flex flex-row justify-around px-3 pb-6">
+      <div className="flex flex-col lg:flex-row items-center justify-around px-3 pb-6">
         <div className="flex flex-col">
           <img
           src={currentArticle.img}
