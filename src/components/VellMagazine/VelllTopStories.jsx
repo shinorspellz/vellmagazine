@@ -52,11 +52,11 @@ const VelllTopStories = () => {
           onClick={(e)=>goToTopics(e)}
           >{topArticles[0].topics[0]}</p>
           {/* <p className="uppercase font-bold pt-2 pb-1 hidden md:block">{topArticles[0].mainHeader}</p> */}
-          <h3 className="font-400 font-serif text-[20px] md:text-[28px] text-center md:text-start hover:underline cursor-pointer"
+          <h3 className="font-400 font-serif text-[18px] md:text-[28px] text-center md:text-start hover:underline cursor-pointer"
           onClick={(e)=>goToArticle(e)}>
             {topArticles[0].mainHeader}
           </h3>
-          <p className="text-[18px] hidden md:block homepageFont">
+          <p className=" text-[13px] md:text-[18px] hidden md:block homepageFont">
               {topArticles[0].content.startsWith('<p')
               ? topArticles[0].content
               .slice(17, 370)
@@ -96,12 +96,12 @@ const VelllTopStories = () => {
                             >
                 {topArticles[1].topics[0]}
               </p>
-              <h3 className="font-500 font-serif text-[20px] md:text-[17px] py-1  line-clamp-1 md:line-clamp-2 hover:underline cursor-pointer"
+              <h3 className="font-500 font-serif text-[14px] md:text-[17px] py-1  line-clamp-1 md:line-clamp-2 hover:underline cursor-pointer"
               onClick={(e)=>goToArticle(e)}
               >
                 {topArticles[1].mainHeader}
               </h3>
-              <p className=' text-[18px] line-clamp-3 topStoriesP homepageFont'>{topArticles[1].content.startsWith('<p')
+              <p className='text-[13px] md:text-[18px] line-clamp-3 topStoriesP homepageFont'>{topArticles[1].content.startsWith('<p')
               ? topArticles[1].content
               .slice(17, 180)
               .replace(/(<p>)/g, '')
@@ -139,12 +139,12 @@ const VelllTopStories = () => {
                             >
                 {topArticles[2].topics[0]}
               </p>
-              <h3 className="font-500 font-serif text-[20px] md:text-[17px] py-1  line-clamp-1 md:line-clamp-2 hover:underline cursor-pointer"
+              <h3 className="font-500 font-serif text-[14px] md:text-[17px] py-1  line-clamp-1 md:line-clamp-2 hover:underline cursor-pointer"
               onClick={(e)=>goToArticle(e)}
               >
                 {topArticles[2].mainHeader}
               </h3>
-              <p className=' text-[18px] line-clamp-3 topStoriesP homepageFont'>{topArticles[1].content.startsWith('<p')
+              <p className='text-[13px] md:text-[18px] line-clamp-3 topStoriesP homepageFont'>{topArticles[1].content.startsWith('<p')
               ? topArticles[2].content
               .slice(17, 180)
               .replace(/(<p>)/g, '')
@@ -182,12 +182,12 @@ const VelllTopStories = () => {
                             >
                 {topArticles[3].topics[0]}
               </p>
-              <h3 className="font-500 font-serif text-[20px] md:text-[17px] py-1 line-clamp-1 md:line-clamp-2 hover:underline cursor-pointer"
+              <h3 className="font-500 font-serif text-[14px] md:text-[17px] py-1 line-clamp-1 md:line-clamp-2 hover:underline cursor-pointer"
               onClick={(e)=>goToArticle(e)}
               >
                 {topArticles[3].mainHeader}
               </h3>
-              <p className=' text-[18px] line-clamp-3 topStoriesP homepageFont'>{topArticles[1].content.startsWith('<p')
+              <p className='text-[13px] md:text-[18px] line-clamp-3 topStoriesP homepageFont'>{topArticles[1].content.startsWith('<p')
               ? topArticles[3].content
               .slice(17, 180)
               .replace(/(<p>)/g, '')

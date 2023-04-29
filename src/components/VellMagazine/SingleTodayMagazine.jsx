@@ -43,10 +43,10 @@ const SingleTodayMagazine = ({ item, index, thisMonthArr }) => {
         className="h-[131px] sm:h-[225px] mb-2 cursor-pointer object-cover hover:scale-105"
         onClick={(e) => goToArticle(e)}
       />
-      <h3 className="line-clamp-1 p-0 sm:text-center hover:underline cursor-pointer font-serif text-[20px]"
+      <h3 className="line-clamp-1 p-0 sm:text-center hover:underline cursor-pointer font-serif text-[14px] lg:text-[20px]"
       onClick={()=>navigate(`/article/${item.id}/${item.template}`)}
       >{item.mainHeader}</h3>
-      <p className="font-500 text-[18px] xl:py-3 line-clamp-2 xl:line-clamp-none homepageFont">
+      <p className="font-500 text-[13px] lg:text-[18px] xl:py-3 line-clamp-2 xl:line-clamp-none homepageFont">
         {item.content.startsWith("<p")
           ? item.content
               .slice(17, 210)
