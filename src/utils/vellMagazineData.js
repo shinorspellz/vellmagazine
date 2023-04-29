@@ -1695,6 +1695,6 @@ export const articles = [
     ],
     theme: "filler-header",
     date: "April 15 2023",
-    template: 7,
+    template: 3,
   },
 ];
