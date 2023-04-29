@@ -176,7 +176,7 @@ const ArticleTemplateSeven = () => {
         
 
         <main className="flex flex-col lg:flex-row articleTemplate max-w-[1350px] m-auto">
-          <div className="w-full max-w-[850px] lg:w-8/12 m-auto lg:pl-12">
+          <div className="w-full max-w-[850px] lg:w-8/12 m-auto lg:pl-5">
             <p
               dangerouslySetInnerHTML={{ __html: currentArticle.content }}
               className="content p-3 text-justify"
