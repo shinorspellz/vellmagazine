@@ -19,6 +19,7 @@ import ThisMonthArticles from "../components/Articles/ThisMonthArticles";
 import AboutUs from "../components/AboutUs";
 import SearchedView from "../components/Articles/SearchedView";
 import AllFillers from "../components/Articles/AllFillers";
+import ArticleTemplateSeven from "../components/Articles/ArticleTemplateSeven";
 
 const AppRouter = () => {
   return (
@@ -38,6 +39,7 @@ const AppRouter = () => {
         <Route path="/article/:id/4" element={<ArticleTemplateFour />} />
         <Route path="/article/:id/5" element={<ArticleTemplateFive />} />
         <Route path="/article/:id/6" element={<ArticleTemplateSix />} />
+        <Route path="/article/:id/7" element={<ArticleTemplateSeven />} />
         <Route path="/authors" element={<Authors />} />
         <Route path="/author/:author" element={<AuthorTemplate />} />
         <Route path="/articletopics" element={<ArticleTopics />} />
