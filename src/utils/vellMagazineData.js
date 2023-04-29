@@ -1471,7 +1471,7 @@ export const articles = [
     img: "/images/nike-women.webp",
     img_source:
       "https://www.telegraph.co.uk/news/2023/04/06/dylan-mulvaney-nike-trans-influencer-social-media-post/",
-    img_source_title: "Telegraph",
+    img_source_title: " Telegraph",
     author: "Eleanor Ingham",
     topics: ["FASHION & BEAUTY", "CLOTHING"],
     theme: "filler",
