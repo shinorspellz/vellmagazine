@@ -164,7 +164,7 @@ const settings = {
             <img
               src={currentArticle.img}
               alt="img"
-              className="h-[210px] lg:h-[350px] object-cover lg:pr-5 block m-auto my-3 "
+              className="h-[210px] lg:h-[350px] w-full object-cover lg:pr-5 block m-auto my-3 "
             />
             <p className='authorTemplate text-sm text-center mb-[1rem]'>
               Image source:<a href={currentArticle.img_source} target='_blank'>{currentArticle.img_source_title}</a>
