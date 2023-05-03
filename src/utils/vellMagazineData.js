@@ -1821,7 +1821,7 @@ export const articles = [
     img_source_title: " Pexels",
     author: "Antoniya Gerimpapazi",
     topics: ["WELLBEING", "MENTAL HEALTH"],
-    theme: "filler-header",
+    theme: "filler",
     date: "May 1 2023",
     template: 3
   },
@@ -1984,7 +1984,7 @@ export const articles = [
     img_source_title: " SKN Clinic",
     author: "Eleanor Ingham",
     topics: ["FASHION & BEAUTY", "SKIN"],
-    theme: "filler-header",
+    theme: "filler",
     date: "May 1 2023",
     template: 8
   },
@@ -2116,7 +2116,7 @@ export const articles = [
     img_source_title: " Pexels",
     author: "Eleanor Ingham",
     topics: ["FASHION & BEAUTY", "HAIR"],
-    theme: "filler-header",
+    theme: "filler",
     date: "May 1 2023",
     template: 7
 
@@ -2215,7 +2215,7 @@ export const articles = [
     img_source_title: " Nike.com",
     author: "Giorgia Candreva",
     topics: ["WELLBEING", "MENTAL HEALTH"],
-    theme: "filler-header",
+    theme: "filler",
     date: "May 1 2023",
     template: 7
   },
@@ -2325,7 +2325,7 @@ export const articles = [
     img_source_title: " Multiversitycomics.com",
     author: "James Murray",
     topics: ["ARTS & CULTURE", "BOOKS"],
-    theme: "filler-header",
+    theme: "filler",
     date: "May 1 2023",
     template: 7
   }
