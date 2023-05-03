@@ -2328,6 +2328,143 @@ export const articles = [
     theme: "filler",
     date: "May 1 2023",
     template: 7
+=======
+    id: 79,
+    mainHeader: `Celebrating Twenty Years of
+    Jeff VanderMeer’s Books`,
+    subHeader: ``,
+    contentHeader: `Celebrating Twenty Years of
+    Jeff VanderMeer’s Books`,
+    content: 
+      `<p class='first'>
+        As of April 2023, it has been twenty years since the release of Jeff VanderMeer’s first
+      </p>
+      <p>
+      book, <i>Veniss Underground</i>. As such, it’s an ideal time to review the course of his career and
+      see what we can learn from it. While not everything can be covered in one article, hopefully I
+      will be able to provide a useful introduction to new readers and some insights for existing
+      readers.
+      </p>
+      <h3>Beginnings</h3>
+      <p>
+      Jeff VanderMeer began writing while in high school, publishing sci-fi and horror stories
+      through small press magazines and later collecting these stories for his own self-published
+      books. As previously mentioned, his first novel was <i>Veniss Underground</i> in 2003. He then
+      consistently published novels and short story collections (many set in the city of Ambergris, a
+      setting first introduced in the collection <i>City of Saints and Madmen</i>) until 2014, which is
+      when we get to <i>The Southern Reach Trilogy</i> and <i>Annihilation</i>.
+      </p>
+      <p>
+      <i>Annihilation</i> is probably why most of you recognise the name Jeff VanderMeer, however I’d
+      argue it’s a big mistake to discount a writer’s early work. It’s always interesting to compare a
+      creator’s latest work to their earliest, as you’re able to sense changes and progression in their
+      style and choices, a feeling you can’t really replicate anywhere else. And remember, these
+      books are successes outside of any comparison to <i>Annihilation</i> – without this library of work
+      the unique circumstances that lead to <i>The Southern Reach Trilogy</i> could not have happened.
+      </p>
+      <div>
+      <img src='/images/article79_image2.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+      <p class='text-center text-sm py-1 max-w-[600px] m-auto'>Image: <a href='https://pictures.abebooks.com/inventory/30693723746.jpg'>Abebooks.com</a></p>
+      </div>
+      <h3>What were the unique circumstances?</h3>
+      <p>
+      <i>Annihilation</i>, <i>Authority</i>, and <i>Acceptance</i> were all released in 2014, during an eight-month
+      period. This is incredibly rare for traditionally published books (self-published authors may
+      publish multiple books a year, at great strain to themselves) and shows a great deal of trust
+      towards VanderMeer from publisher FSG. This strategy cemented the books in public consciousness, and <i>Annihilation</i> won multiple awards and was adapted into a major movie by Alex Garland (released just four years later in 2018).
+      </p>
+      <p>
+      The film version was significantly different however, and these differences speak to the
+      difficulty of adapting a piece of weird fiction into a mainstream movie. For example, the
+      wildlife in <i>Annihilation</i> (2016) is undeniably hostile – the biologist and her team are attacked
+      multiple times by mutated animals throughout the movie and must fight back. The biologist is
+      made an army veteran as well, to explain her proficiency with firearms and explosives, a role
+      previously only held by the surveyor in the book. As a result, there are multiple scenes where
+      guns are used to mow down large animals, which feels completely incongruous to the horror
+      of the book, where hostile creatures are glimpsed only in distance or in darkness and the
+      character’s main recourse is to escape unnoticed.
+      </p>
+      <p>
+      Some of these changes were lambasted by <a href="https://twitter.com/jeffvandermeer/status/1630393093596893186?s=20" target="_blank">VanderMeer himself on Twitter</a>. This is not the
+      first time one of his stories has been adapted into a film, however. <i>Shriek</i> was a short film
+      based on VanderMeer’s works set in Ambergris, funded by him, and hard to find now – I was
+      only able to find this <a href="https://www.youtube.com/watch?v=9OC_luLwJ64" target="_blank">trailer from 2006</a>, and this much <a href="https://www.mcdbooks.com/features/shriek-the-movie-the-untold-story" target="_blank">later article by VanderMeer</a> comparing
+      the premieres of <i>Annihilation</i> and <i>Shriek</i>. (Sadly, as an unpaid intern I cannot afford to dive
+      deep into the original books right now).
+      </p>
+      <div>
+        <img src='/images/article79_image3.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+        <p class='text-center text-sm py-1 max-w-[600px] m-auto'>Image: <a href='https://www.google.com/search?q=Jeff+VanderMeer%E2%80%99s+Books&tbm=isch&ved=2ahUKEwi9_aa0zMz-
+        AhVSyAIHHfkPCssQ2-
+        cCegQIABAA&oq=Jeff+VanderMeer%E2%80%99s+Books&gs_lcp=CgNpbWcQA1DNBVjNBWD2BmgAcAB4AIABT4gBjgGSAQE
+        ymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=sr5LZL3cCNKQi-gP-Z-
+        o2Aw&bih=796&biw=1440&client=safari#imgrc=57jWdeLfufhr6M&imgdii=yvYu0tsaZvlYxM'>Twitter.com</a></p>
+      </div>
+      <h3>What about later books?</h3>
+      <p>
+      In 2017 he released <i>Borne</i> and the following years would include multiple follow-ups. 2021
+      saw the release of a new standalone novel – <i>Hummingbird Salamander</i>. While unconnected to
+      the story of <i>Annihilation</i>, these new books continue to build on a theme present in many of
+      VanderMeer’s stories – human interaction with the environment. <i>Borne</i> follows a scavenger
+      exploring a city overrun by bio-engineered organisms, and <i>Hummingbird Salamander</i> is
+      about a woman trying to uncover the true story of an eco-terrorist. During <i>The Southern
+      Reach Trilogy</i>, many characters are entranced by the idea of Area X, an anomalous location
+      with no trace of manmade pollutants. This theme has become so noticeable that some readers
+      consider his books to be climate fiction, rather than weird fiction or horror.
+      </p>
+      <h3>Wait, what is climate fiction?</h3>
+      <p>
+      So, as you delve deeper into the publishing industry you start to notice that genre
+      classifications don’t always make sense. For example, one bookstore might shelf <i>Annihilation</i>
+      with sci-fi and another might shelf it with general fiction. And both stores won’t have a shelf
+      for weird fiction, the term I’ve been using throughout this article. This is because many
+      publishers see genre as a way to boost sales rather than solely categorise books - as
+      <a href="https://twitter.com/jeffvandermeer/status/1638185311803932675?s=20" target="_blank">VanderMeer points out himself</a>, a book too strange for casual sci-fi readers may still sell well
+      in general fiction.
+      </p>
+      <p>
+      This issue is amplified when it comes to subgenres, many of which have been created and
+      popularised within the last twenty years. This is indeed the case with the term climate fiction
+      (or “cli-fi” as some call it) which was invented by Dan Bloom in 2007. An even newer
+      subgenre is “noblebright” which I believe is actually just a way to remarket Christian fantasy
+      books that weren’t selling so well. The problem is that many subgenre inventors will attempt to push the label onto books and authors that aren’t interested as a way to give the subgenre
+      more legitimacy. In a recent <a href="https://www.esquire.com/entertainment/books/a43541988/climate-fiction-wont-save-us/" target="_blank">article</a>, VanderMeer talks about Bloom obsessively contacting
+      him during 2014 in an attempt to label <i>Annihilation</i> as climate fiction. This was a truly
+      bizarre move on Bloom’s part – after all, the environmental themes of VanderMeer’s books
+      should actually reach more people if they’re listed as general fiction, rather than a niche
+      subgenre.
+      </p>
+      <p>
+      There’s also the fact that VanderMeer is the President of the Sunshine State Biodiversity
+      Group which is dedicated to rewilding Florida and educating local residents about ways they
+      can preserve the landscape around them. You truly get the sense that VanderMeer deeply
+      appreciates the natural world and that he doesn’t need to market his books as climate fiction
+      to reach people and spread this appreciation.
+      </p>
+      <h3>Should I read Jeff VanderMeer’s books?</h3>
+      <p>
+      Wait! I haven’t even had time to cover his nonfiction works, or the anthologies he edits with
+      his wife Ann! But as my word count is limited, I will wrap up now. If you enjoy strange
+      books that have sci-fi and fantasy elements but don’t quite fit within either genre, unsettling
+      stories from isolated and lonely protagonists, novels where nature is an unescapable and
+      mutable force than yes, you should read his books.
+      </p>
+      <div>
+        <img src='/images/article79_image4.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+        <p class='text-center text-sm py-1 max-w-[600px] m-auto'>Image: <a href='https://www.interviewmagazine.com/culture/can-
+        jeff-vandermeer-save-us-from-extinction'>InterviewMagazine.com</a></p>
+      </div>
+      `,
+    month: "MAY 2023 EDITION",
+    img: "/images/article79_image1.jpg",
+    img_source: "https://www.amazon.com/Veniss-Underground-Novel-Jeff-VanderMeer/dp/1250860954",
+    img_source_title: "Amazon.com",
+    author: "James Murray",
+    topics: ["ARTS & CULTURE", "BOOKS"],
+    theme: "filler-header",
+    date: "May 1 2023",
+    template: 8
+
   }
 
 ];
