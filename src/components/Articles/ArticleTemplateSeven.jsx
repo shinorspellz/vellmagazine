@@ -118,7 +118,7 @@ const ArticleTemplateSeven = () => {
             Image source:<a href={currentArticle.img_source} target='_blank'>{currentArticle.img_source_title}</a>
           </p>
         </div>
-        <div className="flex flex-col items-center justify-center lg:mr-[50px] lg:mt-[70px] max-w-[500px]">
+        <div className="flex flex-col items-center justify-center lg:mr-[50px] lg:mt-[70px] max-w-[500px] header-article">
           <p className="p-3 text-sm text-center">{currentArticle.topics[0]} </p>
           <h1 className="font-medium font-serif text-[40px] py-2 text-center">
             {currentArticle.contentHeader}
