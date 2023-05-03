@@ -2328,7 +2328,8 @@ export const articles = [
     theme: "filler",
     date: "May 1 2023",
     template: 7
-=======
+   }, 
+   {
     id: 79,
     mainHeader: `Celebrating Twenty Years of
     Jeff VanderMeer’s Books`,
