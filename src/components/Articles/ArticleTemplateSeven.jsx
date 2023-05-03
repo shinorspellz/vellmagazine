@@ -112,7 +112,7 @@ const ArticleTemplateSeven = () => {
           <img
           src={currentArticle.img}
           alt="img"
-          className="max-h-[800px] w-full max-w-[1000px] sm:px-0 object-cover sm:block sm:m-auto my-3  block lg:mt-[123px]"
+          className="max-h-[800px] w-full max-w-[1000px] sm:px-0 object-cover sm:block sm:m-auto my-3  block lg:mt-[123px] mt-[45px]"
           />
           <p className="py-1 text-center text-sm">
             Image source:<a href={currentArticle.img_source} target='_blank'>{currentArticle.img_source_title}</a>
