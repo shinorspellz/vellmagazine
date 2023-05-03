@@ -1814,14 +1814,14 @@ export const articles = [
         We all want an inclusive society and a thriving society where everyone can flourish, to
         succeed, to feel happy, valued and appreciated. This is a steppingstone to help achieve this
         and offer the precious gift of education to all.
-      </p>  `,
+      </p>`,
     month: "MAY 2023 EDITION",
     img: "/images/neurodiversity-1.jpg",
     img_source: "",
     img_source_title: " Pexels",
     author: "Antoniya Gerimpapazi",
     topics: ["WELLBEING", "MENTAL HEALTH"],
-    theme: "filler-header",
+    theme: "filler",
     date: "May 1 2023",
     template: 3
   },
@@ -1867,7 +1867,7 @@ export const articles = [
       </p>
       <div>
         <img src='/images/dermaplanning-2.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
-        <p class='text-center text-sm py-1 max-w-[600px] m-auto'>Image: <a href=‘https://www.instyle.com/beauty/skin/best-dermaplaning-tools'>Instyle.com</a></p>
+        <p class='text-center text-sm py-1 max-w-[600px] m-auto'>Image: <a href='https://www.instyle.com/beauty/skin/best-dermaplaning-tools'>Instyle.com</a></p>
       </div>
       <p>
         Dermaplaning is recommended a maximum of once a month, and hard actives such as
@@ -1944,6 +1944,39 @@ export const articles = [
         shave and avoid any potential mistakes such as accidental eyebrow removal, an unfortunate
         result of my somewhat cavalier approach to the shave.
       </p>
+      <div class="sm:float-left">
+        <img src="/images/dermaplanning-4.jpg" class="sm:w-[300px] h-[370px] object-cover pr-3 pb-3 sm:pb-0"/>
+        <p class="text-center text-[13px] pt-1">Image: <a href='https://www.beautycrew.com.au/dermaplaning-tools-selling-fast-during-coronavirus-pandemic'>Beauty crew</a></p>
+      </div>
+      <h3>And what about stubble?</h3>
+      <p>
+        After a few days’ regrowth, there can be no doubt
+        that my cheeks are slightly rougher to the touch
+        as new hair appear. It’s also true that this change
+        is imperceptible to anybody but myself. But
+        much to my relief, warnings that hair grows back
+        thicker and darker have thus far not transpired,
+        just another old wives’ tale not to be
+        disregarded. Indeed, dermatologists insist that
+        thicker regrowth simply isn’t an issue.
+      </p>
+      <h3>So, do I recommend it?</h3>
+      <p>
+        To be perfectly honest, I lived 34 contented years
+        without dermaplaning, and I could easily live
+        another 34 without doing it again. That said, it is
+        easy, cheap and uninvasive and will almost
+        certainly improve the appearance of some
+        people’s skin, especially those prone to dry or
+        uneven skin. For the paltry price of a pack of
+        blades, it may well be worth a try.
+      </p>
+      <p>
+        However, for those with skin complaints or those
+        afraid to attempt this procedure themselves, I
+        would recommend turning to a doctor or a trained
+        aesthetician to ensure the best possible result.
+      </p>
       `,
     month: "MAY 2023 EDITION",
     img: "/images/dermaplanning-1.jpg",
@@ -1951,11 +1984,351 @@ export const articles = [
     img_source_title: " SKN Clinic",
     author: "Eleanor Ingham",
     topics: ["FASHION & BEAUTY", "SKIN"],
-    theme: "filler-header",
+    theme: "filler",
     date: "May 1 2023",
     template: 8
   },
   {
+    id: 76,
+    mainHeader: `From Afro Thunder to Curly Girl: Falling in Love with my Curls.`,
+    subHeader: ``,
+    contentHeader: `From Afro Thunder to Curly Girl: Falling in Love with my Curls.`,
+    content: `
+      <h3 class='first'>The Complications of Curls</h3>
+      <p>My relationship with my curls hasn’t always been a loving one.</p>
+      <p>
+        My first encounter with my curls came at eight years old. I had previously sported thick but
+        fairly straight hair, mercilessly and eye-wateringly wrenched into a ponytail every morning by
+        my mother. At eight years old and neither fashion-forward nor particularly pioneering, God
+        only knows what possessed me to chop off that luxurious mane of hair in preference for a
+        short wedge cut usually more favoured by power suit wearing professionals and new mothers.
+      </p>
+      <p>
+        Could I have been influenced by the ritual morning ponytail torture? Was it that I was already
+        showing signs of the self-sabotaging behaviour which would take centre stage in my adult
+        life? Perhaps it was a diva moment, that strong-willed eight-year-old determined to set a trend
+        before her time (and failing miserably).
+      </p>
+      <p>
+        The problem with that haircut was that it was about 40 years before my time. I was eight
+        going on eighty overnight and was suddenly faced with the horrifying and daunting prospectof having curls. With the snips of those unforgiving scissors, I was suddenly awarded a
+        puffier, thicker and curlier version of the hair which had previously caused me few problems.
+      </p>
+      <div class="sm:float-right">
+        <img src="/images/curls-2.jpg" class="sm:w-[400px] object-cover pl-3 pb-3 sm:pb-0"/>
+        <p class="text-center text-[13px] pt-1"></p>
+      </div>
+      <p>
+        Let me take a moment to describe this horror show. My hair was neither a cute pixie nor a 
+        chic bob. It was a monstrosity which considered elements of both but rejected all
+        the cute parts. Perhaps my hairdresser had forgotten to put her lenses in that day.
+        Perhaps she simply loathed me and decided to take revenge in the worst way conceivable; she ruined my hair. Add to the
+        spectacle the fringe which I was obliged to keep, a thick yellow curtain which sat
+        several centimetres away from my forehead, bereft of shape or style which only added to the shock of excessively thick hair surrounding my face.
+      </p>
+      <p>
+        My relationship with my hair changed at that point, and reconciliation was a long and painful process. My young self simply didn’t
+        know how to look after my curls, and the result was a puffy, frizzy and undefined mess.
+      </p>
+      <p>
+        For younger readers, this was before the time of TikTok or Instagram tutorials, before How To articles and probably before the
+        founders of the Curly Girl method had even conceived of curl cream or the bowl method. Girls of my generation simply had to live
+        with frizzy hair. Indeed, my literary contemporaries Hermione Granger and Princess Mia Thermopolis were also
+        seemingly denied access to proper hair care products and guidance. I guess it was an early 2000s thing.
+      </p>
+      <p>
+        As I grew older, my confidence in my hair decreased as my classmates found new and
+        creative ways to tease me. At around 12 years old, I reluctantly adopted my new moniker
+        Afro Thunder, a character from a video game with, of course, a huge afro. The irony was that
+        Afro Thunder’s hair had a definition and control which I could only have dreamed of. Afro
+        Thunder’s tight, defined and smooth curls were in a different league to the bird’s nest I sported.
+      </p>
+      <p>
+        And so, my dysfunctional relationship with my curls continued. As a teen, I tried everything
+        to keep it under control. I took to blasting it with the hairdryer in the morning to straighten it.
+        My palms were constantly occupied with smoothing the sides down, creating an ever greasier
+        but flatter appearance. I took an out-of-sight-out-of-mind approach to the back. My general
+        look was that of a mad scientist from behind, accompanied from the front by two slightly
+        greasy curtains flopping down either side of my face. Cousin It would have been proud.
+      </p>
+      <p>
+        Then, at some point, it started to get better. I’m not sure exactly when the revelatory moment
+        was; I think it was probably well into my 20s. By then I’d dabbled with many products and
+        methods which had improved my hair’s health and definition immeasurably. I understood the
+        importance of conditioning, choosing the right products and spending time crafting my look
+        and when and how to brush my hair.
+      </p>
+      <h3>Learning to love my Curls</h3>
+      <p>It was then that I realised I loved my curls.</p>
+      <div class="sm:float-left">
+        <img src="/images/curls-3.jpg" class="sm:w-[400px] object-cover pr-3 pb-3 sm:pb-0"/>
+        <p class="text-center text-[13px] pt-1"></p>
+      </div>
+      <p>
+        Though they are extremely high maintenance, unpredictable and still prone to lapsing into the old ways of
+        frizziness, I wouldn’t trade them for the world. They are truly my best feature. So what advice can I offer
+        anyone else struggling against frizz, lack of definition and excess volume?
+      </p>
+      <p>
+        The most important of advice is to go to a trustworthy hairdresser who listens, advises (and advises against)
+        and who has your best interests at heart. A good and professional hairdresser should understand the nature of your hair and the
+        consequences of different cuts. It’s not always easy, or cheap, to find a great hairdresser so when you find one, cherish them! A good hairdresser
+        will recommend products without trying to sell them and advise you how to look after your hair on a daily basis.
+      </p>
+      <p>
+        The next piece of advice is to use the right products. This is something which I myself
+        disregarded for many years, dismissing professional products as expensive and unnecessary.
+        As a result, I relied on mousse which left my hair crispy, dry and lacking the natural definition
+        which can be achieved by using better products. As a general rule, curly girls should invest in
+        a good shampoo, conditioner and styling products. There is a world of other products such as
+        oils, mists and masks which you can also incorporate into your routine if your budget allows for it.
+      </p>
+      <h3>Some recommended products</h3>
+      <p><em>For a splurge:</em></p>
+      <div>
+        <img src='/images/curls-4.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+        <p class='text-center text-sm py-1 max-w-[600px] m-auto'>Image: <a href='https://www.kerastase.it/linee/linee/curl-manifesto/gelee-curl-contour/KER_00023.html'>Kérastase</a></p>
+      </div>
+      <p>
+        I would personally recommend Kérastase products, specifically Curl Manifesto for wavy to
+        curly hair. After using the shampoo I noticed a clear difference in the definition and bounce of
+        my curls. Furthermore, it is a shampoo which lathers extremely well so the 250ml bottle goes
+        quite a long way. Though Kerastase products give a premium result, unfortunately they also
+        come with a premium price and for many they may blow the budget.
+      </p>
+      <p><em>For a more economical option:</em></p>
+      <div>
+        <img src='/images/curls-5.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+        <p class='text-center text-sm py-1 max-w-[600px] m-auto'>Image: <a href='https://hellobeautiful.com/3613347/cantu-avocado-collection-review/'>Hellobeautiful.com</a></p>
+      </div>
+      <p>
+        Cantu has a wide range of products for curly hair which I have used for several years. I
+        personally use the Cantu Avocado Hydrating Curl Activator as a leave-in conditioner alongside
+        the Define and Shine Custard which holds, defines and locks in your curls while maintaining a
+        smooth and shiny finish. At between 5 and 10 pounds per product, Cantu provides accessible,
+        healthy and effective options which will improve the appearance of your curls and, most importantly, your confidence, no end.
+      </p>
+
+      `,
+    month: "MAY 2023 EDITION",
+    img: "/images/curls-1.jpg",
+    img_source: "",
+    img_source_title: " Pexels",
+    author: "Eleanor Ingham",
+    topics: ["FASHION & BEAUTY", "HAIR"],
+    theme: "filler",
+    date: "May 1 2023",
+    template: 7
+
+  },
+  {
+    id: 77,
+    mainHeader: `How A Positive Mindset Can Transform Your Health And Change Your Life`,
+    subHeader: ``,
+    contentHeader: `How A Positive Mindset Can Transform Your Health And Change Your Life`,
+    content: `
+      <h3 class='first'>Who is Dr. Alia Crum?</h3>
+      <p>
+        Doctor Alia Crum, a psychologist and researcher at Stanford University, conducted a groundbreaking study in which she
+        demonstrated that our beliefs and mindsets have a profound effect on our bodies and health. In two different studies, one on housekeepers and
+        another on the perceived calorie count of ice cream, she showed that positive mindsets can lead to measurable physiological changes and
+        improved health outcomes.
+      </p>
+      <h3>Scientific proof</h3>
+      <p>
+        In the first study, Dr. Crum and her colleagues examined the effects of mindset on the health of hotel housekeepers. The latter were divided into two groups. The first one was informed of
+        the physical benefits of their job – how many calories they burnt, how much exercise they were getting, and so on. The second group was not given this information. After four weeks,
+        the researchers measured the physical health of the housekeepers. They found that the ones who had been informed of the physical benefits of their job had lower blood pressure, lost
+        weight, and had lower body fat percentages than those who had not been given this information.
+      </p>
+      <p>
+        In the second study, Dr. Crum and her colleagues investigated the effects of mindset on the
+        perceived calorie count of ice cream. Participants were given either a high-calorie or low-
+        calorie ice cream, but they were not told which one they were given. Half of the participants
+        were told that the ice cream was a low-calorie treat, while the other were told it was high-
+        calorie. The results of the study showed that the participants who were given the low-fat label
+        experienced a greater increase in ghrelin levels than the participants who were given the
+        regular label. This suggests that the participants who thought they were eating a low-fat ice
+        cream felt less satisfied and hungrier after eating it than the participants who thought they were eating a high-calorie ice cream.
+      </p>
+      <h3>Results</h3>
+      <p>
+        These studies demonstrate that our beliefs and mindsets can have a significant impact on our
+        bodies and health. If we believe that our job is physically beneficial, we may experience
+        physiological changes that reflect this belief. Similarly, if we believe that we are eating low-
+        calorie food, we may experience reduced levels of hunger-inducing hormones.
+      </p>
+      <p class='text-center text-[25px]'><em>
+        “The total effect of anything is a combined <br>
+        product of what you’re actually doing and <br>
+        what you think about what you’re doing.”<br>
+        -Dr. Alia Crum
+      </em></p>
+      <p>
+        You can watch Dr. Alia Crum herself explaining her research in the Ted Talk “Change your mindset, change the game”.
+      </p>
+      <div style="max-width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">
+        <iframe src="https://www.youtube.com/embed/0tqq66zwa7g" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <h3>What we can do</h3>
+      <p>So how can we apply the science of Dr. Crum’s studies in our daily lives?</p>
+      <p>Here are some ways:</p>
+      <h3>1. Pay attention to beliefs.</h3>
+      <p>
+        Our beliefs can shape our experiences and outcomes. If we believe that we are capable,
+        competent, and worthy of success, we are more likely to achieve our goals. On the other
+        hand, if we believe that we are not good enough, we may sabotage ourselves. Therefore,
+        it is important to pay attention to our beliefs and challenge any negative self-talk that we may engage in.
+      </p>
+      <h3>2. Change your mindset.</h3>
+      <p>
+        If you have a negative mindset about a particular situation or aspect of your life, try to
+        shift your perspective. Instead of focusing on the negatives, try to identify the positives.
+        For example, if you dislike your job, try to focus on the aspect that you enjoy, such as
+        the people you work with or the skills you are developing.
+      </p>
+      <h3>3. Be grateful.</h3>
+      <p>
+        Research has shown that practising gratitude can have a positive impact on our well-
+        being. By focusing on the things that we are grateful for, we can shift our mindsets towards a more positive outlook.
+      </p>
+      <h3>4. Practice mindfulness.</h3>
+      <p>
+        Mindfulness is a practice that involved being present in the moment and observing your
+        thought and feelings without judgment. It can help you to become more aware of your
+        beliefs and to challenge negative self-talk. Mindfulness can also help reduce stress and
+        improve the overall well-being of a person.
+      </p>
+      <div>
+        <img src='/images/positive-mindset-2.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[800px]' />
+        <p class='text-center text-sm py-1 max-w-[600px] m-auto'></p>
+      </div>
+      <p>
+        To conclude, Dr. Alia Crum’s studies demonstrate that our beliefs and mindsets can have a
+        profound effect on our bodies and health. By paying attention to our beliefs, changing our
+        mindset, being grateful, and practising mindfulness, we can apply the science of positive
+        thinking to achieve our goals, overcome challenges and improve our overall health.
+      </p>`,
+    month: "MAY 2023 EDITION",
+    img: "/images/positive-mindset-1.jpg",
+    img_source: "https://www.nike.com/a/psychologist-%20alia-crum-shares-how-to-develop-a-more-positive-mindset",
+    img_source_title: " Nike.com",
+    author: "Giorgia Candreva",
+    topics: ["WELLBEING", "MENTAL HEALTH"],
+    theme: "filler",
+    date: "May 1 2023",
+    template: 7
+  },
+  {
+    id: 78,
+    mainHeader: `If You Only Read One Comic, Make It Saga`,
+    subHeader: ``,
+    contentHeader: `If You Only Read One Comic, Make It Saga`,
+    content: `
+      <p class='first'>
+        When I bring up my love of comics and graphic novels to people, they often reply that while
+        they’d like to get into the hobby, they have no idea where to start. A lot of people also think
+        they’re too old to read comics, or aren’t sure which comics are suitable for adults. These are
+        both understandable concerns, but I can answer them with one word: <em>Saga</em>.
+      </p>
+      <p>
+        <em>Saga</em> is an ongoing comic series by Brian K. Vaughan and Fiona Staples. I believe it’s the
+        best comic to try if you’re an adult who’s never read a comic before and let me explain why.
+      </p>
+      <h3>It is Creator-Owned and Easy to Follow</h3>
+      <p>
+        I’m a huge fan of superhero comics but I will be the first to admit that they are not simple to
+        pick up and read. You might be enjoying a monthly <em>Spider-Gwen</em> series and find out that the
+        story no longer makes any sense because you didn’t collect the crossover issues. Marvel has
+        even started doing this with their non-superhero titles, as their <em>Star Wars</em> series had a massive
+        crossover event called <em>The War of the Bounty Hunters</em> in 2020 (which was really annoying if
+        you were only reading <em>Darth Vader</em> and <em>Doctor Aphra</em> like me).
+      </p>
+      <p>
+        There’s also the fact that writers working for the major publishers like Marvel and DC don’t
+        actually own any of their work due to copyright law. Al Ewing’s <em>Immortal Hulk</em> series
+        became an instant classic that revitalised interest in Bruce Banner and his supporting cast.
+        However, Ewing can’t write and sell a <em>Hulk</em> comic again unless he’s contracted to by Marvel.
+        And future writers are free to ignore or retcon any of his characters or plot developments as
+        long as they have Marvel’s permission.
+      </p>
+      <p>
+        Well, <em>Saga</em> is free from these two issues. It’s published by Image Comics, which focuses on
+        creator-owned properties. This means that only Vaughan and Staples have copyright control
+        over their creation and only they can decide where the story goes next. They’re also very
+        strict about avoiding the other pitfalls of mainstream comics. This means no crossover events
+        and no special collectible issues. You want to read <em>Saga</em>? You collect <em>Saga</em> #1-62 (as of this
+        article) and it’s that simple.
+      </p>
+      <div>
+        <img src='/images/saga-2.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+        <p class='text-center text-sm py-1 max-w-[600px] m-auto'>Image: <a href='https://ew.com/books/2019/04/12/cover-exclusive-details-massive-saga-comic-collection/'>Image Comics</a></p>
+      </div>
+      <h3>Okay, but What is Saga Actually About?</h3>
+      <p>
+        A brief description of <em>Saga</em> could be “It’s <em>Romeo & Juliet</em> meets <em>Star Wars</em> meets <em>Games of
+        Thrones</em>,” however, this really doesn’t do justice to the work. <em>Saga</em> takes place in a beautiful
+        science-fantasy world, where lasers face off against spells and merfolk can use VR headsets
+        to watch cheap TV. The story follows Alana and Marko, two deserters from opposite sides of
+        a galaxy-spanning war who fall in love and have a child, Hazel, together. They become fugitives from both armies, who want to cover up their relationship to preserve the public’s
+        faith in the war.
+      </p>
+      <p>
+        Now, I will warn you: <em>Saga</em> is very graphic when it comes to sex and violence. The first issue
+        opens with Alana giving birth to Hazel (although it’s still not as graphic as the birth scene in
+        Alan Moore’s <em>Miracleman</em>). However, I would argue this is a positive, not a negative. Comic
+        creators shouldn’t be censored, and Vaughan and Staples use their creative freedom to depict
+        a diverse and vibrant world that balances hopefulness and cynicism in equal measure. The
+        science-fantasy setting means the story will often feature pertinent real-world issues, such as
+        abortion law, LGBT rights, and women’s prisons. At the same time, the writing avoids huge
+        exposition dumps and technobabble that can put readers off science-fiction stories.
+      </p>
+      <div>
+        <img src='/images/saga-3.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+        <p class='text-center text-sm py-1 max-w-[600px] m-auto'>Image: <a href='https://cdn.imagecomics.com/assets/i/releases/2471/saga-vol-3-tp_00e83a8e27.jpg'>Image Comics</a></p>
+      </div>
+      <h3>Here’s What You Need to Know About the Creators</h3>
+      <p>
+        This isn’t their first rodeo. Brian K. Vaughan has been writing comics since 1996, while
+        Fiona Staples has been drawing them since 2006. They’ve both won multiple awards,
+        sometimes for their work on <em>Saga</em>, but also for other comics they’ve been involved with.
+      </p>
+      <p>
+        More importantly, their work together is a great example of collaborative storytelling and, I
+        believe, evidence of why an A.I. generated comic would be severely lacking.
+      </p>
+      <p>
+        You see, there’s always been a great debate amongst comic readers about if the writer or the
+        artist is more important. However, with <em>Saga</em> Staples isn’t just drawing whatever Vaughan
+        tells her to. As a great writer, Vaughan trusts his artists to make their own decisions about
+        what looks best and allows them to make significant design decisions. Staples designed the
+        cast, the ships, and the alien species. If another artist had worked with Vaughan to create
+        <em>Saga</em>, then the story and artwork would be vastly different.
+      </p>
+      <p>
+        This is why I’m doubtful about the attempts to create a comic (or even an animated series)
+        with A.I. technology. Current A.I. just reacts to input prompts and whatever existing work it’s
+        sampled (usually without the creator’s permission). It can’t really make judgement calls
+        about what looks good from a reader’s perspective or make its own creative decisions based
+        off what it enjoys. While it might be tempting to skip the hard work of hiring and
+        coordinating with an artist, you’re missing out a whole person’s wealth of experiences and
+        techniques.
+      </p>
+      <p>
+        Hopefully, you’re now ready to read <em>Saga</em>. Volume 1 can be picked up from any good
+        bookstore or found at your local library, if you’re lucky. Individual issues are harder to find,
+        but you can buy #1 digitally if you want to try it out before committing to a whole volume.
+      </p>`,
+    month: "MAY 2023 EDITION",
+    img: "/images/saga-1.jpg.webp",
+    img_source: "http://www.multiversitycomics.com/news/saga-courts-%20controversy-on-purpose-with-new-hardcover/",
+    img_source_title: " Multiversitycomics.com",
+    author: "James Murray",
+    topics: ["ARTS & CULTURE", "BOOKS"],
+    theme: "filler",
+    date: "May 1 2023",
+    template: 7
+=======
     id: 79,
     mainHeader: `Celebrating Twenty Years of
     Jeff VanderMeer’s Books`,
@@ -2091,6 +2464,7 @@ export const articles = [
     theme: "filler-header",
     date: "May 1 2023",
     template: 8
+
   }
 
 ];
