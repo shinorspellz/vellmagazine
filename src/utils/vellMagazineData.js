@@ -1697,4 +1697,263 @@ export const articles = [
     date: "April 15 2023",
     template: 3,
   },
+  {
+    id: 74,
+    mainHeader: `Embracing Neurodiversity And Establishing Ways of Helping to Educate
+    Neurodiverse Students in A More Efficient Way`,
+    subHeader: ``,
+    contentHeader: `Embracing Neurodiversity And Establishing Ways of Helping to Educate
+    Neurodiverse Students in A More Efficient Way`,
+    content: `
+      <p class='first'>Neurodiversity refers to the human brain and cognition and the way people socialise, learn,
+        and the way they pay attention to different situations. Neurodiversity comprises of the
+        different ways people experience and interact with the world around them.</p>
+      <p>Most neurodivergent people are diagnosed with autism, ADHD, dyslexia, dyspraxia or
+        dyscalculia. Many have to resort to self-diagnosis or never find out whether they are
+        neurotypical and neurodivergent. It is very important to be aware of people who are
+        neurodiverse in order to help provide them with the necessary sensory and cognitive
+        simulations, to help them fulfil their potential without any setbacks throughout their school
+        and university years and also to avoid any stigma, lack of support or discrimination from
+        teachers, peers and anyone else who may not be familiar with neurodiversity.</p>
+      <p>While there are a multitude of ways to help neurodivergent people (specifically children and
+        young adults or students) nowadays, a lot of times there are still vast challenges that those
+        people need to face especially during school years.
+      </p>
+      <p>Some of the more common barriers that pupils face is sensory overload (which consists of
+        difficulties with sensory processing). For example, the noise levels, bright lighting, and strong smells in a classroom can be overwhelming for some neurodivergent pupils, leading to
+        stress, anxiety, and difficulty concentrating.
+      </p>
+      <p>Another challenge they could face is difficulties with communication, both verbal and
+        nonverbal. This can lead to difficulties with social interactions, making friends, and
+        understanding instructions from teachers. Moreover, skills such as organising themselves,
+        studying/work planning and time management could be quite difficult for them to handle.
+        Neurodivergent pupils can have difficulties with understanding and processing information,
+        which can make it challenging to keep up with the pace during a lesson or in the workplace.
+        For example, pupils with dyslexia might struggle to read and comprehend written texts, while
+        pupils with ADHD may have difficulty staying focused on long lectures.
+      </p>
+      <div>
+        <img src='/images/neurodiversity-2.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+        <p class='text-center text-sm py-1 max-w-[600px] m-auto'>Image: <a href=''>Pexels</a></p>
+      </div>
+      <p>These barriers can have a significant impact on a neurodivergent pupil's academic and social
+        development. However, with appropriate support and accommodations, neurodivergent
+        pupils can thrive in the classroom and beyond.
+      </p>
+      <p>Most schools offer a vast range of activities, exercises and sports to help the neurodiverse
+        students. The provision of Learning Support Assistants (LSAs) is also a fundamental support.
+        However neurodiverse students usually find it more difficult to perform tasks, to concentrate
+        or to motivate themselves. Therefore, mainstream schools depend mainly on teaching
+        assistants and Learning Support Assistant (LSAs) for the development and the success of the
+        SEND students. Usually, most of the times the LSAs are really engaging and well-educated individuals who use a framework to help the SEND students. These methods are proven to
+        have impact but much more could still be done:
+      </p>
+      <h3><u>Options:</u></h3>
+      <h3>1) Meet and greet with the students before going to the classroom</h3>
+      <p>Meet and greet is important for everyone in a variety of contexts: be it friends, family, a new
+        pet, colleagues, or teachers – students. A good way to integrate a neurodiverse student is by
+        meeting them first and spending some time with them. LSAs and teachers could meet the
+        student and explain to them that they will be in lesson with them and that they want to help
+        them and to learn more about them – not about what their favourite subject is, but more about
+        their hobbies, what they like doing in their free time and what do they think in general about
+        school.
+      </p>
+      <div>
+        <img src='/images/neurodiversity-3.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+        <p class='text-center text-sm py-1 max-w-[600px] m-auto'>Image: <a href=''>Pexels</a></p>
+      </div>
+      <p>Getting to know neurodiverse students in that way could help ease them and make them used
+        to the LSA or teacher before they have to go in class with all their classmates and all the
+        studies. It can also help the particular LSA or teacher establish what approach is the best with
+        this certain student, what is the best way to work with them or what is something that the
+        teacher or LSA should avoid mentioning. By having those meet and greets, the
+        neurodivergent student establishes a routine which is so important for them and gets familiar
+        with this new individual, therefore is less likely to react negatively when they walk in the
+        classroom.
+      </p>
+      <h3>2) Design individual specifically targeted exercises and activities and supplying the
+        first-time comers with self-love activity books
+      </h3>
+      <p>
+        A lot of SENCO staff follow a certain framework when it comes to teaching neurodivergent
+        students (compulsory breaks, owning a fidget spinner, breathing exercises are only few
+        examples of some tactics used to help supporting SEN students). Adding to those tactics
+        could be designing an individual specifically targeted exercises and activities for those
+        students. For example, implementing the first suggestion of the meet and great could prove
+        extremely helpful for this particular activity. One example could be an autistic student who
+        has a vast interest in cars. If this student gets a specifically designed exercise that has
+        different car models or certain people talking about cars in it, they are far more likely to
+        engage.  
+      </p>
+      <p>
+        Another idea is supplying every SEN student with self-love activity books, which are quite
+        efficient for neurotypical people as well but would be very efficient for SEN students. With
+        those books they can read and write as much as they want in them and whenever they wish to
+        do so. They can start from the first or last page of the book, they can doodle or write in it,
+        they can complete the whole book or only a few pages. It all depends on how they want to
+        approach it.
+      </p>
+      <div>
+        <img src='/images/neurodiversity-4.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+        <p class='text-center text-sm py-1 max-w-[600px] m-auto'>Image: <a href=''>Pexels</a></p>
+      </div>
+      <p>
+        These self-love books have proven to be hugely beneficial to people by boosting their self-
+        esteem, helping them cope better with anxiety and depression, encouraging them to be creative and helping with their memory. That would be the perfect addition for
+        neurodivergent students and adults.
+      </p>
+      <h3><u>Final thoughts:</u></h3>
+      <p>
+        Neurodiverse students often struggle with concentration, motivation and completing tasks
+        and rely on teaching assistants and learning support assistants for support. While current
+        tactics like breaks, fidget spinners and sensory rooms have been helpful, the efficiency of
+        their performance could be improved with newly implemented methods such as those
+        suggested above.
+      </p>
+      <p>
+        We all want an inclusive society and a thriving society where everyone can flourish, to
+        succeed, to feel happy, valued and appreciated. This is a steppingstone to help achieve this
+        and offer the precious gift of education to all.
+      </p>  `,
+    month: "MAY 2023 EDITION",
+    img: "/images/neurodiversity-1.jpg",
+    img_source: "",
+    img_source_title: " Pexels",
+    author: "Antoniya Gerimpapazi",
+    topics: ["WELLBEING", "MENTAL HEALTH"],
+    theme: "filler-header",
+    date: "May 1 2023",
+    template: 3
+  },
+  {
+    id: 75,
+    mainHeader: `Dermaplaning: Worth the Fuzz?`,
+    subHeader: ``,
+    contentHeader: `Dermaplaning: Worth the Fuzz?`,
+    content: 
+      `<p class='first'>
+        The beauty industry is taking social media by storm.
+      </p>
+      <p>
+        Whether by hook or crook, beauty influencers, dermatologists and professional make-up
+        artists are driving sales in every department, from sunscreen to hair products. But it’s not
+        only products which influencers and companies sell; they also sell their signature
+        technique. I took it upon myself to try some of these techniques for myself, starting with
+        dermaplaning.
+      </p>
+      <p>
+        If you are anything like me, your FYP will be simply brimming with dermatologists,
+        beauticians and influencers singing the praises of their favourite product or routine.
+        Dermaplaning is one such routine which caught my eye. Though this technique has been
+        around for 40 or more years, dermaplaning (or dermablading) has enjoyed a resurgence in
+        popularity partly due to the influence of social media and the many content creators selling its
+        benefits.
+      </p>
+      <h3>So what is dermaplaning?</h3>
+      <p>
+        In short, dermaplaning is a hair removal procedure involving carefully scraping a specially
+        designed surgical scalpel over the skin of your face to remove the peach-like fuzz which sits
+        around the cheeks and neck. It can also be used as means of removing any other unwanted
+        facial hair. The more cynical among us may think that this is nothing more than a fancy
+        shave. But no! The intimidatingly sharp blade also removes any residual dirt and dead skin
+        below the fuzz, leaving a clean, smooth, and shiny surface.
+      </p>
+      <p>
+        In addition, dermatologists claim that effective dermaplaning allows the skin to absorb skin
+        products more effectively as well as brightening the complexion and allowing a smoother and
+        more polished finish when applying make-up. Though it is a technique typically favoured by
+        women, men can also dermaplane their t-zone as means of rejuvenating exfoliating and
+        controlling overly oily skin.
+      </p>
+      <div>
+        <img src='/images/dermaplanning-2.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+        <p class='text-center text-sm py-1 max-w-[600px] m-auto'>Image: <a href=‘https://www.instyle.com/beauty/skin/best-dermaplaning-tools'>Instyle.com</a></p>
+      </div>
+      <p>
+        Dermaplaning is recommended a maximum of once a month, and hard actives such as
+        retinoids or glycolic acids and make up should be avoided in the following 24 hours. This
+        will allow the regeneration of the top layer of skin cells as well as preventing flare ups or
+        irritation of the skin.
+      </p>
+      <p>
+        Though dermaplaning is perfectly safe for most people, those with acne, rosacea, eczema or
+        very sensitive skin should avoid this technique since the sharp blade can aggravate pre-
+        existing conditions. Those with more serious skin complaints should consult a doctor before
+        attempting this at home.
+      </p>
+      <p>
+        So how was my own experience of dermaplaning? I must confess that I was extremely
+        sceptical going into my first shave; was this just another fad, another superfluous step in my
+        ever-growing skin care routine which I didn’t need? And what about stubble? I decided to
+        find out.
+      </p>
+      <h3>First Impressions of dermaplaning</h3>
+      <p>My first impression was that of fear.</p>
+      <p>
+        The pack of Wilkinson blades were cheap (around 3 euros for three) and resembled a
+        children’s play version of a surgeon’s scalpel. But the bright, pastel plastic belies just how
+        sharp the blades are; this is no child’s play. Searching for instructions both online and on
+        social media, I found differing advice of how to approach my shave. Bewildered by
+        contrasting advice to not touch the skin before, to use specialised dermaplaning oil or to
+        cleanse and pat dry, I plumped for the former: I was going in cold.
+      </p>
+      <p>
+        Where these accounts do agree is how to approach the shave itself. Hold the blade at 45
+        degrees, and smooth over the skin, holding the skin taut with the non-shaving hand and using
+        short and careful strokes to remove the vellus (technical name for peach fuzz) from the desired
+        areas. I found doing it in front of a mirror with built in light helped immensely. Though these
+        mirrors often reveal far more about your face than desired, no-one wants patchy peach-fuzz.
+      </p>
+      <p>
+        I started strong, targeting the ear-end of my left cheek, an area whose downy, blonde, almost
+        white fuzz could fool the untrained eye into thinking that it didn’t even exist. My lighted
+        mirror knew better. Fuzzless from afar but far from fuzzless.
+      </p>
+      <p>
+        I began the shave, noting that the blade slid better than expected. I gained confidence with
+        every stroke. I also noted the smooth and soft finish it left, my cheeks renewed: this previously
+        peachy face was transformed, leaving a glowy, nectarine finish.
+      </p>
+      <p>
+        I basked in the wonder of realising I needed something I didn’t even know existed, and
+        pondered for a moment how many other things I could be missing out on.
+      </p>
+      <div>
+        <img src='/images/dermaplanning-3.jpg.webp' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+        <p class='text-center text-sm py-1 max-w-[600px] m-auto'>Image: <a href='https://versedskin.com/blogs/learn/what-is-dermaplaning'>Versed</a></p>
+      </div>
+      <p>
+        It was then that I noticed what had fallen into the sink; the caterpillar-like collections of hair
+        that had previously decorated my cheeks. It was hard to credit that that much hair had been
+        on my very own face not two minutes before, but such is life.
+      </p>
+      <p>
+        I finished the shave, marvelling at the growing stack of vellus in the sink. I have always prided
+        myself on being fairly hairless, nodding sympathetically but internally gloating when hearing
+        friends’ account of waxes, depilation or laser hair removal. Never again.
+      </p>
+      <h3>So how do I rate my dermaplaning experience?</h3>
+      <p>
+        I must confess that I do prefer the hairless finish on my cheeks. My skin appears healthy and
+        has a pleasant glow. For those who wear foundation, this technique would be of particular
+        interest as the skin is left more even, offering a smoother and cleaner result.
+      </p>
+      <p>
+        It’s worth mentioning that, as with everything, you will get a better result by going to a
+        professional beautician. As well as avoiding any nicks, a professional will ensure a smooth
+        shave and avoid any potential mistakes such as accidental eyebrow removal, an unfortunate
+        result of my somewhat cavalier approach to the shave.
+      </p>
+      `,
+    month: "MAY 2023 EDITION",
+    img: "/images/dermaplanning-1.jpg",
+    img_source: "https://sknclinic.ca/2021/08/30/pros-and-cons-of-dermaplaning/",
+    img_source_title: " SKN Clinic",
+    author: "Eleanor Ingham",
+    topics: ["FASHION & BEAUTY", "SKIN"],
+    theme: "filler-header",
+    date: "May 1 2023",
+    template: 8
+  }
+
 ];
