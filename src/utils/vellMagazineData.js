@@ -2126,13 +2126,205 @@ export const articles = [
     mainHeader: `How A Positive Mindset Can Transform Your Health And Change Your Life`,
     subHeader: ``,
     contentHeader: `How A Positive Mindset Can Transform Your Health And Change Your Life`,
-    content: ``,
+    content: `
+      <h3 class='first'>Who is Dr. Alia Crum?</h3>
+      <p>
+        Doctor Alia Crum, a psychologist and researcher at Stanford University, conducted a groundbreaking study in which she
+        demonstrated that our beliefs and mindsets have a profound effect on our bodies and health. In two different studies, one on housekeepers and
+        another on the perceived calorie count of ice cream, she showed that positive mindsets can lead to measurable physiological changes and
+        improved health outcomes.
+      </p>
+      <h3>Scientific proof</h3>
+      <p>
+        In the first study, Dr. Crum and her colleagues examined the effects of mindset on the health of hotel housekeepers. The latter were divided into two groups. The first one was informed of
+        the physical benefits of their job – how many calories they burnt, how much exercise they were getting, and so on. The second group was not given this information. After four weeks,
+        the researchers measured the physical health of the housekeepers. They found that the ones who had been informed of the physical benefits of their job had lower blood pressure, lost
+        weight, and had lower body fat percentages than those who had not been given this information.
+      </p>
+      <p>
+        In the second study, Dr. Crum and her colleagues investigated the effects of mindset on the
+        perceived calorie count of ice cream. Participants were given either a high-calorie or low-
+        calorie ice cream, but they were not told which one they were given. Half of the participants
+        were told that the ice cream was a low-calorie treat, while the other were told it was high-
+        calorie. The results of the study showed that the participants who were given the low-fat label
+        experienced a greater increase in ghrelin levels than the participants who were given the
+        regular label. This suggests that the participants who thought they were eating a low-fat ice
+        cream felt less satisfied and hungrier after eating it than the participants who thought they were eating a high-calorie ice cream.
+      </p>
+      <h3>Results</h3>
+      <p>
+        These studies demonstrate that our beliefs and mindsets can have a significant impact on our
+        bodies and health. If we believe that our job is physically beneficial, we may experience
+        physiological changes that reflect this belief. Similarly, if we believe that we are eating low-
+        calorie food, we may experience reduced levels of hunger-inducing hormones.
+      </p>
+      <p class='text-center text-[25px]'><em>
+        “The total effect of anything is a combined <br>
+        product of what you’re actually doing and <br>
+        what you think about what you’re doing.”<br>
+        -Dr. Alia Crum
+      </em></p>
+      <p>
+        You can watch Dr. Alia Crum herself explaining her research in the Ted Talk “Change your mindset, change the game”.
+      </p>
+      <div style="max-width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">
+        <iframe src="https://www.youtube.com/embed/0tqq66zwa7g" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <h3>What we can do</h3>
+      <p>So how can we apply the science of Dr. Crum’s studies in our daily lives?</p>
+      <p>Here are some ways:</p>
+      <h3>1. Pay attention to beliefs.</h3>
+      <p>
+        Our beliefs can shape our experiences and outcomes. If we believe that we are capable,
+        competent, and worthy of success, we are more likely to achieve our goals. On the other
+        hand, if we believe that we are not good enough, we may sabotage ourselves. Therefore,
+        it is important to pay attention to our beliefs and challenge any negative self-talk that we may engage in.
+      </p>
+      <h3>2. Change your mindset.</h3>
+      <p>
+        If you have a negative mindset about a particular situation or aspect of your life, try to
+        shift your perspective. Instead of focusing on the negatives, try to identify the positives.
+        For example, if you dislike your job, try to focus on the aspect that you enjoy, such as
+        the people you work with or the skills you are developing.
+      </p>
+      <h3>3. Be grateful.</h3>
+      <p>
+        Research has shown that practising gratitude can have a positive impact on our well-
+        being. By focusing on the things that we are grateful for, we can shift our mindsets towards a more positive outlook.
+      </p>
+      <h3>4. Practice mindfulness.</h3>
+      <p>
+        Mindfulness is a practice that involved being present in the moment and observing your
+        thought and feelings without judgment. It can help you to become more aware of your
+        beliefs and to challenge negative self-talk. Mindfulness can also help reduce stress and
+        improve the overall well-being of a person.
+      </p>
+      <div>
+        <img src='/images/positive-mindset-2.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[800px]' />
+        <p class='text-center text-sm py-1 max-w-[600px] m-auto'></p>
+      </div>
+      <p>
+        To conclude, Dr. Alia Crum’s studies demonstrate that our beliefs and mindsets can have a
+        profound effect on our bodies and health. By paying attention to our beliefs, changing our
+        mindset, being grateful, and practising mindfulness, we can apply the science of positive
+        thinking to achieve our goals, overcome challenges and improve our overall health.
+      </p>`,
     month: "MAY 2023 EDITION",
-    img: "",
-    img_source: "",
-    img_source_title: "",
-    author: "",
-    topics: [],
+    img: "/images/positive-mindset-1.jpg",
+    img_source: "https://www.nike.com/a/psychologist-%20alia-crum-shares-how-to-develop-a-more-positive-mindset",
+    img_source_title: " Nike.com",
+    author: "Giorgia Candreva",
+    topics: ["WELLBEING", "MENTAL HEALTH"],
+    theme: "filler-header",
+    date: "May 1 2023",
+    template: 7
+  },
+  {
+    id: 78,
+    mainHeader: `If You Only Read One Comic, Make It Saga`,
+    subHeader: ``,
+    contentHeader: `If You Only Read One Comic, Make It Saga`,
+    content: `
+      <p class='first'>
+        When I bring up my love of comics and graphic novels to people, they often reply that while
+        they’d like to get into the hobby, they have no idea where to start. A lot of people also think
+        they’re too old to read comics, or aren’t sure which comics are suitable for adults. These are
+        both understandable concerns, but I can answer them with one word: <em>Saga</em>.
+      </p>
+      <p>
+        <em>Saga</em> is an ongoing comic series by Brian K. Vaughan and Fiona Staples. I believe it’s the
+        best comic to try if you’re an adult who’s never read a comic before and let me explain why.
+      </p>
+      <h3>It is Creator-Owned and Easy to Follow</h3>
+      <p>
+        I’m a huge fan of superhero comics but I will be the first to admit that they are not simple to
+        pick up and read. You might be enjoying a monthly <em>Spider-Gwen</em> series and find out that the
+        story no longer makes any sense because you didn’t collect the crossover issues. Marvel has
+        even started doing this with their non-superhero titles, as their <em>Star Wars</em> series had a massive
+        crossover event called <em>The War of the Bounty Hunters</em> in 2020 (which was really annoying if
+        you were only reading <em>Darth Vader</em> and <em>Doctor Aphra</em> like me).
+      </p>
+      <p>
+        There’s also the fact that writers working for the major publishers like Marvel and DC don’t
+        actually own any of their work due to copyright law. Al Ewing’s <em>Immortal Hulk</em> series
+        became an instant classic that revitalised interest in Bruce Banner and his supporting cast.
+        However, Ewing can’t write and sell a <em>Hulk</em> comic again unless he’s contracted to by Marvel.
+        And future writers are free to ignore or retcon any of his characters or plot developments as
+        long as they have Marvel’s permission.
+      </p>
+      <p>
+        Well, <em>Saga</em> is free from these two issues. It’s published by Image Comics, which focuses on
+        creator-owned properties. This means that only Vaughan and Staples have copyright control
+        over their creation and only they can decide where the story goes next. They’re also very
+        strict about avoiding the other pitfalls of mainstream comics. This means no crossover events
+        and no special collectible issues. You want to read <em>Saga</em>? You collect <em>Saga</em> #1-62 (as of this
+        article) and it’s that simple.
+      </p>
+      <div>
+        <img src='/images/saga-2.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+        <p class='text-center text-sm py-1 max-w-[600px] m-auto'>Image: <a href='https://ew.com/books/2019/04/12/cover-exclusive-details-massive-saga-comic-collection/'>Image Comics</a></p>
+      </div>
+      <h3>Okay, but What is Saga Actually About?</h3>
+      <p>
+        A brief description of <em>Saga</em> could be “It’s <em>Romeo & Juliet</em> meets <em>Star Wars</em> meets <em>Games of
+        Thrones</em>,” however, this really doesn’t do justice to the work. <em>Saga</em> takes place in a beautiful
+        science-fantasy world, where lasers face off against spells and merfolk can use VR headsets
+        to watch cheap TV. The story follows Alana and Marko, two deserters from opposite sides of
+        a galaxy-spanning war who fall in love and have a child, Hazel, together. They become fugitives from both armies, who want to cover up their relationship to preserve the public’s
+        faith in the war.
+      </p>
+      <p>
+        Now, I will warn you: <em>Saga</em> is very graphic when it comes to sex and violence. The first issue
+        opens with Alana giving birth to Hazel (although it’s still not as graphic as the birth scene in
+        Alan Moore’s <em>Miracleman</em>). However, I would argue this is a positive, not a negative. Comic
+        creators shouldn’t be censored, and Vaughan and Staples use their creative freedom to depict
+        a diverse and vibrant world that balances hopefulness and cynicism in equal measure. The
+        science-fantasy setting means the story will often feature pertinent real-world issues, such as
+        abortion law, LGBT rights, and women’s prisons. At the same time, the writing avoids huge
+        exposition dumps and technobabble that can put readers off science-fiction stories.
+      </p>
+      <div>
+        <img src='/images/saga-3.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+        <p class='text-center text-sm py-1 max-w-[600px] m-auto'>Image: <a href='https://cdn.imagecomics.com/assets/i/releases/2471/saga-vol-3-tp_00e83a8e27.jpg'>Image Comics</a></p>
+      </div>
+      <h3>Here’s What You Need to Know About the Creators</h3>
+      <p>
+        This isn’t their first rodeo. Brian K. Vaughan has been writing comics since 1996, while
+        Fiona Staples has been drawing them since 2006. They’ve both won multiple awards,
+        sometimes for their work on <em>Saga</em>, but also for other comics they’ve been involved with.
+      </p>
+      <p>
+        More importantly, their work together is a great example of collaborative storytelling and, I
+        believe, evidence of why an A.I. generated comic would be severely lacking.
+      </p>
+      <p>
+        You see, there’s always been a great debate amongst comic readers about if the writer or the
+        artist is more important. However, with <em>Saga</em> Staples isn’t just drawing whatever Vaughan
+        tells her to. As a great writer, Vaughan trusts his artists to make their own decisions about
+        what looks best and allows them to make significant design decisions. Staples designed the
+        cast, the ships, and the alien species. If another artist had worked with Vaughan to create
+        <em>Saga</em>, then the story and artwork would be vastly different.
+      </p>
+      <p>
+        This is why I’m doubtful about the attempts to create a comic (or even an animated series)
+        with A.I. technology. Current A.I. just reacts to input prompts and whatever existing work it’s
+        sampled (usually without the creator’s permission). It can’t really make judgement calls
+        about what looks good from a reader’s perspective or make its own creative decisions based
+        off what it enjoys. While it might be tempting to skip the hard work of hiring and
+        coordinating with an artist, you’re missing out a whole person’s wealth of experiences and
+        techniques.
+      </p>
+      <p>
+        Hopefully, you’re now ready to read <em>Saga</em>. Volume 1 can be picked up from any good
+        bookstore or found at your local library, if you’re lucky. Individual issues are harder to find,
+        but you can buy #1 digitally if you want to try it out before committing to a whole volume.
+      </p>`,
+    month: "MAY 2023 EDITION",
+    img: "/images/saga-1.jpg.webp",
+    img_source: "http://www.multiversitycomics.com/news/saga-courts-%20controversy-on-purpose-with-new-hardcover/",
+    img_source_title: " Multiversitycomics.com",
+    author: "James Murray",
+    topics: ["ARTS & CULTURE", "BOOKS"],
     theme: "filler-header",
     date: "May 1 2023",
     template: 7
