@@ -1814,7 +1814,7 @@ export const articles = [
         We all want an inclusive society and a thriving society where everyone can flourish, to
         succeed, to feel happy, valued and appreciated. This is a steppingstone to help achieve this
         and offer the precious gift of education to all.
-      </p>  `,
+      </p>`,
     month: "MAY 2023 EDITION",
     img: "/images/neurodiversity-1.jpg",
     img_source: "",
@@ -1867,7 +1867,7 @@ export const articles = [
       </p>
       <div>
         <img src='/images/dermaplanning-2.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
-        <p class='text-center text-sm py-1 max-w-[600px] m-auto'>Image: <a href=‘https://www.instyle.com/beauty/skin/best-dermaplaning-tools'>Instyle.com</a></p>
+        <p class='text-center text-sm py-1 max-w-[600px] m-auto'>Image: <a href='https://www.instyle.com/beauty/skin/best-dermaplaning-tools'>Instyle.com</a></p>
       </div>
       <p>
         Dermaplaning is recommended a maximum of once a month, and hard actives such as
@@ -1944,6 +1944,39 @@ export const articles = [
         shave and avoid any potential mistakes such as accidental eyebrow removal, an unfortunate
         result of my somewhat cavalier approach to the shave.
       </p>
+      <div class="sm:float-left">
+        <img src="/images/dermaplanning-4.jpg" class="sm:w-[300px] h-[370px] object-cover pr-3 pb-3 sm:pb-0"/>
+        <p class="text-center text-[13px] pt-1">Image: <a href='https://www.beautycrew.com.au/dermaplaning-tools-selling-fast-during-coronavirus-pandemic'>Beauty crew</a></p>
+      </div>
+      <h3>And what about stubble?</h3>
+      <p>
+        After a few days’ regrowth, there can be no doubt
+        that my cheeks are slightly rougher to the touch
+        as new hair appear. It’s also true that this change
+        is imperceptible to anybody but myself. But
+        much to my relief, warnings that hair grows back
+        thicker and darker have thus far not transpired,
+        just another old wives’ tale not to be
+        disregarded. Indeed, dermatologists insist that
+        thicker regrowth simply isn’t an issue.
+      </p>
+      <h3>So, do I recommend it?</h3>
+      <p>
+        To be perfectly honest, I lived 34 contented years
+        without dermaplaning, and I could easily live
+        another 34 without doing it again. That said, it is
+        easy, cheap and uninvasive and will almost
+        certainly improve the appearance of some
+        people’s skin, especially those prone to dry or
+        uneven skin. For the paltry price of a pack of
+        blades, it may well be worth a try.
+      </p>
+      <p>
+        However, for those with skin complaints or those
+        afraid to attempt this procedure themselves, I
+        would recommend turning to a doctor or a trained
+        aesthetician to ensure the best possible result.
+      </p>
       `,
     month: "MAY 2023 EDITION",
     img: "/images/dermaplanning-1.jpg",
@@ -1954,6 +1987,155 @@ export const articles = [
     theme: "filler-header",
     date: "May 1 2023",
     template: 8
+  },
+  {
+    id: 76,
+    mainHeader: `From Afro Thunder to Curly Girl: Falling in Love with my Curls.`,
+    subHeader: ``,
+    contentHeader: `From Afro Thunder to Curly Girl: Falling in Love with my Curls.`,
+    content: `
+      <h3 class='first'>The Complications of Curls</h3>
+      <p>My relationship with my curls hasn’t always been a loving one.</p>
+      <p>
+        My first encounter with my curls came at eight years old. I had previously sported thick but
+        fairly straight hair, mercilessly and eye-wateringly wrenched into a ponytail every morning by
+        my mother. At eight years old and neither fashion-forward nor particularly pioneering, God
+        only knows what possessed me to chop off that luxurious mane of hair in preference for a
+        short wedge cut usually more favoured by power suit wearing professionals and new mothers.
+      </p>
+      <p>
+        Could I have been influenced by the ritual morning ponytail torture? Was it that I was already
+        showing signs of the self-sabotaging behaviour which would take centre stage in my adult
+        life? Perhaps it was a diva moment, that strong-willed eight-year-old determined to set a trend
+        before her time (and failing miserably).
+      </p>
+      <p>
+        The problem with that haircut was that it was about 40 years before my time. I was eight
+        going on eighty overnight and was suddenly faced with the horrifying and daunting prospectof having curls. With the snips of those unforgiving scissors, I was suddenly awarded a
+        puffier, thicker and curlier version of the hair which had previously caused me few problems.
+      </p>
+      <div class="sm:float-right">
+        <img src="/images/curls-2.jpg" class="sm:w-[400px] object-cover pl-3 pb-3 sm:pb-0"/>
+        <p class="text-center text-[13px] pt-1"></p>
+      </div>
+      <p>
+        Let me take a moment to describe this horror show. My hair was neither a cute pixie nor a 
+        chic bob. It was a monstrosity which considered elements of both but rejected all
+        the cute parts. Perhaps my hairdresser had forgotten to put her lenses in that day.
+        Perhaps she simply loathed me and decided to take revenge in the worst way conceivable; she ruined my hair. Add to the
+        spectacle the fringe which I was obliged to keep, a thick yellow curtain which sat
+        several centimetres away from my forehead, bereft of shape or style which only added to the shock of excessively thick hair surrounding my face.
+      </p>
+      <p>
+        My relationship with my hair changed at that point, and reconciliation was a long and painful process. My young self simply didn’t
+        know how to look after my curls, and the result was a puffy, frizzy and undefined mess.
+      </p>
+      <p>
+        For younger readers, this was before the time of TikTok or Instagram tutorials, before How To articles and probably before the
+        founders of the Curly Girl method had even conceived of curl cream or the bowl method. Girls of my generation simply had to live
+        with frizzy hair. Indeed, my literary contemporaries Hermione Granger and Princess Mia Thermopolis were also
+        seemingly denied access to proper hair care products and guidance. I guess it was an early 2000s thing.
+      </p>
+      <p>
+        As I grew older, my confidence in my hair decreased as my classmates found new and
+        creative ways to tease me. At around 12 years old, I reluctantly adopted my new moniker
+        Afro Thunder, a character from a video game with, of course, a huge afro. The irony was that
+        Afro Thunder’s hair had a definition and control which I could only have dreamed of. Afro
+        Thunder’s tight, defined and smooth curls were in a different league to the bird’s nest I sported.
+      </p>
+      <p>
+        And so, my dysfunctional relationship with my curls continued. As a teen, I tried everything
+        to keep it under control. I took to blasting it with the hairdryer in the morning to straighten it.
+        My palms were constantly occupied with smoothing the sides down, creating an ever greasier
+        but flatter appearance. I took an out-of-sight-out-of-mind approach to the back. My general
+        look was that of a mad scientist from behind, accompanied from the front by two slightly
+        greasy curtains flopping down either side of my face. Cousin It would have been proud.
+      </p>
+      <p>
+        Then, at some point, it started to get better. I’m not sure exactly when the revelatory moment
+        was; I think it was probably well into my 20s. By then I’d dabbled with many products and
+        methods which had improved my hair’s health and definition immeasurably. I understood the
+        importance of conditioning, choosing the right products and spending time crafting my look
+        and when and how to brush my hair.
+      </p>
+      <h3>Learning to love my Curls</h3>
+      <p>It was then that I realised I loved my curls.</p>
+      <div class="sm:float-left">
+        <img src="/images/curls-3.jpg" class="sm:w-[400px] object-cover pr-3 pb-3 sm:pb-0"/>
+        <p class="text-center text-[13px] pt-1"></p>
+      </div>
+      <p>
+        Though they are extremely high maintenance, unpredictable and still prone to lapsing into the old ways of
+        frizziness, I wouldn’t trade them for the world. They are truly my best feature. So what advice can I offer
+        anyone else struggling against frizz, lack of definition and excess volume?
+      </p>
+      <p>
+        The most important of advice is to go to a trustworthy hairdresser who listens, advises (and advises against)
+        and who has your best interests at heart. A good and professional hairdresser should understand the nature of your hair and the
+        consequences of different cuts. It’s not always easy, or cheap, to find a great hairdresser so when you find one, cherish them! A good hairdresser
+        will recommend products without trying to sell them and advise you how to look after your hair on a daily basis.
+      </p>
+      <p>
+        The next piece of advice is to use the right products. This is something which I myself
+        disregarded for many years, dismissing professional products as expensive and unnecessary.
+        As a result, I relied on mousse which left my hair crispy, dry and lacking the natural definition
+        which can be achieved by using better products. As a general rule, curly girls should invest in
+        a good shampoo, conditioner and styling products. There is a world of other products such as
+        oils, mists and masks which you can also incorporate into your routine if your budget allows for it.
+      </p>
+      <h3>Some recommended products</h3>
+      <p><em>For a splurge:</em></p>
+      <div>
+        <img src='/images/curls-4.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+        <p class='text-center text-sm py-1 max-w-[600px] m-auto'>Image: <a href='https://www.kerastase.it/linee/linee/curl-manifesto/gelee-curl-contour/KER_00023.html'>Kérastase</a></p>
+      </div>
+      <p>
+        I would personally recommend Kérastase products, specifically Curl Manifesto for wavy to
+        curly hair. After using the shampoo I noticed a clear difference in the definition and bounce of
+        my curls. Furthermore, it is a shampoo which lathers extremely well so the 250ml bottle goes
+        quite a long way. Though Kerastase products give a premium result, unfortunately they also
+        come with a premium price and for many they may blow the budget.
+      </p>
+      <p><em>For a more economical option:</em></p>
+      <div>
+        <img src='/images/curls-5.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+        <p class='text-center text-sm py-1 max-w-[600px] m-auto'>Image: <a href='https://hellobeautiful.com/3613347/cantu-avocado-collection-review/'>Hellobeautiful.com</a></p>
+      </div>
+      <p>
+        Cantu has a wide range of products for curly hair which I have used for several years. I
+        personally use the Cantu Avocado Hydrating Curl Activator as a leave-in conditioner alongside
+        the Define and Shine Custard which holds, defines and locks in your curls while maintaining a
+        smooth and shiny finish. At between 5 and 10 pounds per product, Cantu provides accessible,
+        healthy and effective options which will improve the appearance of your curls and, most importantly, your confidence, no end.
+      </p>
+
+      `,
+    month: "MAY 2023 EDITION",
+    img: "/images/curls-1.jpg",
+    img_source: "",
+    img_source_title: " Pexels",
+    author: "Eleanor Ingham",
+    topics: ["FASHION & BEAUTY", "HAIR"],
+    theme: "filler-header",
+    date: "May 1 2023",
+    template: 7
+
+  },
+  {
+    id: 77,
+    mainHeader: `How A Positive Mindset Can Transform Your Health And Change Your Life`,
+    subHeader: ``,
+    contentHeader: `How A Positive Mindset Can Transform Your Health And Change Your Life`,
+    content: ``,
+    month: "MAY 2023 EDITION",
+    img: "",
+    img_source: "",
+    img_source_title: "",
+    author: "",
+    topics: [],
+    theme: "filler-header",
+    date: "May 1 2023",
+    template: 7
   }
 
 ];
