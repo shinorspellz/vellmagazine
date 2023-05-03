@@ -20,6 +20,7 @@ import AboutUs from "../components/AboutUs";
 import SearchedView from "../components/Articles/SearchedView";
 import AllFillers from "../components/Articles/AllFillers";
 import ArticleTemplateSeven from "../components/Articles/ArticleTemplateSeven";
+import ArticleTemplateEight from "../components/Articles/ArticleTemplateEight";
 
 const AppRouter = () => {
   return (
@@ -40,6 +41,7 @@ const AppRouter = () => {
         <Route path="/article/:id/5" element={<ArticleTemplateFive />} />
         <Route path="/article/:id/6" element={<ArticleTemplateSix />} />
         <Route path="/article/:id/7" element={<ArticleTemplateSeven />} />
+        <Route path="/article/:id/8" element={<ArticleTemplateEight />} />
         <Route path="/authors" element={<Authors />} />
         <Route path="/author/:author" element={<AuthorTemplate />} />
         <Route path="/articletopics" element={<ArticleTopics />} />
