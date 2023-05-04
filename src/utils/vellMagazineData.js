@@ -109,13 +109,13 @@ export const authorsData = [
     desc: "Author at VellMagazine",
     bio: "With an abundance of passion for anything written, I took it upon myself to write as a means to spread the joy I get when reading. Recently having discovered fashion as an expression of my inner self, I will be combining my old and new interests with the magazine. I look forward to putting forth a newly reinvented form of writing as I incorporate my interests in poetry into my pieces. I am ecstatic to be working on the team to bring out my writings in self-discovery and literature.",
   },
-  // {
-  //   id: 10,
-  //   name: "Jasmin Bodman",
-  //   img: "/images/jasminBodman.jpg",
-  //   desc: "Author at VellMagazine",
-  //   bio: "Having always been an avid writer, I love the sense of satisfaction gained when someone reads a piece of mine and says how much they could relate to it, or how much they enjoyed hearing a different perspective. For Vell Magazine, my aim is to bring reviews and opinion pieces on a wide variety of topics, but mostly focused on the latest films, music, television shows - anything culture related. Whilst based in the UK, I am constantly on the lookout for new media I can write about, whether it's a new film or the latest album from a favourite artist. With a degree in journalism and some background in media studies, I can delve into anything I'm currently watching or listening to and write up my findings in a fun and personal way. If you're looking to read opinion pieces or reviews, then you can check out my articles on the Vell Magazine website.",
-  // },
+  {
+    id: 10,
+    name: "Jasmin Bodman",
+    img: "/images/jasminBodman.jpg",
+    desc: "Author at VellMagazine",
+    bio: "Having always been an avid writer, I love the sense of satisfaction gained when someone reads a piece of mine and says how much they could relate to it, or how much they enjoyed hearing a different perspective. For Vell Magazine, my aim is to bring reviews and opinion pieces on a wide variety of topics, but mostly focused on the latest films, music, television shows - anything culture related. Whilst based in the UK, I am constantly on the lookout for new media I can write about, whether it's a new film or the latest album from a favourite artist. With a degree in journalism and some background in media studies, I can delve into anything I'm currently watching or listening to and write up my findings in a fun and personal way. If you're looking to read opinion pieces or reviews, then you can check out my articles on the Vell Magazine website.",
+  },
   {
     id: 11,
     name: "Khadija Ghazanfar",
