@@ -95,13 +95,13 @@ export const authorsData = [
     desc: "Author at VellMagazine",
     bio: "I am Shinor Spellz, a passionate writer at Vell Magazine. My interests lie in bringing attention to significant topics such as technology, mental health, the cost of living, and fashion. Being a part of the Vell team is an exhilarating experience, and I consider it an honor to be able to contribute my skills to such a dynamic and inspiring work environment.",
   },
-  // {
-  //   id: 8,
-  //   name: "Jennifer Lewis",
-  //   img: "/images/jenniferLewis.jpg",
-  //   desc: "Author at VellMagazine",
-  //   bio: "In pursuit of my creative endeavours, I was excited to join the Vell Magazine team. I am a high-energy, result-driven student of English Literature undergoing my second year of undergraduate studies at the University of Birmingham.<br/>I thrive in dynamic environments driven by creativity and innovation. I enjoy experimenting with words and their power. You will find me always writing which is my form of exercise of the mind and opening my eyes for detail. What I write translates into my personality. With my strong sense of communication, I exert not just on paper, I am open-minded, motivated, and proactive. <br/>As a fashion enthusiast, my attention to expressive garments stimulates my creativity in journaling my exposure to evocative outfits. From writing for the student newspaper ‘RedBrick’ at university, my interest lies in the world of fashion journalism in informing a student audience of the latest must-haves to wear on campus.<br/> I am looking forward very much to sharing my fashion journey with the readers of Vell Magazine.",
-  // },
+  {
+    id: 8,
+    name: "Jennifer Lewis",
+    img: "/images/jenniferLewis.jpg",
+    desc: "Author at VellMagazine",
+    bio: "In pursuit of my creative endeavours, I was excited to join the Vell Magazine team. I am a high-energy, result-driven student of English Literature undergoing my second year of undergraduate studies at the University of Birmingham.<br/>I thrive in dynamic environments driven by creativity and innovation. I enjoy experimenting with words and their power. You will find me always writing which is my form of exercise of the mind and opening my eyes for detail. What I write translates into my personality. With my strong sense of communication, I exert not just on paper, I am open-minded, motivated, and proactive. <br/>As a fashion enthusiast, my attention to expressive garments stimulates my creativity in journaling my exposure to evocative outfits. From writing for the student newspaper ‘RedBrick’ at university, my interest lies in the world of fashion journalism in informing a student audience of the latest must-haves to wear on campus.<br/> I am looking forward very much to sharing my fashion journey with the readers of Vell Magazine.",
+  },
   {
     id: 9,
     name: "Samhitha Jonnadula",
@@ -116,13 +116,13 @@ export const authorsData = [
   //   desc: "Author at VellMagazine",
   //   bio: "Having always been an avid writer, I love the sense of satisfaction gained when someone reads a piece of mine and says how much they could relate to it, or how much they enjoyed hearing a different perspective. For Vell Magazine, my aim is to bring reviews and opinion pieces on a wide variety of topics, but mostly focused on the latest films, music, television shows - anything culture related. Whilst based in the UK, I am constantly on the lookout for new media I can write about, whether it's a new film or the latest album from a favourite artist. With a degree in journalism and some background in media studies, I can delve into anything I'm currently watching or listening to and write up my findings in a fun and personal way. If you're looking to read opinion pieces or reviews, then you can check out my articles on the Vell Magazine website.",
   // },
-  // // {
-  // //   id: 11,
-  // //   name: "Khadija Ghazanfar",
-  // //   img: "/images/khadijaGhazanfar.jpg",
-  // //   desc: "Author at VellMagazine",
-  // //   bio: "My name is Khadija Ghazanfar, and I am a clinical psychologist with a passion for writing. I have extensive experience in creating engaging content on a variety of topics, including social media, mental health, fashion, and information technology.Throughout my career, I have written numerous blogs and articles that have covered the latest trends and hot topics in these domains. I have a unique ability to write in a way that is both informative and accessible, making complex ideas easy to understand for a wide range of readers.",
-  // // },
+  {
+    id: 11,
+    name: "Khadija Ghazanfar",
+    img: "/images/khadijaGhazanfar.jpg",
+    desc: "Author at VellMagazine",
+    bio: "My name is Khadija Ghazanfar, and I am a clinical psychologist with a passion for writing. I have extensive experience in creating engaging content on a variety of topics, including social media, mental health, fashion, and information technology.Throughout my career, I have written numerous blogs and articles that have covered the latest trends and hot topics in these domains. I have a unique ability to write in a way that is both informative and accessible, making complex ideas easy to understand for a wide range of readers.",
+  },
   {
     id: 12,
     name: "James Murray",
@@ -2466,6 +2466,206 @@ export const articles = [
     date: "May 1 2023",
     template: 8
 
-  }
+  },
+  {
+    id: 90,
+    mainHeader: `From the Cedars to the World: The Story of Lebanese Music`,
+    subHeader: ``,
+    contentHeader:`From the Cedars to the World: The Story of Lebanese Music`,
+    content: `
+              <p class='first'>Being a Lebanese national, writing about our music is a source of immense pride for me. This is primarily because Lebanon, being a country with a rich cultural heritage, places significant importance on music as a part of its identity. </p>
+              <p>While Lebanese music has evolved over time, assimilating diverse musical styles and instruments from around the globe, it has still managed to maintain its authentic charm and individuality. Lebanese music is a reflection of our country's multifaceted history, culture, and people, and continues to be a source of immense pride for us!</p>
+              <p>Ready? Let’s dive into Lebanese culture's music. </p>
+              <h2>Uncovering the Rich Roots and Vibrant Sounds of Lebanese Music</h2>
+              <p>To begin with, let's talk about history and origins. Lebanese music has its roots in ancient civilizations. For example, the Phoenicians were known for their musical talents and their influence can still be heard in modern-day Lebanese music.</p>
+              <a href='https://www.pinterest.co.uk/pin/366691594654670640/' target='_blank'>
+                <img src='/images/lebanese_music_2.jpg' alt='image' class='block m-auto w-1/2 h-3/6 py-2 sm:py-0' />
+              </a>
+              <p>Over the years, various musical styles have been incorporated into Lebanese music, including Arabic, Ottoman, French, and Western music. Lebanese musicians are also influenced by neighbouring countries such as Egypt, Syria, and Iraq. This contributes to the diverse range of sounds and styles found in Lebanese music today.</p>
+              <h2>A Journey through Its Diverse Styles</h2>
+              <p>Lebanon boasts a variety of music styles. One of the most beloved styles is Tarab, a form of Arabic music characterized by slow, melodic rhythms and emotional lyrics. Another popular style is Dabke, which is traditional Lebanese dance music played at weddings and other social gatherings. When discussing Dabke, it's nearly impossible not to mention Melhem Zein, who is known for his popular songs <a href="https://www.youtube.com/watch?v=ipYL7pvOef4">“Houwara”</a> And <a href="https://www.youtube.com/watch?v=FuhVm-0pPBY">“Dalle Dhake”</a> Dabke music is also typically accompanied by dancers performing the traditional line dance popular in Lebanon. <a href='https://english.news.cn/20220813/1638409c6f2540ca84c5fa9750a90980/c.html' target='_blank'><img src='/images/lebanese_music_3.jpg' alt='image' class='block m-auto w-1/2 h-3/6 py-2 sm:py-0' /></a>Aside from traditional styles, Lebanese music also features more modern styles as well. Pop music is prevalent among young people in Lebanon and many Lebanese artists have achieved international fame in recent years. Hip-hop and rap music are also popular in Lebanon. Lebanese hip-hop/rap artists have a significant following in Lebanon and abroad for example, <b>Moe Jamul</b> and <b>Roytivation</b>.</p>
+              <h2>Discover the Rich Sounds of Lebanese Music</h2>
+              <p>Lebanese music employs a range of varied and diverse instruments, with some of the most commonly used being the Oud, a stringed instrument similar to a lute, and the Qanun, a type of zither. Other instruments commonly used in Lebanese music include the Ney, a type of flute, and the Darbuka, a type of drum. Additionally, Western instruments such as guitar and keyboard have also become prevalent in modern Lebanese music.</p>
+              <h2>Famous Lebanese Singers Who Have contributed To the Country's Rich Musical Heritage</h2>
+              <p><b>Fairuz</b>- Fairuz is one of the most famous and beloved Lebanese singers of all time. She began her career in the 1950s and has since become an icon in Lebanese music. Her music is known for its emotional depth and poetic lyrics, and she has been a source of inspiration for many generations of Lebanese musicians.<a href='https://nedeniyet.com/turkuvaz-sesli-kralice-fairuz-nouhad-haddad/' target='_blank'><img src='/images/lebanese_music_4.jpg' alt='image' class='block m-auto w-1/2 h-3/6 py-2 sm:py-0'/></a></p>
+              <p><b>Wadih El Safi</b>- Wadih El Safi is another legendary Lebanese singer known as the "Voice of Lebanon." He was known for his powerful voice and ability to perform a wide range of musical styles, from traditional Arabic music to modern pop songs. He was also an accomplished composer and musician, and his contributions to Lebanese music were significant. <a href='https://www.ishtartv.com/en/viewarticle,36222.html' target='_blank'><img src='/images/lebanese_music_5.jpg' alt='image' class='block m-auto w-1/2 h-3/6 py-2 sm:py-0'/></a></p>
+              <p><b>Sabah</b>– Sabah was a Lebanese singer and actress known for her powerful voice and contributions to Lebanese music. She began her career in the 1940s and released numerous albums and hit songs. She was also a talented actress, appearing in several Lebanese and Egyptian films throughout her career.<a href='https://www.washingtonpost.com/world/sabah-actress-and-entertainer-who-thrilled-and-scandalized-the-arab-world-dies-at-87/2014/11/26/81ee8b88-7584-11e4-9d9b-86d397daad27_story.html' target='_blank'><img src='/images/lebanese.webp' alt='image' class='block m-auto w-1/2 h-3/6 py-2 sm:py-0'/></a></p>
+              <h2>Suggestions</h2>
+              <p>Interested in listening to music and the latest songs by Lebanese singers? Here are some of my favourite suggestions.</p>
+              <ul>
+                <li><a href="https://youtu.be/YlDAzMpbZso" target="_blank">A morning playlist by Fairuz</a></li>
+                <li><a href="https://youtu.be/I4MbD8wniB0" target="_blank">The best of Wadih El Safi</a></li>
+                <li><a href="https://www.youtube.com/live/VP1X_uwwM44?feature=share" target="_blank">Hope Beyond Borders by Nancy Ajram</a></li>
+                <li><a href="https://youtu.be/osCw73O_WMo" target="_blank">Kol El Qassayed by Marwan Khoury</a></li>
+                <li><a href="https://youtu.be/hedls7Tavbg " target="_blank"Law Hobna Ghalta by Wael Kfoury></a></li>
+              </ul>
+              <p>The list goes on and on of artists and singers who have dedicated and continue to dedicate a lot to the Lebanese music scene as well as Arab music in general. Ziad Bourji, Rahma Riad, Seif Nabeel, Adam, Amr Diab, Nassif Zeytoun, Rima Yussef - these are just a few great examples; there are so many more influential individuals.</p>
+              <p>Lastly, Lebanese music is a unique and important part of the country's cultural heritage. Its diverse range of styles and instruments reflects the country's history and people and it continues to be celebrated and enjoyed by people both in Lebanon and around the world.</p>
+              `,
+    month: "MAY 2023 EDITION",
+    img:`/images/lebanese_music_1.jpg`,
+    img_source:`https://www.nytimes.com/2013/08/08/arts/music/amid-turmoil-lebanese-music-festival-presses-on.htmlhttps:/www.nytimes.com/2013/08/08/arts/music/amid-turmoil-lebanese-music-festival-presses-on.html`,
+    img_source_title:`New York Times`,
+    author:`Yara Arkadan`,
+    topics: ["LIFE MATTERS","ARTS & CULTURE", "MUSIC"],
+    theme:"filler",
+    date: "May 1, 2023",
+    template: 1
+  },
+  {
+    id: 89,
+    mainHeader: `Sustainable Brands You Need to Know About`,
+    subHeader: ``,
+    contentHeader:`Sustainable Brands You Need to Know About`,
+    content: `
+            <p class="first">As a civilization, humans have taken more from nature than giving her back. Whether it is inspiration for art or digging our metal claws deep beneath her skin to satisfy our greed. The repercussions of our actions are reflected in the form of global warming, extinction of species, depleting quality of soil, oceans being polluted, fresh water sources depleting etc.</p>
+            <p>Clothing, a basic survival necessity in everyone’s life is added to this list as being one of the major contributors to land pollution. With the emergence of fast fashion and technological advancement to develop cheap clothes, the production exceeds demand making much of the production end up in landfills.</p>
+            <p>To combat these problems, we have come up with some brands that have identified these issues and the consequences that come with them. These sustainable brands carry a story with them, primarily to help nature and mankind without compromising the quality and style they deliver. </p>
+            <h2>Swimsuit</h2><i>Brand in Focus: </i><b>Vitamin A </b>
+            <p>Sun-kissed skin and shore washing your feet. Sounds like a perfect beach holiday! Why not jazz it up with a good swimsuit that doesn’t hurt the environment? Vitamin A has been around us for two decades and is a Californian brand that specializes in eco-friendly clothing primarily swim, beach and loungewear, with each piece promised to provide comfort and something you would search to wear again even if it gets shoved in the back of your wardrobe.</p>
+            <a href='https://cdn.vox-cdn.com/thumbor/qO5CNr1FT5XlyEp7XWlIozw-0BE=/0x0:2880x1622/1200x800/filters:focal(1210x581:1670x1041)/cdn.vox-cdn.com/uploads/chorus_image/image/67697352/Baldur_s_Gate_3_Druid_Grove.0.png' target='_blank'><img src='/images/sustainable_clothing.webp' alt='image' class='block m-auto w-1/2 h-3/6 py-2 sm:py-0' /></a>
+            <p>Amahlia Stevens developed EcoLux™ to craft swimsuits for her brand, a fabric made of recycled nylon and recently added BioScupt which is made from castor beans and Lycra for support. Most of the beachwear is made from flowy fabrics like organic cotton, Tencel® and linen making them perfect for humid beach weather. </p>
+            <p>The best part about the brand is that not only do they use environmentally friendly fabrics but make sure that each step of manufacturing is gentle on our surroundings. They make their fabrics locally, from knitting to dying the fabrics, reducing emissions from transportation. The prints are created digitally contrary to traditional wet printing which reduces the water and fabric used in production. Delivered in a 100% biodegradable seal and flap bag that either you can reuse to store something else or throw off in your backyard compost. It is a brand worth checking if environment consciousness and a beach vacay are on your list. </p>
+            <h2>Eyewear</h2><i>Brand in Focus: </i><b>Pala</b>
+            <a href='https://palaeyewear.com/collection/shape/round/'target='_blank'><img src='/images/sustainable_clothing1.webp' alt='image' class='block m-auto w-1/2 h-3/6 py-2 sm:py-0' /></a>
+            <p>Partnered with Vision Action, this company is not only sustainable and uses recycled materials but also provides grants directly to vision centres across Africa, particularly in Ethiopia, Zambia, Leone, Sierra and Ghana to aid eye care facilities. How thoughtful is that.</p>
+            <p>John Pritchard founded this company to support the fact that corrective surgery or a new pair of spectacles can transform an individual’s life in a better way and is something that is so basic but still can’t be accessed by many. So, to help people ‘see the world better’ he developed a new eyewear range made from plant-based biodegradable frames with non-polarized lenses that are made from resin that is 39% extracted from plants. Small metal details on the frame are made from nickel-plated steel and are recyclable.</p>
+            <p>The glasses come in beautiful woven cases that are fashioned from plastic that is produced during the manufacturing process (a sweet detail: the tag has the name of the person that weaves it for you). A supporter of the circular chain economy, the company allows customers in the UK to give back the frames they are no longer using to allow them to be reused to make other products like road cones.The designs, made in Italy, stand the test of time both in terms of durability and style. Supporting the cause of this company, we have found another excuse to add a pair of glasses to our collection.</p>
+            <h2>Intimate wear</h2><i>Brand in Focus: </i><b>Pantee</b>
+            <a href='https://pantee.co.uk/pages/our-story-1' target='_blank'><img src='/images/sustainable_clothing3.webp' alt='image' class='block m-auto w-1/2 h-3/6 py-2 sm:py-0' /></a>
+            <p>It was during one vintage shopping spree in London that Co-Founder Amanda observed brand-new t-shirts lined across shelves highlighting the amount of waste the fashion industry generates with estimates of about 92 million tonnes of textile waste produced each year. It was at this point the idea for the brand hit her. Pantee - pants made from deadstock tees.</p>
+            <p>The brand was formed in late 2020 with the first collection being 50% funded in the first 24 hours, the company has upcycled more than 1,500 kg of deadstock which comprises 95% cotton and 5% elastane. From using deadstock t-shirts to now using a range of deadstock fabric each piece and collection is unique. They are transparent about their making process on the website and have the production facility in Bangladesh, run by Erdem where the manufacturing partner was kind enough to accept the challenge and support the cause.</p>
+            <p>Their designs are stylish and functional, and the close relationship shared with the hands that create these pieces ensures that a beautiful vision is supporting everyone that is a part of it. Apart from the fabric used, they have added simple eco-friendly details like using a safety pin and string to attach tags that are made from recycled paper and using recyclable boxes that are lined with biodegradable tissue to ship your order. Comfortable with no fancy details, it’s a brand worth trying out and supporting. </p>
+            <h2>Timeless clothing </h2><i>Brand in Focus: </i><b>Mother of pearl</b>
+            <a href='https://motherofpearl.co.uk/collections/dresses-sustainable-fashion/products/ellen-dress-champagne' target='_blank'><img src='/images/sustainable_clothing4.webp' alt='image' class='block m-auto w-1/2 h-3/6 py-2 sm:py-0' /></a>
+            <p>With fast fashion emerging at a rampant rate, authentic and timeless pieces have become less favoured. Mother of Pearl, amidst the sea of wear and throw clothing, promises to offer something unique that will last.</p>
+            <p>The British company launched ‘No Frills’ its first fully sustainable line in 2018 and still continues to build on what was created then. All the fabrics used in the collections are responsibly sourced, post-2021, with Creative Director Amy Powney, keeping a close eye on the process. TENCEL™, organic cotton and wool are used to craft the designs since the company firmly believes that synthetic fibres cause a lot of environmental damage and require meticulous industrial care to recycle. But where necessary recycled synthetic materials are used, and usage of dyes is kept minimal as possible by using fabrics in their raw state such as ecru denim. Their designs are created out of simple squares and rectangles making fabric waste to minimal and if any fabric is remaining, they also have a section of deadstock sale where they create pieces from remaining fabrics and place them at a lower rate.</p>
+            <p>What adds to their environmental safety initiative is that they produce the product in the same country the raw material is cultivated or sourced from (something that Vitamin A also did). For instance, the wool (non-mulesed wool) is sourced from Portugal and the garment is created in the country itself.</p>
+            <p>Genia Mineeva assures that these trend-proof pieces will help you stand out from the crowd and also provide you two additional reasons to smile other than that confidence you will be oozing out in the dress: First you know that no living being was hurt while creating the pieces and second all the pieces have pockets!! These brands are redefining fashion and putting a message out to the world that fashion does not have to be damaging to the environment. The small steps that these companies take and the customers and teams that support them matter a lot. And one more added step that we as readers can take is to be mindful of the distinction between what we need and what we want, to avoid hoarding clothes and buy a few sustainable pieces that will last. </p>
+    `,
+    month: "MAY 2023 EDITION",
+    img:`/images/sustainable_clothing.png`,
+    img_source:`https://zerowasteman.com/affordable-sustainable-clothing-brands-for-men/`,
+    img_source_title:`zerowasteman.com`,
+    author:`Samhitha Jonnadula`,
+    topics: ["LIFE MATTERS","COST OF LIVING",],
+    theme:"filler",
+    date: "May 1, 2023",
+    template: 3
+  },
+  {
+    id: 88,
+    mainHeader: `BookTok Trends`,
+    subHeader: ``,
+    contentHeader:`BookTok Trends`,
+    content: `
+              <p class="first">As social media progresses with its newfound means to connect people, there are several industries that this progression affects, both positively and negatively. With every new form of media that arises, comes a new wave of users that all use each app. Such is the case with TikTok. </p>
+              <p>TikTok is a video hosting service that emerged in 2016 and has since seen plenty of evolutions. In recent years, the app has had its most downloads in the years 2019 and 2020. This allowed for a lot more people to be able to view content across the nations, curated to their personal tastes while also allowing them to be exposed to newer content. </p>
+              <p>In recent years, one field that has seen a major rise in sales due to TikTok is the publishing industry. An abundance of new-gen readers has emerged and started to spread their interest in their favourite books by posting clips.</p>
+              <p>This has become one of the most popular ongoing trends. BookTok has taken off the sales of the books that are being promoted. The sales boost has been massive and has led to bookstores now having a specific table and aisle titled “BookTok favourites”. </p>
+              <p>The books that go viral on the app all seem to have a common denominator of appealing to their audiences with genres that range from Romance to Murder Mysteries, Classics from the 18th Century to Modern Contemporary. The books all have their unique selling points. </p>
+              <p>Each time a new book is released, there are special promotions on Tiktok. The platform itself has also started investing in this particular category, as it offers a 10% discount for buying a book when you post a video under the BookTok tag. </p>
+              <p>As an avid reader, BookTok has the ability to indulge all types of readers. Any book you look for will have a ‘similar books’ section. When going through a rough reading phase, where I found it impossible to pick up any book, BookTok came to my rescue by recommending books that could probably interest me. And interest me, they did!</p>
+              <p>BookTok allowed me to reinvigorate my love for reading, while also giving me the berth to increase my genre visibilities. Expanding my horizon of reading is one of the major impacts that BookTok has had on my life.</p>
+              <p>While Booktok only contains one-minute short videos, a lot of BookTokers have taken to posting full-length videos on YouTube, under the BookTube hashtag. This phenomenon has also spread to all existing major media such as Twitter, Instagram, and Reddit, under the tags of #BookTwitter, #Bookstagram, and the subreddit, r/books, respectively. </p>
+              <a href='https://www.youtube.com/watch?v=jGs5w3cov7A' target='_blank'><img src='/images/bookTok2.jpg' alt='image' class='block m-auto w-1/2 h-3/6 py-2 sm:py-0' /></a>
+              <p>Unfortunately, it turns out that BookTok is not always an efficient way to discover more books, as it is generally based on personal opinions. Due to this, some books are usually a hit or miss, taking all things such as interest, genre, author, perspectives and so much more into consideration.</p>
+              <p>Popular BookTok books go viral due to a lot of people posting about them at the same point, typically during the release period. Observing BookTok and BookTube trends, and how all these media are increasing the production and sales of books, authors choose to send ARCs (Advanced Reader Copies) to these BookTokers and BookTubers in exchange for reviews. This increases the traction of the book itself.</p>
+              <p>Out of all the genres that BookTok has suggested, Romance is the one that has blown up the most. Books such as The Love Hypothesis by Ali Hazelwood, It Ends with Us by Colleen Hoover, and The Spanish Love Deception by Elena Armas are just a few of the viral romances to be named. </p>
+              <a href='https://www.youtube.com/watch?v=jGs5w3cov7A' target='_blank'><img src='/images/bookTok2.gif' alt='image' class='block m-auto w-1/2 h-3/6 py-2 sm:py-0' /></a>
+              <p>BookTok viral books also raise awareness of the various issues that occur worldwide. This is done by the promotion of books that talk about current affairs. It has also helped revive a mystery book from 1934, Cain’s Jawbone by Edward Powys Mathers, which is an interactive murder mystery in which the reader has to take apart the book to join the dots to be able to read the actual story. </p>
+              <p>Both fiction and non-fiction have similar reach on BookTok, all having gone viral because the books are just that good. However, like all things in life, not everything is black or white. Most book suggestions should be taken with a grain of salt. This is to say that not all the promoted books will be to everyone’s tastes. </p>
+              <p>BookTok has endorsed book sales all over and has cultivated a new era of readers. Being a part of this new age is truly a riveting experience that everyone has to experience at least once. Perhaps to start, you could begin with simple fiction such as The Midnight Library by Matt Haig or even The House in The Cerulean Sea by TJ Klune. All these books will allow you to rediscover yourself and your interest in reading.</p>
+
+    `,
+    month:`MAY 2023 EDITION`,
+    img:`/images/bookTok.jpg`,
+    img_source:`https://unsplash.com/photos/xFcoLGuhdGs`,
+    img_source_title:`unsplash.com`,
+    author:`Samhitha Jonnadula`,
+    topics: ["SOCIAL MEDIA","BOOKS","TRENDS"],
+    theme:"filler",
+    date: "May 1, 2023",
+    template: 8
+  },
+  {
+    id: 87,
+    mainHeader: `Walk like an Egyptian - Egypt Set to Host Its First Fashion Week With Its Timeline Runway and Cleopatra Couture`,
+    subHeader:``,
+    contentHeader:`Walk like an Egyptian - Egypt Set to Host Its First Fashion Week With Its Timeline Runway and Cleopatra Couture`,
+    content:`
+            <p class="first">Fashion history and archaeology are about to collide as we are set to see Egypt’s ‘Cat-walking Cleopatras’ enter the global stage. Elevating their heritage to the runway, Egypt’s Fashion and Design Council announced on the 21st of March,Egypt is in line to host their very first fashion week in May.  Forecasting a fashionable future, the runways of Cairo have rolled out a platform for the Middle East to showcase their hieroglyph clothing and geometric garments. Egypt is opening a new wardrobe for its designers and fashion customers to dress in the country’s artistry and rich textiles.  The opening night theme will feature ‘the Past, Present and Future’ in reflection of the ancient yet upcoming culture.  The fashion industry in Egypt dates back to the time of ancient civilisation. A week of reviving and borrowing from the past, guests are invited to a historical performance. </p>
+            <h2>Fashion across the globe</h2>
+            <p>Dusting off the pyramids once again after Dior's dramatic fashion show in front of the Pyramid of Giza in December, the country's beautiful backdrops and historical landscape make Egypt a natural stage. There is a real question as to why it has not been the home for fashion exhibitions. Egypt has entered the thriving fashion scene by being the home of the textile industry where importing Egyptian products and styles will now be centre stage. They have stepped forward from behind the machines to display their locally crafted couture and emerging styles. It has been reported that Creative Headz will co-produce Egypt’s inaugural fashion week together with Launchmetrics, the official partner of New York and Paris fashion weeks.  It has been 4 years in the making in which these pyramids are ready to be polished for a week of innovative designs.</p>
+            <a href='https://www.voguebusiness.com/fashion/a-spectacle-in-egypt-dior-caps-off-big-year-with-dramatic-show' target='_blank'><img src='/images/EgyptianFashion2.webp' alt='image' class='block m-auto w-1/2 h-3/6 py-2 sm:py-0' /></a>
+            <h2>Experimental styles</h2>
+            <p>This walkway will become a timeline of Egyptian fashion through the decades as the show theme presents ‘the Past the Present and the Future’. Fashion is evolving in Egypt.  One of Egypt’s bold experiments in style this year is women wearing hijabs and pairing them with hats. The danger of the sun in Egypt’s climate has sparked this innovative trend. Not only is it protective and modest, but it is also a  bold and beautiful style worn in the Middle East. The runway will showcase Egypt’s ‘present’ fashion and update us with their fashion media. Designers will further draw inspiration from ‘the Past’ from the items that were recovered from the tomb of Tutankhamun. The artwork of the tomb will be seen in intricately patterned fabrics.  To address its ‘Future’ theme, predictions of fashion trends and new creative designs will help build Egypt’s fashion reputation across the globe as we expect to see its fashion within other countries' wardrobes. These outfits won't just be worn in Egypt. </p>
+            <a href='https://www.voguebusiness.com/fashion/a-spectacle-in-egypt-dior-caps-off-big-year-with-dramatic-show' target='_blank'><img src='/images/EgyptianFashion3.webp' alt='image' class='block m-auto w-1/2 h-3/6 py-2 sm:py-0' /></a>
+            <h2>A look that won't be worn again, are fashion shows sustainable? </h2>
+            <p>It is important to consider how fashion is accelerating towards an environmental disaster. Its ‘Future’ theme is intended for Egyptian designers to respond to their own environmental impact they have had when producing their collections. The designers will turn to sustainable approaches. The show will focus on the growth of the local fashion industry, craftsmanship and production. Drawing inspiration from the past, the country’s rich cultural heritage has inspired many designers to incorporate traditional patterns, preused garments and materials into their colourful designs. We can’t ‘stitch’ back our environment but what designers can consider is the use of ethically sourced products. For a show that will only last a week, is really worth one walk for clothes that may not be worn again?  With over 6 months to create a single piece, where are the designers using their waste hems and fabric edges?  Copenhagen’s fashion week has established sustainable requirements for its designers to participate in the show, setting a new industry standard that we expect Egypt to follow. </p>
+            <p>Making strides towards the fashion frontier, the use of second-hand clothing has had a major impact on the global fashion market of 2023 as consumers have now turned towards vintage shopping. Is this because second-hand clothing carries stories from the past or is it true that  ‘one person’s trash is another person's treasure’? The desirable pieces you can’t find elsewhere or that friends won’t have, are now an increased activity of what is called ‘thrifting’. The concept of thrift clothing may already be a well-established fashion preference in Western parts of the world however it has only just started becoming an area of interest in Egypt in recent years. Wekala has become a popular second-hand district in central Cairo. It is expected to encourage the use of second-hand pieces as this vintage trend blends fashion and sustainability. This trend can change consumers' attitudes by incorporating pre-used materials into their designs creating an eco-friendly identity for Egypt.</p>
+            <img src='/images/EgyptianFashion4.jpg' alt='image' class='block m-auto w-1/2 h-3/6 py-2 sm:py-0' />
+            <h2>Tomb wardrobe</h2>
+            <p>A  further term that has sparked an interest in the fashion industry is the ‘capsule wardrobe’. It is a collection of clothes that are thoughtfully curated, with easily interchangeable items that are designed to maximize the number of outfits we can create. For those seeking to move to the capsule approach, these Egyptian fashion brands have offered classic tops, expertly tailored pants, blazers, and classic jeans. Egypt has created its own  ‘tombstone wardrobes’ that are full of its country’s traditional clothes. With warm hues and basic and versatile items, anyone can build a locally sourced capsule wardrobe that offers a wide array of combinations with just a few of items. </p>
+            <p>The Fashion industry of Egypt is still in its early stages of development. They do not have the same infrastructure and resources as other fashionable capitals around the world. The political and economic instability in the region makes it difficult to attract fashion designers and buyers to participate in the events. The Fashion and Design Council has proposed that: “Our goal, as the Egyptian Fashion and Design Council, is to develop and grow our designers to eventually establish the Cairo Fashion Week that will showcase a sufficient number of Egyptian designers to a local and international audience of buyers and press.”  This show will help grow Egypt’s tourism as it will spotlight the world’s leading fashion brands. This runway revival will walk down Egypt’s fashion ancestor’s timeline of memorable styles and touches of Egyptian tradition.  </p>
+
+    `,
+    month:`MAY 2023 EDITION`,
+    img:`/images/EgyptianFashion1.jpg`,
+    img_source:`https://unsplash.com/photos/paf34GEhXUc`,
+    img_source_title:`unsplash.com`,
+    author:`Jennifer Lewis`,
+    topics: ["FASHION & BEAUTY","FASHION WEEKS"],
+    theme:"filler",
+    date: "May 1, 2023",
+    template: 1
+  },
+  {
+    id:86,
+    mainHeader:`Why It's Ok to Not Be Ok: Understanding Mental Health and Seeking Help`,
+    subHeader:``,
+    contentHeader:`Why It's Ok to Not Be Ok: Understanding Mental Health and Seeking Help`,
+    content:`
+            <p class="first">Do you ever feel like you're drowning in stress and anxiety? It's a common experience, but one that can be difficult to talk about. The truth is, our mental health is just as important as our physical health. We need to take care of it in order to live a fulfilling life. And it's okay if we're not always okay. Seeking help when we need it is a sign of strength, not weakness. In this article, we'll explore why prioritizing your mental health is crucial and provide practical tips for managing stress and anxiety. So, let's break the stigma and start a conversation about mental health.</p>
+            <p>Mental health is an essential component of our overall well-being, but it's often neglected. Society often puts pressure on us to be strong and keep our emotions in check, leading us to believe that it's not okay to show vulnerability or struggle with mental health. However, it's crucial to understand that it's okay to not be okay and seek help when needed. In this article, we'll explore why it's essential to prioritize our mental health and seek help when necessary.</p>
+            <h2>The Importance of Mental Health</h2>
+            <img src='/images/health_n_seeking2.jpg' alt='image' class='block m-auto w-1/2 h-3/6 py-2 sm:py-0' />
+            <p>Mental health affects every aspect of our lives, from how we think, feel, and act to how we interact with others. It's essential to prioritize our mental health because it can affect our physical health, relationships, work performance, and overall quality of life. Mental health disorders are prevalent worldwide, and it's estimated that one in four people will experience a mental health issue at some point in their lives. There are still a lot of stigmas surrounding mental health, and many people are afraid to speak out about their struggles. This stigma can lead to a lack of awareness and understanding of mental health disorders, making it difficult for people to recognize and seek help. The truth is, mental health disorders are not a weakness or character flaw, but medical condition that requires professional treatment.</p>
+            <h2>Why It's Ok to Not Be Ok</h2>
+            <img src='/images/health_n_seeking1.jpg' alt='image' class='block m-auto w-1/2 h-3/6 py-2 sm:py-0' />
+            <p>It's crucial to understand that it's ok to not be ok. Everyone struggles with mental health issues at some point in their lives, and it's essential to recognize when we need help. Seeking help is a sign of strength, not weakness, and it's essential to break the stigma surrounding mental health and seeking treatment. It's important to remember that mental health is not just about the absence of mental illness, but also about our ability to cope with life's challenges. Everyone experiences stress, anxiety, and other emotional struggles, and it's okay to feel overwhelmed or to struggle. It's essential to recognize these emotions and take steps to address them.</p>
+            <h2>The Benefits of Seeking Help</h2>
+            <p>Seeking help for mental health issues can be challenging, but it's essential to remember the benefits of doing so. By seeking help, you can:</p>
+            <ul>
+              <li><b>Improve Your Quality of Life:</b>By addressing mental health issues, you can improve your overall well-being and quality of life. This can lead to better relationships, work performance, and a more positive outlook on life.</li>
+              <li><b>Learn Coping Skills:</b>Seeking help can provide you with coping skills and tools to manage stress, anxiety, and other emotional struggles. These coping skills can help you navigate life's challenges more effectively.</li>
+              <li><b>Reduce the Risk of Developing More Severe Mental Health Issues:</b>By addressing mental health issues early on, you can reduce the risk of developing more severe mental health disorders.</li>
+              <li><b>Break the Stigma Surrounding Mental Health:</b>By seeking help, you can help break the stigma surrounding mental health and encourage others to seek treatment.</li>
+            </ul>
+            <h2>Ways to Seek Help</h2>
+            <img src='/images/health_n_seeking2.jpg' alt='image' class='block m-auto w-1/2 h-3/6 py-2 sm:py-0' />
+            <p>There are many ways to seek help for mental health issues, and it's essential to find the right approach for you. Here are some options:</p>
+            <ul>
+              <li><b>Talk to a Trusted Friend or Family Member:</b>Sometimes, just talking to someone can make a significant difference. Reach out to a trusted friend or family member to discuss your feelings.</li>
+              <li><b>Seek Professional Help:</b> There are many mental health professionals, such as psychologists, psychiatrists, and therapists, who can provide professional treatment and support.</li>
+              <li><b>Join a Support Group:</b>Support groups can be a great way to connect with others who are experiencing similar struggles.</li>
+              <li><b>Take Care of Yourself:</b>Self-care is essential for mental health, so make sure to prioritize activities that make you feel good, such as exercise, meditation, and spending time with loved ones.</li>
+            </ul>
+            <h2>Conclusion</h2>
+            <p>In conclusion, it's essential to prioritize our mental health and seek help when needed. Mental health disorders are prevalent, and it's okay to not be okay. Seeking help is a sign of strength, and it's crucial to break the stigma surrounding mental health and seeking treatment. By addressing mental health issues, we can improve our overall well-being, learn coping skills, reduce the risk of developing more severe mental health disorders, and break the stigma surrounding mental health. </p>
+            <p>Remember, mental health is an essential component of our overall well-being, and it's crucial to prioritize it just as we prioritize our physical health. If you or someone you know is struggling with mental health issues, don't hesitate to seek help. There is no shame in asking for support, and it's a brave step towards improving your well-being and quality of life. </p>
+            <p>Together, we can break the stigma surrounding mental health and encourage others to seek treatment. Let's make mental health a priority and support each other in our journey toward a healthier and happier life. </p>
+    `,
+    month:`MAY 2023 EDITION`,
+    img:`/images/health_n_seeking.jpg`,
+    img_source:`https://unsplash.com/photos/md7cCWYVq9U`,
+    img_source_title:`unsplash.com`,
+    author:`Khadija Ghazanfar`,
+    topics: ["MENTAL HEALTH","WELLBEING"],
+    theme:"filler",
+    date: "May 1, 2023",
+    template: 3
+  },
+
 
 ];
