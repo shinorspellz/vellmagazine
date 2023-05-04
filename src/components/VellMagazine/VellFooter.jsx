@@ -39,7 +39,6 @@ const VellFooter = () => {
           return <SingleFooterImg key={index} item={item} />;
         })}
       </div>
-      
     </main>
   );
 };
