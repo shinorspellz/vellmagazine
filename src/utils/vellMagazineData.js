@@ -2467,6 +2467,123 @@ export const articles = [
     template: 8
 
   },
+   {
+    id: 80,
+    mainHeader: `Scream makes a crimson splash onto cinema screens this year with sixth instalment – Review`,
+    subHeader: ``,
+    contentHeader: `Scream makes a crimson splash onto cinema screens this year with sixth instalment – Review`,
+    content: `
+      <h3>*Spoilers ahead*</h3>
+      <p class='first'>
+        Scream; a cult classic horror. The one you (most likely) immediately think of when you picture
+        the 'gory, stabber' genre (not including Psycho, of course). The first instalment came out all the
+        way back in 1996, but this year, 27 years later, the sixth instalment slashed onto our screens and
+        made a big, bloody debut - one that I wasn't going to miss, and one that, quite frankly, loved.
+      </p>
+      <p>
+        I’ve always enjoyed watching horror films, even if I know I won’t sleep that night. I’ll watch the
+        big ones, the ones that made an impact in the horror sphere (Hereditary and The Lost Boys just
+        to name two of my favourites).
+      </p>
+      <p>
+        Going into the cinema to watch a slasher film like Scream, I was expecting masses of blood, the
+        iconic Ghostface voice (courtesy of Roger L. Jackson, who has voiced the character’s telephone
+        manner since the first film) and the mystery as to who the latest killer(s) is.
+      </p>
+      <div>
+        <img src='/images/scream-2.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+        <p class='text-center text-sm py-1 max-w-[600px] m-auto'>Image: <a href='https://www.youtube.com/watch?v=jzwsP6l-wig'>Youtube.com</a></p>
+      </div>
+      <p>
+        Directed by Matt Bettinelli-Olpin and Tyler Gillett, the film opens in New York City with a
+        lecturer (Samara Weaving), waiting in a bar for her date. When he calls to say he is lost in the
+        city, she offers to go outside to help him find his way. After wandering down a dark alleyway
+        (typical movie trope, of course), we see our first gruesome murder, committed by one of her film
+        students, Jason (played by Tony Revolori).
+      </p>
+      <p>
+        This quick-paced and blood-soaked opener leads to Jason bumping into Tara Carpenter (Jenna
+        Ortega) as she attends a Halloween party with friends. As he goes about his evening as if he
+        hasn’t just committed murder, we learn that he and his flatmate intend to continue the murders
+        from the previous film; meaning Tara and big sister, Sam (Melissa Barrera), should be next.
+      </p>
+      <p>
+        I’d recommend watching the previous film for context - some of the characters are from Scream
+        5, including Tara and Sam, as well as their friends, twins Mindy (Jasmin Savoy Brown) and Chad (Mason Gooding).
+      </p>
+      <p>
+        Jason’s plan goes awry when he finds his flatmate sliced up in the fridge. A Ghostface appears
+        behind him, subsequently killing Jason, leaving the audience still musing over who the killer is.
+      </p>
+      <p>
+        The film follows the sisters and their friends as they start to be tormented by a new Ghostface
+        who wants them dead. People around them begin being murdered, such as Sam’s therapist
+        (Henry Czerny) and friend, Anika (Devyn Nekoda).
+      </p>
+      <p>
+        Old characters resurface: Gale Weathers (Courtney Cox) and Kirby Reed (Hayden Panetierre),
+        who appeared in Scream 4, provide yet more flashbacks to the previous films.
+      </p>
+      <p>
+        Each time I watch a horror movie, I always debate on how far they’re willing to go to make it
+        scary, and whilst I didn’t find this film scary <em>per say</em>, it definitely made me wince, which I’d
+        guess was its intended purpose. It was also good at creating tension; music and cinematography
+        aid in making for a charged watch at certain points in the film. For me, the shock factor varies
+        with Scream - the deaths are mostly imaginative and well done, and fake scares are saved with a
+        jumpscare you don’t expect afterwards.
+      </p>
+      <div>
+        <img src='/images/scream-3.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+        <p class='text-center text-sm py-1 max-w-[600px] m-auto'>Image: <a href='https://tg24.sky.it/spettacolo/cinema/2022/01/13/scream-2022-recensione'>Tg24.sky.com</a></p>
+      </div>
+      <p>
+        Scream 6 was by far the most compelling in terms of cinematic value and gore - if you compared
+        the first Scream with Scream 6, you can see how technical details, such as effects and overall
+        tone, have evolved. Camera shots, editing, lighting - everything that adds to a scary movie has been upgraded and modernised. I love the first movie, it’s iconic and it started the whole
+        franchise off, but I’ve loved seeing how the films have changed over the years.
+      </p>
+      <p>
+        As Ghostface torments the group, killing frivolously along the way, we are shown his hideout,
+        which takes the form of a dilapidated cinema. A shrine to the past Ghostfaces, essentially. From
+        previous knives to Billy Loomis’ (Skeet Ulrich) blood-soaked white t-shirt, it’s a great little
+        throwback to the previous movies. We find out that the previous killer from Scream 5, Ritchie
+        Kirsch (Jack Quaid), was obsessed with the masked killings, so a Ghostface ‘altar’ was created in memory of him (spoiler alert for Scream 5, he died).
+      </p>
+      <p>
+        The film showcases many fight scenes throughout - one ensues between Ghostface and Gale,
+        which I definitely didn’t expect. The Scream films tend to portray the pivotal female characters
+        as strong leads, such as Sidney Prescott (Neve Campbell), Gale and Sam, even if they are the
+        intended victims. We see a few ‘damsels in distress’ such as the lecturer from the beginning of
+        Scream 6 as well as a few less important characters who are killed early on in the previous
+        Scream films, but it’s satisfying to see that the Scream franchise doesn’t portray every female
+        character as the helpless victim.
+      </p>
+      <div>
+        <img src='/images/scream-4.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+        <p class='text-center text-sm py-1 max-w-[600px] m-auto'>Image: <a href='https://www.polygon.com/22884536/scream-5-spoiler-ending-post-credits'>Polygon.com</a></p>
+      </div>
+      <p>
+        The brutality and murderous time limit of the final scene makes for a climactic end - will Sam
+        and Tara fight off more than one Ghostface? Although a fun slasher film, themes of family,
+        loyalty and independence were evident, especially when Sam lets Tara fall from a higher level of
+        the room so that they have a better chance of survival. The suspense, paired with the action-
+        packed fight causing recoil-worthy wounds; all contribute to a macabre edginess.
+      </p>
+      <p>
+        Despite being predictable at times, I’ve always found the Scream films to be thrillingly gripping.
+        Trying to solve who the killer is before the film reveals it is always fun and paired with a mix of
+        dramatic murders and some comedic relief, it’s an iconic franchise that begs to be watched.
+      </p>`,
+    month: "MAY 2023 EDITION",
+    img: "/images/scream-1.jpg",
+    img_source: "https://criticalpopcorn.com/2022/01/14/scream-review-dirs-matt-bettinelli-olpin-and-tyler-gillett-2022/",
+    img_source_title: " Criticalpopcorn.com",
+    author: "Jasmin Bodman",
+    topics: ["ARTS & CULTURE", "CINEMA"],
+    theme: "filler-header",
+    date: "May 1 2023",
+    template: 1
+  },
   {
     id: 90,
     mainHeader: `From the Cedars to the World: The Story of Lebanese Music`,
@@ -2666,6 +2783,5 @@ export const articles = [
     date: "May 1, 2023",
     template: 3
   },
-
 
 ];
