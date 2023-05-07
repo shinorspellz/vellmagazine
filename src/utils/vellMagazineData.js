@@ -154,7 +154,7 @@ export const authorsData = [
   {
     id:16,
     name:"Sanjana Yadav",
-     img: "/images/Vell_logo.jpg",
+     img: "/images/Vell_Logo.jpg",
     desc: "Author at VellMagazine",
     bio: "Whether it is the seams of a garment or the words chosen to express an emotion, I am a fanatic for details. Presently navigating my way through subjects I enjoy (gender studies, literature, communication) and my hobbies (painting, outfit curation, pottery) I am exploring this blue rock in the universe. I am also invested in learning about people around me and their experiences in life, sharing them either through writing online or carrying their lessons deep within my heart to cherish. My articles will mostly cover fashion, primarily humanitarian aspects associated with it, and personal representation through trends."
   }
