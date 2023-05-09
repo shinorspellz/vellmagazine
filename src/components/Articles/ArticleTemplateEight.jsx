@@ -48,8 +48,10 @@ const ArticleTemplateEight = () => {
   const relevantArticles = arr
     .filter((v, i, a) => a.findIndex((v2) => v2.id === v.id) === i)
     .filter((item) => item.id !== currentArticle.id);
-  
-  const recommendedArticles=articles.filter(item=>item.theme=="trending" && item.id!=currentArticle.id)
+
+  const recommendedArticles = articles.filter(
+    (item) => item.theme == "trending" && item.id != currentArticle.id
+  );
 
   const breadcrump = menuItems.find((item) => {
     // console.log(item);
@@ -64,7 +66,8 @@ const ArticleTemplateEight = () => {
     // dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: recommendedArticles.length > 4 ? 5 : recommendedArticles.length,
+    slidesToShow:
+      recommendedArticles.length > 4 ? 5 : recommendedArticles.length,
     slidesToScroll: 1,
     arrows: true,
     autoplay: true,
@@ -107,7 +110,7 @@ const ArticleTemplateEight = () => {
   return (
     <>
       <VellNavbar />
-      <div className="flex flex-col lg:flex-row items-center justify-between pb-6">
+      <div className="flex flex-col lg:flex-row items-center justify-evenly pb-6">
         <div className="flex flex-col items-center justify-center lg:ml-[50px] lg:mt-[70px] mt-[45px] max-w-[500px] header-article">
           <p className="p-3 text-sm text-center">{currentArticle.topics[0]} </p>
           <h1 className="font-medium font-serif text-[40px] py-2 text-center">
@@ -156,25 +159,23 @@ const ArticleTemplateEight = () => {
         </div>
         <div className="flex flex-col">
           <img
-          src={currentArticle.img}
-          alt="img"
-          className="max-h-[800px] w-full max-w-[1000px] sm:px-0 object-cover sm:block sm:m-auto my-3  block lg:mt-[123px]"
+            src={currentArticle.img}
+            alt="img"
+            className="max-h-[800px] w-full max-w-[1000px] sm:px-0 object-cover sm:block sm:m-auto my-3  block lg:mt-[123px]"
           />
           <p className="py-1 text-center text-sm">
-            Image source:<a href={currentArticle.img_source} target='_blank'>{currentArticle.img_source_title}</a>
+            Image source:
+            <a href={currentArticle.img_source} target="_blank">
+              {currentArticle.img_source_title}
+            </a>
           </p>
         </div>
-
       </div>
-      
-      
+
       <div
         className=" px-2 pb-12 articleTemplate w-full max-w-[1350px] m-auto"
         id={currentArticle.contentHeader}
       >
-        
-        
-
         <main className="flex flex-col lg:flex-row articleTemplate max-w-[1350px] m-auto">
           <div className="w-full max-w-[850px] lg:w-8/12 m-auto lg:pl-5">
             <p
@@ -235,8 +236,8 @@ const ArticleTemplateEight = () => {
               More like this
             </h3>
             <div className="flex flex-wrap gap-4 items-center justify-center sm:justify-end">
-              {relevantArticles.slice(0,7).map((item) => {
-                return <MoreLikeThisTemplate item={item} key={item.id} />
+              {relevantArticles.slice(0, 7).map((item) => {
+                return <MoreLikeThisTemplate item={item} key={item.id} />;
               })}
             </div>
           </div>

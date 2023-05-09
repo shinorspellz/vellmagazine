@@ -14,9 +14,10 @@ export const menuItems = [
       {
         title: 'Sports headlines',
         url: '/articletopics'
-      },   
+      },
     ]
   },
+
   {
     title: 'LIFE MATTERS',
     url: '/articletopics',

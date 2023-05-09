@@ -140,19 +140,19 @@ const settings = {
           <button className=" w-[30px] h-[30px] flex justify-center items-center rounded-full">
             <FaFacebookF className="w-[20px] h-[20px]" />
           </button>
-          <a href="https://twitter.com/VModelapp" target="_blank">
+          <a href="https://twitter.com/VModelapp" target="_blank" rel="noreferrer">
             <button className=" w-[30px] h-[30px] flex justify-center items-center rounded-full">
               <AiOutlineTwitter className="w-[20px] h-[20px]" />
             </button>
           </a>
-          <a href="https://www.instagram.com/Vmodelapp/" target="_blank">
+          <a href="https://www.instagram.com/Vmodelapp/" target="_blank" rel="noreferrer">
             <button className=" w-[30px] h-[30px] flex justify-center items-center rounded-full">
               <AiOutlineInstagram className="w-[20px] h-[20px]" />
             </button>
           </a>
           <a
             href="https://www.tiktok.com/@vmodelapp?_t=8Ue1EF8JWMg&_r=1"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             <button className=" w-[30px] h-[30px] flex justify-center items-center rounded-full">
               <FaTiktok className="w-[20px] h-[20px]" />
@@ -167,7 +167,7 @@ const settings = {
               className="h-[210px] lg:h-[350px] w-full object-cover lg:pr-5 block m-auto my-3 "
             />
             <p className='authorTemplate text-sm text-center mb-[1rem]'>
-              Image source:<a href={currentArticle.img_source} target='_blank'>{currentArticle.img_source_title}</a>
+              Image source:<a href={currentArticle.img_source} target='_blank' rel="noreferrer">{currentArticle.img_source_title}</a>
             </p>
             <p
               dangerouslySetInnerHTML={{ __html: currentArticle.content }}
