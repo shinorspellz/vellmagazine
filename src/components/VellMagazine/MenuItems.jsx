@@ -13,7 +13,7 @@ const MenuItems = ({ items, depthLevel }) => {
 
 
   const handleMenu=(e)=>{
-    navigate(`/articletopics`,{state:e.target.innerText})
+    navigate(items.url,{state:e.target.innerText})
     // setSubTopic(e.target.innerText)
     // console.log(e.target.innerText)
   }
@@ -109,7 +109,7 @@ const MenuItems = ({ items, depthLevel }) => {
           />
         </>
       ) : (
-        <Link to={items.url}>{(items.title).toUpperCase()}</Link>
+        <Link  style={{ textAlign: "center"}} to={items.url}>{(items.title).toUpperCase()}</Link>
       )}
     </li>
   );

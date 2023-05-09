@@ -93,7 +93,7 @@ const VellNavbar = () => {
       </section>
       <section className=" items-center justify-center px-4 lg:flex ">
         {/* <label for="cars">Choose a date</label> */}
-        <select
+        {/* {<select
           name="dates"
           id="dates"
           className="border-0 text-sm bg-transparent font-[900] focus-within:ring-0 cursor-pointer hidden lg:block "
@@ -144,7 +144,7 @@ const VellNavbar = () => {
           >
             MAY 2023
           </option>
-        </select>
+        </select>} */}
         <ul className="lg:grid grid-flow-col-dense gap-[2.7rem] ml-[2.2rem] hidden bg-transparent">
           {menuItems.map((menu, index) => {
             const depthLevel = 0;

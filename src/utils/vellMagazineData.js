@@ -2,6 +2,7 @@
 //footer data
 
 export const footerData = [
+  
   {
     img: "images/writer.jpg",
     topic: "Authors",
