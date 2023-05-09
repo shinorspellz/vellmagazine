@@ -52,7 +52,7 @@ const Sidebar = ({ setIsShow, isShow }) => {
           </NavLink>
         </div>
 
-        <select
+        {/* {<select
           name="dates"
           id="dates"
           className="border border-slate-500 text-sm bg-transparent font-[900] focus-within:ring-0 cursor-pointer w-[200px] rounded-xl"
@@ -103,8 +103,56 @@ const Sidebar = ({ setIsShow, isShow }) => {
           >
             MAY 2023
           </option>
-        </select>
-
+        </select>} */}
+   <button
+          className="sidebar-main-btns font-semibold"
+          onClick={(e) => handleChange(e)}
+          value="DEFAULT"
+        >
+          ARCHIVE
+        </button>
+        <button
+          value="DEC 2022 EDITION"
+          className="sidebar-sub-btns"
+          onClick={(e) => handleChange(e)}
+        >
+          DEC 2022 EDITION
+        </button>
+        <button
+          value="JAN 2023 EDITION"
+          className="sidebar-sub-btns"
+          onClick={(e) => handleChange(e)}
+        >
+          JAN 2023 EDITION
+        </button>
+        <button
+          value="FEB 2023 EDITION"
+          className="sidebar-sub-btns"
+          onClick={(e) => handleChange(e)}
+        >
+          FEB 2023 EDITION
+        </button>
+        <button
+          value="MAR 2023 EDITION"
+          className="sidebar-sub-btns"
+          onClick={(e) => handleChange(e)}
+        >
+          MAR 2023 EDITION
+        </button>
+        <button
+          value="APR 2023 EDITION"
+          className="sidebar-sub-btns"
+          onClick={(e) => handleChange(e)}
+        >
+          APR 2023 EDITION
+        </button>
+        <button
+          value="MAY 2023 EDITION"
+          className="sidebar-sub-btns"
+          onClick={(e) => handleChange(e)}
+        >
+          MAY 2023 EDITION
+        </button>
         <button
           className="sidebar-main-btns font-semibold"
           onClick={(e) => handleSidebarMenu(e)}
