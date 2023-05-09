@@ -227,7 +227,7 @@ const settings = {
               More like this
             </h3>
             <div className="flex flex-wrap gap-4 items-center justify-center sm:justify-end">
-              {relevantArticles.slice(0,7).map((item) => {
+              {relevantArticles.slice(0,5).map((item) => {
                 return <MoreLikeThisTemplate item={item} key={item.id} />
               })}
             </div>
