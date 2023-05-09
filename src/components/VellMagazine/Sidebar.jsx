@@ -107,6 +107,7 @@ const Sidebar = ({ setIsShow, isShow }) => {
         </select>} */}
    <button
           className="sidebar-main-btns font-semibold"
+          onClick={(e) => handleChange(e)}
         >
           ARCHIVE
         </button>
