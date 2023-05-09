@@ -11,6 +11,7 @@ const Sidebar = ({ setIsShow, isShow }) => {
     navigate("/allarticles", { state: e.target.value });
     setIsShow(false);
   };
+  
   const handleSidebarMenu = (e) => {
     navigate("/articletopics", { state: e.target.innerText });
     setIsShow(false);
@@ -106,8 +107,6 @@ const Sidebar = ({ setIsShow, isShow }) => {
         </select>} */}
    <button
           className="sidebar-main-btns font-semibold"
-          onClick={(e) => handleChange(e)}
-          value="DEFAULT"
         >
           ARCHIVE
         </button>
