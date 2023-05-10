@@ -1,6 +1,7 @@
 export const menuItems = [
   {
     title: 'ARCHIVE',
+    url:"/allarticles",
     submenu: [
       {
         title: 'DEC 2022 EDITION',
