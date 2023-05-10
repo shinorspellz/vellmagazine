@@ -225,7 +225,8 @@ const ArticleTemplateTwo = () => {
             </div>
           </div>
           <div className="w-full lg:w-4/12 px-5 mt-3">
-            <h3 className="text-2xl text-center sm:text-left sm:pl-[62px]">
+            <h3 className="text-2xl text-center sm:text-left sm:pl-[62px]"
+            style={{fontFamily:"Montserrat"}}>
               More like this
             </h3>
             <div className="flex flex-wrap gap-4 items-center justify-center sm:justify-end">
