@@ -17,7 +17,8 @@ const ArticlesHeader = () => {
   return (
     <>
       <VellNavbar />
-      <h1 className="mt-[65px] lg:mt-[120px] uppercase font-serif font-bold text-center py-5 text-xl md:text-3xl articleTopicsHeader">
+      <h1 className="mt-[65px] lg:mt-[120px]  font-serif font-bold text-center py-5 text-xl md:text-3xl articleTopicsHeader"
+      style={{marginTop:"150px"}}>
         {convertToMonth(state)} Articles
       </h1>
 
