@@ -108,11 +108,12 @@ const ArticleTemplateThree = () => {
     <>
       <VellNavbar />
       <img
-        src={currentArticle.img}
-        alt="img"
-        className="h-[500px] w-full max-w-[1920px] 2xl:h-[1100px] px-2 sm:px-0 sm:block sm:m-auto my-3  block lg:mt-[115px]"
-        style={{marginTop:"120px"}}
-      />
+  src={currentArticle.img}
+  alt="img"
+  className="h-[500px] w-full max-w-[1920px] 2xl:h-[1200px] px-2 sm:px-0 sm:block sm:m-auto my-3 block lg:mt-[115px]"
+  style={currentArticle.img === "/images/InternationalWomenday.jpeg" ? {objectPosition: '50% -5%'} : {objectFit: 'cover'}}
+/>
+
       <p className="py-1 text-center text-sm">
       Image source:<a href={currentArticle.img_source} target='_blank'>{currentArticle.img_source_title}</a>        </p>
       <div
