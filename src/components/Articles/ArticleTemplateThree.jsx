@@ -114,8 +114,8 @@ const ArticleTemplateThree = () => {
   style={currentArticle.img === "/images/InternationalWomenday.jpeg" ? {objectPosition: '50% -5%'} : {objectFit: 'cover'}}
 />
 
-      <p className="py-1 text-center text-sm">
-      Image source:<a href={currentArticle.img_source} target='_blank'>{currentArticle.img_source_title}</a>        </p>
+     {/* { <p className="py-1 text-center text-sm">
+      Image source:<a href={currentArticle.img_source} target='_blank'>{currentArticle.img_source_title}</a>        </p>} */}
       <div
         className=" px-2 pb-12 articleTemplate w-full max-w-[1350px] m-auto"
         id={currentArticle.contentHeader}
