@@ -112,46 +112,46 @@ const Sidebar = ({ setIsShow, isShow }) => {
           ARCHIVE
         </button>
         <button
-          value="DEC 2022 EDITION"
+          value="DEC 2022"
           className="sidebar-sub-btns"
           onClick={(e) => handleChange(e)}
         >
-          DEC 2022 EDITION
+          DEC 2022
         </button>
         <button
-          value="JAN 2023 EDITION"
+          value="JAN 2023"
           className="sidebar-sub-btns"
           onClick={(e) => handleChange(e)}
         >
-          JAN 2023 EDITION
+          JAN 2023
         </button>
         <button
-          value="FEB 2023 EDITION"
+          value="FEB 2023"
           className="sidebar-sub-btns"
           onClick={(e) => handleChange(e)}
         >
-          FEB 2023 EDITION
+          FEB 2023
         </button>
         <button
-          value="MAR 2023 EDITION"
+          value="MAR 2023"
           className="sidebar-sub-btns"
           onClick={(e) => handleChange(e)}
         >
-          MAR 2023 EDITION
+          MAR 2023
         </button>
         <button
-          value="APR 2023 EDITION"
+          value="APR 2023"
           className="sidebar-sub-btns"
           onClick={(e) => handleChange(e)}
         >
-          APR 2023 EDITION
+          APR 2023
         </button>
         <button
-          value="MAY 2023 EDITION"
+          value="MAY 2023"
           className="sidebar-sub-btns"
           onClick={(e) => handleChange(e)}
         >
-          MAY 2023 EDITION
+          MAY 2023
         </button>
         <button
           className="sidebar-main-btns font-semibold"
