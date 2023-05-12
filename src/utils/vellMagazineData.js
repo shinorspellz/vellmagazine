@@ -199,7 +199,7 @@ export const headerSliderData = [
     contentHeader: `International Women’s Day 2023: The Trailblazing Women Fashion Designers Who Changed the Industry`,
     content: "Throughout history, women have had a big impact on how the fashion business has evolved. From pioneering designers to prominent editors, these women have made an undeniable imprint on the world of fashion, influencing generations of creators and clients.  Let's look at some of the women who have arguably had the biggest influence on fashion in honour of our recent celebration of Women's Day.Coco Chanel (1883 – 1971).Coco Chanel is undoubtedly one of the most iconic figures in fashion history, and I guess you’ll agree with me on that. Born in 1883 in Saumur, France, Chanel revolutionized women's fashion in the early 20th century by creating elegant and comfortable clothing. She is best known for her simple, classic designs, including the Little Black Dress and the Chanel suit",
     month: "APR 2023",
-    img: "/images/internationalWomenDay.jpg",
+    img: "/images/internationalWomenDay.jpeg",
     img_source:"https://crossroadshealth.org/how-to-build-healthy-relationships-when-you-are-feeling-isolated/",
     img_source_title:"crossroadshealth.org",
     author: "Yara Arkadan",
