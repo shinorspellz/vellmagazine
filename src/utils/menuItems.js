@@ -4,27 +4,27 @@ export const menuItems = [
     url:"/allarticles",
     submenu: [
       {
-        title: 'DEC 2022 EDITION',
+        title: 'DEC 2022',
         url: '/allarticles',
       },
       {
-        title: 'JAN 2023 EDITION',
+        title: 'JAN 2023',
         url: '/allarticles',
       },
       {
-        title: 'FEB 2023 EDITION',
+        title: 'FEB 2023',
         url: '/allarticles',
       },
       {
-        title: 'MAR 2023 EDITION',
+        title: 'MAR 2023',
         url: '/allarticles',
       },
       {
-        title: 'APR 2023 EDITION',
+        title: 'APR 2023',
         url: '/allarticles',
       },
       {
-        title: 'MAY 2023 EDITION',
+        title: 'MAY 2023',
         url: '/allarticles',
       },
     ]

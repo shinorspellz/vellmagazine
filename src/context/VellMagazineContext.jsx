@@ -76,7 +76,7 @@ const VellMagazineContextProvider = ({children}) => {
           return "April"
         }
         else if(month=="MAY"){
-          return "MAY"
+          return "May"
         }
         else if(month=="JUN"){
           return "June"
