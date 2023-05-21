@@ -53,7 +53,7 @@ const ArticleTemplateEight = () => {
     (item) => item.theme == "trending" && item.id != currentArticle.id
   );
 
-  const breadcrump = menuItems.find((item) => {
+  const breadcrumb = menuItems.find((item) => {
     // console.log(item);
     return item.submenu.find((item2) =>
       item2.title.toUpperCase() == currentArticle.topics[0]
@@ -232,10 +232,10 @@ const ArticleTemplateEight = () => {
             </div>{" "}
           </div>
           <div className="w-full lg:w-4/12 px-5 mt-3">
-            <h3 className="text-2xl text-center sm:text-left sm:pl-[62px] font-serif">
-              style={{fontFamily:"Montserrat"}}
-              More like this
-            </h3>
+          <h3 className="text-2xl text-center sm:text-left sm:pl-[62px]" style={{ fontFamily: "Montserrat" }}>
+  More like this
+</h3>
+
             <div className="flex flex-wrap gap-4 items-center justify-center sm:justify-end">
               {relevantArticles.slice(0, 5).map((item) => {
                 return <MoreLikeThisTemplate item={item} key={item.id} />;
