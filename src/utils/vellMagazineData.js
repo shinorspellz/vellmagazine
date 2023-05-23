@@ -140,7 +140,7 @@ export const authorsData = [
   // },
   {
     id: 14,
-    name: "Maisie Levitt.",
+    name: "Maisie Levitt",
     img: "/images/maisieLevitt.JPG",
     desc: "Author at VellMagazine",
     bio: "Having graduated with a degree in English, I love to write about society's relationship with social media, music, politics, literature and more. I grew up in Belgium, but am now based in Brighton, England.",
@@ -2842,5 +2842,72 @@ export const articles = [
     date: "May , 2023",
     template: 3
   },
+  {
+    id:92,
+    mainHeader:`The Coronation Catwalk: A Feminine Fashion Parade`,
+    subHeader:``,
+    contentHeader:`The Coronation Catwalk: A Feminine Fashion Parade`,
+    content:`
+              <p class="first">On the 6th of May Britain, crowned its King ‘Charles III’ in Westminster Abbey which invited its most fashionable guests from across the globe, a mix of royal leaders and celebrities. This diverse assembly of 2,200 people dressed up to witness a historical event. The fashion showcased during the king's coronation served as a striking embodiment of opulence, historical significance and time-honoured customs. The coronation ceremony was a showcase of audacious looks I must assess.</p>
+              <h2>What were the celebrities wearing?</h2>
+              <p>We saw the spectacular styles from not only the royals but its global attendees. The visual entertainment came from the fashion of its guests rather than the coronation itself. Guests' fashion choices exuded an air of elegance and celebration as if they were dressed for a joyous summer wedding despite the dreary weather. Ladies were elegantly attired in day dresses, while gentlemen were invited to wear mourning coats, suits or uniforms Notably, numerous attendees chose to showcase their national dress, adorned with significant decorations and insignia representing their countries. This diverse display of cultural attire added a vibrant and meaningful touch to the coronation event.</p>
+              <p><Celebrities made important choices of what they would be wearing as it’s not every day you're invited to a coronation. Guests were asked to dress down on royal tradition. By this, we saw Katy Perry make her appearance at the event clothed in Vivienne Westwood. For the royal occasion, she wore purple. Her glamorous look of regal hue was eye-catching. She is scheduled to headline the coronation concert this Sunday in which we look forward to her outfits this weekend./p>
+              <img src='/images/Coronation2.avif' alt='image' class='block m-auto w-1/2 h-3/6 py-2 sm:py-0' />
+              <h2>A lot of Blue</h2>
+              <p>Was there a dress code this year? If so, was it to wear blue? Jill Biden wore all blue, a matching jacket and a skirt accessorised with a beautiful bow. Zara Tindall also wore the colour as she had a sky-blue coat dress by Laura Green matching hat and a Strathberry bag. Carole Middleton wore a royal blue Catherine Walker coat dress, headband and Garrad jewellery. Additionally, within the shade, Princess Eugenie was dressed in a navy silk and satin dress. Do you think the ladies told each other what they were wearing? Arriving in a periwinkle blue-sleeve dress was Akshata Murthy. So why are they wearing blue? Blue is associated with royalty and nobility. It historically has been linked to wealth and authority. It definitely is a complimenting colour.</p>
+              <h2>So who didn’t wear blue</h2>
+              <p>Among the sea of blue outfits, there are some notable looks to touch upon of vibrant colours. There were a lot of pastel colours worn by the ladies in particular. Dame Emma Thomson blended red coat with a black dress. Accessories were important to be worn at this coronation. There were stunning rows of hats within the Abbey. All guests really dressed up for the occasion.</p>
+              <img src='/images/Coronation3.webp' alt='image' class='block m-auto w-1/2 h-3/6 py-2 sm:py-0' />
+              <h2>My Favourite Look</h2>
+              <p>A memorable look comes from Queen Rania of Jordan wearing a lemon-yellow Tamara Ralph dress with white stiletto heels by Jimmy Choo. This was one of my simple but elevated favourite outfits. Standing out among the impeccably dressed attendees was South African soprano Pretty Yende who graced the abbey and lent her enchanting voice to the ceremony. She mesmerised onlookers while clad in a resplendent gown in a radiant shade of luminous yellow adorned with shoulders resembling delicate butterfly wings. This remarkable ensemble was crafted and renewed by French designer Stéphane Rolland.</p>
+              <h2>Princess Charlotte</h2>
+              <p>We caught a glimpse of Princess Charlotte or was it young Kate? Princess Charlotte mirrored her mother’s style by donning a dress that perfectly matched Kate. Both Kate and Charlotte adorned their heads with exquisite bespoke headpieces. These stunning silver headpieces added a touch of enchantment to their regal ensembles.</p>
+              <h2>Looking back at Elizabeth’s looks</h2>
+              <p>Since 70 years ago when Elizabeth was crowned Queen, it is important to look at the evolution of royal fashion. Queen Elizabeth II wore a gown that featured a sweetheart neckline and short sleeves, elevating an elegant charm. Its wide circle skirt is adorned with exquisite embroidery, showcasing a mesmerising array of crystals silver accents and pearls. These intricate embellishments skilfully depict the national emblems of Great Britain, as well as the symbols representing the countries within the Commonwealth. The overall effect is a captivating celebration of both British heritage and the collective unity of the commonwealth nations.</p>
+              <p>This three-day extravaganza will extend its fashion show over the bank holiday weekend. I am excited for the upcoming snapshots of fashion over the next few days.</p>
+            `,
+    month:`MAY 2023`,
+    img:`/images/Coronation1.webp`,
+    img_source:`https://www.huffingtonpost.co.uk/entry/key-moments-from-the-coronation-of-king-charles-iii-queen-camilla_uk_64561e4ae4b0e58960e489ec`,
+    img_source_title:`huffingtonpost`,
+    author:`Jennifer Lewis`,
+    topics: ["LIFE MATTERS",],
+    theme:"filler",
+    date: "May , 2023",
+    template: 1
+  },
+  {
+    id:93,
+    mainHeader:`5 Books That Changed How I Viewed Literature as an English Grad`,
+    subHeader:  ``,
+    contentHeader:  `5 Books That Changed How I Viewed Literature as an English Grad`,
+    content:`
+              <p class="first">As someone who chose to do a degree in English, it will come as no surprise that I appreciate literature. Throughout my life I have read a wide range of novels as well as poetry, from fantasy to memoirs, from epics to haikus. Having grown up a bookworm, my love and views of literature have developed alongside me, playing a major role in my interests and the literary taste I have today. These are five novels that, at different stages of my life, have influenced my views of literature - teaching me new features, techniques and choices that authors make. A varied selection, I hope that this list may introduce you to some iconic and/or significant pieces of literature. All front covers shown are from editions I’d read.</p>
+              <h2>My childhood: The Secret Diary of Adrian Mole, Aged 13 3/4 by Sue Townsend (1982)</h2>
+              <img src='/images/5books2.jpg' alt='image' class='block m-auto w-full h-3/6 py-2 sm:py-0' />
+              <p>A book I forgot about for perhaps a decade but then came back to me with a bang. One of my favourite novels of my entire childhood, the story is told through the diary of a teenage boy called...Adrian Mole, who is aged 133⁄4 in the early 1980s. Seemingly bitter about his life circumstances (although his life is quite typical), Adrian sees himself as a long-suffering, deep intellectual who is not viewed justly. The first in a series of eight, I began reading it as a child and was introduced to dry, sarcastic humour with major doses of scepticism. The first books in a diary style, the Adrian Mole books showed me a new form of fictional writing that was not that common in children’s literature. One of the funniest books I’d read as a child, it is a great start to a wry tone that many of the most humorous novels I’ve ever read are in the style of.</p>
+              <h2>My pre-teen years: Jane Eyre by Charlotte Brontë (1847)</h2>
+              <img src='/images/5books3.webp' alt='image' class='block m-auto w-full h-3/6 py-2 sm:py-0' />
+              <p>Jane Eyre was likely the first classic I read alone, introducing me to the Brontë sisters. Charlotte, Emily and Anne, all three authors and poets, were writers of other iconic novels such as The Tenant of Wildfell Hall (Anne, 1848) and Wuthering Heights (Emily, 1847 - clearly 1847 and 1848 were great years for their writing). However, Jane Eyre was the novel that opened up true romance dramas for me. About a ‘plain’ girl, Jane struggles through a wide range of troubles - from her abusive childhood to ending up lost in the Yorkshire moors. It was my first read into complicated romances and how love is not always simple. Set in the countryside of the north of England, the natural world plays a significant role as a major background element, creating atmosphere and drama. Its large presence showed me how it is not only characters or animate objects that can give you details about a story.</p>
+              <h2>My early teen years: The Virgin Suicides by Jeffrey Eugenides (1993)</h2>
+              <img src='/images/5books4.webp' alt='image' class='block m-auto w-full h-3/6 py-2 sm:py-0' />
+              <p>A very dark debut, Jeffrey Eugenides is primarily responsible for my interest in the morbid, the mysterious and the depressing. Told retrospectively by a group of (at the time of the events) teenage boys, the novel centres itself around the Lisbon sisters, five teenage siblings who live very quiet lives in suburban Michigan. One day, their controlling mother completely isolates them as a punishment and they eventually commit mass suicide. The narrators look back on the events decades later, never having lost their fascination with the girls. This novel was my literary introduction to the film theory of the male gaze, as well as my introduction to unreliable narrators. I wrote about The Virgin Suicides in my dissertation, referring to Simone De Beauvoir’s theory of ‘The Other’ - this novel is a great example of it. Until I read this, most novels were either told from the perspective of the main characters, or were told by someone very close to the main character. None of the boys are very close to the Lisbons, making it one of my first ventures into a distanced narration of main characters’ lives. It is also a good introduction to dark realism featuring the banalities of suburbia.</p>
+              <h2>My later teen years: Catch-22 by Joseph Heller (1961)</h2>
+              <img src='/images/5books5.webp' alt='image' class='block m-auto w-full h-3/6 py-2 sm:py-0' />
+              <p>I have never been keen on depictions, reenactments or recollections about the Second World War. I do not have an explanation for this, I just struggle to watch, listen or read about it and always have done. However, this book is set during WW2, is all about WW2, and based on Heller’s experience fighting in WW2. And I love it. So satirical, witty yet very tragic, the novel focuses on a bombardier called John Yossarian who is desperately trying to finish his duties to be able to go back to America, but is impeded every time by his commanding officers. Chapters are told from the perspectives of different members of the squadron in a non-chronological order. I am unlikely to have got past the first few pages if it weren’t written with such dry humour from page one. Although quite absurdist, it conduces thinking about the importance of human life in the context of fighting (‘The enemy is anybody who’s going to get you killed, no matter which side he’s on’) and the ethics of war due to what is now known as the catch-22 - in this context; if one is afraid of flying the missions, then he is sane and therefore he must. The novel is a great depiction of an extremely dark time in history told through a comedic lens, built from various schools of thought and concepts.</p>
+              <h2>A recent one: Middlesex by Jeffrey Eugenides (2002)</h2>
+              <img src='/images/5books6.jpg' alt='image' class='block m-auto w-full h-3/6 py-2 sm:py-0' />
+              <p>Another novel by Eugenides (author of The Virgin Suicides), this is one of the best books I believe to have read. Recommended to me nearly a decade ago (after I’d read his debut), I finally got round to reading it - and finished the nearly 550 page book within days. The narrator is a man of Greek heritage named Cal, who discovered that he was intersex as a teenager. The book chronicles his childhood and teenage years leading up to the diagnosis, as well as narrates his father’s life and those of his refugee grandparents’ to contextualise the diagnosis through his family’s history. Although beginning with Cal’s story, it quickly reverses in time to the lives of his grandparents and goes chronologically from there. However, it frequently reverts to Cal’s perspective on how his family’s actions have led to his biology. Extremely unique, I had never experienced this narrative structure before nor the retrospective narration in itself. As I read, I could not help but think ‘wow, it must've been hard to keep this structure organised and coherent’ - but it was a pleasure to read. Its powerful narrative features make it a book that constantly reminded me of why writing is an art form.</p>
+              `,
+    month:`MAY 2023`,
+    img:`/images/5books1.jpg`,
+    img_source:``,
+    img_source_title:``,
+    author:`Maisie Levitt`,
+    topics: ["ARTS & CULTURE", "BOOKS"],
+    theme:"filler",
+    date: "May , 2023",
+    template: 7
+  }
 
 ];
