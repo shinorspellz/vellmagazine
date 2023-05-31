@@ -154,6 +154,13 @@ const Sidebar = ({ setIsShow, isShow }) => {
           MAY 2023
         </button>
         <button
+          value="JUN 2023"
+          className="sidebar-sub-btns"
+          onClick={(e) => handleChange(e)}
+        >
+          JUN 2023
+        </button>
+        <button
           className="sidebar-main-btns font-semibold"
           onClick={(e) => handleSidebarMenu(e)}
         >

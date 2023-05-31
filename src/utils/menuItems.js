@@ -27,6 +27,10 @@ export const menuItems = [
         title: 'MAY 2023',
         url: '/allarticles',
       },
+      {
+        title: 'JUN 2023',
+        url: '/allarticles',
+      },
     ]
   },
   {
