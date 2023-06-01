@@ -2908,6 +2908,176 @@ export const articles = [
     theme:"filler",
     date: "May , 2023",
     template: 7
+  }, 
+  {
+    id: 94,
+    mainHeader: "It’s the Perfect Time to Start Reading Judge Dredd",
+    subHeader: "",
+    contentHeader: "It’s the Perfect Time to Start Reading Judge Dredd",
+    content: `
+      <p>
+      It has been over forty-five years since Judge Dredd first appeared in <em>2000 AD</em> and he remains as one of the most successful British comic characters. Indeed, the influence of Dredd and other <em>2000 AD</em> creations can still be seen in other sci-fi franchises, most noticeably <em>Warhammer 40k</em>. While I cannot cover his whole history in one article, I will touch on important highlights and make a case for why you should start reading Judge Dredd if you’ve never tried his comics before. 
+      </p>
+      <h3>Where did it all start?</h3>
+      <p>
+      Judge Dredd first appeared in <em>2000 AD #2</em>, all the way back in 1977. Several different writers and artists were involved with his creation, as Pat Mills and John Wagner created the character, Carlos Ezquerra designed him, but his first story was partially written by Peter Harris and drawn by Mike McMahon. These early Judge Dredd stories were written mainly for kids, and as such they’re not essential to read if you’re only interested in the modern comics. 
+      </p>
+      <p>
+      However, they are great examples of late 70’s/early 80’s sci-fi comics and are still very entertaining to read if you enjoy older comics. 
+      These short strips often feature Dredd tracking down an unlucky criminal and doling out an ironic (and violent) punishment amidst the futuristic metropolis of Mega-City One. 
+      These early works are also interesting because they reflect changes in British politics at the time – many of Dredd’s creators lost their jobs at previous comic publishers that faced public backlash for depicting anarchic violence against authority figures. 
+      However, as the stories in <em>2000 AD</em> featured violence as punishment, they avoided major moral panics that had ruined their predecessors. 
+      </p>
+      <p>
+      Obviously, it’s very difficult to track down and read the original <em>2000 Ad</em> issues Dredd started in. Thankfully you don’t have to! All of the old Dredd stories have been reprinted in <em>Judge Dredd: The Complete Case Files</em>. This is a huge series of collections that span decades of stories, so if you really want to start at the beginning, you can! However, this is a major reading investment, so I would also recommend selecting a <em>Case File</em> that covers the era that really interests you and then working backwards if you find yourself enjoying the world of Mega-City One. 
+      </p>
+      <h3>How did the series evolve?</h3>
+      <p>
+      As the Judge Dredd strips proved to be popular among readers, the writers started expanding into stories that spanned multiple issues of the magazines. These longer tales were instrumental in developing the world of Mega-City One and introducing important recurring characters (such as my favourite:  Psi-Judge Anderson). While these stories are all in the <em>Case Files</em>, many of them were also reprinted as standalone graphic novels, and you could start with any of them. 
+      </p>
+      <div>
+      <img src='/images/judge-dredd-2.png' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+      <p class='text-center text-sm py-1 max-w-[600px] m-auto'>Judge Dredd: The Cursed Earth Uncensored, cover art by Brian Bolland (Oxford: Rebellion, 2016)
+      </p>
+      </div>
+      <p>
+      I strongly recommend <em>The Cursed Earth</em> which was originally censored for portraying corporate mascots in an unflattering light (Ronald McDonald executes an employee). In 2015 however, an uncensored version was finally published after changes to European copyright law. This saga sees Dredd journey across the wasteland from Mega-City One to deliver a vital cure to Mega-City Two. Not only does this give you some insight into what the world is like outside of the megacities, the ending also reveals a softer side of Judge Dredd that readers rarely see. 
+
+      </p>
+      <p>
+      Some of Judge Anderson, Dredd’s psychic counterpart, stories have also been reprinted in recent collections. Anderson’s stories (mostly written by Alan Grant, while John Wagner wrote Dredd) have an incredibly unique feel to them, both in their writing and artistic style. They break away from Dredd’s sci-fi atmosphere to delve into weird fiction, and often take inspiration from the occult and conspiracy theories. As a result, they sometimes have a proto-<em>Hellboy</em> feel to them. The best examples are included in <em>Essential Judge Anderson: Shamballa</em>, which will be available in June 2023. 
+      </p>
+      <div>
+      <img src='/images/judge-dredd-3.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+      <p class='text-center text-sm py-1 max-w-[600px] m-auto'>Image: <a href='https://2000ad.com/news/essential-judge-anderson-graphic-novels-launch-this-june-pre-order-now/'>2000ad.com
+      </a></p>
+      </div>
+      <p>
+      The longer comics also allowed the creative team to start exploring themes in more detail, and in 1986 Alan Grant decided to tackle the theme of democracy in Mega-City One – or rather, the lack of it. This led to a run of brilliant stories, where Dredd is actively the villain, seeking to dismantle any unhappy citizens who were campaigning for the return of a democratic system. This was a direct satire of British politics at the time, for example, the arrest of Sarah Tisdale, who revealed that American cruise missiles would be sited in Britain. The best of these stories are collected in <em>Essential Judge Dredd: America</em>.
+      </p>
+      <div>
+      <img src='/images/judge-dredd-4.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+      <p class='text-center text-sm py-1 max-w-[600px] m-auto'>John Wagner, Letter From A Democrat, illustrated by John Higgins (Oxford: Michael Molcher, 2020) (first published in 2000 AD Prog 460)
+      </p>
+      </div>
+      <div>
+      <img src='/images/judge-dredd-5.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+      <p class='text-center text-sm py-1 max-w-[600px] m-auto'>I Am The Law: How Judge Dredd Predicted Our Future, cover art by Pye Parr (Oxford: Rebellion, 2023)</p>
+      </div>
+      <h3>How can I learn more about Judge Dredd?</h3>
+      <p>
+      I’m glad you asked! This year, Rebellion (who now own <em>2000 AD</em>) published <em>I Am The Law</em> by Michael Molcher. This book acted as the inspiration for this article (I was lucky to get a signed edition at Gosh Comics, a London store I highly recommend) as it covers Dredd’s long history, but more importantly, the history of policing in the UK and USA. 
+      </p>
+      <p>
+      It’s truly fascinating to see how law and order politics has affected the comics industry, and how writers like Alan Grant and John Wagner attempted to satirise the law in turn. It’s also vital to learn about how advancements in technology are increasing our own paranoia about crime, while giving authority figures more power to survey the public. For example, Chapter 13 discusses how Amazon provided footage from their Ring doorbell cameras to the police without the owner’s consent. 
+      There’s also discussion of the Police, Crime, Sentencing and Courts Bill, first written in 2018 and introduced in 2022, this bill allows the police to shut down protests as they see fit. 
+      </p>
+      <p>
+      <em>I Am The Law</em> was expertly researched by Molcher, and there’s a vast bibliography of essays and comics included that will support you if you want to perform deeper research. 
+      </p>
+      <p>
+      Hopefully this article has pointed you in the right direction to get started with Judge Dredd. I could only cover some brief highlights, but there’s plenty of amazing sci-fi satire to discover if you start searching for it. 
+      </p>
+      `,
+    month: 'JUN 2023',
+    img: '/images/judge-dredd-1.jpg',
+    img_source: '',
+    img_source_title: 'Pat Mills and Peter Harris, Judge Whitey, illustrated by Mike McMahon (2000 AD, 1977)',
+    author: 'James Murray',
+    topics: ["ARTS & CULTURE", "BOOKS"],
+    theme: "filler",
+    date: "June 1 2023",
+    template: 1
+  },
+  {
+    id: 95,
+    mainHeader:'Arabs in our Time 100: Most Influential People List',
+    subHeader: '',
+    contentHeader: 'Arabs in our Time 100: Most Influential People List ',
+    content: `
+      <p>
+      In recent years, Arab artists, leaders, and innovators have taken over global screens and spotlight, leaving the rest of the Arab world proud. Notable Arab individuals range from revolutionary artists and creatives all the way to lawyers and architects. While some of these individuals stood out by showcasing their competitive work, a lot of them made sure to incorporate their heritage one way or another. 
+      </p>
+      <p>
+      Arabs are not new to the creative industries, however as years go by, they are attracting global recognition while continuing to promote Arab culture that the West is not entirely familiar with. Influential Arab artists that we have probably heard of in the past, include Palestinian supermodel Gigi Hadid, and Emmy, Golden Globe and Academy Award winner Rami Malek, who is of Egyptian descent. The list goes on to cover the trailblazing Iraqi Architect Zaha Hadid, and the game-changing Palestinian US Congresswoman Rashida Tlaib. As we can see, Arabs from several nationalities have made history by becoming notable individuals in their respective fields. 
+      </p>
+      <p>
+      The Time 100 list for the most influential people have recognized some of the emerging Arab talent this year. The list usually divides its influential individuals into six sections, consisting of artists, icons, pioneers, innovators, leaders, and titans. This year four individuals with Arab heritage have secured a position in four of the different sections, and here is a breakdown of it:
+      </p>
+      <h3>1.	Salma Hayek Pinault </h3>
+      <div>
+      <img src='/images/salma-hayek.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+      <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+      Image source:<a href='https://time.com/collection/100-most-influential-people-2023/6269462/salma-hayek-pinault/'>Robbie Fimmano—Trunk Archive</a>
+      </p>
+      </div>
+      <p>
+      Born in the city of Coatzacoalcos in Mexico, Salma Hayek Pinault hails from a Mexican, Spanish and Lebanese family. The award-winning actress, producer, and philanthropist tells Arab News, that although she was raised in Mexico for most of her life, she was taught Lebanese and Arab values since a young age. She discusses how she was handed writings by the famous Lebanese writer, Khalil Gibran by her grandfather, and that she grew up eating Arabic food. She jokes around at one point saying, “I probably had Kibbeh before I had tacos.”  
+      </p>
+      <p>
+      In previous years, Hayek promoted her Arab heritage to the West by producing an animation movie titled “The Prophet” which is based on Khalil Gibran’s poetry book. Hayek produced the 2014 production and voiced one of the characters in it. Hayek tells Arab News that diverse creative work that is with substance, and is not intended just to fill quotas, is very important to her. 
+      </p>
+      <h3>
+      2.	Bella Hadid
+      </h3>
+      <div>
+      <img src='/images/bella-hadid.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+      <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+      Image source:<a href='https://time.com/collection/100-most-influential-people-2023/6269992/bella-hadid/'>Julien De Rosa—AFP/Getty Images </a>
+      </p>
+      </div>
+      <p>
+      The Palestinian-Dutch supermodel does not hold back on voicing her Palestinian heritage, as she has been an influential voice for the Palestinian cause. Hadid is famous for publicly speaking her mind on the issues that she cares about, be that the Black Lives Matter Movement, US gun violence, or the Ukrainian War. However, the Palestinian cause has been on the forefront of her human rights agenda. 
+      <p>
+      <p>
+      Back in 2020, Hadid announced that she will be donating to several charities that aim to help Palestinian children by giving them future educational opportunities. The supermodel mentioned that she will be donating to them for a long while, and that she “want[s] these [Palestinian] children to know that they are so special and that there are people here that care about them.” 
+      </p>
+      <p>
+      Donating to charities is not the only thing Hadid has been advocating for on behalf of her family back in Palestine. She has also protested in several marches including a “Free Palestine” march in London just days after former US president Donald Trump announced the United States recognition of Jerusalem as Israel’s capital. 
+      </p>
+      <p>
+      In October 2022, Hadid also accompanied her father to a Palestinian exhibition in Qatar where she stated on one of her Instagram posts, “this show brought tears to my eyes and even more pride for my beautiful Palestinian roots and people. I love you Qatar and I love you Palestine!” 
+      </p>
+      <h3>3.	Sara Mardini and Yusra Mardini</h3>
+      <div>
+      <img src='/images/sara-yusra.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+      <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+      Image source:<a href='https://time.com/collection/100-most-influential-people-2023/6270456/sara-mardini-and-yusra-mardini/'>Lisa Knauer </a></p>
+      </div>
+      <p>
+      Born in Syria, the competitive swimmers fled the war in 2015 and sought asylum in Germany. Their journey across lands and oceans was not easy at all, as they were transported on a packed boat whose engine failed in the middle of the ocean. The two sisters jumped into the water and guided the boat to safety, saving the lives of all passengers on board.
+      </p>
+      <p>
+      Upon arriving to Germany, Yusra continued her swimming training and later became one of the contestants in the first ever Refugee Olympic team. She is currently a UNCHR Goodwill Ambassador who is sharing her experiences and helping those in similar situations.
+      </p>
+      <p>
+      Meanwhile, Sara has returned to Greece to assist with a search and rescue NGO who are helping those in the same position that she was in some years ago. Only recently was Sara one of the 24 volunteers / aid workers who were detained by Greek authorities. A following investigation has been opened that is expected to shed light to the risks that aid workers and rescuers, like Mardini, continue to face for helping refugees fleeing war. 
+      </p>
+      <p>A Netflix film titled “The Swimmers” was released in 2022 that follows the journey the sisters took from Syria all the way to Europe. The film highlights the reasons for leaving, the risks that refugees take when opting to leave, and the conditions that follow in Europe. 
+      </p>
+      <h3>4.	Kylian Mbappé</h3>
+      <div>
+      <img src='/images/kylian.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+      <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+      Image source:<a href='https://time.com/collection/100-most-influential-people-2023/6269972/kylian-mbappe/'>Josefina Santos—The New York Times/Redux </a>
+      </p>
+      </div>
+      <p>
+      It might come as a surprise to us that the world-renowned French football player and 2018 World Cup winner Kylian Mbappé has Arab roots. While born in France, Mbappé’s paternal side hails from Cameroon, and his maternal side from Algeria. The player has gained global recognition after his World Cup win at the age of 19. In the 2022 World Cup, his impressive skills were showcased again when he dramatically increased the chances of his team’s second win in a row.
+      </p>
+      <p>
+      Whether it is modelling, acting, playing football competitively, or literally saving lives, Arabs are always bound to be there excelling in their respective fields, while showcasing their culture and values along the way. 
+      </p>
+    `,
+    month: 'JUN 2023',
+    img: '/images/arabs-1.jpg',
+    img_source: '',
+    img_source_title: ' Designed by Gharam Al-Zubi',
+    author: 'Gharam Al-Zubi',
+    topics: ["LIFE MATTERS", "CELEBRITIES AND TRENDS"],
+    theme: "filler",
+    date: "June 1 2023",
+    template: 1
   }
 
 ];
