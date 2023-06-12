@@ -158,6 +158,13 @@ export const authorsData = [
      img: "/images/SanjanaYadav.jpg",
     desc: "Author at VellMagazine",
     bio: "Whether it is the seams of a garment or the words chosen to express an emotion, I am a fanatic for details. Presently navigating my way through subjects I enjoy (gender studies, literature, communication) and my hobbies (painting, outfit curation, pottery) I am exploring this blue rock in the universe. I am also invested in learning about people around me and their experiences in life, sharing them either through writing online or carrying their lessons deep within my heart to cherish. My articles will mostly cover fashion, primarily humanitarian aspects associated with it, and personal representation through trends."
+  },
+  {
+    id: 17,
+    name:"Antoniya Gerimpapazi",
+    img: "/images/AntoniyaGerimpapazi.jpg",
+    desc: "Author at VellMagazine",
+    bio: "I am a very friendly, sociable, creative, and positive person. I love reading, writing, playing sports and hanging out with friends. Writing has always been my passion. I've enjoyed writing on a huge variety of subjects, but my main areas of interest include sports, travel and general fiction or non-fiction. I always write when I'm happy, sad, or just inspired to inform people about topics of burning interest. Since I discovered Vell magazine, I’ve been very happy with the warm welcome I received and I have broadened my range from mostly sports and travel articles to mental health, physical health, pets and science discoveries articles. I have two pets myself, so I know how important it is to know about them as many things as we can and to figure out what they need or what they want to tell us. I have also been a learning support assistant, so therefore I am passionate about mental health discoveries. I love writing from personal experience as I passionately believe this to be the best source of inspiration and ideas worth communicating. If I’ve even helped one person with my articles, I’m happy."
   }
 ];
 export const headerSliderData = [
