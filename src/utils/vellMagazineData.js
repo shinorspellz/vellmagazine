@@ -167,6 +167,7 @@ export const authorsData = [
     desc: "Author at VellMagazine",
     bio: "I am a very friendly, sociable, creative, and positive person. I love reading, writing, playing sports and hanging out with friends. Writing has always been my passion. I've enjoyed writing on a huge variety of subjects, but my main areas of interest include sports, travel and general fiction or non-fiction. I always write when I'm happy, sad, or just inspired to inform people about topics of burning interest. Since I discovered Vell magazine, I’ve been very happy with the warm welcome I received and I have broadened my range from mostly sports and travel articles to mental health, physical health, pets and science discoveries articles. I have two pets myself, so I know how important it is to know about them as many things as we can and to figure out what they need or what they want to tell us. I have also been a learning support assistant, so therefore I am passionate about mental health discoveries. I love writing from personal experience as I passionately believe this to be the best source of inspiration and ideas worth communicating. If I’ve even helped one person with my articles, I’m happy."
   }
+  
 ];
 
 export const headerSliderData = [
