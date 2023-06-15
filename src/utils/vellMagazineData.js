@@ -3254,6 +3254,176 @@ export const articles = [
     theme: "filler",
     date: "June 1 2023",
     template: 1
+  }, 
+  {
+    id:101,
+    mainHeader:`How did Sifan Hassan Make History at the London Marathon?`,
+    subHeader: '',
+    contentHeader: `How did Sifan Hassan Make History at the London Marathon?`,
+    content:  
+    ` 
+    <p>
+    On Sunday, 23rd of April, Sifan Hassan made history by winning the Women’s London Marathon despite all the odds. The Olympic Track Champion completed her run in only 2 hours 18 minutes 33 seconds, beating Olympic gold medalist Peres Jepchirchir of Kenya and London Marathon champion Yalemzerf Yehualaw of Ethiopia. 
+    </p>
+    <p>
+    The Ethiopian-born, Dutch runner’s win at this marathon was a significant landmark for a variety of reasons. To begin with, Hassan has never been trained to run long-distance competitions, and certainly not a marathon. Prior to this win, she was primarily a middle-distance athlete. In previous years, Hassan has impressively won two gold medals on the Tokyo Olympic track and one bronze medal, all competing in 5,000- and 10,000-meter races.  The London marathon on the other hand is a 42.2-kilometre race which makes Hassan’s win rather surprising. 
+    </p>
+    <div>
+    <img src='/images/sifan-2.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    Image of Sifan Hassan following her win in the Tokyo racing competition in 2020. Source: <a href='https://olympics.com/en/news/sifan-hassan-top-facts-double-olympic-champion'>Getty Images </a>
+    </p>
+    </div>
+    <p>
+    During the London marathon, the champion encountered several obstacles which made her unlikely to win the race. Only an hour into the run, Hassan fell off the pace when she began to stretch her hip due to a previous injury. Later on, she selflessly offered water to another runner, after missing a water station herself. Following these events, most viewers did not anticipate such a speedy comeback and a winning-sprint towards the end of the race. 
+    </p>
+    <p>
+    Just a few days ago, Hassan was also fasting for the holy month of Ramadan where Muslims are not allowed to eat or drink every day from sunrise to sunset. The fasting hindered her ability to train efficiently for the marathon, and to complete long runs. 
+    </p>
+    <p>
+    Following her win however, Hassan covered her face and eyes in disbelief, and appeared to be talking to herself as she rested on the ground. She later says that she was not hopeful about this marathon and was not sure if she would even complete it, let alone win. 
+    </p>
+    <p>
+    Hassan also offered a word of advice for her fellow athletes: “just keep going as much as possible and maybe you will surprise yourself.” 
+    </p>
+    <p>
+    This historic win serves as a reminder and hope for all aspiring runners, Muslims and refugees. Hassan proved that fasting for a month right before a life-changing race should not stand in the way of victory. 
+    </p>
+    <p>
+    Hassan’s win is even more inspiring when considering her backstory  of a difficult childhood including seeking asylum in the Netherlands at a young age.  Sifan Hassan has defied the odds and broke barriers for future generations. 
+    </p>
+
+
+    `,
+    month: 'JUN 2023',
+    img: '/images/sifan-1.jpg',
+    img_caption: 'Sifan Hassan makes history winning the London Marathon on the 23rd of April 2023',
+    img_source: 'https://www.runnersworld.com/uk/news/a42733132/sifan-hassan-london-marathon/',
+    img_source_title: ' Alex Davidson',
+    author: `Gharam Al-Zubi`,
+    topics: ["WELLBEING", "SPORTS HEADLINES"],
+    theme: "filler",
+    date: "June 15 2023",
+    template: 1
+
+  }, 
+  {
+    id:102,
+    mainHeader:`An Introduction to BTS Discography`,
+    subHeader: '',
+    contentHeader: `An Introduction to BTS Discography`,
+    content: `
+    <p>
+      Artists throughout history have always been known for using their platform to spread awareness, and to speak about things that need to be said. This trend is seen in all forms of media today, and this includes music. 
+    </p>
+    <p>
+    One such musical artist that has always used their platform to speak about what is frowned upon, at least in their own country, is the South Korean Boyband BTS. Their name abbreviated from <em>Bangtan Sonyeondan</em>, translates to Bulletproof Boys or Beyond the Scene The band consists of seven members, RM, Jin, Suga, J-Hope, Jimin, V, and Jungkook. 
+    </p>
+    <div>
+    <img src='/images/bts-1.jpeg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    In frame, BTS. From left: J-Hope, Jin, Jungkook, V, RM, Jimin, Suga. Source:
+    <a href='https://twitter.com/bts_bighit/status/1399742870915993600/photo/1'>BTS </a>
+    </p></div>
+    <p>
+    The band’s primary language of music is Korean, with one or two English lines in each song. And in recent times, there have been a few English songs, such as <em>Butter, Dynamite</em>, and <em>Permission to Dance</em>. Their ardent fanbase hurry to upload Korean translations, along with all their intonations, on Twitter mere hours after the releases.
+    </p>
+    <p>
+    Since their debut in 2013, they have been spreading awareness of all topics that are considered taboo to talk about in some countries still. Their debut song, <em>No More Dream</em>, is a social commentary about how students of every generation have been molded to fit a socially defined ideal, due to which a lot of these students become disaffected and surrender their dreams, hence the title. 
+    </p>
+    <p>
+    Almost 90% of BTS’ music is written from the personal anecdotes of each member. They write their music to make sure the message that they want to deliver carries weight so that it has value and impact. The members often speak about their music and explain what it means so that the fans can fully interpret it the way it was intended.
+    </p>
+    <p>
+    While talking about social issues, they also mention the mental health of the people affected by that situation, such as in <em>N.O.</em> This song is a continuation of <em>No More Dream</em>, where they encourage students to reject the norms and ideas that are forced upon them leading to the destruction of creative individuality. 
+    </p>
+    <p>
+    Similar to <em>N.O.</em>, is the song, <em>Baepsae</em> or <em>Silver Spoon</em>, which talks about the privilege that the higher classes of the economy are born with and how they exercise the power that they hold over the lower classes.
+    </p>
+    <p>
+    Apart from social commentaries, such as the ones present in <em>No More Dream, N.O., Spring Day (MV), Paldogansan</em>, and so many more, one of the most prevalent messages that the band speaks about is Mental Health. 
+    </p>
+    <p>
+    The members are no strangers to mental health concerns, having at some point suffered from related issues. They have always been upfront about their personal experiences and have shed a light on them in their music. 
+    </p>
+    <p>
+    In the song, <em>Tomorrow</em>, from the album, <em>Skool Luv Affair</em>, the band mentions how they feel like they’re stuck in repeat, and in the same place mentally, but that by going forward, we’ll eventually break the cycle and move on and reach tomorrow. Another song similar to this, with the vibe of how we need to keep fighting even when everything appears to fall apart, is <em>Lost</em>.
+    </p>
+    <p>
+    Another recurring theme in BTS songs’ is Loneliness. <em>Whalien 52</em>, a song in the album <em>The Best Moments in Life pt.2</em>, the whale 52, is an unidentified species of whale, is used as a metaphor. The whale cuts an emotively solitary figure as it sends out signals in 52 Hertz, never receiving a reply. This situation was used as a metaphor for how lonely adolescents are and how often they feel alienated, similar to this lonely whale.
+    </p>
+    <div>
+    <img src='/images/whale-1.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    An image for a documentary about the 52Hz whale, The Loneliest Whale: The search for 52. Source: <a href='https://www.imdb.com/title/tt2401814/mediaviewer/rm3250701569/?ref_=tt_ov_i'>IMDB </a></p>
+    </div>
+    <p>
+    Loneliness ironically always has a companion and so does <em>Whalien 52</em>, the song. A song very alike in nature to this song, is <em>134340</em>, also known as Pluto. This song draws a metaphor from the planet Pluto and how lonely this diminutive ‘planet’ must have felt when it found itself no longer identified as such. 
+    </p>
+    <p>
+    Apart from general mental illnesses, the band also has an album, <em>BE</em>, that talks about the recent pandemic that took the world by storm, the Coronavirus disease. This album has 8 tracks that each explore the feelings that every individual member faced during those difficult times. 
+
+    </p>
+    <p>
+    The title track, <em>Life Goes On</em>, passes on the message that life truly does go on, although it seems to be stagnant at this point. The band talks about how the members felt their life was on hold during the pandemic and how they, along with the rest of the world, will move on from this eventually. 
+    </p>
+    <p>
+    The entire album has songs that are gems to listen to when you feel low or feel like you are stuck in a single place and don’t know how to progress. This album helped a lot of people when it was released, as everyone was still deep within the pandemic blues in November 2020, and the entire situation took a huge toll on everyone’s mental health. 
+    </p>
+    <div>
+    <div>
+    <img src='/images/be-bts.png' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    The ‘BE’ album cover. Written in lighter colour under the title are the lyrics to the song Life Goes On – “Life goes on, Like an echo in the forest, Like an arrow in the blue sky, On my pillow on my table, Life goes on like this again.” Source: <a href='https://ibighit.com/bts/eng/discography/detail/be.html'>iBigHit </a>
+    </p>
+    </div>
+    <p>
+    BTS has also written quite a few songs for their fanbase, A.R.M.Y, to remind them that they aren’t alone and they can rely on BTS and their music to move on and heal. These songs have given hope to at least a million fans all over the world. 
+    </p>
+    <p>
+    <em>2!3!</em> was the first official gift for the fans in the album <em>Wings</em>, where the members say ‘It’s okay come on when I say one two three forget it, Erase all sad memories hold my hand and smile’. The next official song was <em>Magic Shop</em>, which talks about how BTS’ music, is like a haven for fans, and when you open the door for a Magic Shop in your heart, the place will provide comfort for you.
+
+    </p>
+    <p>
+    Unofficial fan songs by the group that were meant to bring comfort to the fans are songs such as <em>You Never Walk Alone, We are Bulletproof: Eternal, Pied Piper, Mikrokosmos, Answer: Love Myself, The Best of Me</em> and so many more.
+    In 2017, BTS began the project Love Yourself, which aimed to promote self-love in this era where not many people are happy with themselves. This series consisted of three albums, <em>Love Yourself: Her, Love Yourself: Tear</em>, and <em>Love Yourself: Answer</em>.
+
+    </p>
+    <div>
+    <img src='/images/bts-cover.webp' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    The entire cover of the Love Yourself series physical albums, including 3 albums with four versions each. The spines of all 12 albums together spell the word L-O-V-E-Y-O-U-R-S-E-L-F. Source  <a href='https://bts101.info/resources-list/love-yourself-album-covers/'>BTS101 </a>
+    </p>
+    </div>
+    <p>
+    This entire series had several songs about self-worth and learning how to love yourself despite all your faults and mistakes. Some of the songs from this are <em>DNA, Fake Love, Idol, Mic Drop, I’m Fine, Anpanman, and Dimple</em>.
+    </p>
+    <p>
+    In the <em>Map of the Soul</em> series, the songs talk about discovering and connecting to the soul. The concept of this era of BTS music is based on the Jungian Theory of Self by Carl Jung. The theory is ever present in the titles of the three albums and the music videos. 
+    </p>
+    <p>
+    My personal favourite BTS Track that talks about mental health is <em>Louder Than Bombs</em>. This song to me meant that I am not alone whenever I fall apart and that at least somewhere in the world there are people that feel the same way that I do.
+    </p>
+    <p>
+    <em>Black Swan</em> is another song that speaks to my soul. This song talks about how burnout is something an artist feels. It is represented by a dancer losing his soul if he loses his dance. To me, this song represents how if I lose my passion, I will lose a lot of meaning in my life.
+    </p>
+    <p>
+    The music that BTS make aims to heal a soul if they can. The world of BTS is vast and once you dive in, the music and what the group stands for as individuals will make you stay.
+    </p>
+    `,
+    month: 'JUN 2023',
+    img: '/images/bts-pc.jpg',
+    img_source: 'https://ibighit.com/bts/eng/profile/',
+    img_source_title: ' iBigHit ',
+    author: 'Samhitha Jonnadula',
+    topics: ["ARTS & CULTURE", "MUSIC"],
+    theme: "filler",
+    date: "June 15 2023",
+    template: 1
+
+
+
+
   }
 
 ];
