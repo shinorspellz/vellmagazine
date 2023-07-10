@@ -1,6 +1,8 @@
 
 //footer data
 
+import { months } from "moment/moment";
+
 export const footerData = [
   
   {
@@ -65,7 +67,7 @@ export const authorsData = [
     name: "Theresa Travis",
     img: "/images/theresa-avatar.JPG",
     desc: "Author at VellMagazine",
-    bio: "Theresa is a marketing professional with a creative flare and a passion for all things fashion, mainstream culture, and innovation in business. She is currently based in Manchester, UK but is originally from the small island of Cyprus. She enjoys writing about emerging trends in marketing, as well as social media and sharing her experience in order to help people that want to follow a similar path into marketing. ",
+    bio: "Theresa is a marketing professional with a creative flair and a passion for all things fashion, mainstream culture, and innovation in business. She is currently based in Manchester, UK but is originally from the small island of Cyprus. She enjoys writing about emerging trends in marketing, as well as social media and sharing her experience in order to help people that want to follow a similar path into marketing. ",
   },
   {
     id: 4,
@@ -155,10 +157,11 @@ export const authorsData = [
   {
     id:16,
     name:"Sanjana Yadav",
-     img: "/images/SanjanaYadav.jpg",
+    img: "/images/SanjanaYadav.jpg",
     desc: "Author at VellMagazine",
     bio: "Whether it is the seams of a garment or the words chosen to express an emotion, I am a fanatic for details. Presently navigating my way through subjects I enjoy (gender studies, literature, communication) and my hobbies (painting, outfit curation, pottery) I am exploring this blue rock in the universe. I am also invested in learning about people around me and their experiences in life, sharing them either through writing online or carrying their lessons deep within my heart to cherish. My articles will mostly cover fashion, primarily humanitarian aspects associated with it, and personal representation through trends.",
   },
+  
   {
     id: 17,
     name:"Antoniya Gerimpapazi",
@@ -173,7 +176,9 @@ export const authorsData = [
     desc: "Author at VellMagazine",
     bio: "Since a young age I discovered my passion for screenwriting. While I work on screenplays on the side, I am currently building a stronger background in writing, politics, and marketing. I also run an Instagram page with over 100k followers, so there is always something keeping me busy. My articles on Vell Magazine usually centre around news, global politics, developments in the MENA region, and women. As you can see there is plenty to choose from, so stay tuned for more!",
   }
+  
 ];
+
 export const headerSliderData = [
   {
     id: 50,
@@ -239,119 +244,92 @@ export const headerSliderData = [
     template: 3,
   },
 
+
   {
-    id:78 ,
-    mainHeader: `If You Only Read One Comic, Make It Saga`,
-    subHeader: "",
-    contentHeader: `If You Only Read One Comic, Make It Saga`,
-    content: ` When I bring up my love of comics and graphic novels to people, they often reply that while they’d like to get into the hobby, they have no idea where to start. A lot of people also think they’re too old to read comics, or aren’t sure which comics are suitable for adults. These are both understandable concerns, but I can answer them with one word: Saga`,
-    month: "MAY 2023",
-    img: "/images/saga-1.jpg.webp",
-    author: "James Murray",
+    id: 94,
+    mainHeader: "It’s the Perfect Time to Start Reading Judge Dredd",
+    subHeader:"",
+    contentHeader:`It’s the Perfect Time to Start Reading Judge Dredd`,
+    content:`It has been over forty-five years since Judge Dredd first appeared in 2000 AD and he remains as one of the most successful British comic characters. Indeed, the influence of Dredd and other <em>2000 AD</em> creations can still be seen in other sci-fi franchises, most noticeably Warhammer 40k. While I cannot cover his whole history in one article, I will touch on important highlights and make a case for why you should start reading Judge Dredd if you’ve never tried his comics before.`,
+    month: "JUN 2023",
+    img: '/images/judge-dredd-1.jpg',
+    author: 'James Murray',
     topics: ["ARTS & CULTURE", "BOOKS"],
-    theme:"filler",
-    
-    date: "May 01, 2023",
-    template: 7,
-  },
-   {
-    id:79 ,
-    mainHeader: `Celebrating Twenty Years ofJeff VanderMeer’s Books`,
-    subHeader: "",
-    contentHeader: `Celebrating Twenty Years ofJeff VanderMeer’s Books  `,
-    content: `As of April 2023, it has been twenty years since the release of Jeff VanderMeer’s first book, Veniss Underground. As such, it’s an ideal time to review the course of his career and see what we can learn from it. While not everything can be covered in one article, hopefully I will be able to provide a useful introduction to new readers and some insights for existing readers.  `,
-    month: "MAY 2023",
-    img:`/images/article79_image1.jpg`,
-    author:`James Murray`,
-    topics: ["ARTS & CULTURE", "BOOKS"],
-    theme:"filler",
-    date: "May 01, 2023",
-    template: 8,
+    theme: "filler",
+    date: "June 1 2023",
+    template: 1
   },
   {
-    id:80 ,
-    mainHeader: `Scream makes a crimson splash onto cinema screens this year with sixth instalment – Review`,
-    subHeader: "",
-    contentHeader: `Scream makes a crimson splash onto cinema screens this year with sixth instalment – Review`,
-    content: ` Scream; a cult classic horror. The one you (most likely) immediately think of when you picture the 'gory, stabber' genre (not including Psycho, of course). The first instalment came out all the way back in 1996, but this year, 27 years later, the sixth instalment slashed onto our screens and made a big, bloody debut - one that I wasn't going to miss, and one that, quite frankly, loved. `,
-    month: "MAY 2023",
-    img:`/images/scream-1.jpg`,
-    author:`Jasmin Bodman`,
-    topics: ["ARTS & CULTURE", "CINEMA"],
-    theme:"filler",
-    date: "May 01, 2023",
-    template: 8,
+    id: 95,
+    mainHeader:'Arabs in our Time 100: Most Influential People List',
+    subHeader: '',
+    contentHeader: 'Arabs in our Time 100: Most Influential People List ',
+    content: 'In recent years, Arab artists, leaders, and innovators have taken over global screens and spotlight, leaving the rest of the Arab world proud. Notable Arab individuals range from revolutionary artists and creatives all the way to lawyers and architects. While some of these individuals stood out by showcasing their competitive work, a lot of them made sure to incorporate their heritage one way or another.', 
+    month: 'JUN 2023',
+    img: '/images/arabs-1.jpg',
+    author: 'Gharam Al-Zubi',
+    topics: ["LIFE MATTERS", "CELEBRITIES AND TRENDS"],
+    theme: "filler",
+    date: "June 1 2023",
+    template: 1
   },
+  // {
+  //   id: 96,
+  //   mainHeader:'Online Studying and Increased Productivity',
+  //   subHeader: '',
+  //   contentHeader: 'Google Classroom and how to encourage students to complete their online set tasks ',
+  //   content: 'Ever since the pandemic, it has been more than clear that on a number of occasions students have refused or struggled to complete their tasks, assignments and homework especially when it has to be done online and there is no face-to-face interaction. Students have found it really hard to motivate themselves to complete a certain piece of work especially when the teachers were checking it online rather than in person and giving online feedback. There is no doubt that there are many positives of face-to-face learning but what could help if learning had to be completed online solely?',
+  //   month: 'JUN 2023',
+  //   img: '/images/online1.jpg',
+  //   author: 'Antoniya Gerimpapazi',
+  //   topics: ["LIFE MATTERS", "TECHNOLOGY"],
+  //   theme: "filler",
+  //   date: "June 1 2023",
+  //   template: 1
+  // },
   {
-    id:86 ,
-    mainHeader: `Why It's Ok to Not Be Ok: Understanding Mental Health and Seeking Help`,
-    subHeader: "",
-    contentHeader: `Why It's Ok to Not Be Ok: Understanding Mental Health and Seeking Help`,
-    content: `Do you ever feel like you're drowning in stress and anxiety? It's a common experience, but one that can be difficult to talk about. The truth is, our mental health is just as important as our physical health. We need to take care of it in order to live a fulfilling life. And it's okay if we're not always okay. Seeking help when we need it is a sign of strength, not weakness. In this article, we'll explore why prioritizing your mental health is crucial and provide practical tips for managing stress and anxiety. So, let's break the stigma and start a conversation about mental health.`,
-    month: "MAY 2023",
-    img:`/images/health_n_seeking.jpg`,
-    author:`Khadija Ghazanfar`,
+    id:97,
+    mainHeader:'Mental health in famous families',
+    subHeader: '',
+    contentHeader: 'Mental health in famous families ',
+    content: 'Deteriorated mental health, disabilities and even alternative ways of thinking have always been subject to taboo. From the burning of “witches” to the institutionalisation of liberal thinking women, mental and physical divergence has all too often been seen as a threat to society and a shame to families. As both the medical world and society understand mental and physical handicaps more and more, the stigma is at last lifting.',
+    month: 'JUN 2023',
+    img: '/images/mental3.jpeg',
+    author: 'Eleanor Ingham',
     topics: ["MENTAL HEALTH","WELLBEING"],
-    theme:"filler",
-    date: "May 01, 2023",
-    template: 3,
+    theme: "filler",
+    date: "June 1 2023",
+    template: 1
   },
   {
-    id:87 ,
-    mainHeader: `Walk like an Egyptian - Egypt Set to Host Its First Fashion Week With Its Timeline Runway and Cleopatra Couture`,
-    subHeader: "",
-    contentHeader: `Walk like an Egyptian - Egypt Set to Host Its First Fashion Week With Its Timeline Runway and Cleopatra Couture.`,
-    content:`Fashion history and archaeology are about to collide as we are set to see Egypt’s ‘Cat-walking Cleopatras’ enter the global stage. Elevating their heritage to the runway, Egypt’s Fashion and Design Council announced on the 21st of March,Egypt is in line to host their very first fashion week in May.  Forecasting a fashionable future, the runways of Cairo have rolled out a platform for the Middle East to showcase their hieroglyph clothing and geometric garments. Egypt is opening a new wardrobe for its designers and fashion customers to dress in the country’s artistry and rich textiles.  The opening night theme will feature ‘the Past, Present and Future’ in reflection of the ancient yet upcoming culture.  The fashion industry in Egypt dates back to the time of ancient civilisation. A week of reviving and borrowing from the past, guests are invited to a historical performance.`,
-    month: "MAY 2023",
-    img:`/images/EgyptianFashion1.jpg`,
-    author:`Jennifer Lewis`,
-    topics: ["FASHION & BEAUTY", "FASHION WEEKS"],
-    theme:"filler",
-    date: "May 01, 2023",
-    template: 1,
-  },
-  {
-    id:88 ,
-    mainHeader: `BookTok Trends`,
-    subHeader: "",
-    contentHeader: `BookTok Trends`,
-    content: `As social media progresses with its newfound means to connect people, there are several industries that this progression affects, both positively and negatively. With every new form of media that arises, comes a new wave of users that all use each app. Such is the case with TikTok. `,
-    month: "MAY 2023",
-    img:`/images/bookTok.jpg`,
-    author:`Samhitha Jonnadula`,
-    topics: ["SOCIAL MEDIA","BOOKS","TRENDS"],
-    theme:"filler",
-    date: "May 01, 2023",
-    template: 8,
-  },
-   {
-    id:89 ,
-    mainHeader: `Sustainable Brands You Need to Know About`,
-    subHeader: "",
-    contentHeader: `Sustainable Brands You Need to Know About`,
-    content: `As a civilization, humans have taken more from nature than giving her back. Whether it is inspiration for art or digging our metal claws deep beneath her skin to satisfy our greed. The repercussions of our actions are reflected in the form of global warming, extinction of species, depleting quality of soil, oceans being polluted, fresh water sources depleting etc. `,
-    month: "MAY 2023",
-    img:`/images/sustainable_clothing.png`,
-    author:`Sanjana Yadav`,
+    id:99,
+    mainHeader:'"Am I the Asshole?”: Is it ever ethical to own a buy-to-rent property?',
+    subHeader: '',
+    contentHeader: '"Am I the Asshole?”: Is it ever ethical to own a buy-to-rent property? ',
+    content:'This is a question that we could all do with asking more. An honest and self-deprecating inquiry that can only help us to analyse our behaviour and change it when necessary',
+    month: 'JUN 2023',
+    img: '/images/san1.webp',
+    author: 'Eleanor Ingham',
     topics: ["LIFE MATTERS","COST OF LIVING"],
-    theme:"filler",
-    date: "May 01, 2023",
-    template: 3,
+    theme: "filler",
+    date: "June 1 2023",
+    template: 1
   },
-   {
-    id:90 ,
-    mainHeader: `From the Cedars to the World: The Story of Lebanese Music`,
-    subHeader: "",
-    contentHeader: `From the Cedars to the World: The Story of Lebanese Music`,
-    content: `Being a Lebanese national, writing about our music is a source of immense pride for me. This is primarily because Lebanon, being a country with a rich cultural heritage, places significant importance on music as a part of its identity. `,
-    month: "MAY 2023",
-    img:`/images/lebanese_music_1.jpg`,
-    author:`Yara Arkadan`,
-    topics: ["LIFE MATTERS","ARTS & CULTURE", "MUSIC"],
-    theme:"filler",
-    date: "May 01, 2023",
-    template: 1,
+  {
+    id:100,
+    mainHeader:`Karl Lagerfeld's Fashion Legacy Was Honoured At The Met Gala - But Should HE Be?`,
+    subHeader: '',
+    contentHeader: `Karl Lagerfeld's Fashion Legacy Was Honoured At The Met Gala - But Should HE Be? `,
+    content: 'On the 1st of May this year, the rich and famous attended one of the most famous charity events in the world at the Metropolitan Museum of Art’s Costume Institute in New York City.',
+    month: 'JUN 2023',
+    img: '/images/karl.avif',
+    author: 'Maisie Levitt',
+    topics:  ["FASHION & BEAUTY", "FASHION WEEKS"],
+    theme: "filler",
+    date: "June 1 2023",
+    template: 1
   },
+
 
   
 ];
@@ -926,17 +904,27 @@ export const articles = [
     mainHeader: "Making Up with my Boyfriend",
     subHeader: "",
     contentHeader: "One Thing Leads to Another",
-    content:
-      "<p class='first'>Summer 2022 was an eventful one. One particular occasion that made it so memorable was a circumstance that I got selected for, as in randomly extracted from a large group of people from all over the country. </p><p>7<sup>th</sup> of June. I walk into a Sephora store at 7:40 pm in the center of Rome, in a black crop top, black elegant tailor-made trousers, black suede Steven Madden open-toe heels, and a flamboyant ocher Bvlgari twilly scarf. I was elegantly dressed as I was attending a close friend’s birthday party, however, per my usual Italian lateness, I had forgotten to buy my dear friend a gift (mainly because I was way too focused on my outfit for the night). </p><p>Sephora was going to close in less than 20 minutes so I had little time to choose between products and I did something I am not usually fond of: I asked a shop assistant for an opinion. He gave me a couple of options based on my budget and product orientation and added that if I were to purchase one of the two, I was going to enter a contest in which a few girls would have won a Make-Up Masterclass by NARS Italia. And, since I was already in a hurry, I purchased the latter, almost without even letting him finish talking.</p><p>1<sup>st</sup> of July. I receive an email from the marketing department of NARS Italia informing me that I was extracted as a winner of the Makeup Masterclass contest, so I confirm my participation. In the email, they explained how the day was going to be structured: brunch and introductions, a 2,5h masterclass on how to apply NARS makeup, and an aperitivo to end the day. Everything was going to be free and hosted in one of the most beautiful villas in the center of Rome: Residenza Lavernale. Convinced that it was going to be the typical event full of teenage girls that were going to Instagram every moment and that the masterclass would consist of a PowerPoint presentation, I invited my boyfriend. At first, he was not thrilled about participating in a 2,5h makeup masterclass, but he was quickly convinced when the free aperitivo was mentioned. </p><p>8<sup>th</sup> of July. My boyfriend and I – properly dressed – arrive at the location and were enchanted by the beautiful atmosphere surrounding us. A private oasis in the middle of Rome. When we get closer to the glazed residence I immediately notice that things were far more different than I had imagined. I see a massive rectangular table with eight workstations, each equipped with a notebook, pen, foundation, palette, mascara, makeup removal, etc. Conversely to what I had thought, it was an extremely private event. A whole catering team was there to serve us, standing waiters in uniforms serving us never-ending food. Amazing and unexpected at the same time. Out of embarrassment, I tell my boyfriend (who was already at the buffet eating) that I was not going to keep him if he had changed his mind about staying, but he did not leave. In the meantime, the same person from the Marketing Department who had sent me the email welcomed us and presented us with the Brand Manager of NARS Italia. I also recognized the shop assistant who helped me pick up my friend’s gift a month earlier. To my surprise, NARS’s Brand Manager was delighted by my boyfriend’s presence and vouched for him to stay since one of the girls bailed last minute. In short, my boyfriend got a seat at the winners' table and did not even participate in the contest. </p><p>The next two hours were truly enriching from a personal and cultural point of view. They showed us how to apply makeup as we did it ourselves (a very effective way for people to remember stuff), we girls put on a few things more but also my boyfriend was taught how to put foundation, concealer, and the “lighter” kind of makeup to help him look less tired. In addition, the NARS representative kindly explained how there are makeup products made exclusively for men and that there is an in-depth psychology study behind them. For instance, makeup and creams for men are more liquid - compared to women’s - as they have to dry faster since men are not at ease with the feeling of something covering their faces. In contrast, women prefer the latter feeling, otherwise, they will not believe the product to be effective.</p><img src='/images/makigUpWithBoyfriend-4.jpg' class='object-cover block m-auto'/><p>Moreover, he explored a bit of history and mentioned: “Boy de Chanel”, which is the male makeup line launched in 2018 by Chanel: mattifying toner, moisturizing foundation, a lip balm, and a pencil for defining facial hair and brows. Or Marc Jacobs’ peculiarly named “Boy Tested, Girl Approved” male makeup collection.</p><p>Finally, he told us a little bit about himself and his story, from starting at Central Saint Martins as a fashion designer to working as a celebrity makeup artist to then moving into a quieter home just outside of Milan. A fascinating man with an incredible ability to put at ease his interlocutors. Bottom line, I arrived at the event embarrassed about having brought my boyfriend with me to leave a fun makeup session wearing, both me and my boyfriend, DIY (plus a little bit of help) NARS makeup.</p><p>We had our aperitivo, engaged in a few social conversations, took a few pictures, and left.</p><p>Overall it was a great day and to top it off since I had to use the restroom we found one in a church nearby and accidentally – by exiting the wrong way – we found that behind the church, a temporary theatre set-up – with the most amazing Roman view - was going to present Luigi Pirandello’s play “Six Characters in search for an Author”, so we stayed. A magic day. </p><p></p><p></p><p></p><p></p><p></p>",
-    img: "/images/makigUpWithBoyfriend.jpg",
-    img2: "/images/makigUpWithBoyfriend-2.jpg",
-    img3: "/images/makigUpWithBoyfriend-3.jpg",
+    content:`
+              <p class="first">Summer 2022 was an eventful one. One particular occasion that made it so memorable was a circumstance that I got selected for, as in randomly extracted from a large group of people from all over the country.</p>        
+              <p>7th of June. I walk into a Sephora store at 7:40 pm in the center of Rome, in a black crop top, black elegant tailor-made trousers, black suede Steven Madden open-toe heels, and a flamboyant ocher Bvlgari twilly scarf. I was elegantly dressed as I was attending a close friend’s birthday party, however, per my usual Italian lateness, I had forgotten to buy my dear friend a gift (mainly because I was way too focused on my outfit for the night). Sephora was going to close in less than 20 minutes so I had little time to choose between products and I did something I am not usually fond of: I asked a shop assistant for an opinion. He gave me a couple of options based on my budget and product orientation and added that if I were to purchase one of the two, I was going to enter a contest in which a few girls would have won a Make-Up Masterclass by NARS Italia. And, since I was already in a hurry, I purchased the latter, almost without even letting him finish talking.</p>
+              <p>1st of July. I receive an email from the marketing department of NARS Italia informing me that I was extracted as a winner of the Makeup Masterclass contest, so I confirm my participation. In the email, they explained how the day was going to be structured: brunch and introductions, a 2,5h masterclass on how to apply NARS makeup, and an aperitivo to end the day. Everything was going to be free and hosted in one of the most beautiful villas in the center of Rome: Residenza</p>
+              <p>Lavernale. Convinced that it was going to be the typical event full of teenage girls that were going to Instagram every moment and that the masterclass would consist of a PowerPoint presentation, I invited my boyfriend. At first, he was not thrilled about participating in a 2,5h makeup masterclass, but he was quickly convinced when the free aperitivo was mentioned.</p>
+              <p>8th of July. My boyfriend and I – properly dressed – arrive at the location and were enchanted by the beautiful atmosphere surrounding us. A private oasis in the middle of Rome. When we get closer to the glazed residence I immediately notice that things were far more different than I had imagined. I see a massive rectangular table with eight workstations, each equipped with a notebook, pen, foundation, palette, mascara, makeup removal, etc. Conversely to what I had thought, it was an extremely private event. A whole catering team was there to serve us, standing waiters in uniforms serving us never-ending food. Amazing and unexpected at the same time. Out of embarrassment, I tell my boyfriend (who was already at the buffet eating) that I was not going to keep him if he had changed his mind about staying, but he did not leave. In the meantime, the same person from the Marketing Department who had sent me the email welcomed us and presented us with the Brand Manager of NARS Italia. I also recognized the shop assistant who helped me pick up my friend’s gift a month earlier. To my surprise, NARS’s Brand Manager was delighted by my boyfriend’s presence and vouched for him to stay since one of the girls bailed last minute. In short, my boyfriend got a seat at the winners' table and did not even participate in the contest.</p>
+              <p>The next two hours were truly enriching from a personal and cultural point of view. They showed us how to apply makeup as we did it ourselves (a very effective way for people to remember stuff), we girls put on a few things more but also my boyfriend was taught how to put foundation, concealer, and the “lighter” kind of makeup to help him look less tired. In addition, the NARS representative kindly explained how there are makeup products made exclusively for men and that there is an in-depth psychology study behind them. For instance, makeup and creams for men are more liquid - compared to women’s - as they have to dry faster since men are not at ease with the feeling of something covering their faces. In contrast, women prefer the latter feeling, otherwise, they will not believe the product to be effective.</p>
+              <p>Moreover, he explored a bit of history and mentioned: “Boy de Chanel”, which is the male makeup line launched in 2018 by Chanel: mattifying toner, moisturizing foundation, a lip balm, and a pencil for defining facial hair and brows. Or Marc Jacobs’ peculiarly named “Boy Tested, Girl Approved” male makeup collection.</p>
+              <p>Finally, he told us a little bit about himself and his story, from starting at Central Saint Martins as a fashion designer to working as a celebrity makeup artist to then moving into a quieter home just outside of Milan. A fascinating man with an incredible ability to put at ease his interlocutors. Bottom line, I arrived at the event embarrassed about having brought my boyfriend with me to leave a fun makeup session wearing, both me and my boyfriend, DIY (plus a little bit of help) NARS makeup.We had our aperitivo, engaged in a few social conversations, took a few pictures, and left.</p>
+              <img src='/images/gio-2.jpg' alt='image' class='block m-auto w-full h-3/6 py-2 sm:py-0' />
+              <p>Overall it was a great day and to top it off since I had to use the restroom we found one in a church nearby and accidentally – by exiting the wrong way – we found that behind the church, a temporary theatre set-up – with the most amazing Roman view - was going to present Luigi Pirandello’s play “Six Characters in search for an Author”, so we stayed. A magic day.</p>
+              `,
+    img: "/images/gio-1.jpg",
+    img_source: '',
+    img_source_title: ' ',
     month: "MAR 2023",
     author: "Giorgia Candreva",
     topics: ["FASHION & BEAUTY", "MAKEUP"],
     theme: "",
     date: "March 01, 2023",
-    template: 5,
+    template: 1,
   },
 
   {
@@ -3092,6 +3080,357 @@ export const articles = [
     theme: "filler",
     date: "June 1 2023",
     template: 1
+  },
+  {
+    id: 96,
+    mainHeader:'Online Studying and Increased Productivity',
+    subHeader: '',
+    contentHeader: 'Google Classroom and how to encourage students to complete their online set tasks ',
+    content: `
+              <p>Ever since the pandemic, it has been more than clear that on a number of occasions students have refused or struggled to complete their tasks, assignments and homework especially when it has to be done online and there is no face-to-face interaction. Students have found it really hard to motivate themselves to complete a certain piece of work especially when the teachers were checking it online rather than in person and giving online feedback. There is no doubt that there are many positives of face-to-face learning but what could help if learning had to be completed online solely?</p>    
+              <p>A lot of alternatives and new ways could be invented, especially since the invention of VR glasses and the meta products. In the near future, we probably would have a lot of children studying from home and feeling just as if they are in the classroom. Teachers would most likely be doing their lectures from home as well, feeling just as they are in the classroom even when they cannot be physically there. This would be especially useful for child actors and/or terminally ill children who could benefit from education anytime at any place. However, we cannot speculate with this and we should leave that for the future once those products and alternatives are available. One thing we can do though, is suggest different ways we can help the modern society to make online learning more efficient and at the same time more interesting. There are two main tactics that can be implemented, so that more students find it more interesting and motivating to complete their online piece of work and online assignments.</p>    
+              <h2>Ways to motivate and encourage pupils to study and complete their tasks virtually</h2>
+              <img src='/images/online2.png' alt='image' class='block m-auto w-full h-3/6 py-2 sm:py-0' />
+              <h3>1) More interactive Google Classroom tool with rewards</h3>
+              <p>Google Classroom is a fairly good online learning system which was and continues being used by a lot of schools, not just in the UK but worldwide. It is extensively used by students as well as teachers. It allows students to have online classes with video, audio and chat options. A really useful tool that Google Classroom has is the ability for teachers and students to collaborate. Teachers can create and share content with their students, while students can work together on group projects and assignments. Google Classroom also integrates seamlessly with other Google apps such as Google Drive, Google Docs, and Google Sheets. This allows teachers to create and share content with their students in realtime and for students to work on the documents themselves while the teachers are there correcting it and offering them advices.</p>
+              <p> Google Classroom has a lot of positives; however, it lacks ways to encourage students to complete their task after an online lesson. A good and useful addition to Google Classroom could be a reward programme. This would provide students with tangible incentives to complete their online task or homework, they can have a little points or sticker award that they earn. Once they have completed a certain module, they can have an award such as a game they could unlock, launch, and play.</p>
+              <p>The game option could be implemented for older students too, as every student likes a short game that they can play, especially with the further incentive of unlocking different levels, one needs to complete a certain task or homework. It is believed that a small award and distraction could motivate students to achieve more, similarly to adults in their workplaces. If adults continuously complete their work tasks and the completion is very professionally done, they get their "reward" which is a healthcare benefit, a promotion, or an extended holiday allowance.</p>
+              <h3>2) Teachers and Teaching Assistants can try to increase student motivation</h3>
+              <p>Studies have shown that students who connect with their teachers and teaching assistants show much better results on their exams and assignments. However, how can this be done when the assignments are set online?</p>
+              <p>When students have completed a certain task, it would be quite useful and helpful if the students were praised more and maybe in their feedback before they leave, teachers can encourage them to interact with their parents more or can encourage them to talk to their peers about different movies, sports, hobbies or science. That way, not only students are learning more about a certain subject but they are doing it in enjoyable and care free, so in a way, they don't even realise that they are working.</p>
+              <p>Similarly, for example, if they have a task to write about a dystopian Earth, the teaching assistant or teacher can prompt them questions such as "Do you watch any sci-fi movies or read any sci-fi literature? What is your favourite sci-fi movie/book? Would you implement anything from it and what would you make different?" Questions like those encourage students to put their "thinking caps" and help them enjoy writing a particular piece of work that they can connect to something they liked watching/reading about.</p>
+              <p>In that way, students' imaginations are developed, and they would be completing previously thought tedious tasks, with developed interest and curiosity.</p>
+              <b>Final thoughts:</b>
+              <p>People are in constant search for ways to make life better and easier. By implementing the above suggested tactics, students and teachers could be looking at a pathway to a brighter future not only with improved communication but also a platform on which to stimulate the imagination of the students, especially when studying online and remotely from the classrooms.</p>
+              `,
+    month: 'JUN 2023',
+    img: '/images/online1.jpg',
+    img_source: '',
+    img_source_title: ' ',
+    author: 'Antoniya Gerimpapazi',
+    topics: ["LIFE MATTERS", "TECHNOLOGY"],
+    theme: "filler",
+    date: "June 1 2023",
+    template: 1
+  }, 
+  {
+    id:97,
+    mainHeader:'Mental health in famous families',
+    subHeader: '',
+    contentHeader: 'Mental health in famous families ',
+    content: `
+              <p>Deteriorated mental health, disabilities and even alternative ways of thinking have always been subject to taboo. From the burning of “witches” to the institutionalisation of liberal thinking women, mental and physical divergence has all too often been seen as a threat to society and a shame to families. As both the medical world and society understand mental and physical handicaps more and more, the stigma is at last lifting.</p>
+              <p>But it wasn’t always like this. Due to a lack of understanding, intolerance, shame and perhaps even fear, many people throughout history, especially women, have suffered not only as a result of their afflictions but also through their ostrasisation and isolation. In the 19th century in particular, insane asylums and doctors also became the pawns of husbands intent on committing their wives to asylums simply for not conforming to their role in society, or for not fulfilling the role of wife to the satisfaction of her husband’s satisfaction. Rich and famous historical families were no exception to this. Though there are many examples of forced institutionalisations as a result of the lack of knowledge of mental disease, its causes or how to help, three examples of famous women stand out. Not only are they shocking because of the terrible suffering of the women involved but also because two of the three cases spanned well into the twentieth century.</p>
+              <h3>Rosemary Kennedy</h3>
+              <div>
+                <img src='/images/mental1.jpeg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+                <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+                Image source:<a href='https://www.mujerhoy.com/celebrities/rosemary-kennedy-hermana-desconocida-john-tragedia-familia-lobotomia-encierro-locura-ninfomana-20210718122851-nt.html'>Rosemary Kennedy before her lobotomy </a></p>
+              </div>
+              <p>We’ve all heard of the famous Kennedy family, an American political dynasty whose family members remain just as famous today as they were last century. Most will also have heard of the “Kennedy curse”, a phrase coined following an unusually high number of unfortunate events including the assassination of two of the Kennedy brothers, John and Bobby, the death of three Kennedys in three separate plane crashes and two suicides.</p>
+              <p>Eventually they heard of a new experimental operation called a lobotomy. Lobotomies, now a discredited and rarely performed operation, involved using a pick to sever connections in the brain and was believed to cure a range of mental problems. Lobotomies however were an extremely risky procedure and tragically Rosemary was left with the mental age of a two-year-old and unable to walk or talk.</p>
+              <p>Though she lived to the age of 86, dying in 2005, the Kennedy family hid Rosemary away in mental institutions until her death. Her disappearance didn’t go unnoticed by the press, but the Kennedys lied about her whereabouts, concerned about the stigma of her condition. Though Rosemary’s story is a tragic one, her plight did inspire her brother while president to enact new policies regarding the treatment of people with mental disabilities. Indeed, the last bill Kennedy signed before his assassination was one helping people in institutions to live freer lives. Though this is a silver lining to this sad story, Rosemary’s is a truly tragic tale of a woman who deserved so much better.</p>
+              <h3>Nerissa and Katherine Bowes-Lyon</h3>
+              <div>
+                <img src='/images/mental2.webp' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+                <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+                Image source:<a href=' https://www.mamamia.com.au/what-happened-to-nerissa-and-katherine-bowes-lyon/'>Nerissa and Katherine Bowes-Lyon who became subject to a royal cover-up </a></p>
+              </div>
+              <p>These two sisters, born 1919 and 1926 respectively, were the first cousins of the late Queen Elizabeth and her sister Princess Margaret. Both girls were born with severe learning difficulties and even never learnt to speak.</p>
+              <p>Though much of the girls’ lives was shrouded in mystery, what is known is that they were sent in secrecy to the Royal Earlswood Hospital in 1941, where they stayed until their deaths. Though many people with severe learning difficulties do indeed need constant and professional care, the circumstances surrounding the girls’ institutionalisation shocked the public when the details came to light.</p>
+              <p>The girls’ status was covered up by the Royal Family, their mother going as far as registering their deaths to hide their real status. Worried about the perception of the blood line or perhaps simply embarrassed by the girls’ disabilities, the Royal Family left the girls alone in the hospital, never visiting and even leaving an unnamed headstone on their deaths.</p>
+              <h3>Elizabeth Packard</h3>
+              <div>
+                <img src='/images/mental4.jpeg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+                <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+                Image<div>
+                <img src='/images/mental4.jpeg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+                <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+                Image source:<a href=' https://www.blazinggrace.org/elizabeth-packard-gaslighting-and-the-truth/'>Elizabeth Packard, a prominent campaigner against institutionalisation</a></p>
+              </div> source:<a href=' https://www.blazinggrace.org/elizabeth-packard-gaslighting-and-the-truth/'>Elizabeth Packard, a prominent campaigner against institutionalisation</a></p>
+              </div>
+              <p>Unlike the other three women mentioned, Elizabeth Packard wasn’t born into a famous family but rather became famous due to her experience with institutionalisation.</p>
+              <p>Elizabeth Packard was born in Massachusetts in 1816. At 19, Elizabeth suffered from brain fever, an affliction which causes fever, headaches and delirium and institutionalised by her father for six weeks. The experience was a trauma for the young Packard who developed a deep mistrust of the medical world as a result.</p>
+              <p>Despite marrying a Calvinist minister and having six children, Packard was a women way ahead of her time. An independent thinker, she enjoyed missionary work away from her family,frequently travelled alone and developed different religious beliefs to those of her husband. Her independence and disobedience were construed by her husband as insanity.</p>
+              <p>Taking advantage of laws allowing husbands to commit their wives without question, Packard was admitted to the Illinois Hospital for the Insane where she stayed for three years. On the petition of her oldest son, and after her constant protests throughout her three-year commitment, Packard was finally released. As a free woman, Packard campaigned for the rest of her life against laws in the states which condemned women to mental institutions simply for not conforming. Her campaigns also ensured more rights for married women.</p>
+              <p>Though both the medical treatment and perception of mental illness has progressed, it’s clear that we have a long way to go to understanding and accepting mental health problems.</p>
+              `,
+    month: 'JUN 2023',
+    img: '/images/mental3.jpeg',
+    img_source: '',
+    img_source_title: ' ',
+    author: 'Eleanor Ingham',
+    topics: ["MENTAL HEALTH","WELLBEING"],
+    theme: "filler",
+    date: "June 1 2023",
+    template: 1
+  },
+  // {
+  //   id:98,
+  //   mainHeader:'Gender reveal: Revealing more than just gender',
+  //   subHeader: '',
+  //   contentHeader: 'Gender reveal: Revealing more than just gender ',
+  //   content: ``,
+  //   month: 'JUN 2023',
+  //   img: '/images/mental3.jpeg',
+  //   img_source: '',
+  //   img_source_title: ' ',
+  //   author: 'Eleanor Ingham',
+  //   topics: ["SOCIAL MEDIA"],
+  //   theme: "filler",
+  //   date: "June 1 2023",
+  //   template: 1
+  // },
+  {
+    id:99,
+    mainHeader:'"Am I the Asshole?”: Is it ever ethical to own a buy-to-rent property?',
+    subHeader: '',
+    contentHeader: '"Am I the Asshole?”: Is it ever ethical to own a buy-to-rent property? ',
+    content: `
+            <p class="first">This is a question that we could all do with asking more. An honest and self-deprecating inquiry that can only help us to analyse our behaviour and change it when necessary</p>
+            <p>This question is the title of a Subreddit (a page on the social media page Reddit), where users are invited to ask the wider Reddit community if their behaviour in a certain situation merits this unwelcome title.</p>
+            <h3>A modern-day Scrooge?</h3>
+            <p>Just yesterday I found myself pondering this very probing question when confronted by 16 enraged Facebook users responding to one of my posts on a page for people looking for flats in San Sebastian, Spain.</p> 
+            <p>So here is a confession which may condemn me from the offset: I am the owner of a property that I rent out by the room. Yes, I am the classic villain, a landlady. Though I like to think of myself as more of a Mrs Hudson-type landlady, recent events have left me wondering if I’m more akin to Ebenezer Scrooge; a squeezing, wrenching, grasping, scraping, clutching, covetous (young) sinner.</p>
+            <p>Unlike Scrooge, I don’t plan on evicting any orphans in the near future, and my property portfolio extends to the grand total of one. The flat I currently live in is also in fact rented, allowing me to see both sides of the coin.</p>
+            <h3>The defendant takes the stand</h3>
+            <p>Before I plead my case, I am willing to admit, if so proven, that this is assholish behaviour. To be honest, I can see it from both sides of the argument.</p>
+            <p>As a self-confessed “leftie”, I used to get a certain satisfaction from articles and letters in newspapers from disgruntled landlords bemoaning growing interest rates or raised taxes on second homes. “Good!” I thought to myself spitefully. A fair price for making money from basic needs.</p>
+            <p>Unsurprisingly, news of raised interest rates now doesn’t inspire the same spite. So as a buy-to-let property owner myself these days, how do I reconcile these two polar-opposite standpoints? Am I simply a hypocrite? It’s time to take the stand.</p>
+            <h3>The property market in San Sebastian: a buyer’s market</h3>
+            <p>The house in question, in the trendy and vastly expensive neighbourhood of Gros in San Sebastian, was bought with my ex-partner with the expectation that one day we would live there ourselves.</p>
+            <p>As the “ex” status clearly implies, we are sadly no longer together. An investment property though is for life and, happy to co-own the property, we carried on regardless, collecting the rent each month from tenants we like and respect.</p>
+            <p>For anyone in the unsurprising position of being unfamiliar with the ins and outs of the San Sebastian property market, it is off the charts. It’s crazily, eye-poppingly, jaw-droppingly expensive to buy and rent property in the city.</p>
+            <p>San Sebastian is an amazingly beautiful city and a mecca for international students, digital nomads and tourists. The boom of holiday rentals which came with the heyday of Airbnb saw the price of property rocket as investors swooped in on opportunities to buy properties in the city and milk them for short-term rentals.</p>
+            <p>The subsequent scarcity of flats for buyers and long-term renters raised the price as an unwelcome, unfair and frankly uncalled-for consequence. San Sebastian is currently the most expensive city in the whole of Spain, with mortgages and rents higher even than in Madrid and Barcelona.</p>
+            <div>
+              <img src='/images/san2.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+              <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+              Image source:<a href=' https://cadenaser.com/emisora/2017/09/18/radio_san_sebastian/1505747463_177962.html'>San Sebastian an amazingly beautiful but also expensive place to live and rent</a></p>
+            </div>
+            <h3>Renting a house: money grabbing or providing a needed service?</h3>
+            <p>But I digress. My mortgage on a three-bedroom, 80m property is around 1300 per month. Add to this tax, insurance, maintenance and the “cost” of months where rooms aren’t rented and you find yourself with a very expensive property on your hands.</p>
+            <p>Rooms are rented at 500 apiece and renting them at this price is easy. Such is the demand for rooms that people will accept a much higher price just to get a place in the city. The profile of the renter tends to be foreign students or young professionals-people looking for a room next to the beach and within stumbling distance of the old part for Saturday nights.</p>
+            <p>So back to my much-maligned Facebook post, offering one double room for 500 euros, starting in May. Specifications were for a single person (not a couple), preferably female, non-smoker and no pets.</p>
+            <p>“500 for a room? You have no shame!” the first commenter howled. “People who want other people to pay for their houses should be sued for abuse” cried another. And so it went on, commenters piling on their incredulity and disgust.</p>
+            <p>After 12 years in teaching, no-one can hurt me. My skin is thicker than the sole of a grandmother’s foot. Anyone with a halfway normal hide though would be appalled by the sheer amount of vitriol directed at me by people with absolutely no notion of my personal circumstances.</p>
+            <h3>Are buy-to-rent properties ever ethical?</h3>
+            <p>Though some didn’t have a realistic idea of what the property market is like in San Sebastian, seeming to think that getting a whole flat for 500 in the city was reasonable, their wild accusations of foul play made me think.</p>
+            <p>Is it ever ethical to rent out a house in this way? A house is a basic need, not a commodity to make money from. If it is indeed ethical, or at least ethically passable, where’s the limit? Is it ok to rent out two houses? What about three? Is it different renting by the room or to a family?</p>
+            `,
+    month: 'JUN 2023',
+    img: '/images/san1.webp',
+    img_source: 'https://www.elmundo.es/viajes/espana/2021/08/26/60e6bb4621efa0c7718b4682.html',
+    img_source_title: 'Elmundo ',
+    author: 'Eleanor Ingham',
+    topics: ["LIFE MATTERS","COST OF LIVING"],
+    theme: "filler",
+    date: "June 1 2023",
+    template: 1
+
+  },
+  {
+    id:100,
+    mainHeader:`Karl Lagerfeld's Fashion Legacy Was Honoured At The Met Gala - But Should HE Be?`,
+    subHeader: '',
+    contentHeader: `Karl Lagerfeld's Fashion Legacy Was Honoured At The Met Gala - But Should HE Be? `,
+    content:  `
+              <p class="first">On the 1st of May this year, the rich and famous attended one of the most famous charity events in the world at the Metropolitan Museum of Art’s Costume Institute in New York City.</p>
+              <p>Costing now $50,000 per ticket (a $20,000 increase since last year) unless invited, its yearly theme and mass spectacle of celebs, icons and figures in their extravagant outfits makes it one of the most discussed and controversial events in fashion. In September 2022, the Met confirmed the news that the 2023 theme would be ‘Karl Lagerfeld: A Line of Beauty’ in “honour of Karl”.</p>
+              <p>Karl Lagerfeld was one of the most famous figures in fashion with a career that spanned several decades and who died in 2019. Having worked for some of the most famous fashion houses in the world such as Balmain and Chloé, then becoming the creative director of Chanel and Fendi, Lagerfeld was considered legendary and prolific. However, the German designer has been at the centre of a wide array of controversies that do bring about the question, should he be honoured?</p>
+              <h3>Criticism and Body-Shaming of Women</h3>
+              <p>In 2009, Lagerfeld criticised model Heidi Klum’s naked body in her cover shoot for the German version of GQ magazine, after another German designer described Klum as being “too heavy” and “no runway model”. Lagerfeld said that although he had never worked with the supermodel, she was insignificant in the world of high fashion and too “bling-bling”.</p>
+              <p>The same year, he also told the German magazine Focus that “no one wants to see curvy women” in reference to magazine covers</p>
+              <p>In 2012, he called the singer Adele “a little too fat” while guest editor for the (European) Metro newspaper. Though he later apologised, an interview led the singer to respond to the comment with “I enjoy being me; I always have done</p>
+              <h3>Islamophobia and Immigration</h3>
+              <p>Lagerfeld has reinforced negative stereotypes about Muslims for years, such as in his 2015 cartoon of a woman wearing a hijab while attempting to enter barbed-wire-surrounded European borders.</p>
+              <p>In May 2018, the designer mentioned to Le Point newspaper that he was considering giving up his German citizenship due to German Chancellor Angela Merkel’s migrant policies in which she accepted the entry of one million Muslim immigrants.</p>
+              <h3>Anti #MeToo Movement and Sexual Harassment</h3>
+              <p>In a 2018 interview with the magazine Numéro, Lagerfeld stated that he was “fed up” with the #MeToo movement and that “If you don’t want your pants pulled about, don’t become a model”. He also defended the stylist Karl Templer, who has been accused of sexual misconduct during fashion shoots</p>
+              <h3>Fashion’s Blind Eye to Lagerfeld</h3>
+              <p>Amy Odell, writer of Anna [Wintour]: The Biography, is not surprised by this year’s Met theme. The author told TIME, “This is an industry that is built on elitism and illusion and people don’t want to acknowledge fault lines”.</p>
+              <p>The famed editor-in-chief of Vogue as well as chairwoman of the Met Gala since1995, Anna Wintour, was a close friend of Karl’s. The gala was also sponsored by Lagerfeld’s former fashion house Chanel, further combining the question of ethics and commerciality.</p>
+              <p>Editor and writer Emily Kirkpatrick also told TIME that although she does not believe that Lagerfeld’s work should be dismissed or unacknowledged, “he was also an asshole with some really bad ideas and some really racist, misogynistic, and homophobic opinions about pretty much every topic imaginable” but “it’s easier for us to consume pretty things without reckoning with the horrible story behind them”.</p>
+              `,
+    month: 'JUN 2023',
+    img: '/images/karl.avif',
+    img_source: ': https://www.businessoffashion.com/community/people/karl-lagerfel',
+    img_source_title: 'Business of fashion ',
+    author: 'Maisie Levitt',
+    topics:  ["FASHION & BEAUTY", "FASHION WEEKS"],
+    theme: "filler",
+    date: "June 1 2023",
+    template: 1
+  }, 
+  {
+    id:101,
+    mainHeader:`How did Sifan Hassan Make History at the London Marathon?`,
+    subHeader: '',
+    contentHeader: `How did Sifan Hassan Make History at the London Marathon?`,
+    content:  
+    ` 
+    <p>
+    On Sunday, 23rd of April, Sifan Hassan made history by winning the Women’s London Marathon despite all the odds. The Olympic Track Champion completed her run in only 2 hours 18 minutes 33 seconds, beating Olympic gold medalist Peres Jepchirchir of Kenya and London Marathon champion Yalemzerf Yehualaw of Ethiopia. 
+    </p>
+    <p>
+    The Ethiopian-born, Dutch runner’s win at this marathon was a significant landmark for a variety of reasons. To begin with, Hassan has never been trained to run long-distance competitions, and certainly not a marathon. Prior to this win, she was primarily a middle-distance athlete. In previous years, Hassan has impressively won two gold medals on the Tokyo Olympic track and one bronze medal, all competing in 5,000- and 10,000-meter races.  The London marathon on the other hand is a 42.2-kilometre race which makes Hassan’s win rather surprising. 
+    </p>
+    <div>
+    <img src='/images/sifan-2.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    Image of Sifan Hassan following her win in the Tokyo racing competition in 2020. Source: <a href='https://olympics.com/en/news/sifan-hassan-top-facts-double-olympic-champion'>Getty Images </a>
+    </p>
+    </div>
+    <p>
+    During the London marathon, the champion encountered several obstacles which made her unlikely to win the race. Only an hour into the run, Hassan fell off the pace when she began to stretch her hip due to a previous injury. Later on, she selflessly offered water to another runner, after missing a water station herself. Following these events, most viewers did not anticipate such a speedy comeback and a winning-sprint towards the end of the race. 
+    </p>
+    <p>
+    Just a few days ago, Hassan was also fasting for the holy month of Ramadan where Muslims are not allowed to eat or drink every day from sunrise to sunset. The fasting hindered her ability to train efficiently for the marathon, and to complete long runs. 
+    </p>
+    <p>
+    Following her win however, Hassan covered her face and eyes in disbelief, and appeared to be talking to herself as she rested on the ground. She later says that she was not hopeful about this marathon and was not sure if she would even complete it, let alone win. 
+    </p>
+    <p>
+    Hassan also offered a word of advice for her fellow athletes: “just keep going as much as possible and maybe you will surprise yourself.” 
+    </p>
+    <p>
+    This historic win serves as a reminder and hope for all aspiring runners, Muslims and refugees. Hassan proved that fasting for a month right before a life-changing race should not stand in the way of victory. 
+    </p>
+    <p>
+    Hassan’s win is even more inspiring when considering her backstory  of a difficult childhood including seeking asylum in the Netherlands at a young age.  Sifan Hassan has defied the odds and broke barriers for future generations. 
+    </p>
+
+
+    `,
+    month: 'JUN 2023',
+    img: '/images/sifan-1.jpg',
+    img_caption: 'Sifan Hassan makes history winning the London Marathon on the 23rd of April 2023',
+    img_source: 'https://www.runnersworld.com/uk/news/a42733132/sifan-hassan-london-marathon/',
+    img_source_title: ' Alex Davidson',
+    author: `Gharam Al-Zubi`,
+    topics: ["WELLBEING", "SPORTS HEADLINES"],
+    theme: "filler",
+    date: "June 15 2023",
+    template: 1
+
+  }, 
+  {
+    id:102,
+    mainHeader:`An Introduction to BTS Discography`,
+    subHeader: '',
+    contentHeader: `An Introduction to BTS Discography`,
+    content: `
+    <p>
+      Artists throughout history have always been known for using their platform to spread awareness, and to speak about things that need to be said. This trend is seen in all forms of media today, and this includes music. 
+    </p>
+    <p>
+    One such musical artist that has always used their platform to speak about what is frowned upon, at least in their own country, is the South Korean Boyband BTS. Their name abbreviated from <em>Bangtan Sonyeondan</em>, translates to Bulletproof Boys or Beyond the Scene The band consists of seven members, RM, Jin, Suga, J-Hope, Jimin, V, and Jungkook. 
+    </p>
+    <div>
+    <img src='/images/bts-1.jpeg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    In frame, BTS. From left: J-Hope, Jin, Jungkook, V, RM, Jimin, Suga. Source:
+    <a href='https://twitter.com/bts_bighit/status/1399742870915993600/photo/1'>BTS </a>
+    </p></div>
+    <p>
+    The band’s primary language of music is Korean, with one or two English lines in each song. And in recent times, there have been a few English songs, such as <em>Butter, Dynamite</em>, and <em>Permission to Dance</em>. Their ardent fanbase hurry to upload Korean translations, along with all their intonations, on Twitter mere hours after the releases.
+    </p>
+    <p>
+    Since their debut in 2013, they have been spreading awareness of all topics that are considered taboo to talk about in some countries still. Their debut song, <em>No More Dream</em>, is a social commentary about how students of every generation have been molded to fit a socially defined ideal, due to which a lot of these students become disaffected and surrender their dreams, hence the title. 
+    </p>
+    <p>
+    Almost 90% of BTS’ music is written from the personal anecdotes of each member. They write their music to make sure the message that they want to deliver carries weight so that it has value and impact. The members often speak about their music and explain what it means so that the fans can fully interpret it the way it was intended.
+    </p>
+    <p>
+    While talking about social issues, they also mention the mental health of the people affected by that situation, such as in <em>N.O.</em> This song is a continuation of <em>No More Dream</em>, where they encourage students to reject the norms and ideas that are forced upon them leading to the destruction of creative individuality. 
+    </p>
+    <p>
+    Similar to <em>N.O.</em>, is the song, <em>Baepsae</em> or <em>Silver Spoon</em>, which talks about the privilege that the higher classes of the economy are born with and how they exercise the power that they hold over the lower classes.
+    </p>
+    <p>
+    Apart from social commentaries, such as the ones present in <em>No More Dream, N.O., Spring Day (MV), Paldogansan</em>, and so many more, one of the most prevalent messages that the band speaks about is Mental Health. 
+    </p>
+    <p>
+    The members are no strangers to mental health concerns, having at some point suffered from related issues. They have always been upfront about their personal experiences and have shed a light on them in their music. 
+    </p>
+    <p>
+    In the song, <em>Tomorrow</em>, from the album, <em>Skool Luv Affair</em>, the band mentions how they feel like they’re stuck in repeat, and in the same place mentally, but that by going forward, we’ll eventually break the cycle and move on and reach tomorrow. Another song similar to this, with the vibe of how we need to keep fighting even when everything appears to fall apart, is <em>Lost</em>.
+    </p>
+    <p>
+    Another recurring theme in BTS songs’ is Loneliness. <em>Whalien 52</em>, a song in the album <em>The Best Moments in Life pt.2</em>, the whale 52, is an unidentified species of whale, is used as a metaphor. The whale cuts an emotively solitary figure as it sends out signals in 52 Hertz, never receiving a reply. This situation was used as a metaphor for how lonely adolescents are and how often they feel alienated, similar to this lonely whale.
+    </p>
+    <div>
+    <img src='/images/whale-1.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    An image for a documentary about the 52Hz whale, The Loneliest Whale: The search for 52. Source: <a href='https://www.imdb.com/title/tt2401814/mediaviewer/rm3250701569/?ref_=tt_ov_i'>IMDB </a></p>
+    </div>
+    <p>
+    Loneliness ironically always has a companion and so does <em>Whalien 52</em>, the song. A song very alike in nature to this song, is <em>134340</em>, also known as Pluto. This song draws a metaphor from the planet Pluto and how lonely this diminutive ‘planet’ must have felt when it found itself no longer identified as such. 
+    </p>
+    <p>
+    Apart from general mental illnesses, the band also has an album, <em>BE</em>, that talks about the recent pandemic that took the world by storm, the Coronavirus disease. This album has 8 tracks that each explore the feelings that every individual member faced during those difficult times. 
+
+    </p>
+    <p>
+    The title track, <em>Life Goes On</em>, passes on the message that life truly does go on, although it seems to be stagnant at this point. The band talks about how the members felt their life was on hold during the pandemic and how they, along with the rest of the world, will move on from this eventually. 
+    </p>
+    <p>
+    The entire album has songs that are gems to listen to when you feel low or feel like you are stuck in a single place and don’t know how to progress. This album helped a lot of people when it was released, as everyone was still deep within the pandemic blues in November 2020, and the entire situation took a huge toll on everyone’s mental health. 
+    </p>
+    <div>
+    <div>
+    <img src='/images/be-bts.png' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    The ‘BE’ album cover. Written in lighter colour under the title are the lyrics to the song Life Goes On – “Life goes on, Like an echo in the forest, Like an arrow in the blue sky, On my pillow on my table, Life goes on like this again.” Source: <a href='https://ibighit.com/bts/eng/discography/detail/be.html'>iBigHit </a>
+    </p>
+    </div>
+    <p>
+    BTS has also written quite a few songs for their fanbase, A.R.M.Y, to remind them that they aren’t alone and they can rely on BTS and their music to move on and heal. These songs have given hope to at least a million fans all over the world. 
+    </p>
+    <p>
+    <em>2!3!</em> was the first official gift for the fans in the album <em>Wings</em>, where the members say ‘It’s okay come on when I say one two three forget it, Erase all sad memories hold my hand and smile’. The next official song was <em>Magic Shop</em>, which talks about how BTS’ music, is like a haven for fans, and when you open the door for a Magic Shop in your heart, the place will provide comfort for you.
+
+    </p>
+    <p>
+    Unofficial fan songs by the group that were meant to bring comfort to the fans are songs such as <em>You Never Walk Alone, We are Bulletproof: Eternal, Pied Piper, Mikrokosmos, Answer: Love Myself, The Best of Me</em> and so many more.
+    In 2017, BTS began the project Love Yourself, which aimed to promote self-love in this era where not many people are happy with themselves. This series consisted of three albums, <em>Love Yourself: Her, Love Yourself: Tear</em>, and <em>Love Yourself: Answer</em>.
+
+    </p>
+    <div>
+    <img src='/images/bts-cover.webp' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    The entire cover of the Love Yourself series physical albums, including 3 albums with four versions each. The spines of all 12 albums together spell the word L-O-V-E-Y-O-U-R-S-E-L-F. Source  <a href='https://bts101.info/resources-list/love-yourself-album-covers/'>BTS101 </a>
+    </p>
+    </div>
+    <p>
+    This entire series had several songs about self-worth and learning how to love yourself despite all your faults and mistakes. Some of the songs from this are <em>DNA, Fake Love, Idol, Mic Drop, I’m Fine, Anpanman, and Dimple</em>.
+    </p>
+    <p>
+    In the <em>Map of the Soul</em> series, the songs talk about discovering and connecting to the soul. The concept of this era of BTS music is based on the Jungian Theory of Self by Carl Jung. The theory is ever present in the titles of the three albums and the music videos. 
+    </p>
+    <p>
+    My personal favourite BTS Track that talks about mental health is <em>Louder Than Bombs</em>. This song to me meant that I am not alone whenever I fall apart and that at least somewhere in the world there are people that feel the same way that I do.
+    </p>
+    <p>
+    <em>Black Swan</em> is another song that speaks to my soul. This song talks about how burnout is something an artist feels. It is represented by a dancer losing his soul if he loses his dance. To me, this song represents how if I lose my passion, I will lose a lot of meaning in my life.
+    </p>
+    <p>
+    The music that BTS make aims to heal a soul if they can. The world of BTS is vast and once you dive in, the music and what the group stands for as individuals will make you stay.
+    </p>
+    `,
+    month: 'JUN 2023',
+    img: '/images/bts-pc.jpg',
+    img_source: 'https://ibighit.com/bts/eng/profile/',
+    img_source_title: ' iBigHit ',
+    author: 'Samhitha Jonnadula',
+    topics: ["ARTS & CULTURE", "MUSIC"],
+    theme: "filler",
+    date: "June 15 2023",
+    template: 1
+
+
+
+
   },
   {
     id: 96,

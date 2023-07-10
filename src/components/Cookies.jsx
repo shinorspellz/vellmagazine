@@ -26,9 +26,6 @@ const CookiesConsent = () => {
     setConsent(true);
     cookies.set('cookieConsent', true, { path: '/' });
   };
-  
- 
-  
 
   
 

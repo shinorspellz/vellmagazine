@@ -166,6 +166,10 @@ const settings = {
               alt="img"
               className=" w-full object-cover lg:pr-5 block m-auto my-3 "
             />
+            <p className='authorTemplate text-sm text-center'>
+              {currentArticle.img_caption}
+
+            </p>
             <p className='authorTemplate text-sm text-center mb-[1rem]'>
               Image source:<a href={currentArticle.img_source} target='_blank' rel="noreferrer">{currentArticle.img_source_title}</a>
             </p>
