@@ -3092,6 +3092,629 @@ export const articles = [
     theme: "filler",
     date: "June 1 2023",
     template: 1
+  },
+  {
+    id: 96,
+    mainHeader: "The Writer's Strike",
+    subHeader: "",
+    contentHeader: "The Writers’ Strike, and Emerging Threat of AI",
+    content: `
+    <p>
+    After 6 weeks of fruitless talking and negotiations, the Writers Guild of America (WGA) has announced a walk-out making it their first since 2007. The 2007 strike lasted 100 days, costing the industry around $2 billion. 
+    </p>
+    <p>
+    This time however, the walk-out consists of 98% of voting members, equating to approximately 11,000 screenwriters. The strike is set to immediately shut down late night talk shows, and disrupt the production of TV shows and films. 
+    </p>
+    <p>
+    The reasons behind the walk-out stems primarily from pay, lack of streaming residuals, and the future of Artificial Intelligence (AI) in the creative industry. The WGA also criticised the way Hollywood studios have made the screenwriting job into a “gig economy” which essentially turned the screenwriting profession into freelancing. Therefore, they have called on hiring a minimum of 6-12 staffing writers per show, as well as guaranteeing a number of working weeks for writers.
+    </p>
+    <div>
+    <img src='/images/newyork-protest.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    Image source:<a href='https://www.latimes.com/entertainment-arts/business/story/2023-05-01/hollywood-writers-strike-after-talks-over-pay-conditions-in-streaming-age-fail'>Screenwriters carrying picket signs at a protest in New York. </a>
+    </p>
+    </div>
+    <p>
+    It is no secret that screenwriters are the reason great films and TV series exist. Without screenwriters there is simply no story, and therefore nothing for the big companies to show. Therefore, it would certainly make sense for those writers to be fairly compensated for their work. Screenwriters however, are facing the issue that is lack of compensation, and the threat of AI making their work and livelihoods redundant. 
+    </p>
+    <p>
+    Leila Cohan, a screenwriter on the Netflix hit series Bridgerton, has expressed her dissatisfaction upon learning that the show she worked on brought in high profits. On Twitter she said, “This is cool news! You know what would also be cool? If I was getting residuals commensurate with working on a huge hit! New media is … just media. Pay up accordingly.”
+    </p>
+    <p>
+    While the series made over $605 million in profit, writers like Cohan who worked on every episode, did not gain fair residuals on their hard work. Instead, all of this money went towards the company’s board and CEO. 
+    </p>
+    <p>
+    In the TV industry, residuals, similar to royalties, are based on how many times the show was watched and replayed. Therefore, higher streams should mean higher residuals for the writers, which is the case with cable networks. With streaming services however, residuals tend to be much lower. 
+    </p>
+    <p>
+    Aside from pay, the strike encompasses a larger issue. AI software such as ChatGPT, though in its early stages, is swiftly growing and invading many professional sectors. The creative industry as a whole, has fell victim, with AI generating paintings, drawings, and animated photos, rendering illustrators out of their jobs. Pursuing AI tends to be the cheaper option for businesses, especially in the long run. Therefore, company CEO’s may swiftly adopt their use and abandon human effort and skills. 
+    </p>
+    <p>
+    The Writers Guild of America has stated that they would like Hollywood’s top studios to regulate and control the use of AI in the industry. In a document they stated their clear demand that “AI can’t write or rewrite literary material; can’t be used as source material; and MBA-covered [contract-covered] material can’t be used to train AI.”
+    </p>
+    <p>
+    In a shocking response that completely dismissed their demands and concerns, the Alliance of Motion Picture and Television Producers which represents Hollywood’s biggest companies, rejected the WGA’s demands and offered an annual meeting to discuss the advancements in technology in the industry instead. The company’s response is a clear indication that they are not willing to guarantee  their writers their jobs. 
+    </p>
+    <p>
+    The Co-creator of Arrow and DC’s Legends of Tomorrow, Marc Guggenheim, expressed his support for the strike by saying, “The technology is moving so fast and will move even faster than we can anticipate, and that is why we have got to deal with it in this negotiation.”
+    </p>
+    <p>
+    The technology is indeed moving fast. NBC News already tested ChatGPT’s ability to write TV shows when they asked the software to write them an original episode of the HBO series, The White Lotus. ChatGPT later wrote a six-paragraph outline of the episode, creating new scenes and ideas. This move is only the start of dismissing human effort and creativity and allowing AI to take over.
+    </p>
+    <p>
+    Guggenheim later commented on the use of ChatGPT by saying that this is only “the bad version of ChatGPT. It’s not the better version we’re going to see six months from now.” 
+    </p>
+    <p>
+    The speed at which the technology is evolving is concerning to say the least. Battling the threat of AI in this strike shows how much the industry has changed since the last WGA strike in 2007. Back then Netflix was selling DVD’s in red envelopes. 
+    </p>
+    <p>
+    Follow this twitter link:<a href='https://twitter.com/JustineBateman/status/1653262390140735489?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1653262390140735489%7Ctwgr%5E8dcb16d05f65870e585cbe2b00414e4d4fcf440a%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fiframe.nbcnews.com%2FQdx6ZoO%3F_showcaption%3Dtrueapp%3D1]'>Twitter(Justine Bateman) </a>
+    </p>
+    <p>
+    AI is not only targeting illustrators and screenwriters but several other professions, whether they are creative or not. Ash Kernan, an entertainment and intellectual property attorney, agreed that AI is targeting creative professions in all fields stating, “whether it’s music, photography, whatever the medium, there are creatives who are understandably and justifiably worried about the displacement of their livelihoods.”
+    </p>
+    <div>
+    <img src='/images/GinaGershon.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    Image source:<a href='https://variety.com/lists/writers-strike-2023-celebrities-picketing-wga/gina-gershon/'>Image of Gina Gershon picketing with the WGA. </a>
+    </p>
+    </div>
+    <p>
+    Celebrities across Hollywood have also expressed their support for the writer’s strike. Late night host Seth Meyers stated, "I also feel very strongly that what the writers are asking for is not unreasonable." He later continued, "as a proud member of the Guild, I'm very grateful that there is an organisation that looks out for the best interests of writers."
+    </p>
+    <p>
+    Other celebrities that joined the WGA pickets in Los Angeles and New York include Pete Davidson, Cynthia Nixon, Tina Fey, and Vin Diesel.
+    </p>
+    `,
+    
+    month: "JUN 2023",
+    img: "/images/writers.jpg",
+    img_source: '',
+    img_source_title: 'Jay L. Clendenin / Los Angeles Times',
+    author: "Gharam Al-Zubi",
+    topics: ["ARTS & CULTURE"],
+    theme: "top stories",
+    date: "June 7, 2023",
+    template: 1,
+  },
+  {
+    id: 97,
+    mainHeader: "Boomer Shooters",
+    subHeader: "",
+    contentHeader: "Boomer shooters",
+    content: `
+    <p>
+    Boomer shooter may sound like an odd name for a video game genre, but it’s actually quite simple (and fun!) to understand. The name just refers to any game that tries to replicate the style of classic first-person shooters, such as Doom or Wolfenstein 3D. This article will explain why you should give these games a chance if you’ve never tried them before, while also highlighting some standouts from the genre. 
+    </p>
+    <h3>
+    Retro-like Games Made with Modern Technology
+    </h3>
+    <p>
+    I love learning about the development of old games and how they affected the video-game industry. I’ll happily watch an hour-long video essay about the classic X-Com series before playing the modern remakes. But actually playing classic games on modern computers can be a challenge. I’ve had to find and install fan-made patches to play games from the 2000’s, such as <em>Saint’s Row 2</em> and <em>Vampire: The Masquerade - Bloodlines</em>. Thankfully a lot of 90’s games have official enhanced versions to make them more compatible with modern machines, but there’s always a chance of technical difficulties occurring.
+    </p>
+    <p>
+    There’s also the fact that it can be hard to get into retro games if you didn’t grow up with them. I greatly enjoyed the new Wolfenstein series, but I struggled with the Wolfenstein 3D levels that were included as easter eggs. Although the new gameplay was directly inspired by the original, it still felt strange to control such a slower version of BJ Blazkowicz and I was eager to get back to the main game. 
+    </p>
+    <p>
+    Well, both of these problems are absent in boomer shooters. As they were made for modern systems, they don’t require any compatibility tweaking. They also don’t suffer from any of the technical restraints that the old games had to be built around – this means the gameplay can be much faster and more inventive than what was previously possible. For example, <em>Ultrakill</em> (my personal favourite) feels much more responsive and dynamic than many AAA games I’ve played. The levels also incorporate impressive amounts of verticality which combine with the grappling hook you unlock to create vast, open arenas that you rarely see in 90’s shooters. 
+    </p>
+    <div>
+    <img src='/images/boomerShooters-2.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    Image source:<a href='https://store.steampowered.com/app/519860/DUSK/'>Steam app </a>
+    </p>
+    </div>
+    <h3>
+    Challenging Combat and Secrets to Discover
+    </h3>
+    <p>
+    Much like their predecessors, boomer shooters feature fast-paced action mixed with secret areas and power-ups or story elements you can find. A lot of other games have similar features, of course – FromSoftware games are famous for their difficult combat and hidden lore. <em>Elden Ring</em> and <em>Bloodborne</em> are among my favourite games, however they’re also the only FromSoftware games I’ve completed. This is mainly because of two factors – the time it takes to finish a AAA game and the fact that there’s no adjustable difficulty settings.
+    </p>
+    <p>
+    Now, I don’t have time in this article to go into the whole debate around if all games should have difficulty settings. I do think that if a game requires a major time investment to complete (such as the <em>Dark Souls</em> series) then it should have a way to adjust combat so players with limited time don’t find themselves getting stuck and unable to progress. Most boomer shooters require less time to complete and allow you to decrease or increase the difficulty as you desire. This means you can spend more time looking for secrets because you don’t have to worry about being unable to progress. 
+    </p>
+    <div>
+    <img src='/images/boomerShooters-3.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    Image source:<a href='https://store.steampowered.com/app/2005010/Warhammer_40000_Boltgun/'>Steam app </a>
+    </p>
+    </div>
+    <h3>
+    They’re Affordable 
+    </h3>
+    <p>
+    As we all know, AAA games will usually sell for at least £59.99 on release nowadays. This is understandable, these games have huge teams so a high price can be necessary to make sure everyone is paid fairly and there’s a sufficient budget for the next game. However, it does mean that just buying one new game could eat up a lot of your paycheque if you’re not earning much. Plus, you might buy a game and find out a lot of the content is actually DLC and end up paying more. And if you have a slow wi-fi connection then it might be a few hours before you even get into the game! 
+    </p>
+    <p>
+    Once again, most boomer shooters lack these issues. Because they’re not going for photo-realism in their graphics, they usually require a much smaller team. As such, they’re often available for just £20 on release. The simpler graphics also means their size in GBs is much smaller, meaning you’ll hardly notice the download times. You could easily get at least three boomer shooters and download them for the same cost and time as one AAA game. Despite the lower price, I’ve often found that the gameplay quality is much more polished as well. 
+    </p>
+    <p>
+    There’s nothing more frustrating than paying full price for a game, waiting hours for it to install, and then finding out there’s still major bugs and glitches in it. Well, because the core gameplay of boomer shooters is so focused, and there’s less call for overwhelming graphics, you rarely see major bugs surviving to the release version. And the gameplay still manages to be incredibly complex! There are <em>Ultrakill</em> Youtubers pulling off combos I’m still trying to figure out. 
+    </p>
+    <h3>
+    Standout Titles
+    </h3>
+    <ul>
+      <li>
+      <a href='https://store.steampowered.com/app/1229490/ULTRAKILL/'>Ultrakill </a> – Incredibly fast-paced combat combined with a unique story. You play as V1, a robot descending into hell (inspired by <em>Dante’s Inferno</em>) to fight devils and angels for their blood. Tons of secret levels to find and combos to learn. Also features an amazing soundtrack composed by the lead developer. Technically still in Early Access, but absolutely worth buying. 
+      </li>
+      <li>
+      <a href='https://store.steampowered.com/app/2005010/Warhammer_40000_Boltgun/'>Warhammer 40,000: Boltgun</a> – A side-sequel to the first <em>Space Marine</em> game, it faithfully transforms the world of Warhammer 40k into a retro-game with a great 90’s art style. You play a space marine voiced by Netflix star/Warhammer fan Rahul Kohli who returns to Graia to finish what Captain Titus started. Definitely a must play for 40k fans waiting for the release of <em>Space Marine 2</em>.
+      </li>
+      <li>
+      <a href='https://store.steampowered.com/app/519860/DUSK/'>Dusk</a> – The originator of the term boomer shooter. A true love letter to 90’s first-person shooters, you explore the town of Dusk while fighting off Lovecraftian horrors with loads of weapon options. Developed by David Szymanski, who is considered an expert in retro horror.
+      </li>
+    </ul>
+    `,
+    
+    month: "JUN 2023",
+    img: "/images/boomerShooters.jpg",
+    img_source: '',
+    img_source_title: 'Steam app',
+    author: "James Murray",
+    topics: ["ARTS & CULTURE"],
+    theme: "top stories",
+    date: "June 8, 2023",
+    template: 1,
+  },
+  {
+    id: 98,
+    mainHeader: "Recommended reads during Pride Month",
+    subHeader: "",
+    contentHeader: "Recommended reads during Pride Month",
+    content: `
+    <h3>
+    In celebration of Pride month here is our round-up of recommended LGBTQIA+ Books
+    </h3>
+    <p>
+    Pride Month is in sight again this year. Love is love any day of the year. But this is the perfect time to celebrate and raise awareness of the fact that everyone is unique and valid.
+    </P>
+    <p>
+    BookTok loves to celebrate Pride Along with the rest of the world. Romance is always a go to, but love stories where the characters belong to a minority of the population as they navigate their own emotions, and their newfound relationships are particularly heartwarming. 
+    </p>
+    <p>
+    While all these books are just fiction and do not directly tackle the problems surrounding social fracturing and alienation, they still represent one tiny step at a time towards more proportionate representation in media and arts.
+    </p>
+    <p>
+    Without further ado, here are BookTok’s top 5 favourite LGBTQIA+ books. 
+    </p>
+    <h3>
+    1.	Red, White & Royal Blue - Casey McQuiston
+    </h3>
+    <div>
+    <img src='/images/collectorsEdition.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    <em>The cover of the Collector’s Edition of RWRB. Source:</em><a href='https://us.macmillan.com/books/9781250856036/redwhiteroyalbluecollectorsedition'> Red, White & Royal Blue: Collector's Edition </a>
+    </p>
+    </div>
+    <p>
+    Royalty romance? Sign me up! 
+    </p>
+    <p>
+    But royalty with a twist, is what this delectable book consists of. 
+    </p>
+    <p>
+    A heart-warming love story of the First Son of the United States and the Prince of England. Alex and Henry are meant for each other, and follows their story as they struggle with acceptance, and their love for each other. 
+    </p>
+    <p>
+    Following the perspective of Alex, First Son of the United States, this is a story about how he realises his sexuality is not what he once thought. 
+    </p>
+    <p>
+    In the process of finding himself, he manages to develop a crush on the Prince of Wales, Henry, who just so happens to be his PR partner tasked to resolve a political issue between the two countries. 
+    </p>
+    <p>
+    I absolutely loved the depth given to the characters and the complexity of their relationships.
+    </p>
+    <p>
+    Although it is set in a fix-all world where everything goes, it is fiction after all.
+    </p>
+    <p>
+    Alex and Henry are just perfect for each other in all the ways that count. They manage to flourish in a long-distance relationship, although not without a few hitches and some impulse flights taken to see each other. 
+    </p>
+    <h3>
+    2. The Song of Achilles - Madeline Miller 
+    </h3>
+    <div>
+    <img src='/images/songofachilles.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    <em>Book cover on Goodreads. Source:</em><a href='https://www.goodreads.com/book/show/59062169-the-song-of-achilles'></a>
+    </p>
+    </div>
+    <p>
+    Greek mythology retellings are always such a guilty pleasure to read, and in this reading pleasure reaches epic proportions 
+    </p>
+    <p>
+    This novel is a modern retelling of the poignant and tragic story of Achilles and Patroclus recounted in Homer’s <em>Iliad</em>. 
+    </p>
+    <p>
+    Gut-wrenching is one way to explain this book. Heartbreak is inevitable, as is in most mythical Greek legends. 
+    </p>
+    <p>
+    Of course, in the original story of Achilles and Patroclus, it is never confirmed if the two were ever lovers, as the story varies from different writers of the time, although their deep love for each other is what makes this the stuff of poignant melodrama.
+    </p>
+    <p>
+    But in this story, the two are most definitely in love with each other in every conceivable sense. Patroclus, being childhood friends with Achilles, always saw him through a rose-coloured lens and finding his love reciprocated, Patroclus was truly in relationship heaven. 
+    </p>
+    <p>
+    However, as with all things Greek, their story is definitely a tragedy waiting to happen. Spoilers wait for those who know the original mythology, as the story doesn’t stray too far from canon; but this novel breathes passionate new life into this moving story.
+    </p>
+    <p>
+    Tissues need to be kept in close range lest the pages of your novel or the screen of your device get wet from your tears that are sure to fall. 
+    </p>
+    <h3>
+    3. Hani and Ishu’s Guide to Fake Dating - Adiba Jaigirdar 
+    </h3>
+    <div>
+    <img src='/images/haniandishuguide.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    <em>Book cover of Hani and Ishu’s guide. Source:</em><a href='https://www.goodreads.com/en/book/show/50266871'></a>
+    </p>
+    </div>
+    <p>
+    Set in Dublin, Ireland, this lovely Y/A novel follows the story of Hani and Ishu - two teens from immigrant families from Bangladesh.
+    </p>
+    <p>
+    This book truly hit the feels for me. The girls being desi and their struggles with their culture; due to being from immigrant families trying to adjust in society, while also not straying too far from where they began, was all very relatable.
+    </p>
+    <p>
+    Due to some circumstances at school, they decide to fake date to help their reputations and their goals in school. 
+    </p>
+    <p>
+    Somewhere along the path, the lines got blurred enough for both of them to actually fall in love with each other. 
+    </p>
+    <p>
+    Navigating newfound feelings, and sexuality while also trying to stick to their respective religions and not disappoint their parents, Hani and Ishu never have it easy for them. 
+    </p>
+    <p>
+    The angst in this is minimal, only where required and resolved when it completes its due course. Of course, the miscommunication caused by emotions is at its peak. Reading this book made me feel all warm inside because of how adorable it is.
+    </p>
+    <h3>
+    4. The Seven Husbands of Evelyn Hugo - Taylor Jenkins Reid
+    </h3>
+    <div>
+    <img src='/images/sevenHusbands.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    <em>The book cover on Amazon UK. Source:</em><a href='https://www.amazon.co.uk/gp/product/1501139231/ref=x_gr_bb_amazon?ie=UTF8&tag=x_gr_bb_amazon-21&linkCode=as2&camp=1634&creative=6738'> The Seven Husbands of Evelyn Hugo: A Novel : Reid, Taylor Jenkins</a>
+    </p>
+    </div>
+    <p>
+    Who wouldn't want to know a superstar’s secret life?
+    </p>
+    <p>
+    In her old age, actress Evelyn Hugo shares her life story in an exclusive interview with a young reporter.
+    </p>
+    <p>
+    In due course of the interview, Evelyn talks about her life, her career, and all her husbands. Although this novel is not outright queer, Evelyn Hugo identifies as a bisexual woman, who was in a secret relationship with a woman.
+    </p>
+    <p>
+    But that story is only to be told through Evelyn's own eyes. Her story truly is one to be heard and spoken about, due to which she kept it a secret for as long as she did.
+    </p>
+    <p>
+    This story is heart-wrenching to the core and is sure to touch the deep corners of your heart. Evelyn has a way to narrate her story that just captivates you along with the beauty and grace of this character.
+    </p>
+    <p>
+    Sure, she might be chaos embodied at times, but she’s also one of the most thought-out characters that this author has written.
+    </p>
+    <p>
+    I promise you, disappointment will be the last thing you feel when you read this book. The satisfaction of reading a good story will definitely be fulfilled by the story of Evelyn and Celia.
+    </p>
+    <h3>
+    5. Heartstopper - Alice Oseman  
+    </h3>
+    <div>
+    <img src='/images/heartstopper.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    <em>The cover of the first of four volumes of the series. Source:</em><a href='https://www.goodreads.com/book/show/40495957-heartstopper'> Volume One (Heartstopper, #1) by Alice Oseman | Goodreads </a>
+    </p>
+    </div>
+    <p>
+    A little different from the other books in this list, Heartstopper is a Y/A LGBT graphic novel about a coming-of-age story of two boys.
+    </p>
+    <p>
+    Adorable is one word to describe Charlie and Nick, and that's still not even slightly close to what they are.
+    </p>
+    <p>
+    Being gay in high school is always a struggle especially when you are outed without consent, but Charlie manages, and quite well at that.
+    </p>
+    <p>
+    When he makes friends with an upperclassman, who turns out to be the best thing that ever happened to him.
+    </p>
+    <p>
+    Nick and Charlie are one couple that stand together through the thicks and thins of teenage life. 
+    </p>
+    <p>
+    This was a quick read, owing to the comic format of the book. And when it got over, I couldn't stop looking for more content between the two. 
+    </p>
+    <p>
+    Heartwarmingly, this story will make you feel emotions that will open your heart. Happy tears are definitely to be expected.
+    </p>
+    <p>
+    In case just the books are not enough, there is a Netflix series by the same name. Season 1 covered the first two novels and season 2 is being released soon.
+    </p>
+    <p>
+    In the grand scheme of popular BookTok Queer books, these are just the top 5 most mentioned ones that I enjoyed a lot. There are a million other books, be it on BookTok or not, that have representation of the queer population that is touching and comforting. 
+    </p>
+    <p>
+    Some other honourable mentions are, <em>They Both Die at the End by Adam Silvera</em> - The title is the biggest content warning you will receive; <em>One Last Stop by Casey McQuiston</em> - A supernatural sapphic love story that occurs in a train; <em>Boyfriend Material by Alexis Hall; The Black Flamingo by Dean Atta; Last Night at the Telegraph Club by Malinda Lo; Cemetery Boys by Aiden Thomas;</em> and <em>The Sun and The Stars by Rick Riordan</em>. 
+    </p>
+    <p>
+    These books are sure to bring awareness and comfort to all those that read them. After all, it sure is nice to know that you aren’t alone in this world and that there is nothing wrong with you. Love is love no matter who is on the receiving end and everyone deserves it the same.
+    </p>
+    `,
+    
+    month: "JUN 2023",
+    img: "/images/starobserver.jpg",
+    img_source: 'https://www.starobserver.com.au/wp-content/uploads/2014/11/Screen-shot-2014-11-18-at-1.05.27-PM.png ',
+    img_source_title: '',
+    author: "Samhitha Jonnadula",
+    topics: ["ARTS & CULTURE","BOOKS"],
+    theme: "top stories",
+    date: "June 14, 2023",
+    template: 1,
+  },
+  {
+    id: 99,
+    mainHeader: "Should We Change the Way We Talk About Weather?",
+    subHeader: "",
+    contentHeader: "Should We Change the Way We Talk About Weather?",
+    content: `
+    <p>
+    June has seen unusually high temperatures hitting the UK, with an ongoing heatwave being declared in many parts of the country. The highest recorded temperature was 32.2 C in Surrey, which was certainly unexpected for early summer. In fact, 32.2 C was considered a record-breaking temperature in <em>July</em> 2021. So, summers are clearly getting hotter earlier and this could lead to major health problems. 
+    </p>
+    <p>
+    <a href='https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/articles/excessmortalityduringheatperiods/englandandwales1juneto31august2022'>A joint study by the Office for National Statistics and the UK Health Security Agency</a> found that excess deaths (deaths outside the expected mortality rate) were consistently higher during the 2022 heatwaves. However, studies have shown that hot weather is only presented by weather forecasts and vacation planners with overwhelming positive language. 
+    </p>
+    <p>
+    Professor Arran Stibbe, who teaches ecological linguistics at the University of Gloucestershire, has suggested that we rethink the way we talk about weather. Specifically, the ways in which we only apply positive words to hot weather, and negative words to cold or wet weather. By doing this, he hopes we’ll gain new insights into the relationships between people, local places, and the world which will hopefully lead to more sustainable societies. This is obviously a very brief, simplified version of his ideas, fortunately Professor Stibbe has published his studies online, for free. 
+    </p>
+    <p>
+    You can read a short extract: <em>Discovering the Weatherworld: Combining Ecolinguistics, Ecocriticism, and Lived Experience</em> which was originally published in the Routledge Handbook of Ecocriticism and Environmental Communication <a href='https://eprints.glos.ac.uk/7758/'>here</a>, or you can go for the longer version.  <a href='https://intheweatherworld.wordpress.com/publications/'>Living in the weather-world: reconnection as a path to sustainability</a> is a great resource for anyone interested in language and sustainability, and I highly recommend it. 
+    </p>
+    <p>
+    Now, the idea of reading academic papers can, understandably, be off-putting, especially if you’re jumping into a field you don’t have any prior experience with. However, these papers were specifically written to avoid jargon and be accessible to students and teachers. <em>Living in the weather-world</em> feels more at times like a story than an essay, and Professor Stibbe does use examples from his own life to demonstrate practical and real ways in which we interact with the environment around us.
+    </p>
+    <p>
+    The full paper covers a wide variety of research, with linguistical analysis of holiday websites, weather forecasts, and haikus. I really enjoyed the chapter “Running in the weather-world” where Professor Stibbe jogged while listening to the forecast, to see if it accurately predicted his emotional reaction to the weather. It’s worth reading the full version of this chapter especially, as the included photographs provide a great contrast with the weather forecast quotations. 
+    </p>
+    <p>
+    <em>Living in the weather-world</em> opened my eyes to the field of ecolinguistics. Despite preferring rain to heat, I always talked about wet weather negatively and I never realised this until Professor Stibbe’s writings exposed me to the bias present in our language. Hopefully, ecolinguistics will continue to expand and challenge the way weather is discussed, so we can adapt to a hotter world. 
+    </p>
+    `,
+    
+    month: "JUN 2023",
+    img: "/images/silhouetteofbuildings.jpg",
+    img_source: 'https://www.pexels.com/photo/silhouette-of-buildings-under-cloudy-sky-397979/',
+    img_source_title: '',
+    author: "James Murray",
+    topics: [""],
+    theme: "filler",
+    date: "June 16, 2023",
+    template: 1,
+  },
+  {
+    id: 100,
+    mainHeader: "Beat the heat",
+    subHeader: "",
+    contentHeader: "‘Don’t Bake In This Weather! Beat the Heat With These Summer Fabrics’",
+    content: `
+    <p>
+    Hotter than a habanero, the UK's heatwave is here to stay. This heatwave has the nation trading in umbrellas for ice cream cones and wellies for flip-flops. It challenges our wardrobe in finding something cool as well as stylish. Grab your shades and a bottle of sunscreen as we explore how to keep you cool and rock the hottest fashion trends under the blazing British sun. Time to embrace the heatwave with open arms and make the most of this rare summer spectacle! 
+    </p>
+    <p>
+    It's not just about wearing fewer clothes that can keep us cool. I've got you covered with a guide on sun-worshipping fabrics you can wear this summer. Pack away your coat as summer is officially here. 
+    </p>
+    <p>
+    First things first, before we talk about each fabric, it is crucial to opt for lightweight garments. Breathable materials like cotton, linen and chambray are the best to dress in for this weather. Lightweight fabrics allow air to circulate keeping you cool and sweat-free on the hottest days we are about to have. 
+    </p>
+    <p>
+    You must embrace the flowy nature of maxi dresses, loose-fitting shirts, and breezy skirts. Not only will they cool you down, but they also add a touch of effortless elegance to your summer ensemble. These fabrics have a natural ability to wick away moisture, helping prevent a sticky and uncomfortable feeling that other clothes create.
+    </p>
+    <p>
+    So, trade in those heavy layers for relaxed shorts and breezy tops. 
+    </p>
+    <h3>
+    The Impact Of The Colours We Choose
+    </h3>
+    <div>
+    <img src='/images/outfits.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    Image source:<a href='https://www.glamourmagazine.co.uk/gallery/spring-summer-2022-fashion-trends'>Models wearing colourful summer outfits. Source Glamour Magazine.</a>
+    </p>
+    </div>
+    <p>
+    Let's emphasise the importance of colour. Light colours such as white and pastels are allies with the sun. These colours reflect the sunlight rather than absorbing it helping you to stay cool. White and creams are classic options that not only reflect sunlight but also give off a clean and crisp aesthetic. They create a sense of openness and brightness, making them ideal for those scorching summer days. 
+    </p>
+    <p>
+    Pastel hues are another perfect option for sun-filled adventures. Soft pinks, baby blues and mint green exude a sense of calm serenity while adding a touch of whimsy to your outfit. Whether it’s a pastel sundress, a light cardigan, or a pair of pale-coloured shorts, these gentle shades will keep you cool and collected. 
+    </p>
+    <p>
+    While darker shades tend to absorb more heat, you can still incorporate bold and bright hues into your summer wardrobe. Opt for vibrant yellows, coral pinks and turquoise blues to make a statement under the sun. These lively colours will not only showcase your playful side but also create a cheerful and energetic vibe. 
+    </p>
+    <p>
+    If you want to shine as bright as the sun, metallic fabrics are your go-to choice. From metallic-threaded tops to shimmering skirts, these fabrics are designed to catch and reflect light, just like the sun does. Picture yourself radiating with every step, turning heads and basking in the glow of your own stylish brilliance. 
+    </p>
+    <p>
+    Remember, when it comes to colours for the sun, it's about finding the right balance between reflecting sunlight and expressing your personal style. 
+    </p>
+    <p>
+    So go ahead and experiment with different shades that resonate with you. Let your clothing reflect the joy and vibrancy of summertime while keeping you cool and comfortable throughout the sunny days ahead. 
+    </p>
+    <h3>
+    The Power Of Accessories
+    </h3>
+    <p>
+    Hats aren’t the only accessory to protect us from the sun. In this section, I will explore how you can embellish your summer identity with new accessories.  While wide-brimmed hats add glamour to your outfit, they provide shade for your face, neck and shoulders. 
+    </p>
+    <div>
+    <img src='/images/beachoutfits.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    Summer Beach-Ready Outfit- Styled with Accessories. Source:<a href='https://www.fashionsfinest.com/blog/item/6473-style-guide-how-to-accessorise-your-summer-outfits'>Fashion Finest</a>
+    </p>
+    </div>
+    <p>
+    Protecting your eyes from the sun is of utmost importance for your eyes’ health and overall well-being. The sun emits harmful ultraviolet (UV) radiation, including UVA and UVB rays. Prolonged exposure to these rays can damage your eyes. Therefore with countless shapes, sizes and designs available, you can find sunglasses that suit your personal taste but serve protection from the sun. From classic aviators to trendy cat-eye frames, sunglasses allow you to express an individual style while keeping your eyes protected. 
+    </p>
+    <p>
+    Yes, you can wear scarves in this weather! Never overlook the versatility of lightweight scarves this summer. You can wear it to protect your neck and even your hair from the sun in any way you want to style it! 
+    </p>
+    <p>
+    While technically it is not an accessory, sunscreen is an absolute essential. It is crucial to shield your skin from sun protection. You must clothe yourself with sunscreen and be sure to reapply throughout the day. If you're going to wear anything, wear sunscreen!
+    </p>
+    <p>
+    Accessories are more than just fashionable items. They serve the purpose of protecting you from the sun's rays while enhancing your overall look. So don’t forget to adorn yourself with a wide-brimmed hat, stylish sunglasses, lightweight scarves and a trusty tote bag. With these accessories in tow, you'll be ready to embrace the sun with confidence and safety.
+    </p>
+    <h3>
+    Let Your Feet Breathe Comfortably
+    </h3>
+    <p>
+    Footwear is another essential element to consider. My science teacher taught me that heat is regulated and redistributed from our feet. We don’t want to overheat our feet this summer, so we must consider fashionable but breathable footwear. 
+    </p>
+    <p>
+    Say goodbye to heavy boots and hello to sandals and sliders. Your feet will thank you by cooling your body down.  Sandals embrace freedom and openness. Also, what is convenient when wearing flip-flops and sandals is that they are easy to get off. 
+    </p>
+    <p>
+    So, the next time you need to further cool down dunk your feet in the water and get rid of your footwear! 
+    </p>
+    <h3>
+    Summer Friendly Fabrics 
+    </h3>
+    <p>
+    Cotton is the most obvious choice for this hot weather and is affordable. On the other hand, linen is a natural fabric made from flax fibres and is highly breathable as it fits loosely to the body. Most sustainable fabrics are considered the best materials for the summer. 
+    </p>
+    <p>
+    By choosing garments made from sustainable fabrics, you can enjoy a stylish summer while contributing to a more environmentally conscious fashion industry. 
+    </p>
+    <h3>
+    Forget your bag and bring a water bottle!
+    </h3>
+    <p>
+    We must not forget that in this heat we must stay hydrated. You can carry a stylish water bottle to complement your outfit. This is the most important fashion component of any outfit and in hand, it will remind us we must continue to drink throughout these hot days.
+    </p>
+    `,
+    
+    month: "JUN 2023",
+    img: "/images/fruitpopsicle.jpg",
+    img_source: 'https://www.amazon.co.uk/Yiifunglong-Bottles-Fitness-Popsicles-Outdoor/dp/B09B3GD716',
+    img_source_title: '',
+    author: "Jennifer Lewis",
+    topics: ["FASHION & BEAUTY"],
+    theme: "top stories",
+    date: "June 12, 2023",
+    template: 1,
+  },
+  {
+    id: 101,
+    mainHeader: "Warhammer 10 Review",
+    subHeader: "",
+    contentHeader: "Warhammer 10 Review",
+    content: `
+    <p>
+    June saw Games Workshop launch the 10th edition of Warhammer 40,000 with the release of the Leviathan box. This box contains a host of Tyranid and Space Marine miniatures (as well as additional items) for the price of £150. This is a major investment for a casual or new player, so in this article I’ll be reviewing all the components of the box and giving my thoughts on them. 
+    </p>
+    <h3>
+    The Box Itself
+    </h3>
+    <p>
+    The Leviathan box was quite well organised and put together. Games Workshop included laminate dividers to separate the sprues and the books, but you could also put these up as posters when you no longer need them. There’s also a cardboard divider to stop the smaller components (bases and mission cards) from rattling around while you’re moving the box.
+    </p>
+    <p>
+    The lower half also incorporates some great photos of finished models in different colour schemes, to encourage you to start thinking about how to paint your models. The box certainly feels better put together than other large GW boxes I’ve bought in the past and I have no complaints here. 
+    </p>
+    <div>
+    <img src='/images/warhammer2.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    Image source: James Murray
+    </p>
+    </div>
+    <h3>
+    The Models
+    </h3>
+    <div>
+    <img src='/images/warhammer3.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    Image source: James Murray
+    </p>
+    </div>
+    <p>
+    You get seventy-two models on thirteen sprues, with twenty-five Space Marines and forty-seven Tyranids. The space marines also get a teleporter beacon mini, which you could use as an objective marker. I think the selection of minis here is very good, as you’re getting a lot of leader characters (such as the Winged Tyranid Prime and the Apothecary Biologis) to use with 10th edition’s new leader rule, but you’re also getting a good mixture of infantry and elites. This is really visible with the Tyranids, as you get twenty new Termagants and eleven Neurogaunts, while also getting a Screamer-killer Carnifex and a Psychopage. 
+    </p>
+    <p>
+    Additionally, all the models look excellent. They’re all very detailed and fun to examine, especially the new Tyranids. The Von Ryan’s Leapers are reminiscent of the monster design in <em>Dead Space</em> and it’s great to see Games Workshop building on the horror of the tyranid swarms. Some of the space marine infantry squads look a little generic, but all their characters are well designed and full of unique details. 
+    </p>
+    <p>
+    My only complaint regarding the models is the lack of options when building them. The Tyranids have no spare parts or customisable options, while the space marines have a spare Terminator head and the option to make another Infernus Squad Sergeant (in case you want two squads of five models, rather than one). 
+    </p>
+    <p>
+    All of the models are push-fit (no glue required), so I think this is probably why they’re so limited in terms of build options. Still, it would’ve been good to have more weapon choices for the Terminators and Sternguard Veterans and hopefully when these models are released separately, we’ll see more customisability. 
+    </p>
+    <p>
+    Overall, I would say the models alone make the box worth buying if you’re playing tyranids and space marines or can split the armies with another player. It might be a while before these models are released separately, and when they are you’re not going to be able to get them all for £150.
+    </p>
+    <p>
+    I went to Games Workshop’s webstore and did a rough estimate using equivalent models – buying the space marines alone separately would probably cost at least £150. So, you’re definitely getting a good deal in terms of miniatures. 
+    </p>
+    <h3>
+    The Books
+    </h3>
+    <div>
+    <img src='/images/warhammer4.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    Image source: James Murray
+    </p>
+    </div>
+    <p>
+    The box also contains two books: a booklet with instructions on how to assemble the models, and <em>Warhammer 40,000 Leviathan</em>, a large hardback with lore and game rules. 
+    </p>
+    <p>
+    The instructions in the booklet are easy to follow and I didn’t have any problems when constructing the minis. I did have a problem with the datasheets included in the booklet. They’re very simplistic and don’t list any of the model’s special abilities or keywords. Additionally, some of the statistics listed don’t match up with the free datasheets Games Workshop have posted online or on their app. This comes off as a major misstep to me – surely these datasheets should’ve been more fleshed out so players can jump right into a proper game without having to download an app or PDF. 
+    </p>
+    <p>
+    <em>Leviathan</em> is much better, thankfully. This is a huge book, filled with great art and lore, recapping all the different factions and major events of the setting so far. It also contains some original fiction, giving us a look at the Imperium during the 4th Tyrannic War and what major battles have occurred so far. It’s all put together very well, and there’s a good variety of small battle reports mixed in with larger prose sections. I am quite intrigued to see what Hive Fleet Leviathan does next, and if the Imperium will be able to stop it. 
+    </p>
+    <p>
+    This book also contains all the core rules needed for playing 10th edition, as well as specific rules for the combat patrol and crusade game types. This means you can start playing combat patrol games right away, as the space marine and Tyranid patrols are made up of models from this box. 
+    </p>
+    <p>
+    My only complaint regarding this book is that there are no tutorial style missions. If you picked up a recruit box for 9th edition, there would be simple tutorials you could play with the models from that box to help you learn the rules. I think something like that would’ve been great for new players who picked up this box, but <em>Leviathan</em> was already nearly four hundred pages long, so I think there simply wasn’t enough space for it. 
+    </p>
+    <h3>
+    What else? 
+    </h3>
+    <div>
+    <img src='/images/warhammer5.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    Image source: James Murray
+    </p>
+    </div>
+    <p>
+    You also get some cardboard objective tokens and a deck of mission cards. The mission cards seem like a fun way to make each game really unique, especially with the gambit cards, which let a player abandon their primary mission to try a more challenging objective during the final part of the battle. 
+    </p>
+    <p>
+    The Space marines also get a transfer sheet with designs for the Ultramarines, Dark Angels, Blood Angels, Space Wolves, Raven Guard, and Imperial Fists. This is a pretty good selection, but it would have been nice to see a second sheet with more options.
+    </p>
+    <h3>
+    Final Thoughts
+    </h3>
+    <p>
+    Ultimately, I think this box is a definite must-have for Tyranid and Space Marine players. You’re getting great new models at a good price (a really good price if you split the cost with another player) and a fantastic compendium of lore and rules. 
+    </p>
+    <p>
+    If you’re a new player, I would suggest waiting until a starter box for 10th edition comes out. These should have better guides for learning the game, and in 9th edition there were multiple options with different prices, and hopefully this will be the case for 10th edition as well. 
+    </p>
+
+    `,
+    
+    month: "JUL 2023",
+    img: "/images/warhammer1.jpg",
+    img_source: 'James Murray',
+    img_source_title: '',
+    author: "James Murray",
+    topics: ["ARTS & CULTURE"],
+    theme: "top stories",
+    date: "July 3, 2023",
+    template: 1,
   }
+
+
 
 ];
