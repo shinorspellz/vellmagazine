@@ -3701,7 +3701,6 @@ export const articles = [
     <p>
     If you’re a new player, I would suggest waiting until a starter box for 10th edition comes out. These should have better guides for learning the game, and in 9th edition there were multiple options with different prices, and hopefully this will be the case for 10th edition as well. 
     </p>
-
     `,
     
     month: "JUL 2023",
