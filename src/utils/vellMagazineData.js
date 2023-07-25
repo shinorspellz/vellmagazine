@@ -3518,9 +3518,9 @@ export const articles = [
   },
   {
     id: 97,
-    mainHeader: "Boomer Shooters",
+    mainHeader: "What are Boomer Shooters and Why Should You Try Them?",
     subHeader: "",
-    contentHeader: "Boomer shooters",
+    contentHeader: "What are Boomer Shooters and Why Should You Try Them?",
     content: `
     <p>
     Boomer shooter may sound like an odd name for a video game genre, but it’s actually quite simple (and fun!) to understand. The name just refers to any game that tries to replicate the style of classic first-person shooters, such as Doom or Wolfenstein 3D. This article will explain why you should give these games a chance if you’ve never tried them before, while also highlighting some standouts from the genre. 
@@ -3825,7 +3825,7 @@ export const articles = [
     img_source: 'https://www.pexels.com/photo/silhouette-of-buildings-under-cloudy-sky-397979/',
     img_source_title: '',
     author: "James Murray",
-    topics: [""],
+    topics: ["LIFE MATTERS"],
     theme: "filler",
     date: "June 16, 2023",
     template: 1,
@@ -3943,9 +3943,9 @@ export const articles = [
   },
   {
     id: 101,
-    mainHeader: "Warhammer 10 Review",
+    mainHeader: "Is Games Workshop's Leviathan Worth Buying?",
     subHeader: "",
-    contentHeader: "Warhammer 10 Review",
+    contentHeader: "Is Games Workshop's Leviathan Worth Buying?",
     content: `
     <p>
     June saw Games Workshop launch the 10th edition of Warhammer 40,000 with the release of the Leviathan box. This box contains a host of Tyranid and Space Marine miniatures (as well as additional items) for the price of £150. This is a major investment for a casual or new player, so in this article I’ll be reviewing all the components of the box and giving my thoughts on them. 
