@@ -3082,7 +3082,7 @@ export const articles = [
     template: 1
   },
   {
-    id: 96,
+    id:96,
     mainHeader:'Online Studying and Increased Productivity',
     subHeader: '',
     contentHeader: 'Google Classroom and how to encourage students to complete their online set tasks ',
@@ -3166,7 +3166,7 @@ export const articles = [
     template: 1
   },
   // {
-  //   id: 98,
+  //   id:98,
   //   mainHeader:'Gender reveal: Revealing more than just gender',
   //   subHeader: '',
   //   contentHeader: 'Gender reveal: Revealing more than just gender ',
@@ -3182,7 +3182,7 @@ export const articles = [
   //   template: 1
   // },
   {
-    id: 99,
+    id:99,
     mainHeader:'"Am I the Asshole?”: Is it ever ethical to own a buy-to-rent property?',
     subHeader: '',
     contentHeader: '"Am I the Asshole?”: Is it ever ethical to own a buy-to-rent property? ',
