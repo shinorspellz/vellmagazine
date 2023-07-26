@@ -3114,7 +3114,7 @@ export const articles = [
     template: 1
   }, 
   {
-    id:97,
+    id: 97,
     mainHeader:'Mental health in famous families',
     subHeader: '',
     contentHeader: 'Mental health in famous families ',
@@ -3166,7 +3166,7 @@ export const articles = [
     template: 1
   },
   // {
-  //   id:98,
+  //   id: 98,
   //   mainHeader:'Gender reveal: Revealing more than just gender',
   //   subHeader: '',
   //   contentHeader: 'Gender reveal: Revealing more than just gender ',
@@ -3182,7 +3182,7 @@ export const articles = [
   //   template: 1
   // },
   {
-    id:99,
+    id: 99,
     mainHeader:'"Am I the Asshole?”: Is it ever ethical to own a buy-to-rent property?',
     subHeader: '',
     contentHeader: '"Am I the Asshole?”: Is it ever ethical to own a buy-to-rent property? ',
@@ -3230,7 +3230,7 @@ export const articles = [
 
   },
   {
-    id:100,
+    id: 100,
     mainHeader:`Karl Lagerfeld's Fashion Legacy Was Honoured At The Met Gala - But Should HE Be?`,
     subHeader: '',
     contentHeader: `Karl Lagerfeld's Fashion Legacy Was Honoured At The Met Gala - But Should HE Be? `,
@@ -3263,7 +3263,7 @@ export const articles = [
     template: 1
   }, 
   {
-    id:101,
+    id: 101,
     mainHeader:`How did Sifan Hassan Make History at the London Marathon?`,
     subHeader: '',
     contentHeader: `How did Sifan Hassan Make History at the London Marathon?`,
@@ -3315,7 +3315,7 @@ export const articles = [
 
   }, 
   {
-    id:102,
+    id: 102,
     mainHeader:`An Introduction to BTS Discography`,
     subHeader: '',
     contentHeader: `An Introduction to BTS Discography`,
@@ -3433,7 +3433,7 @@ export const articles = [
 
   },
   {
-    id: 96,
+    id: 103,
     mainHeader: "The Writer's Strike",
     subHeader: "",
     contentHeader: "The Writers’ Strike, and Emerging Threat of AI",
@@ -3517,7 +3517,7 @@ export const articles = [
     template: 1,
   },
   {
-    id: 97,
+    id: 104,
     mainHeader: "What are Boomer Shooters and Why Should You Try Them?",
     subHeader: "",
     contentHeader: "What are Boomer Shooters and Why Should You Try Them?",
@@ -3597,7 +3597,7 @@ export const articles = [
     template: 1,
   },
   {
-    id: 98,
+    id: 105,
     mainHeader: "Recommended reads during Pride Month",
     subHeader: "",
     contentHeader: "Recommended reads during Pride Month",
@@ -3792,7 +3792,7 @@ export const articles = [
     template: 1,
   },
   {
-    id: 99,
+    id: 106,
     mainHeader: "Should We Change the Way We Talk About Weather?",
     subHeader: "",
     contentHeader: "Should We Change the Way We Talk About Weather?",
@@ -3831,7 +3831,7 @@ export const articles = [
     template: 1,
   },
   {
-    id: 100,
+    id: 107,
     mainHeader: "Beat the heat",
     subHeader: "",
     contentHeader: "‘Don’t Bake In This Weather! Beat the Heat With These Summer Fabrics’",
@@ -3942,7 +3942,7 @@ export const articles = [
     template: 1,
   },
   {
-    id: 101,
+    id: 108,
     mainHeader: "Is Games Workshop's Leviathan Worth Buying?",
     subHeader: "",
     contentHeader: "Is Games Workshop's Leviathan Worth Buying?",
