@@ -3426,11 +3426,7 @@ export const articles = [
     topics: ["ARTS & CULTURE", "MUSIC"],
     theme: "filler",
     date: "June 15 2023",
-    template: 1
-
-
-
-
+    template: 1,
   },
   {
     id: 103,
