@@ -3106,7 +3106,7 @@ export const articles = [
     template: 1
   },
   {
-    id: 96,
+    id:96,
     mainHeader:'Online Studying and Increased Productivity',
     subHeader: '',
     contentHeader: 'Google Classroom and how to encourage students to complete their online set tasks ',
@@ -3138,7 +3138,7 @@ export const articles = [
     template: 1
   }, 
   {
-    id:97,
+    id: 97,
     mainHeader:'Mental health in famous families',
     subHeader: '',
     contentHeader: 'Mental health in famous families ',
@@ -3239,7 +3239,7 @@ export const articles = [
 
   },
   {
-    id:100,
+    id: 100,
     mainHeader:`Karl Lagerfeld's Fashion Legacy Was Honoured At The Met Gala - But Should HE Be?`,
     subHeader: '',
     contentHeader: `Karl Lagerfeld's Fashion Legacy Was Honoured At The Met Gala - But Should HE Be? `,
@@ -3272,7 +3272,7 @@ export const articles = [
     template: 1
   }, 
   {
-    id:101,
+    id: 101,
     mainHeader:`How did Sifan Hassan Make History at the London Marathon?`,
     subHeader: '',
     contentHeader: `How did Sifan Hassan Make History at the London Marathon?`,
@@ -3324,7 +3324,7 @@ export const articles = [
 
   }, 
   {
-    id:102,
+    id: 102,
     mainHeader:`An Introduction to BTS Discography`,
     subHeader: '',
     contentHeader: `An Introduction to BTS Discography`,
@@ -3523,9 +3523,9 @@ export const articles = [
   },
   {
     id: 104,
-    mainHeader: "Boomer Shooters",
+    mainHeader: "What are Boomer Shooters and Why Should You Try Them?",
     subHeader: "",
-    contentHeader: "Boomer shooters",
+    contentHeader: "What are Boomer Shooters and Why Should You Try Them?",
     content: `
     <p>
     Boomer shooter may sound like an odd name for a video game genre, but it’s actually quite simple (and fun!) to understand. The name just refers to any game that tries to replicate the style of classic first-person shooters, such as Doom or Wolfenstein 3D. This article will explain why you should give these games a chance if you’ve never tried them before, while also highlighting some standouts from the genre. 
@@ -3829,14 +3829,14 @@ export const articles = [
     img_source: 'https://www.pexels.com/photo/silhouette-of-buildings-under-cloudy-sky-397979/',
     img_source_title: '',
     author: "James Murray",
-    topics: [""],
+    topics: ["LIFE MATTERS"],
     theme: "filler",
     date: "June 16, 2023",
     template: 1,
   },
   {
     id: 107,
-    mainHeader: "'Don’t Bake In This Weather! Beat the Heat With These Summer Fabrics’",
+    mainHeader: "Beat the heat",
     subHeader: "",
     contentHeader: "‘Don’t Bake In This Weather! Beat the Heat With These Summer Fabrics’",
     content: `
@@ -3947,9 +3947,9 @@ export const articles = [
   },
   {
     id: 108,
-    mainHeader: "Warhammer 10 Review",
+    mainHeader: "Is Games Workshop's Leviathan Worth Buying?",
     subHeader: "",
-    contentHeader: "Warhammer 10 Review",
+    contentHeader: "Is Games Workshop's Leviathan Worth Buying?",
     content: `
     <p>
     June saw Games Workshop launch the 10th edition of Warhammer 40,000 with the release of the Leviathan box. This box contains a host of Tyranid and Space Marine miniatures (as well as additional items) for the price of £150. This is a major investment for a casual or new player, so in this article I’ll be reviewing all the components of the box and giving my thoughts on them. 
@@ -4055,7 +4055,1111 @@ export const articles = [
     theme: "top stories",
     date: "July 3, 2023",
     template: 1,
+  },
+  {
+    id: 109,
+    mainHeader: "6 Reasons to Visit Northern Spain This Summer (and Every Summer)",
+    subHeader: "",
+    contentHeader: "6 Reasons to Visit Northern Spain This Summer (and Every Summer)",
+    content: `
+    <h3>
+    Six Reasons To Visit Northern Spain Instead of the Costas This Summer (and Every Summer) 
+    </h3>
+    <p>
+    If you’re a typical Brit planning a Spanish summer holiday, you’ll automatically be drawn to the east coast, the draw of the Costa del Sol or Costa Blanca nearly impossible to resist. But instead of following the long line at Alicante or Barcelona airport, Spain’s northern coast offers an unparalleled gastronomic offering, rugged, wild beaches and cliff walks and hundreds of beautiful and quaint towns and cities. The north coast of Spain is the ultimate road trip destination for travellers who want to get more off the beaten track and embrace a unique and largely unspoiled part of Spain.
+    </p>
+    <h3>
+    Why the North Coast of Spain?
+    </h3>
+    <p>
+    There are countless reasons to visit northern Spain, but these are just some:
+    </p>
+    <p>
+    1.	An Authentic Holiday Away from the Crowds
+    </p>
+    <p>
+    A trip to the Costas all too often involves British pubs, conflicts over the sun loungers, drunk football fans and the garbled sound of Sweet Caroline being wailed well into the night. If this is your thing, no judgment here… But northern Spain provides something different. 
+    </p>
+    <p>
+    For those who love the comfort of a full English and a steady stream of Foster’s on tap, northern Spain is a more challenging holiday. Small bars and restaurants will serve you seafood, grilled fish (with the head still on) octopus and parts of meat you’ve never heard of. Those who are adventurous enough to give things a go will find it delicious, especially washed down with an ice-cold “caña” of the local lager.
+    </p>
+    <p>
+    Northern Spain provides tourists with a local’s experience, a true taste of how they themselves live. Though stumbling on a tourist trap isn’t impossible, kitsch and overpriced resorts are few and far between. Tourists here will find themselves rubbing shoulders with other Spanish tourists and enjoying coastal life as the Spaniards themselves enjoy it, without loud music, tour reps or watered-down shots.
+    </p>
+    <p>
+    2.	The Food
+    </p>
+    <div>
+    <img src='/images/grilledFish.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    Grilled fish in Getaria. Source: <a href='https://wonderescape.com/destinations/getaria/'>Wonderscape</a>
+    </p>
+    </div>
+    <p>
+    It’s hard to know where to start when talking about the food in northern Spain. The obvious start would be San Sebastian, a mecca for foodies from all around the world. San Sebastián has 19 Michelin stars contained within its modest borders, and a thousand other hidden gems serving the best food you’ll ever eat. 
+    </p>
+    <p>
+    Outside of San Sebastian, fishing towns all along the coast will serve you fresh fish grilled on barbecues outside the restaurant. Other dishes such as squid, grilled octopus and fresh anchovies are enough to keep any fish lover content until the end of their days. 
+    </p>
+    <p>
+    Fish phobics need not worry though; the meat is also excellent. Northern Spain, with its rolling green hills and mountains, also offers amazing steak and lamb. These animals are born and bred on the mountain, and it shows in the flavour. 
+    </p>
+    <p>
+    3.	Fiestas
+    </p>
+    <div>
+    <img src='/images/fiesta.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    San Fermin this week: <a href='https://www.huffingtonpost.es/virales/capta-curiosa-escena-vivido-encierros-san-fermin.html'>Huffington post</a>
+    </p>
+    </div>
+    <p>
+    Northern Spaniards are party lovers. Every summer, each town and village celebrates its own fiestas, often a whole week of cultural celebration, delicious food and of course copious amounts of alcohol.
+    </p>
+    <p>
+    The most famous of these is San Fermin, the famous bull running fiesta in Pamplona. Though 100% anti-bullfighting myself, I must admit that San Fermin puts on a party like no other. The streets teem with people from all over the world, all dressed in the iconic white and red San Fermin costume. Young and old revel in the celebrations, enjoy the food and the cheap drink, and the braver ones can take part in the bull run. Be prepared to fight tooth and claw at every bar to get served and go to the toilet when you can!
+    </p> 
+    <p>
+    Other famous festivals include Bilbao and San Sebastian’s Semana Grande, both cities providing fireworks every night and a wide range of free activities, concerts and cultural events for everyone to enjoy. Many towns in Cantabria and Asturias also celebrate cider festivals and have their own unique celebrations which they are happy to share with tourists.
+    </p>
+    <p>
+    4.	The Weather
+    </p>
+    <p>
+    This one is a controversial one, I know. But it’s just so hot in the south of Spain during the summer months. Northern Spain provides (mostly) beautiful weather without the draining, burning inferno that gets everyone hot under the collar.
+    </p>
+    <p>
+    5.	The Beaches
+    </p>
+    <div>
+    <img src='/images/zumaiabeach.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    Zumaia Beach. Source: <a href='https://turismo.euskadi.eus/es/playas-embalses-rios/playa-de-itzurun/aa30-12375/es/'>Turismo</a>
+    </p>
+    </div>
+    <p>
+    Northern beaches are simply breathtaking. Many are wild beaches next to stunning cliffs and rock formations - check out Zumaia for its famous “flysch” as featured in the later seasons of Game of Thrones - and often provide an amazing beach experience without having to fight for space with thousands of other tourists.
+    </p>
+    <p>
+    Northern beaches are also a surfers’ paradise. Surfers can find spectacular waves all along the northern coast and even into France, with Biarritz a perfect stop-off point after visiting San Sebastian.
+    </p>
+    <p>
+    Northern beaches are unspoiled, vast and are overlooked by nature, not hotels.
+    </p>
+    <p>
+    6.	Hiking
+    </p>
+    <div>
+    <img src='/images/picos-de-europa.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    Picos de Europa: <a href='https://www.iberian-escapes.com/picos-de-europa-national-park-guide-es.html'>Iberian escapes</a>
+    </p>
+    </div>
+    <p>
+    Northern Spain is an incredible destination for those looking to enjoy the outdoors on their summer holiday. The most famous route is the Camino de Santiago, but there are many shorter options for those who can’t commit to so many days.
+    </p>
+    <p>
+    Keen hikers can explore the many different beautiful routes in the Picos de Europa, Covadonga, or the spectacular Ruta del Cares. There are less challenging options for more novice hikers too; the walk from San Sebastian to Pasajes takes around two hours and is a beautiful route taking you along the rugged coast. Similarly, walking from San Sebastian to Orio takes 3-4 hours depending on your fitness level. Leaving in the morning means getting to Orio in time for lunch, where you can enjoy one of the countless terraces as a reward for all your hard work.
+    </p>
+    <h3>
+    Northern Spain is an Overlooked Gem
+    </h3>
+    <p>
+    Spain’s northern coast is truly a jewel in the crown, a hidden gem that is often overlooked by British holidaymakers. Taking a drive or a walk is a wonderful experience you won’t forget. 
+    Catch a flight to Bilbao or Santander for a truly unforgettable and authentic experience!
+    </p>
+    `,
+    
+    month: "AUG 2023",
+    img: "/images/fiesta.jpg",
+    img_source: 'https://www.huffingtonpost.es/virales/capta-curiosa-escena-vivido-encierros-san-fermin.html',
+    img_source_title: '',
+    author: "Eleanor Ingham",
+    topics: ["TRAVEL"],
+    theme: "top stories",
+    date: "August 2, 2023",
+    template: 1,
+  },
+  {
+    id: 110,
+    mainHeader: "Best British-Made Yoga Leggings for Beach Yoga (Or Your Home Office) this Summer",
+    subHeader: "",
+    contentHeader: "Best British-Made Yoga Leggings for Beach Yoga (Or Your Home Office) this Summer",
+    content: `
+    <h3>
+    Best British-Made Yoga Leggings for Beach Yoga (Or Your Home Office) this Summer
+    </h3>
+    <p>
+    As many of us head to the beach to catch some rays with a beer and mega pack of Doritos in hand, others use the backdrop of sun, sea, and sand to take their yoga skills out of the gym and into the outdoors. Whether you’re heading to a beach paradise or staying around the beautiful beaches the UK has to offer, some fun and funky yoga leggings will be to get you out of bed and into the zone to beat the crowds and catch the first of the morning sun.
+    </p>
+    <p>
+    If, like me, you’re sick of black and navy offerings, you may want to consider some British-designed yoga leggings that combine sustainability with quality and design. Looking for inspiration? Look no further.
+    </p>
+    <h3>
+    Ruby Fury
+    </h3>
+    <p>
+    <a href='https://www.rubyfury.co.uk/'>Ruby Fury</a> is a standout British designer of athleisure wear that offers the unique proposal of customising your items to fit your body perfectly. Any item can be adjusted to your size; leggings can be made shorter or longer, let out at the waist or adapted to any other size adjustment.
+    </p>
+    <p>
+    We all understand the importance of feeling comfortable and confident in the gym; that’s why these designs can offer style as well as empower women to feel like the queens they are. Even better, because items are customisable, even men can shine in these designs.
+    </p>
+    <p>
+    Size customisation is offered at no extra price and the company keeps your sizing on record for repeat orders.
+    </p>
+    <div>
+    <img src='/images/leggings.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    Ecstasy leggings at Ruby Fury, 40 pounds
+    </p>
+    </div>
+    <h3>
+    Loony Legs
+    </h3>
+    <p>
+    Loony Legs is a London-based brand specialising in funky, colourful and unique designs. As well as yoga leggings, they offer yoga tops and matching sets in a wide range of designs. Though they specialise in bold designs, there are more toned-down options too for those who prefer more muted tones.
+    </p>
+    <p>
+    Loony Legs make items to order meaning nothing is wasted, offering a sustainable business model as well as products that are made with the care that you would expect from a small business. Loony Legs yoga clothing is made of soft, breathable material that’s suitable for your yoga classes, jogging or simply for looking stylish yet comfortable at home.
+    </p>
+    <h3>
+    Yoga Leggs
+    </h3>
+    <p>
+    Yoga Leggs offers a range of leggings, pants, and tops designed with yoga in mind but tapping into the trend of athleisure, providing items that can double as sports and streetwear. Yoga Leggs also tends towards colourful and bold patterns - leopard print is a particular favourite - but also stocks black and neutral patterned items.
+    </p>
+    <p>
+    This brand also stocks a Kids range, accessories such as incense, yoga mats, and yoga bags.
+    </p>
+    <div>
+    <img src='/images/yogaleggs.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    Do You Think I’m Sexy Leggs 45 pounds
+    </p>
+    </div>
+    <h3>
+    Planet Warrior
+    </h3>
+    <p>
+    Planet Warrior is a Salcombe-based company that repurposes ocean plastic into clothing. Offering both yoga outfits and swimwear, Planet Warrior’s designs are unique, sustainable, and stylish.
+    </p>
+    <p>
+    This brand offers a small selection of beautiful designs made of super-soft fabric for fashion and environmentally-conscious yoga enthusiasts.
+    </p>
+    <div>
+    <img src='/images/sportleggings.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    Palm Eco Sports Leggings 45 pounds
+    </p>
+    </div>
+    <h3>
+    What About Men Yogis?
+    </h3>
+    <p>
+    Though the yoga market is dominated by women’s clothing, we didn’t want to forget the men yogis who also deserve to look fly in the gym or the beach. Luckily, some British independent brands also cater for the male market, so let’s check out the best:
+    </p>
+    <h3>
+    Bam
+    </h3>
+    <p>
+    Bam, or Bamboo Clothing, was set up in Poole, Dorset and caters for men and women as well as offering everything, and I mean everything, you could need for a yoga hobby or studio. Bam offers brand customisation, printing your logo on any item, and only stock sustainable and ethically sourced and traded products.
+    </p>
+    <p>
+    Bam stocks yoga shorts and trousers in a range of styles, from biker-style shorts to looser linen styles. For newbies, Bam is a one-stop shop for everything you could need, from mats to accessories and props.
+    </p>
+    <div>
+    <img src='/images/bambooShorts.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    Align Bamboo Shorts 45 pounds
+    </p>
+    </div>
+    <h3>
+    Rhone
+    </h3>
+    <p>
+    Small cheat here (Rhone is US-based!) but well worthy of a mention as an excellent alternative to more well-known sports brands. Rhone brand itself as premium men’s sportswear and indeed the price -point for this brand is slightly higher than some others.
+    </p>
+    <p>
+    Rhone does however offer excellent quality and design, with a range of yoga clothing that includes shorts, joggers, tops and hoodies perfect for a session in the gym or on the beach or relaxing on the sofa.
+    </p>
+    <h3>
+    Consider Sustainability and Local Brands 
+    </h3>
+    <p>
+    All too often we associate sustainability and small brands with exorbitant prices that are simply out of our range. This simply isn’t the case with these British brands that offer a unique product- sometimes custom-made- for a similar price point to the high-street sports brands we see time and time again in our yoga studios.
+    </p>
+    <p>
+    Supporting local businesses, rejecting fast fashion and embracing a more  
+    </p>
+    `,
+    
+    month: "AUG 2023",
+    img: "",
+    img_source: '',
+    img_source_title: '',
+    author: "Eleanor Ingham",
+    topics: ["Fashion & Beauty","TRENDS"],
+    theme: "top stories",
+    date: "August 2, 2023",
+    template: 1,
+  },
+  {
+    id: 111,
+    mainHeader: "2:22 A Ghost Story: A Theatrical Masterpiece That Will Send Shivers Down Your Spine",
+    subHeader: "",
+    contentHeader: "2:22 A Ghost Story: A Theatrical Masterpiece That Will Send Shivers Down Your Spine",
+    content: `
+    <p>
+    According to some <a href='https://fairypoweredproductions.com/cast-announcement-for-222-a-ghost-story-at-the-apollo-theatre-sophia-bush-ricky-champ-clifford-samuel-and-jaime-winstone/'>publications</a>, no other play has been transferred that many times in the West End in this short period of time. This time, the play is running at the highly acclaimed Apollo theatre and it’s starring a new and outstanding selection of actors. 
+    </p>
+    <p>
+    The cast features American actress and activist Sophia Bush (<em>One Tree Hill, Chicago P.D, Good Sam</em>) is playing the role of Lauren. Ricky Champ (<em>EastEnders, Him & Her</em) is playing the role of Ben, Lauren’s husband. Jaime Winstone (<em>Donkey Punch, Kidulthood</em>) is playing the role of Jenny, while Clifford Samuel (<em>McMafia; Sex and Drugs and Rock and Roll</em>) plays the role of Jenny’s husband, Sam. 
+    </p>
+    <p>
+    The play follows the story of Jenny who recently moved to her dream family home with her husband Sam. At a dinner party with Lauren and her husband Ben, as everyone gradually delves into their lives, Jenny informs her guests of her belief that a ghost lives within the walls of her new house. 
+    </p>
+    <p>
+    While Jenny’s guests take her seriously, Sam is not having any of it, refusing to believe that ghosts exist. However, scared for her infant daughter’s safety, and in an attempt to convince everyone of the ghost’s presence, Jenny invites her guests to stay over until 2:22 which is when the ghost is expected to visit them. 
+    </p>
+    <p>
+    <em>“There’s something in our house. I hear it every night, at the same time.” - Jenny</em>
+    </p>
+    <p>
+    Unlike anything in the West End right now, this play captures the audience in an absolutely engaging thriller that leaves you wanting more. After nearly an hour and a half, and several jump scares, the play ends with an unexpected killer twist. 
+    </p>
+    <div>
+    <img src='/images/mid-performance.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    Image taken mid-performance. Image source: @222aghoststory, Instagram
+    </p>
+    </div>
+    <p>
+    2:22 A Ghost Story has an award-winning background starting with its award-winning writer Danny Robins. The play itself has received three Olivier Nominations including Best New Play and Best Actress, and won the Best New Play category in the WhatsOnStage in 2021 when it had its world premiere.
+    </p>
+    <p>
+    The new cast have all expressed their excitement at joining this outstanding story. Sophia Bush said in a statement, <em>“I am elated to be joining this wonderful cast in 2:22 – A Ghost Story! For this revered production to be my West End debut is a dream come true for me. One that I can’t wait to share with live audiences in the UK. We’re deep in rehearsals now and there is just nothing like the energy and comradery of the theatre community. Diving into this rich material is a thrill; exploring these complex relationships, and what makes each of our characters tick. The clear vision from our creative team led by Danny, Matthew [Dunster], and Gabe [Vega Weissman] serves as a bright North Star. I’m honoured to be welcomed into this family with open arms as I bring my version of ‘Lauren’ to life.”</em> 
+    </p>
+    <p>
+    Intense promotional advertising for the play can be seen everywhere in London. This ranges from the London underground to London’s famous red buses. 
+    </p>
+    <div>
+    <img src='/images/promotional-advertisement.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    Image of a promotional advertisement for 2:22 A Ghost Story on the famous red buses. Image source: @222aghoststory, Instagram
+    </p>
+    </div>
+    <p>
+    Following the astonishing performance, the cast usually comes out to greet the fans, so you can thank them for giving you one of the best performances of your life. The play will be available to see at the Apollo Theatre until September 17, 2023 with affordable ticket prices, so make sure to catch it while you still can.
+    </p>
+    <p>
+    For more information about bookings and ticket prices, visit their website <a href='https://222aghoststory.com/?gad=1&gclid=Cj0KCQjwqNqkBhDlARIsAFaxvwy_V3nlIVdk-D7Vv8l0w9FRCSq3qXPRxdxXTw_50Dy8Ky0l4TyecM8aAqg4EALw_wcB'>here!</a>
+    </p>
+    `,
+    
+    month: "AUG 2023",
+    img: "/images/a-ghost-story.jpg",
+    img_source: 'https://fairypoweredproductions.com/cast-announcement-for-222-a-ghost-story-at-the-apollo-theatre-sophia-bush-ricky-champ-clifford-samuel-and-jaime-winstone/',
+    img_source_title: 'Fairy powered productions',
+    author: "Gharam Al-Zubi",
+    topics: ["ARTS & CULTURE","ARTS"],
+    theme: "top stories",
+    date: "August 3, 2023",
+    template: 1,
+  },
+  {
+    id: 112,
+    mainHeader: "The Ever Changing Model Look",
+    subHeader: "",
+    contentHeader: "The Ever Changing Model Look",
+    content: `
+    <p>
+    Frequently described as ‘human coat hangers’,
+    models have become a major aspect of the
+    fashion world, essentially acting as modes of
+    communication for designers to present their
+    clothing on a moving, living, dimensional
+    figurine. Throughout the decades, modelling
+    has become increasingly popular thanks to
+    social media, an increasing number of new
+    designers and other forms of culture such as
+    fashion magazines. Alongside the growing
+    number of models, there has been a
+    development in the type of models becoming
+    mainstream or popular.
+    Beauty standards are known to change
+    frequently - so often that there are often
+    decades to which they can be associated with.
+    However for many decades or even centuries,
+    certain facial characteristics remained as
+    desired as ever. While the standard model
+    body type changed from the 1960s to the next
+    millenia, an oval face with delicate and
+    proportionate features never went out of style. This look has been so popular that it can be
+    related to The Golden Ratio, an ancient theory that uses facial measurements to recognise
+    an ideally beautiful face. However in the past few years, a new look has risen. Wide-set
+    eyes, rounder faces and unique features have become a popular set of characteristics found
+    on catwalks, magazines and photoshoots. With modelling agencies like Anti-Agency
+    focusing on less standardised model looks, the presence of unique or distinctive features
+    has increased rapidly due to their availability as well as demand.
+    </p>
+    <h3>
+    No longer ‘human coat hangers’?
+    </h3>
+    <p>
+    As more distinctive looks on models become increasingly popular, the function of models
+    must be questioned. While models have always been part of the idealised beauty standard,
+    they are also recognised as performing the function of communicating and presenting the
+    work of those in the fashion industry. When shown on moving humans, significant design
+    features such as fit, textures and construction can more easily be visible and therefore more
+    easily acknowledged and potentially admired. Theoretically, this means that the person
+    wearing the item is not the centre-piece and should bring focus to the clothing by being
+    nondescript and conventional, i.e. the opposite of eye-catching. But when a model has a
+    unique and interesting look that catches an audience's attention, do they lose their function?
+    </p>
+    <p>
+    Models today are usually chosen in conjunction with the style of the photoshoot and/or the
+    outfits that will be featured in it, creating a stronger sense of what is being presented.
+    Because of this, there are many cases in which the model’s natural looks will be part of the
+    fashion look itself. Some models are often chosen for their unique features, bringing more
+    attention to the photos or outfits. However, does this mean that the original function of
+    modelling has changed? Originally ‘human coat hangers’, do models with unique features
+    now detract from the clothing?
+    </p>
+    <h3>
+    Relatability, or the lack of ‘perfection’
+    </h3>
+    <p>
+    In the decades in which couture and fashion designers became increasingly prominent
+    within our society, models were portrayed as elegant. Nowadays, runway models frequently
+    walk at a fast pace with stern looks. Some designers even choose certain expressions or
+    ways of walking for their shows, such as slouching or hunched postures (like at Maison
+    Margiela fall 2015). Casual form has risen on the runway whereas in the past, couture was
+    shown on elegant forms for the most flattering presentations. Slouches are informal and tend
+    to be a more relatable silhouette. By presenting their creations in ways that a mainstream
+    audience can envision themselves in, do sales - at least online, where trying on clothes is
+    impossible - increase?
+    </p>
+    <div>
+    <img src='/images/diorshow.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    Source: <a href='https://proudgalleries.com/products/christian-dior-and-assistant-adjust-victoire-1954'>Proug Galleries</a>
+    </p>
+    </div>
+    <h3>
+    Artificial beauty and artificialuniqueness?
+    </h3>
+    <p>
+    As with every decade, certain beauty
+    standards come and go. With social media
+    however, aesthetic trends move at a faster
+    pace. Buccal fat removal procedures for
+    example have soared, creating a rising
+    desire amongst the masses for hollow
+    cheeks and high cheekbones. With these
+    constant trends comes those who follow
+    them. However, do those followers end up
+    with faces that are signs of their time?
+    Supermodel Bella Hadid has been the
+    subject of widespread rumours about
+    cosmetic surgeries and procedures, from
+    nose jobs to buccal fat removal. With her thin
+    nose, high cheekbones, pulled back eyes, sharp brows and hollow cheeks, she is a striking
+    individual. But with so many features allegedly customised and of the current beauty
+    standard, will this ‘artificial beauty’ freeze her looks as those of the early 2020s?
+    </p>
+    <p>
+    Bella Hadid is certainly not alone as a figure in fashion to have changed her looks in order to
+    stand out. With unique features now leading to a rise in unconventional looking models,
+    there are those who have manipulated their looks to become unconventional. Such is the
+    alleged case with the model and musician Tsunaina, whose face “bewitched the industry”,
+    according to Dazed Digital. Her high nose bridge, distinctive lips and powerful bone structure
+    have been the subject of many articles, but rumours continue to fly about the extent to which
+    her appearance is natural. Tsunaina is a strong example of the evolution of the fashion
+    industry’s beauty standards, showing how moving outside
+    the box of conventional beauty has become recognised as
+    (rightfully) beautiful in itself.
+    </p>
+    <h3>
+    Is unique the new mainstream?
+    </h3>
+    <div>
+    <img src='/images/vogue.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    Source: <a href='https://www.pinterest.com/pin/cindy-crawford-1991-vogue-magazine-cover-when-they-usedmodels-instead-of-people-in-show-business-on-the-cov--376895062543892940/'>Pinterest</a>
+    </p>
+    </div>
+    <p>
+    As fashion continues to rise in popularity, with more and
+    more designers producing work that places them on the
+    runway, alternative and unconventional looks are likely to
+    increase in presence. With more designers comes more
+    visions, leading to a surge in the desire for models of
+    different appearances. However, along with this increase in
+    unique looking models, will the distinction between
+    conventionally and unconventionally attractive models
+    cease to exist? As more unusual looks become more
+    popular, will uniqueness become mainstream and lose its
+    own meaning?
+    </p>
+    <p>
+    While this could become a more prevalent question with time, it can also be recognised that
+    the most popular models of the 2020s are still conventionally attractive, such as Gigi Hadid,
+    Kendall Jenner and Kaia Gerber. However with all being nepotism children, would they be as
+    popular as they are now with such conventional (in relation to beauty) faces?
+    The fashion industry has a long way to go in regards to body types or sizes but clearly, the
+    standard face on the runway has evolved. However, it is worth considering; is this
+    development for the sake of change, or are these ‘coat hangers’ just the new marketable
+    eye-candy?
+    </p>
+    `,
+    
+    month: "AUG 2023",
+    img: "/images/modelcover.jpg",
+    img_source: 'https://antiagency.co.uk/talent/tin-gao/',
+    img_source_title: '',
+    author: "Maisie Levitt",
+    topics: ["FASHION & BEAUTY"],
+    theme: "top stories",
+    date: "August 2, 2023",
+    template: 1,
+  },
+  {
+    id: 113,
+    mainHeader: "A Brief History of Goth: The Centuries Old Origins of One of TikTok’s Fav Subcultures",
+    subHeader: "",
+    contentHeader: "A Brief History of Goth: The Centuries Old Origins of One of TikTok’s Fav Subcultures",
+    content: `
+    <p>
+    In an era in which social media has such a strong grip on various forms of culture and
+    identity, it is hard not to witness the online whirlwind of terms that are constantly created or
+    coming back into popularity. TikTok’s meteoric rise has contributed to a surge in people
+    sharing a multitude of forms of self-expression, often using descriptors to form bonds and
+    communities with others. However in an internet culture where categorisation or labelling of
+    styles (makeup, hair, fashion, etc) is so common, a debate and discussion about what those
+    terms mean is bound to form.
+    </p>
+    <div>
+    <img src='/images/fakeGoth.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    Source: <a href='https://www.youtube.com/watch?v=64xGcLJedr8'>from Drama Kween’s Youtube video ‘TikTok “How To Goth” Is NOT GOTH.’</a>
+    </p>
+    </div>
+    <p>
+    One such word that has burst back into pop culture is the
+    term ‘goth’. Originating as a subculture - which according
+    to the Cambridge Dictionary means ‘the way of life,
+    customs, and ideas of a particular group of people within a
+    society, which are different from the rest of that society’ -
+    the very meaning of goth itself is frequently misunderstood.
+    Commonly viewed as a style, it is an alternative look that
+    goes back much further than many popular styles today.
+    With goths being those who are part of the goth
+    subculture, there is more to it than just appearances. This
+    is often lost on the internet however, especially on TikTok,
+    which regularly shows users’ filming their outfits or looks.
+    At one point types of videos with names like ‘what style
+    should my makeup be’, ‘goth transformation’, ‘trying goth
+    makeup’ were heavily circulating. These users often just
+    wore black clothing, wore black eyeshadow and/or eyeliner
+    with black lipstick and sometimes wore black and silver accessories. When scrolling through
+    the comments, many would be praising the ‘goth look’ as if black lipstick epitomised the
+    entire subculture, clearly showing how goth has come to mean
+    something quite different from its origin.
+    </p>
+    <p>
+    Rooted in the arts, this subculture has a unique history that goes
+    all the way back to 18th century literature, enveloping it in lore
+    and therefore misunderstanding. In order to understand what
+    goth is really about, here is a brief history of the subculture - from
+    the past to the present.
+    </p>
+    <div>
+    <img src='/images/tik.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    Source: <a href='https://www.youtube.com/watch?v=64xGcLJedr8'>from Drama Kween’s Youtube video ‘TikTok “How To Goth” Is NOT GOTH.’</a>
+    </p>
+    </div>
+    <h3>
+    A very brief timeline of the Gothic and of goth
+    </h3>
+    <p>
+    A note: these goths are unrelated to the Germanic Goth tribes.
+    </p>
+    <p>
+    1764: The term ‘Gothic’ was first used when author Horace
+    Walpole jokingly described his novel The Castle of Otranto as ‘A
+    Gothic Story’ in its subtitle. At the time of writing, the term was
+    related to barbarity and the Middle Ages. Walpole pretended that
+    the book was actually an Italian relic from the 1500s to dupe
+    readers. Walpole lived in a mock-Gothic building and Gothic has involved the supernatural,
+    mysterious elements of antiquity and scary old buildings ever since.
+    </p>
+    <p>
+    1818: Mary Shelley's iconic Frankenstein, or The Modern Prometheus is published. The
+    story is about a creature made of various body parts that comes to life, which raised fears of
+    the undead and of science gone too far.
+    </p>
+    <p>
+    1897: Bram Stoker publishes Dracula, which becomes the most famous piece of literature to
+    be derived from vampire legends. Partially set in Whitby, England, the town has become
+    known as one of the most important
+    locations in Gothic history.
+    </p>
+    <div>
+    <img src='/images/vuandnico.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    ‘The Velvet Underground & Nico’, source: <a href='https://faroutmagazine.co.uk/every-song-on-the-velvet-underground-and-nico-cover/'>Faroutmagazine</a>
+    </p>
+    </div>
+    <p>
+    1967: Critic John Stickney is the first to
+    use the term ‘Gothic’ in a music setting.
+    He describes The Doors’ music as
+    ‘Gothic rock’ in his concert review. He
+    refers to various elements of the show as
+    ‘violent’, ‘terrifying’, ‘satanic’ and a ‘black
+    masterpiece of narrative poetry’.
+    </p>
+    <p>
+    Late ‘60s, early ‘70s: Bands such as
+    The Velvet Underground & Nico created dark atmospheres, haunting and uncomfortable
+    sounds using drones and sombre lyrics.
+    </p>
+    <p>
+    Late ‘70s: In the aftermath of punk rock came post-punk, from which gothic rock emerged.
+    Although the term gothic was used to describe post-punk bands such as Joy Division, gothic
+    rock was darker (in lyricism and atmosphere) and exhibited poetic and literary elements in its
+    writing, often showing inspiration from Romanticism, morbidity and the supernatural. From
+    the gothic came the goth subculture, which is inspired by the dark and atmospheric elements
+    of gothic literature, architecture and more. It is during this time that certain people’s style
+    begins to take inspiration from the morbid sound of the genre while still taking inspiration
+    from punk. The stark contrast between dark, bold features and pale skin resembles a
+    ghostly, vampiric and deathly look - similar to topics of Gothic literature.
+    </p>
+    <p>
+    Late 1979: Bauhaus releases their debut single Bela Lugosi’s Dead, which is considered to
+    have been the beginning of the genre.
+    </p>
+    <p>
+    1980: Bauhaus releases their debut album In The Flat Field, which is considered to be the
+    first gothic rock album. At that time however, ‘gothic’ was used as a negative term and many
+    bands tried to distance themselves from it.
+    </p>
+    <div>
+    <img src='/images/tradGoths.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    ‘Traditional ‘80s goths’, source: <a href='https://darkentriesblog.wordpress.com/tag/traditional-goth/'>Dark entries blog</a>
+    </p>
+    </div>
+    <p>
+    1982: London’s club The Batcave opens,
+    providing a venue for bands of the genre.
+    The term ‘gothic’ also begins to be seen
+    differently. Ian Astbury of the band
+    Southern Death Cult refers to Sex Gang
+    Children’s fans as ‘gothic goblins’.
+    </p>
+    <p>
+    The ‘90s: There is a revival (the genre had
+    peaked in the early ‘80s) thanks to metal,
+    industrial and electronic scenes. Musicians
+    and bands such as Nine Inch Nails use
+    gothic elements in their music.
+    </p>
+    <p>
+    Since then: Gothic acts have never fully
+    left the music scene, although the number
+    of acts ebbs and flows. However in the past few years, there has been an increase in
+    post-punk and goth musicians rising in popularity. New genres have stemmed from gothic
+    rock, such as darkwave.
+    </p>
+    <h3>
+    Has the subculture lost its meaning?
+    </h3>
+    <p>
+    With social media platforms such as TikTok creating a surge in those identifying as goth, it is
+    worth considering what those terms have come to mean. With goth meaning those who
+    belong to the goth subculture (that stems from the music whose style is heavily influenced by
+    gothic literature), the look originates in
+    darkness and the supernatural. While
+    dark clothing is an extremely common
+    preference, those who identify with the
+    subculture have become a popular
+    group. But as a subculture, has goth lost
+    its meaning by becoming popular? Is the
+    meaning now lost, since it has been
+    reduced to appearances by many?
+    </p>
+    <div>
+    <img src='/images/girly-goth.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    ‘Meme mocking a Youtuber’s attempt at a ‘goth makeover’, source: <a href='https://ifunny.co/picture/nobody-girls-that-used-to-bully-you-in-middle-school-XOvenEEf6'>ifunny.co</a>
+    </p>
+    </div>
+    <p>
+    As a frequently misunderstood term,
+    goth has become popular as a style of
+    dark makeup and dark clothing. On the
+    internet, many have attempted ‘style transformations’ where they switch from their typical
+    style to an all black look - which has led to many being ridiculed if done with little effort.
+    However, if the accepted standard for a ‘goth transformation’ is by one’s appearance, does
+    that mean that the meaning of goth is reduced to just that - an appearance? Everyone
+    should be allowed to style and express themselves as they wish, but as terms that are
+    rooted in history are used increasingly, their cultural significance makes it always worth
+    preserving their true meanings.
+    </p>
+    <h3>
+    Gothic literature and music suggestions
+    </h3>
+    <p>
+    Literature:
+    - Carmilla by Joseph Sheridan Le Fanu (1818)
+    - Dracula by Bram Stoker (1897)
+    - Northanger Abbey by Jane Austen (1818)
+    - Tales of Mystery & Imagination by Edgar Allan Poe (1908)
+    </p>
+    <p>
+    Music:
+    - Venus in Furs (song) by The Velvet Underground & Nico (1967)
+    - Unknown Pleasures (album) by Joy Division (1979)
+    - Bela Lugosi’s Dead (song) by Bauhaus (1979)
+    - Phantasmagoria (album) by The Damned (1985)
+    </p>
+    `,
+    
+    month: "JUL 2023",
+    img: "/images/bauhaus.jpg",
+    img_source: 'https://underground-england.com/history-of-goth-rock/',
+    img_source_title: '‘Peter Murphy of Bauhaus’, source:',
+    author: "Maisie Levitt",
+    topics: ["ARTS & CULTURE","SOCIAL MEDIA"],
+    theme: "top stories",
+    date: "July 8, 2023",
+    template: 1,
+  },
+  {
+    id: 114,
+    mainHeader: "The Idol Has Finished - And Audiences Did Not Like It",
+    subHeader: "",
+    contentHeader: "The Idol Has Finished - And Audiences Did Not Like It",
+    content: `
+    <p>
+    Trigger warnings for sexual violence and abuse
+    </p>
+    <p>
+    The finale of Sam Levinson and The Weeknd’s show, The Idol, was released on the
+    2nd July and viewers are not happy.
+    </p>
+    <p>
+    The controversy-riddled HBO show features Lily-Rose Depp, The Weeknd and other
+    stars such as Jennie Kim, Troye Sivan, Rachel Sennott, Dan Levy and more.
+    </p>
+    <p>
+    The show follows an aspiring pop star named Jocelyn (Depp) who is recovering from
+    a breakdown and aiming to become an icon in the industry, she becomes involved
+    with a modern day cult leader named Tedros (The Weeknd).
+    </p>
+    <p>
+    Although directed by Sam Levinson (the creator of Euphoria, also an HBO show)
+    and co-created by Abel Tesfaye - better known as pop star The Weeknd - the series
+    has been brimming with controversy, especially since Rolling Stone released their
+    article ‘‘The Idol’: How HBO’s Next ‘Euphoria’ Became Twisted ‘Torture Porn’’.
+    </p>
+    <p>
+    Originally being directed by
+    Amy Seimetz, the show took a
+    sudden turn when she left and
+    HBO announced a major
+    creative switch up. According to
+    reports, Tesfaye believed that
+    its direction was going too
+    much into a ‘female
+    perspective’.
+    </p>
+    <div>
+    <img src='/images/seimetzVersion.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    ‘Behind the scenes photo from the Seimetz version’, source: <a href='https://www.reddit.com/r/popculturechat/comments/14pzuuh/bts_of_what_was_supposed_to_be_the_idol/'>reddit.com</a>
+    </p>
+    </div>
+    <p>
+    Several sources have stated that Seimetz was depicting a troubled starlet falling
+    victim to a predator in the industry and fighting for her agency. Since the overhaul,
+    Levinson’s version was described as being a ‘rape fantasy’ in which ‘the woman
+    comes back for more because it makes her music better’, said a production member.
+    Levinson rewrote and
+    reshot the entire thing, with
+    sources saying he
+    increased the amount of
+    nudity and sexual content
+    as a replacement for
+    having weakened the show’s premise (a satire about fame) - turning the show into
+    ‘the thing it was satirizing’.
+    </p>
+    <div>
+    <img src='/images/third.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    ‘Excerpt of The Guardian review by Leila Latif’, source: <a href='https://www.theguardian.com/tv-and-radio/2023/jul/03/the-idol-finale-review-one-of-the-worst-programmes-ever-made'>theguardian.com</a>
+    </p>
+    </div>
+    <p>
+    With a multitude of scenes depicting degrading and violent sex, predatory behaviour
+    and problematic statements alongside just bad acting, the show has been described
+    as ‘2023’s biggest TV disaster’ (BBC), ‘one of the worst programmes ever’ (The
+    Guardian) and ‘the worst show of the year’ (The Telegraph).
+    </p>
+    <div>
+    <img src='/images/lillydepp.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    ‘Lily-Rose Depp as Jocelyn (in Levinson’s version)’, source: <a href='https://www.radiotimes.com/tv/drama/the-idol-season-2-rumours-hbo-newsupdate/'>radiotimes.com</a>
+    </p>
+    </div>
+    <p>
+    The majority of viewers
+    seem to share these
+    opinions with the Rotten
+    Tomatoes score being 19%,
+    IMDb’s 45% and Google’s
+    3.6/5.
+    </p>
+    <p>
+    Since the last episode
+    came out, viewers haven’t
+    seemed to change their
+    views much - instead, many
+    seem to have come to the
+    conclusion that The Idol is
+    definitely bad. As a result of
+    an attempt at a major plot
+    twist in which Jocelyn is shown to be the manipulator rather than Tedros, audiences
+    are angry at the transformation of Tedros into a victim as well as Jocelyn potentially
+    making up rape and abuse allegations.
+    </p>
+    <div>
+    <img src='/images/caption.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    ‘From a Reddit discussion about The Idol’, source: <a href='https://www.reddit.com/r/popculturechat/comments/14qw432/they_told_us_to_wait_til_the_end_of_the_idol_for/'>reddit.com</a>
+    </p>
+    </div>
+    <p>
+    Although The Idol has become infamous for what it could’ve been and what it ended
+    up as, its first episode outpaced Euphoria and White Lotus’s debuts in terms of HBO
+    Max viewerships at the same point in time. Warner Bros. Discovery has reported that
+    after a week of delayed viewing, The Idol reached 3.6 million while Euphoria
+    received 3.3 million and White Lotus 3 million respectively. So while the show may
+    not have met many audiences’ expectations, its controversies and subsequent
+    discussions and views have definitely made it an HBO win.
+    </p>
+    `,
+    
+    month: "JUL 2023",
+    img: "/images/theidol.jpg",
+    img_source: 'https://www.augsburger-allgemeine.de/panorama/the-idol-serie-sky-wow-start-besetzung-handlung-folgen-stream-trailer-3-7-23-id66429846.html',
+    img_source_title: '‘Lily-Rose Depp and The Weeknd in The Idol’, source:',
+    author: "Maisie Levitt",
+    topics: ["ARTS & CULTURE"],
+    theme: "filler",
+    date: "July 6, 2023",
+    template: 1,
+  },
+  {
+    id: 115,
+    mainHeader: "Eco-friendly Korean clothing brands to sustain your Koreaboo",
+    subHeader: "",
+    contentHeader: "Eco-friendly Korean clothing brands to sustain your Koreaboo",
+    content: `
+    <p>
+    Primarily, the majority of fashion trends across the globe were influenced by Western and European designers, providing very little global exposure to most South Asian designers turning them into just domestic occurrences. The Hallyu wave swept across the world in the 1990s and since then K-dramas, K-movies and K-pop have significantly influenced global trends, making the Korean luxury market the tenth largest in the world.
+    </p>
+    <p>
+    Neutral earthy-toned fabrics crafted into minimalistic outfits, drawing inspiration from Western silhouettes, is the definition of K-fashion. Modern variations of <em>hanbok</em> have gained a global audience adorning the changing fashion scene in the capital city of Seoul and Dongdaemun district. We have found a few brands that not only adhere to our sustainability and ethical criteria but will also add more character to your outfit.
+    </p>
+    <p>
+    <em>Brand in Focus: Danha</em>
+    <em>Price: USD 300 around</em>
+    </p>
+    <div>
+    <img src='/images/product1.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    source: <a href='https://en.danhaseoul.com/product/DHDR21SS002NV_F'>danhaseoul.com</a>
+    </p>
+    </div>
+    <p>
+    Danha Kim draws inspiration for the prints of the modern hanboks she designs from symbols and motifs associated with her country, bringing back life to traditional crafts. Recycled polyester and organic cotton, adorned in bright colours and whimsical prints makes one subtly stand out in the crowd, especially during the bright days of spring and summer. They also upcycle wedding dresses, upcycles and fend off mass production alongside focusing on the traditional flat-cut method which reduces fabric waste to a great extent.
+    </p>
+    <p>
+    Danha also provides made-to-measure items, all beautifully wrapped up in a prefabricated box that is non-adhesive and without any taping. Their pieces include many modern reinterpretations of the traditional hanbok in the form of dresses, tops, skirts and accessories, all items that can be mixed with already existing items in one’s wardrobe or worn as stand-alone pieces. The designs are worth checking if you want to recreate your favourite period drama in the modern age, without the added weight of heavy costumes.
+    </p>
+    <p>
+    <em>Brand in Focus: Ki Lee</em>
+    <em>Prices: USD 200 around</em>
+    </p>
+    <div>
+    <img src='/images/mulberry-cross-bag.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    source: <a href='https://kileekorea.com/shop/p/pages-mulberry-cross-body-bag-black'>kileekorea.com</a>
+    </p>
+    </div>
+    <p>
+    Based in Seoul, the brand shapes its materials into innovative and futuristic designs, creating pieces that are meant to last. They connect customers to their imagination of the future, moulding the world that is to come and they wish to provide sustainably, alongside empowering them through the radical optimism they are pursuing today’s challenges. Their products project customers into the future using their futuristic visual image.
+    </p>
+    <p>
+    They make their products post the order placement, creating lesser waste since the brand’s launch in 2017. As the brand grew, it started working with local manufacturers that increased waste production, but the brand is committed to finding a sustainable alternative to leather such as mulberry-fibre leather.
+    </p>
+    <p>
+    The unique pieces blend paper-making technology merged with modern textile technology, and the designer’s unique touch creates these beautiful pieces you would love to add to your wardrobe.
+    </p>
+    <p>
+    <em>Brand in focus: Continew</em>
+    <em>Price: USD 100 onwards </em>
+    </p>
+    <div>
+    <img src='/images/continew1.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    source: <a href='https://wecontinew.com/shopinfo/ourbrand.html'>wecontinew.com</a>
+    </p>
+    </div>
+    <p>
+    A creative accessory house, Continew upcycles seat belts, airbags and natural leather seats that they collect from end-of-life vehicles and automobile production. This gives a new life to the resources and breaks the vicious cycle by ‘giving newness to familiar or forgotten things, not ‘newness’ of new things’ as they state in their philosophy.
+    </p>
+    <p>
+    They received a B Corp certification in 2022 for being socially responsible and making an innovative environmental impact. Don’t worry about your items being rugged or shabby looking, the materials recovered go through testing, research, and development for about 455 days to check their product standard and durability. They have a range of travel bags that are durable, functional and look great to just grab and go.
+    </p>
+    <p>
+    They also extend their philosophy into the production process creating a regeneration system that collects rainwater and further utilised discarded water for washing. Apart from that the energy is completely self-generated through a photovoltaic power generator with windows installed to allow natural light and an eco-friendly roof that collects solar energy. And your bag got a strain or got damaged on your recently trip, no worries the company offers repair services to help maximise product lifespan.
+    </p>
+    <p>
+    <em>Brand in focus: Pleastsmama</em>
+    <em>Price: USD 20 onwards</em>
+    </p>
+    <div>
+    <img src='/images/pleatsmama.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    source: <a href='https://en.pleatsmama.com/shop-outlet-apparel/?idx=230'>pleatsmama.com</a>
+    </p>
+    </div>
+    <p>
+    Plastic waste in landfills are the target of this company that they convert into eco-friendly bags that we all want to get our hands on. What is beautiful is their attention to detail and even the threads used to make these bags are created from 16 different 500-millilter plastic bottles. They also use recycled spandex and polyester threads from post-consumer wastes and further patented their knit bag for its resilience and pleats. These initiatives also aim to solve sea plastic waste problem, contribute to recycling and reduce emissions. They also create affordable sportswear, loungewear and accessories using recycled fabrics.
+    </p>
+    <p>
+    Do give these brands a try, steering away from the streamline brands and adding these new pieces to your wardrobe that not only have great ideas and goals to accomplish but also pieces that will stand the test of time, honouring the hands that made them.
+    </p>
+    `,
+    
+    month: "JUL 2023",
+    img: "/images/pleatsmama.jpg",
+    img_source: 'https://en.pleatsmama.com/shop-outlet-apparel/?idx=230',
+    img_source_title: 'pleatsmama.com',
+    author: "Sanjana Yadav",
+    topics: ["FASHION & BEAUTY","TRENDS"],
+    theme: "top stories",
+    date: "July 6, 2023",
+    template: 1,
+  },
+  {
+    id: 116,
+    mainHeader: "The Switch From Full Glam to 'Clean Girl' Makeup and How to Achieve It",
+    subHeader: "",
+    contentHeader: "The Switch From Full Glam to 'Clean Girl' Makeup and How to Achieve It",
+    content: `
+    <p>
+    You may have noticed a shift in makeup trends; in the last year, the minimal, natural
+    and glowing-from-within ‘clean girl’ look arrived - and has definitely stayed.
+    </p>
+    <p>
+    If you have Instagram, Youtube or TikTok, there’s a high chance you came across a
+    makeup tutorial inspired by the show Euphoria and its characters. Full of intricate
+    eyeliner, shimmery eyeshadow, lipgloss and gems, the past few years have
+    popularised skilled looks made to catch one’s eye.
+    </p>
+    <p>
+    However before Euphoria, there was the full coverage, perfect contour and thick
+    eyebrows look. The glamour could be summarised in one word: bold. With not a spot
+    in sight from the foundation, the sparkly eyelids under the defined eyebrows would
+    match the (often matte) lipsticked mouth. Huge on Instagram and Youtube, these
+    looks led to booms in sales of certain products and were the source of certain trends
+    - such as the resurgence in thick eyebrows.
+    </p>
+    <p>
+    This ‘full glam’ aimed to bring attention to one’s features by making them bold. The
+    ‘clean girl’ look however aims to do the same,
+    but by bringing out what’s already naturally
+    there.
+    </p>
+    <div>
+    <img src='/images/fullglam.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    ‘A full glam look by Youtuber Sabina Hannan from 2016’. Link: <a href='https://www.bravotv.com/lookbook/10-new-years-eve-beauty-tutorials-to-usher-in-2018-with-style-andsparkles'>bravotv.com</a>
+    </p>
+    </div>
+    <p>
+    It’s hard to know where the look exactly originated from, as it is essentially ‘natural
+    makeup’ but with modern products made for a glowy, enhanced appearance. Natural
+    makeup looks became mainstream from the 1960s onwards, when counter-cultural
+    movements actually rejected the cosmetics in favour of a bare-faced look. Since
+    then, makeup trends have continuously evolved - going from glamour to natural and
+    the cycle continues. However, this natural look has recently come into the spotlight in
+    a brand new way.
+    </p>
+    <p>
+    Many makeup brands have suffered financially since the COVID pandemic, as
+    during lockdowns fewer people wore and bought their products. Since most of us
+    didn’t feel the need or want to put on a full face of makeup (we weren’t going
+    anywhere after all), shorter and simpler routines became more popular. While in past
+    decades people may have created a simple look with just mascara and lip
+    balm…we’re now seeing tutorials in which artists and influencers show us how to
+    create the ‘glowing from within’ look using a wider range of products. Brands such as
+    Selena Gomez’s Rare Beauty are all about this, releasing products made to emulate
+    fresh and natural glowing skin.
+    </p>
+    <div>
+    <img src='/images/clean.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    ‘Screenshots from ‘clean girl’ makeup TikToks’. Link: <a href='https://graziadaily.co.uk/beauty-hair/makeup/tiktok-clean-makeup/'>graziadaily.com</a>
+    </p>
+    </div>
+    <p>
+    This style of makeup is here to stay. Easy, harder to mess up and with less need for
+    precision, it’s a versatile staple look for anyone who wants to look fresh-faced and
+    natural. While many of the influencers who show how to do this look have very clear
+    skin, long lashes and high cheekbones, those features are not part of the look - it is
+    about focusing on the features that are your own via minimal and simple application.
+    Highlighting one’s natural features is timeless, so when combined with the makeup
+    range of the 2020s…the ‘clean girl’ appearance is the best no-makeup makeup look
+    you can do yourself, to date. Here are some products that are popular amongst the
+    clean girls that can help you achieve that look too.
+    </p>
+    <div>
+    <img src='/images/contour.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[250px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    ‘Nars Radiant Creamy Concealer’. link: <a href=':https://www.narscosmetics.co.uk/en/ginger-radiant-creamy-concealer/0607845012351.html'>narscosmetics.com</a>
+    </p>
+    <img src='/images/lauraMercier.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[250px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    ‘Laura Mercier Translucent Setting Powder’. link: <a href='https://www.boots.com/laura-mercier-translucent-loose-setting-powder-10286239'>boots.com</a>
+    </p>
+    <img src='/images/lip.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[250px]' />
+    <img src='/images/glossier.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[250px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    ‘Glossier Boy Brow Grooming Pomade’. Link: <a href='https://uk.glossier.com/products/boy-brow?variant=41661003530287'>glossier.com</a>
+    </p>
+    <img src='/images/blush.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[250px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    ‘Rare Beauty Soft Pinch Liquid Blush’. Link: <a href='https://www.rarebeauty.com/products/soft-pinch-liquid-blush?variant=40392282079367'>rarebeauty.com</a>
+    </p>
+    </div>
+    `,
+    
+    month: "AUG 2023",
+    img: "/images/clean-girl-makeup.jpg",
+    img_source: 'https://vogue.sg/clean-girl-makeup-tiktok/',
+    img_source_title: 'Olivia Rodrigo’s ‘clean girl’ look for Glossier.',
+    author: "Maisie Levitt",
+    topics: ["FASHION & BEAUTY","SKIN","MAKEUP"],
+    theme: "filler",
+    date: "August 7, 2023",
+    template: 1,
+  },
+  {
+    id: 117,
+    mainHeader: "Madrid – More Than Simply A Capital",
+    subHeader: "",
+    contentHeader: "Madrid – More Than Simply A Capital",
+    content: `
+    <p>
+    What do tourists like me think when they first hear about Madrid? Hot weather, nice people, good nightlife? Maybe most tourists appreciate all of the above but Madrid offers much more than just that.
+    </p>
+    <p>
+    Madrid, the capital of Spain, is considered to be one of the most popular tourist destinations for a reason. With its famous museums, art galleries, beautiful architecture, warm and friendly people and rich history and culture, Madrid is a place that attracts a lot of foreigners every single year.
+    </p>
+    <p>
+    Whether you want a quiet holiday or a place to party all night, Madrid offers it all. During the day, a famous place tourists visit is the Prado Museum, which houses some of the best works of art worldwide. Therefore, if you are culture-savvy and appreciate fine art, you should pay a visit. However, keep in mind that you need to be prepared to spend an entire day in the Prado museum since it is very large and the collections are very extensive. It is also recommended to book your visit in advance to avoid long queues and potential disappointment.
+    </p>
+    <p>
+    Another famous destination is Madrid’s Palace - Royal Madrid. Beautifully situated in Madrid’s city centre, the Palace is the home of the Spanish royal family and is surrounded by evergreen flowers and a big royal garden.
+    </p>
+    <p>
+    Other buildings that attract many tourists are the Crystal Palace and Kerry James Marshall Museum, both situated in one of the biggest and most well-known parks in Madrid - El Retiro Park. Both of the attractions offer free entry and if you are lucky enough to catch the time of the year when there is an exhibition, Palacio de Cristal offers a great variety of paintings and sculptures. Otherwise, it is a nice place to enjoy and relax in the mild sunlight that comes from outside while reading one of the free books there.
+    </p>
+    <p>
+    Something significant with which Madrid differentiates itself from the rest of the world is that it is the city where tourists can find the actual centre of the Equator - beautifully painted as a compass and surrounded by Madrid’s symbol - the bear with the tree. Many tourists choose to visit that place.
+    </p>
+    <p>
+    Madrid is also a great place to visit for sports lovers, because it’s the home of the world-famous Santiago Bernabeu stadium where the European Champions Real Madrid play their games. Widely regarded as one of the best football stadiums in the world, football fans are in for a treat. The El Classico match between Barcelona and Real Madrid is arguably the biggest match worldwide, so if you’re planning to watch (and brave enough), tickets should be bought early on in order to secure a place. You can find wonderful merchandise being sold just in front of the stadium and you can choose from a variety of goods - from keychains to Real Madrid jerseys. Of course, there are many other opportunities to get involved in other sports as well, such as rafting, racing or cycling.
+    </p>
+    <div>
+    <img src='/images/madridFood.jpg' class='block m-auto  md:pt-5 object-contain lg:max-w-[500px]' />
+    <p class='text-center text-sm py-1 max-w-[600px] m-auto'>
+    </p>
+    </div>
+    <p>
+    Another reason for Madrid being such a popular destination is its traditional cuisine. The city is famous for its amazing food such as the traditional dishes tapas, cocido, paella, tortillas, and patatas bravas, or just snacks such as bocadillo (a typical Spanish sandwich) with jamon (ham), chorizo (a Spanish sausage-salami) or anything you feel like eating it with. It has a wide variety of restaurants serving different kinds of food at reasonable prices. You can never starve here!
+    </p>
+    <p>
+    In terms of shopping, the best area is the big boulevard Serrano, where you can find everything from casual to formal clothes shops, fashion shops, different electronics and gadgets stores etc.
+    </p>
+    <p>
+    Last but not least, foreigners in Madrid should consider taking up some day trips to famous historical and cultural cities such as Segovia, Toledo, Cuenca, Valladolid, Valencia, Zaragoza, or Cordoba, which are near Madrid. They are beautiful places to visit and a great opportunity to enhance your historical and cultural knowledge, or even if you just fancy a break from Madrid and want to explore new places.
+    </p>
+    <p>
+    If you are more into ‘’fiestas’’ and different traditional activities, you can choose from different events, two of the most popular being a flamenco night (one of the most popular typical Spanish dances) or a toreador (bullfight) experience. You can research where and when they host those and book a ticket or show up at that day or night and decide.
+    </p>
+    <p>
+    If you are a night owl, you can experience one of the greatest nights out in one of the many of Madrid’s clubs and party until 5am, when most of the clubs in Madrid and Spain, in general, close. Whatever you do in this great city, it is sure that you will never get bored.
+    </p>
+    <p>
+    Madrid is a beautiful city which can be visited during both the winter and the summer. The winter is mild and the summer is hot and sunny. The people are polite and friendly, there are shops, cafes, nice hotels, and entertainment to fit everyone’s taste along with cultural places to visit, so what stops you from greeting Madrid: ‘’Hola Madrid!’’?
+    </p>
+    `,
+    
+    month: "AUG 2023",
+    img: "/images/madrid.jpg",
+    img_source: '',
+    img_source_title: '',
+    author: "Antoniya Gerimpapazi",
+    topics: ["TRAVEL","HOLIDAY DESTINATIONS"],
+    theme: "top stories",
+    date: "August 8, 2023",
+    template: 1,
+  },
+  {
+    id: 118,
+    mainHeader: "ASMR- A Healthier Way to Fall Asleep and much more?",
+    subHeader: "",
+    contentHeader: "ASMR- A Healthier Way to Fall Asleep and much more?",
+    content: `
+    <h3>
+    Autonomous Sensory Meridian Response (ASMR) and Insomnia
+    </h3>
+    <p>Autonomous Sensory Meridian Response (better known as ASMR) is the new so-called “trend”, however, does it work?</p>
+    <p>A lot of sleep studies have been conducted leading scientists to look to experimenting with different sounds, smells, and experiences to help people fall asleep. However, is ASMR the answer to most of our questions and to our sleepless nights?</p>
+    <p>Insomnia is one of the biggest health problems today’s world is facing. More and more people are having trouble sleeping and therefore experiencing side effects of insomnia, tiredness, and exhaustion reported as the main ones. Scientists and everyday people have tried different methods to help people sleep easier and better. A lot of the time, an answer to sleeping better is a sleeping pill. Although, what happens when some people don’t respond to any of those methods? What happens when you do not want to take a sleeping pill?</p>
+    <h3>
+    ASMR, different forms of it and some ASMRtists
+    </h3>
+    <p>ASMR is a tingling sensation that usually begins on the scalp and moves down the back of the neck and upper spine. A pleasant form of paraesthesia, it has been compared with auditory-tactile synaesthesia and may overlap with frisson (Google definition). There are a lot of different forms of ASMR – starting from rainfall and fire crackling videos and audios, continuing to scalp massages, hair brushing or applying makeup. There are also a lot of ASMR videos and audios of soft tapping noises with different triggers (some more popular are tapping nails onto surfaces such as plastic, wood, paper, metal, etc), turning a book’s pages, listening to "crinkly" items such as paper, clothes, and other materials, typing on a keyboard and finishing sometimes with personal attention videos spoken in a soft quiet voice (where the ASMR artist performs tasks such as applying nail polish, makeup, giving a haircut, back massage, ear cleaning, etc onto a mannequin, which is supposed to be “you” or directly to the camera. Most of those ASMR artists whisper in a low calming voice to help you fall asleep. A lot of the time there are even ASMR pet videos or audio of a cat purring or kneading close to a microphone.</p>
+    <p>The content associated with the ASMR could be either just audio or videos accompanied by very clear audio. The ASMR artists or creators usually have very professional equipment such as a high-tech microphone and/or a mannequin to work on. There are a lot of different ASMR artists out there but a few of the most popular are TingTing ASMR, RelaxCorner ASMR, Starling ASMR, Jojo’s ASMR, GinaWhispers, Sensory by Sophie, ASMR Promo, Realdealpjc. Those creators and many more are very talented and they are proven to help people since more and more report being able to relax easier, getting less anxiety and panic attacks, being able to calm down after a stressful day, and also being able to fall asleep while listening or watching their videos.</p>
+    <h3>
+    Can ASMR heal people?
+    </h3>
+    <p>ASMR is more than just the next “trend”. It is a form of art. It can help people with a lot of health issues and problems but it also manages to help people in their everyday lives relax and live a calmer and happier life and sleep better. It is proven that ASMR has helped people experiencing stress and anxiety issues relax and calm down and also fall asleep. Moreover, it has even helped people with depression, panic attacks, and insomnia calm down enough to fall asleep. People who sleep better lead happier lives and have a better life quality and higher life expectancy. Better sleep helps people be happier and healthier, boosts their immune system, and helps them perform better in their personal and professional life. As it seems, ASMR has helped quite a lot of people and is doing nothing wrong, so why not try it?</p>
+    <h3>
+    Personal experience
+    </h3>
+    <p>Lastly, if you want a personal experience, I have tried watching and listening to ASMR videos myself and have never looked back. They have helped me with all the above and more. Since I lost my mum due to COVID back in 2021, I was experiencing Post-Traumatic Stress Disorder (PTSD), anxiety and panic attacks and fell into a deep depressive state. I was not able to fall asleep until at least 5 am and when I did fall asleep, I was constantly having nightmares. When a friend of mine suggested watching some ASMR videos, I never expected them to help. Contrary to my belief, they managed to decrease my anxiety and slowly I started to fall asleep earlier than 5 am every night until one day I managed to go back to my normal sleep routine (which for me is midnight or 1 am). I now use ASMR on a daily basis, it helps me not only to fall asleep and sleep better, but also to decrease my anxiety and stress of everyday life. I recommend it.</p>
+    `,
+    
+    month: "AUG 2023",
+    img: "/images/asmr.jpg",
+    img_source: '',
+    img_source_title: '',
+    author: "Antoniya Gerimpapazi",
+    topics: ["WELLBEING","PHYSICAL HEALTH","MENTAL HEALTH"],
+    theme: "top stories",
+    date: "August 8, 2023",
+    template: 1,
   }
+
 
 
 
